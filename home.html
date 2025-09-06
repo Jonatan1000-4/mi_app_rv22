@@ -1,757 +1,474 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>TV App</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      background: black;
-      color: white;
-      font-family: Arial, sans-serif;
-      overflow: hidden;
-    }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TV Box App</title>
+<style>
+  html,body{margin:0;background:#000;color:#fff;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+  #player{width:100vw;height:100vh;object-fit:cover;background:#000}
+  #player.hidden{display:none}
 
-    /* Video */
-    #player {
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-      background-color: black;
-    }
-    #player.hidden { display: none; }
+  /* Info bar (azul) con progreso */
+  #infoBar{
+    position:absolute;top:0;left:0;right:0;
+    display:none;align-items:center;justify-content:space-between;gap:10px;
+    padding:8px 12px;background:rgba(0,102,255,.35);color:#fff;z-index:25;font-size:14px;line-height:1.2
+  }
+  body.guide-open #infoBar{right:360px}
+  .ib-left,.ib-center,.ib-right{display:flex;align-items:center;gap:8px}
+  .ib-col{display:flex;flex-direction:column;gap:2px}
+  #ibLogo{width:34px;height:34px;object-fit:contain;background:rgba(255,255,255,.15);border-radius:6px}
+  .ib-channel{font-weight:700}
+  .ib-group{font-size:12px;opacity:.9}
+  .ib-progress{width:240px;height:6px;background:rgba(255,255,255,.25);border-radius:999px;overflow:hidden}
+  #ibProgressFill{height:100%;width:0%;background:#fff;transition:width .3s linear}
+  .ib-time{display:flex;flex-direction:column;text-align:right;gap:2px;min-width:110px}
+  .ib-clock{font-weight:700}
+  .ib-date{font-size:12px;opacity:.95}
 
-    /* INFO BAR (azul translúcida) + progreso */
-    #infoBar {
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      display: none;                    /* visible al cambiar de canal / tecla i */
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      padding: 10px 16px;
-      background: rgba(0, 102, 255, 0.35);
-      color: #fff;
-      backdrop-filter: blur(2px);
-      z-index: 25;
-      font-size: 14px;
-      line-height: 1.2;
-      pointer-events: none;
-      transition: opacity .2s ease, transform .2s ease;
-      opacity: 1;
-      transform: translateY(0);
-    }
-    /* No sobrepase la guía */
-    body.guide-open #infoBar { right: 360px; }
+  /* Guía */
+  #guideToggle{position:absolute;top:10px;right:10px;background:rgba(255,255,255,.25);border:0;color:#fff;padding:8px 12px;z-index:30}
+  #guide{position:absolute;top:0;right:0;width:360px;height:100vh;background:rgba(0,0,0,.6);overflow-y:auto;display:none;z-index:20}
+  .channel{padding:10px;border-bottom:1px solid #444;cursor:pointer}
+  .channel.selected{background:rgba(255,255,255,.2)}
+  .ch-row{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center}
+  .ch-logo{width:44px;height:44px;object-fit:contain;background:#111;border-radius:6px}
+  .ch-title{font-weight:700}
+  .ch-epg-now{font-size:12px;opacity:.9}
+  .ch-epg-next{font-size:11px;opacity:.7}
 
-    .ib-left, .ib-center, .ib-right { display: flex; align-items: center; gap: 10px; }
-    .ib-left { min-width: 260px; }
-    #ibLogo {
-      width: 36px; height: 36px;
-      object-fit: contain;
-      background: rgba(255,255,255,0.15);
-      border-radius: 6px;
-      flex: 0 0 36px;
-    }
-    .ib-channel { font-weight: 700; }
-    .ib-group { font-size: 12px; opacity: .9; }
-    .ib-col { display: flex; flex-direction: column; gap: 2px; }
-    .ib-tag { font-size: 11px; opacity: .95; padding: 1px 6px; border-radius: 999px; border: 1px solid rgba(255,255,255,.35); }
-    .ib-now, .ib-next { font-size: 13px; }
-    .ib-now b, .ib-next b { font-weight: 700; }
-    .ib-time { display: flex; flex-direction: column; text-align: right; gap: 2px; min-width: 120px; }
-    .ib-clock { font-weight: 700; letter-spacing: .5px; }
-    .ib-date { font-size: 12px; opacity: .95; }
+  /* Overlays */
+  #waitOverlay{position:absolute;inset:0;background:#000;z-index:15;display:flex;align-items:center;justify-content:center}
+  #channelOverlay{position:absolute;top:40%;left:50%;transform:translate(-50%,-50%);font:bold 3em monospace;color:#fff;background:rgba(0,0,0,.7);padding:18px 32px;border-radius:10px;display:none;z-index:50;text-align:center}
+  #overlayName{font-size:.5em;margin-top:10px}
+  #returnMessage{position:absolute;top:20%;left:50%;transform:translate(-50%,-50%);font-size:2em;color:#ffcc00;background:rgba(0,0,0,.6);padding:12px 24px;border-radius:10px;display:none;z-index:60}
+  #channelStatus{display:none;position:absolute;top:10px;left:10px;background:rgba(0,0,0,.3);color:#fff;font-size:16px;padding:6px 12px;border-radius:6px;z-index:25}
 
-    /* Barra de progreso del programa actual */
-    .ib-progress {
-      width: 260px;
-      height: 6px;
-      background: rgba(255,255,255,0.25);
-      border-radius: 999px;
-      overflow: hidden;
-      margin-left: 12px;
-    }
-    #ibProgressFill {
-      height: 100%;
-      width: 0%;
-      background: rgba(255,255,255,0.95);
-      transition: width .4s linear;
-    }
+  /* “Focus guard” UI hint (opcional) */
+  #focusHint{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.45);padding:6px 10px;border-radius:6px;font-size:12px;display:none;z-index:26}
 
-    /* Botón Guía */
-    #guideToggle {
-      position: absolute; top: 10px; right: 10px;
-      background: rgba(255,255,255,0.25);
-      border: none; color: white;
-      padding: 10px 15px; font-size: 14px;
-      z-index: 30; cursor: pointer;
-    }
-    #guideToggle:focus { outline: 2px solid #f5da75; }
-
-    /* Guía lateral */
-    #guide {
-      position: absolute; right: 0; top: 0; width: 360px; height: 100vh;
-      background: rgba(0, 0, 0, 0.6); overflow-y: auto; display: none; z-index: 20;
-    }
-    .channel { padding: 10px; border-bottom: 1px solid #444; cursor: pointer; }
-    .channel.selected { background: rgba(255,255,255,0.2); }
-    .ch-row { display: grid; grid-template-columns: 44px 1fr; gap: 10px; align-items: center; }
-    .ch-logo { width: 44px; height: 44px; object-fit: contain; background: #111; border-radius: 6px; }
-    .ch-title { font-weight: bold; }
-    .ch-epg-now { font-size: 12px; opacity: 0.9; }
-    .ch-epg-next { font-size: 11px; opacity: 0.7; }
-
-    /* Overlay de espera */
-    #waitOverlay {
-      position: absolute; top: 0; left: 0; width: 100vw; height: 100vh;
-      background: #000; z-index: 15; display: flex; justify-content: center; align-items: center;
-      overflow: hidden; pointer-events: none;
-    }
-    .wait-logo { position: relative; width: 160px; height: 160px; animation: bounce 2s infinite; }
-    .wait-logo img { width: 100%; height: 100%; object-fit: contain; }
-    .ripple {
-      position: absolute; top: 50%; left: 50%; width: 160px; height: 160px; border-radius: 50%;
-      border: 2px solid rgba(255, 255, 255, 0.2); transform: translate(-50%, -50%);
-      animation: ripple 2s infinite; z-index: 1;
-    }
-    @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
-    @keyframes ripple { 0% { transform: translate(-50%, -50%) scale(1); opacity: 0.6; }
-      100% { transform: translate(-50%, -50%) scale(2.5); opacity: 0; } }
-
-    /* Overlay numérico / retorno / estado */
-    #channelOverlay {
-      position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%);
-      font-size: 3em; color: white; background: rgba(0,0,0,0.7);
-      padding: 20px 40px; border-radius: 10px; display: none; z-index: 50;
-      font-weight: bold; font-family: monospace; text-align: center;
-    }
-    #overlayName { font-size: 0.5em; margin-top: 10px; }
-
-    #returnMessage {
-      position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%);
-      font-size: 2em; color: #ffcc00; background: rgba(0,0,0,0.6);
-      padding: 15px 30px; border-radius: 10px; display: none; z-index: 60;
-      font-family: sans-serif; text-align: center;
-    }
-
-    #channelStatus {
-      display: none; position: absolute; top: 10px; left: 10px;
-      background: rgba(0,0,0,0.3); color: #fff; font-size: 16px;
-      padding: 6px 12px; border-radius: 6px; z-index: 25; pointer-events: none;
-    }
-
-    /* Responsivo */
-    @media (max-width: 720px) {
-      .ib-left { min-width: auto; }
-      .ib-center { display: none; } /* en móviles priorizamos canal + hora */
-      body.guide-open #infoBar { right: 0; }
-      .ib-progress { display: none; }
-    }
-  </style>
+  @media (max-width:720px){.ib-center{display:none} body.guide-open #infoBar{right:0} .ib-progress{display:none}}
+</style>
 </head>
 <body>
 
-  <video id="player" controls autoplay></video>
+<video id="player" controls autoplay tabindex="-1"></video>
 
-  <!-- INFO BAR -->
-  <div id="infoBar">
-    <div class="ib-left">
-      <img id="ibLogo" src="https://i.ibb.co/0jzN7V6/default-icon.png" alt="logo">
-      <div class="ib-col">
-        <div id="ibChannel" class="ib-channel">—</div>
-        <div id="ibGroup" class="ib-group"></div>
-      </div>
-      <span class="ib-tag">EN VIVO</span>
-    </div>
-
-    <div class="ib-center">
-      <div class="ib-now">
-        <b>Ahora:</b>&nbsp;<span id="ibNowTitle">Sin datos</span>&nbsp;<span id="ibNowTime"></span>
-        <div class="ib-progress" aria-label="progreso del programa">
-          <div id="ibProgressFill"></div>
-        </div>
-      </div>
-      <div class="ib-next">
-        <b>Sigue:</b>&nbsp;<span id="ibNextTitle">—</span>&nbsp;<span id="ibNextTime"></span>
-      </div>
-    </div>
-
-    <div class="ib-right ib-time">
-      <div id="ibClock" class="ib-clock">--:--</div>
-      <div id="ibDate" class="ib-date">—</div>
+<div id="infoBar">
+  <div class="ib-left">
+    <img id="ibLogo" src="https://i.ibb.co/0jzN7V6/default-icon.png" alt="">
+    <div class="ib-col">
+      <div id="ibChannel" class="ib-channel">—</div>
+      <div id="ibGroup" class="ib-group"></div>
     </div>
   </div>
-
-  <button id="guideToggle" tabindex="0">Guía</button>
-  <div id="guide"></div>
-
-  <div id="waitOverlay">
-    <div class="wait-logo">
-      <img id="waitLogo" src="https://i.ibb.co/0jzN7V6/default-icon.png" alt="Esperando canal">
-      <div class="ripple"></div>
-    </div>
+  <div class="ib-center">
+    <div><b>Ahora:</b> <span id="ibNowTitle">Sin datos</span> <span id="ibNowTime"></span></div>
+    <div class="ib-progress"><div id="ibProgressFill"></div></div>
+    <div><b>Sigue:</b> <span id="ibNextTitle">—</span> <span id="ibNextTime"></span></div>
   </div>
-
-  <div id="channelOverlay">
-    <div id="overlayNumber">12</div>
-    <div id="overlayName">TyC Sports</div>
+  <div class="ib-right ib-time">
+    <div id="ibClock" class="ib-clock">--:--</div>
+    <div id="ibDate" class="ib-date">—</div>
   </div>
+</div>
 
-  <div id="returnMessage">Volviendo a canal anterior...</div>
-  <div id="channelStatus"></div>
+<button id="guideToggle">Guía</button>
+<div id="guide"></div>
+
+<div id="waitOverlay"><img id="waitLogo" src="https://i.ibb.co/0jzN7V6/default-icon.png" alt=""></div>
+<div id="channelOverlay"><div id="overlayNumber">12</div><div id="overlayName">Canal</div></div>
+<div id="returnMessage">Volviendo a canal anterior...</div>
+<div id="channelStatus"></div>
+<div id="focusHint">Presioná OK/Enter para activar controles</div>
 
 <script>
-/* =============== Estado y refs =============== */
-let channelInput = '';
-let inputTimeout = null;
-let previousIndex = 0;
-let channelStatusTimeout;
+/* ================== CONFIG ================== */
+var M3U_URL = "https://mi-app-rv2-mkrk.vercel.app/canales.m3u";
+var EPG_URL = "https://eo-beta.vercel.app/px.xml";
 
-const player = document.getElementById("player");
-const guide = document.getElementById("guide");
-const guideToggle = document.getElementById("guideToggle");
-const infoBar = document.getElementById("infoBar");
-const loadingOverlay = document.getElementById("waitOverlay");
-const waitLogo = document.getElementById("waitLogo");
+/* Si la EPG NO trae TZ: 'local' (recomendado) o 'utc_offset' con offset abajo */
+var EPG_NO_TZ_MODE = 'local';
+var EPG_OFFSET_MIN = 0;   // desfase global por si tu proveedor está corrido (minutos)
 
-/* InfoBar refs */
-const ibLogo = document.getElementById('ibLogo');
-const ibChannel = document.getElementById('ibChannel');
-const ibGroup = document.getElementById('ibGroup');
-const ibNowTitle = document.getElementById('ibNowTitle');
-const ibNowTime  = document.getElementById('ibNowTime');
-const ibNextTitle= document.getElementById('ibNextTitle');
-const ibNextTime = document.getElementById('ibNextTime');
-const ibClock = document.getElementById('ibClock');
-const ibDate  = document.getElementById('ibDate');
-const ibProgressFill = document.getElementById('ibProgressFill');
+/* ================== ESTADO / REFS ================== */
+var player = document.getElementById('player');
+var guide  = document.getElementById('guide');
+var guideToggle=document.getElementById('guideToggle');
+var infoBar=document.getElementById('infoBar');
+var waitLogo=document.getElementById('waitLogo');
+var focusHint=document.getElementById('focusHint');
 
-let infoBarHideTimer = null;
+var ibLogo=document.getElementById('ibLogo');
+var ibChannel=document.getElementById('ibChannel');
+var ibGroup=document.getElementById('ibGroup');
+var ibNowTitle=document.getElementById('ibNowTitle');
+var ibNowTime=document.getElementById('ibNowTime');
+var ibNextTitle=document.getElementById('ibNextTitle');
+var ibNextTime=document.getElementById('ibNextTime');
+var ibClock=document.getElementById('ibClock');
+var ibDate=document.getElementById('ibDate');
+var ibProgressFill=document.getElementById('ibProgressFill');
 
-let channels = [];        // [{name,logo,title,url,tvgId,group,epgKey}]
-let currentIndex = 0;
+var channels=[], currentIndex=0, previousIndex=0;
+var infoBarHideTimer=null, channelStatusTimeout=null;
+var channelInput='', inputTimeout=null;
 
-/* --------- Config de interpretación de fechas EPG ---------
-   Si un programme NO trae zona horaria (ni Z ni ±hhmm), lo tomamos como hora local.
-   Cambiar EPG_NO_TZ_MODE a 'utc_offset' si querés tratarlo como UTC+offset.
-------------------------------------------------------------*/
-const EPG_NO_TZ_MODE = 'local'; // 'local' | 'utc_offset'
-const DEFAULT_EPG_OFFSET = "-03:00"; // usado SOLO si EPG_NO_TZ_MODE='utc_offset'
+var epg = { channelsById:new Map(), nameIndex:new Map(), programsById:new Map() };
 
-/* EPG en memoria */
-let epg = {
-  channelsById: new Map(),       // id -> {id, displayName, icon}
-  nameIndex: new Map(),          // normalized displayName -> id
-  programsById: new Map(),       // id -> [{start,stop,title,desc}]
-  offsetMinutes: parseOffset(DEFAULT_EPG_OFFSET)
-};
-
-/* =============== Utilidades =============== */
-const normalize = s =>
-  (s||'').toString()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g,'')
-    .replace(/\s+/g,' ')
-    .trim().toLowerCase();
-
-function fmtTime(d){
-  return d ? d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) : '';
-}
-function parseOffset(str){
-  const m = /^([+\-])(\d{2}):(\d{2})$/.exec((str||'').trim());
-  if (!m) return 0;
-  const sign = m[1] === '-' ? -1 : 1;
-  return sign * (parseInt(m[2],10)*60 + parseInt(m[3],10));
-}
-
-/* 
-  parseXMLTVDate:
-  - Si trae TZ (Z o ±hhmm): se respeta.
-  - Si NO trae TZ:
-      * modo 'local' -> se crea como hora local (sin desplazamientos)
-      * modo 'utc_offset' -> se toma como UTC y se aplica epg.offsetMinutes
-*/
+/* ================== UTILS ================== */
+function normalize(s){return (s||'').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ').trim().toLowerCase();}
+function fmtTime(d){return d? d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}) : '';}
 function parseXMLTVDate(s){
-  if (!s) return null;
-  const m = s.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})(?:\s?([+\-]\d{4}|Z))?/);
-  if (!m) return null;
-  const [_,Y,Mo,D,H,Mi,S,tz] = m;
-
-  if (tz) {
-    const tzIso = tz === 'Z' ? 'Z' : (tz.slice(0,3)+':'+tz.slice(3));
-    const iso = `${Y}-${Mo}-${D}T${H}:${Mi}:${S}${tzIso}`;
-    const d = new Date(iso);
-    return isNaN(d.getTime()) ? null : d;
-  } else if (EPG_NO_TZ_MODE === 'local') {
-    // año, mes(0-11), día, hora, minuto, segundo -> en zona local del usuario
-    return new Date(Number(Y), Number(Mo)-1, Number(D), Number(H), Number(Mi), Number(S));
-  } else {
-    const baseUtc = new Date(`${Y}-${Mo}-${D}T${H}:${Mi}:${S}Z`);
-    if (isNaN(baseUtc.getTime())) return null;
-    return new Date(baseUtc.getTime() + epg.offsetMinutes*60*1000);
-  }
+  if(!s) return null;
+  var m=s.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})(?:\s?([+\-]\d{4}|Z))?/); if(!m) return null;
+  var Y=m[1],Mo=m[2],D=m[3],H=m[4],Mi=m[5],S=m[6],tz=m[7], d;
+  if(tz){ var tzIso = tz==='Z'?'Z':(tz.slice(0,3)+':'+tz.slice(3)); d = new Date(Y+'-'+Mo+'-'+D+'T'+H+':'+Mi+':'+S+tzIso); }
+  else if(EPG_NO_TZ_MODE==='local'){ d = new Date(+Y,+Mo-1,+D,+H,+Mi,+S); }
+  else { d = new Date(Date.parse(Y+'-'+Mo+'-'+D+'T'+H+':'+Mi+':'+S+'Z')); d = new Date(d.getTime()+EPG_OFFSET_MIN*60000); }
+  if(isNaN(d.getTime())) return null;
+  if(EPG_NO_TZ_MODE==='local') d = new Date(d.getTime()+EPG_OFFSET_MIN*60000);
+  return d;
 }
 
-/* Reloj InfoBar + progreso cada segundo */
-function tickClock(){
-  const now = new Date();
-  ibClock.textContent = now.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+/* ================== RELOJ + PROGRESO ================== */
+function tick(){
+  var now = new Date();
+  ibClock.textContent = now.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
   ibDate.textContent  = now.toLocaleDateString();
-
-  // actualizar SOLO la barra de progreso cada segundo
-  const ch = channels[currentIndex];
-  if (ch && ch.epgKey){
-    const { now:nowProg } = getNowNextFor(ch.epgKey);
-    if (nowProg) updateProgress(nowProg.start, nowProg.stop);
-    else updateProgress(null, null);
-  } else {
-    updateProgress(null, null);
-  }
+  var ch = channels[currentIndex];
+  if(ch && ch.epgKey){ var pair=getNowNextFor(ch.epgKey); if(pair.now) updateProgress(pair.now.start,pair.now.stop); else updateProgress(); }
+  else updateProgress();
 }
-setInterval(tickClock, 1000);
-tickClock();
+setInterval(tick, 1000); tick();
 
-/* =============== Carga de M3U y EPG =============== */
-function fetchM3U() {
-  fetch("https://mi-app-rv2-mkrk.vercel.app/canales.m3u")
-    .then(res => res.text())
-    .then(parseM3U)
-    .then(() => {
-      applyEPGMatching();
-      renderGuide();
-      setChannel(0);
-    });
+function updateProgress(s,e){
+  if(!s||!e||s>=e){ ibProgressFill.style.width='0%'; return; }
+  var now=Date.now(), pct=Math.max(0,Math.min(100, ((now - s.getTime())/(e.getTime()-s.getTime()))*100));
+  ibProgressFill.style.width=pct.toFixed(1)+'%';
 }
 
-// EPG URL (cámbiala si tenés otra)
-const EPG_URL = "https://eo-beta.vercel.app/px.xml";
+/* ================== CARGA M3U/EPG ================== */
+function fetchM3U(){ fetch(M3U_URL).then(r=>r.text()).then(parseM3U).then(function(){ applyEPGMatching(); renderGuide(); setChannel(0); }).catch(console.error); }
+function fetchEPG(){ fetch(EPG_URL).then(r=>r.text()).then(parseXMLTV).then(function(){ applyEPGMatching(); renderGuide(); if(channels[currentIndex]) updateInfoBar(channels[currentIndex], false); }).catch(console.error); }
 
-async function fetchEPG(){
-  try{
-    const res = await fetch(EPG_URL);
-    const xml = await res.text();
-    parseXMLTV(xml);
-    applyEPGMatching();
-    renderGuide();
-    if (channels[currentIndex]) updateInfoBar(channels[currentIndex], false);
-  }catch(e){
-    console.error("No se pudo cargar EPG:", e);
-  }
-}
-
-function parseM3U(text) {
-  const lines = text.split(/\r?\n/);
-  const list = [];
-  let channel = null;
-
-  for (let line of lines) {
-    line = line.trim();
-    if (!line) continue;
-
-    if (line.startsWith("#EXTINF")) {
-      const nameMatch = line.match(/,(.*)$/);
-      const title = nameMatch ? nameMatch[1].trim() : '';
-      const attrs = {};
-      const re = /([a-zA-Z0-9\-]+)="([^"]*)"/g;
-      let m;
-      while ((m = re.exec(line))) attrs[m[1]] = m[2];
-      channel = {
-        name: attrs['tvg-name'] || title || "Canal Desconocido",
-        logo: attrs['tvg-logo'] || "",
-        title: title || "",
-        url: "",
-        tvgId: attrs['tvg-id'] || "",
-        group: attrs['group-title'] || "",
-        epgKey: null
-      };
-    } else if (/^https?:\/\//i.test(line)) {
-      if (!channel) {
-        channel = { name: "Canal Desconocido", logo:"", title:"", tvgId:"", group:"", url:"", epgKey:null };
-      }
-      channel.url = line;
-      list.push(channel);
-      channel = null;
+function parseM3U(text){
+  var lines=text.split(/\r?\n/), list=[], ch=null;
+  for(var i=0;i<lines.length;i++){
+    var line=lines[i].trim(); if(!line) continue;
+    if(line.startsWith('#EXTINF')){
+      var title=(line.match(/,(.*)$/)||[])[1]||'';
+      var attrs={}, re=/([a-zA-Z0-9\-]+)="([^"]*)"/g, m; while((m=re.exec(line))) attrs[m[1]]=m[2];
+      ch={name:attrs['tvg-name']||title||'Canal',logo:attrs['tvg-logo']||'',title:title||'',url:'',tvgId:attrs['tvg-id']||'',group:attrs['group-title']||'',epgKey:null};
+    }else if(/^https?:\/\//i.test(line)){
+      if(!ch) ch={name:'Canal',logo:'',title:'',url:'',tvgId:'',group:'',epgKey:null};
+      ch.url=line; list.push(ch); ch=null;
     }
   }
-  channels = list;
+  channels=list;
 }
 
 function parseXMLTV(xmlText){
-  const doc = new DOMParser().parseFromString(xmlText, 'text/xml');
+  var doc=new DOMParser().parseFromString(xmlText,'text/xml');
+  epg.channelsById.clear(); epg.nameIndex.clear(); epg.programsById.clear();
 
-  epg.channelsById.clear();
-  epg.nameIndex.clear();
-  epg.programsById.clear();
-
-  // canales
-  doc.querySelectorAll('channel').forEach(ch=>{
-    const id = ch.getAttribute('id') || '';
-    const displayName = ch.querySelector('display-name')?.textContent?.trim() || id;
-    const icon = ch.querySelector('icon')?.getAttribute('src') || '';
-    epg.channelsById.set(id, {id, displayName, icon});
-    if (displayName){
-      epg.nameIndex.set(normalize(displayName), id);
-    }
+  doc.querySelectorAll('channel').forEach(function(c){
+    var id=c.getAttribute('id')||'', dn=(c.querySelector('display-name')||{}).textContent||id, icon=(c.querySelector('icon')||{}).getAttribute?c.querySelector('icon').getAttribute('src'):'';
+    epg.channelsById.set(id,{id:id,displayName:dn,icon:icon}); epg.nameIndex.set(normalize(dn), id);
   });
-
-  // programas
-  doc.querySelectorAll('programme').forEach(pr=>{
-    const cid = pr.getAttribute('channel') || '';
-    const start = parseXMLTVDate(pr.getAttribute('start'));
-    const stop  = parseXMLTVDate(pr.getAttribute('stop'));
-    const title = pr.querySelector('title')?.textContent || '';
-    const desc  = pr.querySelector('desc')?.textContent || '';
-    if (!epg.programsById.has(cid)) epg.programsById.set(cid, []);
-    epg.programsById.get(cid).push({cid, start, stop, title, desc});
+  doc.querySelectorAll('programme').forEach(function(p){
+    var cid=p.getAttribute('channel')||'', start=parseXMLTVDate(p.getAttribute('start')), stop=parseXMLTVDate(p.getAttribute('stop')), title=(p.querySelector('title')||{}).textContent||'', desc=(p.querySelector('desc')||{}).textContent||'';
+    if(!epg.programsById.has(cid)) epg.programsById.set(cid,[]);
+    epg.programsById.get(cid).push({cid:cid,start:start,stop:stop,title:title,desc:desc});
   });
-
-  epg.programsById.forEach(list => list.sort((a,b)=>(a.start?.getTime()||0)-(b.start?.getTime()||0)));
+  epg.programsById.forEach(function(list){ list.sort(function(a,b){return (a.start?+a.start:0)-(b.start?+b.start:0);}); });
 }
 
-/* =============== Matching M3U <-> EPG =============== */
+/* ================== MATCH Y EPG HELPERS ================== */
 function applyEPGMatching(){
-  if (!channels.length) return;
-  channels.forEach(ch=>{
-    let key = null;
-    if (ch.tvgId && epg.channelsById.has(ch.tvgId)) {
-      key = ch.tvgId;
-    } else {
-      const guess = epg.nameIndex.get(normalize(ch.name));
-      if (guess) key = guess;
-    }
-    ch.epgKey = key;
+  channels.forEach(function(ch){
+    var key=null;
+    if(ch.tvgId && epg.channelsById.has(ch.tvgId)) key=ch.tvgId;
+    else { var guess=epg.nameIndex.get(normalize(ch.name)); if(guess) key=guess; }
+    ch.epgKey=key;
   });
 }
-
-/* Helpers EPG para obtener "ahora" y "siguiente" */
 function getNowNextFor(epgKey){
-  if (!epgKey) return { now:null, next:null };
-  const list = epg.programsById.get(epgKey) || [];
-  const now = new Date();
-  let current = null, next = null;
-
-  for (let i=0;i<list.length;i++){
-    const p = list[i];
-    if (p.start && p.stop && now >= p.start && now <= p.stop){
-      current = p;
-      next = list[i+1] || null;
-      break;
-    }
-    if (p.start && now < p.start){
-      next = p;
-      break;
-    }
+  if(!epgKey) return {now:null,next:null};
+  var list=epg.programsById.get(epgKey)||[], now=new Date(), cur=null,nxt=null;
+  for(var i=0;i<list.length;i++){
+    var p=list[i]; if(p.start&&p.stop&&now>=p.start&&now<=p.stop){cur=p;nxt=list[i+1]||null;break;}
+    if(p.start&&now<p.start){nxt=p;break;}
   }
-  if (!current && list.length){
-    for (let i=list.length-1;i>=0;i--){
-      const p = list[i];
-      if (p.start && p.start <= now){
-        current = p;
-        next = list[i+1] || null;
-        break;
-      }
-    }
-  }
-  return { now: current, next };
+  if(!cur&&list.length){ for(var j=list.length-1;j>=0;j--){ var q=list[j]; if(q.start&&now>=q.start){cur=q;nxt=list[j+1]||null;break;} } }
+  return {now:cur,next:nxt};
 }
 
-/* =============== UI: Guía, selección =============== */
-let guideSelectedIndex = 0;
-
-function renderGuide() {
-  guide.innerHTML = "";
-  channels.forEach((ch, i) => {
-    const div = document.createElement("div");
-    div.className = "channel";
-    div.dataset.index = i;
-
-    const row = document.createElement('div');
-    row.className = 'ch-row';
-
-    const img = document.createElement('img');
-    img.className = 'ch-logo';
-    img.src = ch.logo || "https://i.ibb.co/0jzN7V6/default-icon.png";
-    img.alt = ch.name;
-
-    const info = document.createElement('div');
-
-    const title = document.createElement('div');
-    title.className = 'ch-title';
-    title.textContent = ch.name;
-
-    const nowNextWrap = document.createElement('div');
-
-    const epgNow = document.createElement('div');
-    epgNow.className = 'ch-epg-now';
-
-    const epgNext = document.createElement('div');
-    epgNext.className = 'ch-epg-next';
-
-    const {now, next} = getNowNextFor(ch.epgKey);
-    epgNow.textContent  = now ? `Ahora: ${now.title || '(sin título)'} (${fmtTime(now.start)}–${fmtTime(now.stop)})`
-                              : 'Ahora: Sin datos';
-    epgNext.textContent = next ? `Sigue: ${next.title || '(sin título)'} (${fmtTime(next.start)}–${fmtTime(next.stop)})` : '';
-
-    nowNextWrap.appendChild(epgNow);
-    nowNextWrap.appendChild(epgNext);
-    info.appendChild(title);
-    info.appendChild(nowNextWrap);
-
-    row.appendChild(img);
-    row.appendChild(info);
-    div.appendChild(row);
-    guide.appendChild(div);
-  });
-
-  highlightSelected();
-  guideSelectedIndex = currentIndex;
-  highlightGuideItem();
-}
-
-function highlightSelected() {
-  document.querySelectorAll(".channel").forEach((el, i) => {
-    el.classList.toggle("selected", i === currentIndex);
-  });
-}
-function highlightGuideItem() {
-  document.querySelectorAll(".channel").forEach((el, i) => {
-    el.classList.toggle("selected", i === guideSelectedIndex);
-  });
-}
-
-/* =============== InfoBar (contenido + autohide) =============== */
-function updateInfoBar(ch, autohide = true){
+/* ================== INFO BAR ================== */
+function updateInfoBar(ch, autohide){
   ibChannel.textContent = ch?.name || '—';
-  ibGroup.textContent   = ch?.group ? ch.group : '';
-  ibLogo.src            = ch?.logo || "https://i.ibb.co/0jzN7V6/default-icon.png";
+  ibGroup.textContent   = ch?.group || '';
+  ibLogo.src            = ch?.logo || 'https://i.ibb.co/0jzN7V6/default-icon.png';
 
-  const { now, next } = getNowNextFor(ch?.epgKey);
-  if (now){
-    ibNowTitle.textContent = now.title || '(sin título)';
-    ibNowTime.textContent  = now.start && now.stop ? `(${fmtTime(now.start)}–${fmtTime(now.stop)})` : '';
-    updateProgress(now.start, now.stop);
-  } else {
-    ibNowTitle.textContent = 'Sin datos';
-    ibNowTime.textContent  = '';
-    updateProgress(null, null);
-  }
-  if (next){
-    ibNextTitle.textContent = next.title || '(sin título)';
-    ibNextTime.textContent  = next.start && next.stop ? `(${fmtTime(next.start)}–${fmtTime(next.stop)})` : '';
-  } else {
-    ibNextTitle.textContent = '—';
-    ibNextTime.textContent  = '';
-  }
+  var pair=getNowNextFor(ch?.epgKey);
+  if(pair.now){
+    ibNowTitle.textContent = pair.now.title || '(sin título)';
+    ibNowTime.textContent  = '('+fmtTime(pair.now.start)+'–'+fmtTime(pair.now.stop)+')';
+    updateProgress(pair.now.start, pair.now.stop);
+  }else{ ibNowTitle.textContent='Sin datos'; ibNowTime.textContent=''; updateProgress(); }
+  if(pair.next){ ibNextTitle.textContent=pair.next.title||'(sin título)'; ibNextTime.textContent='('+fmtTime(pair.next.start)+'–'+fmtTime(pair.next.stop)+')'; }
+  else { ibNextTitle.textContent='—'; ibNextTime.textContent=''; }
 
-  showInfoBar(autohide ? 14 : 0);
+  showInfoBar(autohide?14:0);
 }
-
-/* Barra de progreso (del 0% al 100%) */
-function updateProgress(start, stop){
-  if (!start || !stop || isNaN(start) || isNaN(stop) || start >= stop){
-    ibProgressFill.style.width = '0%';
-    ibProgressFill.setAttribute('aria-valuenow', '0');
-    return;
-  }
-  const now = Date.now();
-  const s = start.getTime(), e = stop.getTime();
-  const pct = Math.max(0, Math.min(100, ((now - s) / (e - s)) * 100));
-  ibProgressFill.style.width = pct.toFixed(1) + '%';
-  ibProgressFill.setAttribute('aria-valuenow', pct.toFixed(1));
-}
-
-function showInfoBar(seconds = 14){
+function showInfoBar(seconds){
   clearTimeout(infoBarHideTimer);
-  infoBar.style.display = 'flex';
-  infoBar.style.opacity = '1';
-  infoBar.style.transform = 'translateY(0)';
-  if (seconds > 0){
-    infoBarHideTimer = setTimeout(hideInfoBar, seconds * 1000);
-  }
-}
-function hideInfoBar(){
-  infoBar.style.opacity = '0';
-  infoBar.style.transform = 'translateY(-8px)';
-  setTimeout(()=>{ infoBar.style.display = 'none'; }, 200);
+  infoBar.style.display='flex';
+  if(seconds>0) infoBarHideTimer=setTimeout(function(){infoBar.style.display='none';}, seconds*1000);
 }
 
-/* =============== Selección y reproducción =============== */
-function setChannel(index) {
-  if (channels[index]) {
-    currentIndex = index;
-    const ch = channels[index];
-    player.src = ch.url;
-    updateWaitLogo(ch.logo);
-    updateInfoBar(ch, true);     // muestra 14s al cambiar
-    highlightSelected();
-    showOverlayUntilPlaying();
-    updateChannelStatus(index);
-  }
+/* ================== UI: GUÍA Y CANALES ================== */
+function renderGuide(){
+  guide.innerHTML='';
+  channels.forEach(function(ch,i){
+    var div=document.createElement('div'); div.className='channel'; div.dataset.index=i;
+    var row=document.createElement('div'); row.className='ch-row';
+    var img=document.createElement('img'); img.className='ch-logo'; img.src=ch.logo||'https://i.ibb.co/0jzN7V6/default-icon.png'; img.alt=ch.name;
+    var info=document.createElement('div');
+    var title=document.createElement('div'); title.className='ch-title'; title.textContent=ch.name;
+    var nowDiv=document.createElement('div'); nowDiv.className='ch-epg-now';
+    var nextDiv=document.createElement('div'); nextDiv.className='ch-epg-next';
+    var pair=getNowNextFor(ch.epgKey);
+    nowDiv.textContent = pair.now ? ('Ahora: '+(pair.now.title||'(sin título)')+' ('+fmtTime(pair.now.start)+'–'+fmtTime(pair.now.stop)+')') : 'Ahora: Sin datos';
+    nextDiv.textContent= pair.next? ('Sigue: '+(pair.next.title||'(sin título)')+' ('+fmtTime(pair.next.start)+'–'+fmtTime(pair.next.stop)+')') : '';
+    info.appendChild(title); info.appendChild(nowDiv); info.appendChild(nextDiv);
+    row.appendChild(img); row.appendChild(info); div.appendChild(row); guide.appendChild(div);
+  });
+  highlightSelected();
 }
-function updateWaitLogo(logoUrl) {
-  waitLogo.src = logoUrl || "https://i.ibb.co/0jzN7V6/default-icon.png";
-  loadingOverlay.style.display = "flex";
-}
-function showOverlayUntilPlaying() {
-  player.classList.add("hidden");
-  loadingOverlay.style.display = "flex";
+function highlightSelected(){ Array.prototype.forEach.call(document.querySelectorAll('.channel'), function(el,i){ el.classList.toggle('selected', i===currentIndex); }); }
 
-  const maxWait = setTimeout(() => {
-    loadingOverlay.style.display = "none";
-    player.classList.remove("hidden");
-  }, 10000);
-
-  player.addEventListener("playing", () => {
-    clearTimeout(maxWait);
-    loadingOverlay.style.display = "none";
-    player.classList.remove("hidden");
-  }, { once: true });
-
-  player.play().catch(() => { console.warn("No se pudo reproducir automáticamente"); });
+function setChannel(index){
+  if(!channels[index]) return;
+  previousIndex=currentIndex; currentIndex=index;
+  var ch=channels[index];
+  player.src=ch.url;
+  waitLogo.src=ch.logo||'https://i.ibb.co/0jzN7V6/default-icon.png';
+  updateInfoBar(ch, true);
+  highlightSelected();
 }
 
-/* =============== Interacción UI =============== */
-guideToggle.addEventListener("click", () => {
-  const open = guide.style.display === "block";
-  if (open) {
-    guide.style.display = "none";
-    document.body.classList.remove('guide-open');
-  } else {
-    guide.style.display = "block";
-    document.body.classList.add('guide-open');
-    guideSelectedIndex = currentIndex;
-    highlightGuideItem();
-    renderGuide();
-  }
-});
+/* ================== TECLAS: CAPTURA ROBUSTA ================== */
+/* Mapea key / code / keyCode de remotos Android TV y teclados */
+function getIntent(e){
+  var k=e.key, c=e.code, kc=e.keyCode||e.which;
+  // DPAD / navegación
+  if(k==='ArrowUp'   || kc===19) return 'UP';
+  if(k==='ArrowDown' || kc===20) return 'DOWN';
+  if(k==='ArrowLeft' || kc===21) return 'LEFT';
+  if(k==='ArrowRight'|| kc===22) return 'RIGHT';
+  // OK / Enter
+  if(k==='Enter' || kc===23 || kc===66) return 'OK';
+  // Back / Return (Android TV: 4, WebOS: 461)
+  if(k==='Backspace'|| k==='Escape' || kc===4 || kc===27 || kc===461) return 'BACK';
+  // Info
+  if(k==='Info' || k==='F1' || k==='i' || kc===457) return 'INFO';
+  // Guide
+  if(k==='Guide' || kc===458) return 'GUIDE';
+  // Channel +/- (166/167 son comunes)
+  if(k==='ChannelUp'   || kc===166) return 'CH_UP';
+  if(k==='ChannelDown' || kc===167) return 'CH_DOWN';
+  // Play/Pause
+  if(k==='MediaPlayPause' || kc===85 || kc===179) return 'PLAYPAUSE';
+  // Números: PC (48–57), Android TV (7–16)
+  if((kc>=48&&kc<=57) || (kc>=7&&kc<=16)) return 'DIGIT';
+  return '';
+}
 
-guide.addEventListener("click", (e) => {
-  const item = e.target.closest(".channel");
-  if (item) {
-    const index = parseInt(item.dataset.index);
-    previousIndex = currentIndex;
-    setChannel(index);
-    guide.style.display = "none";
-    document.body.classList.remove('guide-open');
-  }
-});
+/* Forzamos foco para que el WebView entregue las teclas */
+function ensureFocus(){ if(document.activeElement!==document.body){ try{document.body.focus();}catch(_){} } }
+window.addEventListener('load', function(){ document.body.setAttribute('tabindex','-1'); ensureFocus(); setTimeout(ensureFocus,200); setTimeout(ensureFocus,1000); });
+document.addEventListener('click', ensureFocus);
+document.addEventListener('touchstart', ensureFocus);
 
-document.addEventListener("keydown", (e) => {
-  handleNumericInput(e.key);
+/* Escucha en fase de captura para vencer al <video> */
+document.addEventListener('keydown', function(e){
+  var intent = getIntent(e);
+  if(!intent) return;
+  e.preventDefault(); e.stopPropagation();
 
-  const isGuideOpen = guide.style.display === "block";
-  if (
-    e.key === "Backspace" || e.key === "Escape" || e.key === "BrowserBack" ||
-    e.key === "GoBack" || e.keyCode === 461
-  ) {
-    const returnBox = document.getElementById("returnMessage");
-    returnBox.style.display = "block";
-    setTimeout(() => {
-      returnBox.style.display = "none";
-      setChannel(previousIndex);
-    }, 1500);
+  var isGuideOpen = (guide.style.display==='block');
+
+  // Acumulador de números (salto directo)
+  if(intent==='DIGIT'){
+    var kc=e.keyCode||e.which, d;
+    if(kc>=48&&kc<=57) d=String.fromCharCode(kc);
+    else if(kc>=7&&kc<=16) d=String(kc-7);
+    else d=(e.key||'').replace(/\D/g,'');
+    if(!d) return;
+    channelInput+=d;
+    showChannelOverlay(channelInput);
+    clearTimeout(inputTimeout);
+    inputTimeout=setTimeout(function(){
+      var idx=parseInt(channelInput,10)-1;
+      if(!isNaN(idx) && channels[idx]) setChannel(idx);
+      channelInput=''; hideChannelOverlay();
+    },1200);
     return;
   }
 
-  // Tecla "i": mostrar InfoBar 14s
-  if (e.key === "i" || e.key === "Info" || e.key === "F1") {
-    if (channels[currentIndex]) updateInfoBar(channels[currentIndex], true);
-    const statusBox = document.getElementById("channelStatus");
-    statusBox.style.display = "block";
-    clearTimeout(channelStatusTimeout);
-    channelStatusTimeout = setTimeout(() => { statusBox.style.display = "none"; }, 10000);
+  switch(intent){
+    case 'UP':
+      if(isGuideOpen){ moveGuide(-1); } else { stepChannel(-1); }
+      break;
+    case 'DOWN':
+      if(isGuideOpen){ moveGuide(+1); } else { stepChannel(+1); }
+      break;
+    case 'LEFT':
+      if(isGuideOpen){ closeGuide(); } break;
+    case 'RIGHT':
+      if(!isGuideOpen){ openGuide(); } break;
+    case 'OK':
+      if(isGuideOpen){ selectGuide(); } else { showInfoBar(14); }
+      break;
+    case 'BACK':
+      if(isGuideOpen){ closeGuide(); }
+      else { showReturnAndGoBack(); }
+      break;
+    case 'INFO':
+      if(channels[currentIndex]) updateInfoBar(channels[currentIndex], true);
+      break;
+    case 'GUIDE':
+      if(isGuideOpen) closeGuide(); else openGuide();
+      break;
+    case 'CH_UP':
+      stepChannel(+1); break;
+    case 'CH_DOWN':
+      stepChannel(-1); break;
+    case 'PLAYPAUSE':
+      try{ if(player.paused) player.play(); else player.pause(); }catch(_){}
+      break;
   }
+}, true);
 
-  if (isGuideOpen) {
-    if (e.key === "ArrowDown") {
-      guideSelectedIndex = (guideSelectedIndex + 1) % channels.length;
-      highlightGuideItem(); scrollToSelected();
-    } else if (e.key === "ArrowUp") {
-      previousIndex = currentIndex;
-      guideSelectedIndex = (guideSelectedIndex - 1 + channels.length) % channels.length;
-      highlightGuideItem(); scrollToSelected();
-    } else if (e.key === "Enter") {
-      previousIndex = currentIndex;
-      setChannel(guideSelectedIndex);
-      guide.style.display = "none";
-      document.body.classList.remove('guide-open');
-    } else if (e.key === "ArrowLeft") {
-      guide.style.display = "none";
-      document.body.classList.remove('guide-open');
-    }
-  } else {
-    if (e.key === "ArrowDown") {
-      previousIndex = currentIndex;
-      currentIndex = (currentIndex + 1) % channels.length;
-      setChannel(currentIndex);
-    } else if (e.key === "ArrowUp") {
-      previousIndex = currentIndex;
-      currentIndex = (currentIndex - 1 + channels.length) % channels.length;
-      setChannel(currentIndex);
-    } else if (e.key === "ArrowRight") {
-      guide.style.display = "block";
-      document.body.classList.add('guide-open');
-      guideSelectedIndex = currentIndex;
-      highlightGuideItem(); scrollToSelected();
-    }
-  }
+/* Helpers de guía y zapping */
+function moveGuide(delta){
+  var items=[].slice.call(document.querySelectorAll('.channel'));
+  if(!items.length) return;
+  var idx=items.findIndex(el=>el.classList.contains('selected'));
+  if(idx<0) idx=currentIndex;
+  idx=(idx+delta+channels.length)%channels.length;
+  items.forEach((el,i)=>el.classList.toggle('selected', i===idx));
+  items[idx].scrollIntoView({block:'center',behavior:'smooth'});
+}
+function selectGuide(){
+  var item=document.querySelector('.channel.selected');
+  if(!item) return; setChannel(+item.dataset.index); closeGuide();
+}
+function stepChannel(delta){
+  var idx=(currentIndex+delta+channels.length)%channels.length; setChannel(idx);
+}
+function openGuide(){ guide.style.display='block'; document.body.classList.add('guide-open'); renderGuide(); ensureFocus(); }
+function closeGuide(){ guide.style.display='none'; document.body.classList.remove('guide-open'); ensureFocus(); }
+
+/* Overlays de canal / volver */
+function showChannelOverlay(txt){
+  var o=document.getElementById('channelOverlay'); o.style.display='block';
+  document.getElementById('overlayNumber').textContent=txt;
+  var idx=parseInt(txt,10)-1; document.getElementById('overlayName').textContent = channels[idx]?channels[idx].name:'—';
+}
+function hideChannelOverlay(){ document.getElementById('channelOverlay').style.display='none'; }
+function showReturnAndGoBack(){
+  var box=document.getElementById('returnMessage'); box.style.display='block';
+  setTimeout(function(){ box.style.display='none'; setChannel(previousIndex); }, 1200);
+}
+
+/* ================== CLICK HANDLERS BÁSICOS ================== */
+guide.addEventListener('click', function(e){
+  var item=e.target.closest('.channel'); if(!item) return; setChannel(+item.dataset.index); closeGuide();
 });
+guideToggle.addEventListener('click', function(){ (guide.style.display==='block')? closeGuide(): openGuide(); });
 
-function scrollToSelected() {
-  const selected = document.querySelector('.channel.selected');
-  if (selected) selected.scrollIntoView({ behavior: 'smooth', block: 'center' });
+/* ================== RENDER GUÍA ================== */
+function renderGuide(){
+  guide.innerHTML='';
+  channels.forEach(function(ch,i){
+    var div=document.createElement('div'); div.className='channel'; div.dataset.index=i;
+    var row=document.createElement('div'); row.className='ch-row';
+    var img=document.createElement('img'); img.className='ch-logo'; img.src=ch.logo||'https://i.ibb.co/0jzN7V6/default-icon.png';
+    var info=document.createElement('div');
+    var title=document.createElement('div'); title.className='ch-title'; title.textContent=ch.name;
+    var nowDiv=document.createElement('div'); nowDiv.className='ch-epg-now';
+    var nextDiv=document.createElement('div'); nextDiv.className='ch-epg-next';
+    var pair=getNowNextFor(ch.epgKey);
+    nowDiv.textContent = pair.now?('Ahora: '+(pair.now.title||'(sin título)')+' ('+fmtTime(pair.now.start)+'–'+fmtTime(pair.now.stop)+')'):'Ahora: Sin datos';
+    nextDiv.textContent = pair.next?('Sigue: '+(pair.next.title||'(sin título)')+' ('+fmtTime(pair.next.start)+'–'+fmtTime(pair.next.stop)+')'):'';
+    info.appendChild(title); info.appendChild(nowDiv); info.appendChild(nextDiv);
+    row.appendChild(img); row.appendChild(info); div.appendChild(row); guide.appendChild(div);
+  });
+  highlightSelected();
 }
 
-function handleNumericInput(key) {
-  if (!/^\d$/.test(key)) return;
-
-  channelInput += key;
-  const overlay = document.getElementById("channelOverlay");
-  const overlayNumber = document.getElementById("overlayNumber");
-  const overlayName = document.getElementById("overlayName");
-
-  overlayNumber.textContent = channelInput;
-
-  const chIndex = parseInt(channelInput, 10) - 1;
-  if (channels[chIndex]) {
-    previousIndex = currentIndex;
-    overlayName.textContent = channels[chIndex].name;
-  } else {
-    overlayName.textContent = "Canal inválido";
+/* ================== CARGA EPG + MATCH ================== */
+function applyEPGMatching(){
+  channels.forEach(function(ch){
+    var key=null; if(ch.tvgId && epg.channelsById.has(ch.tvgId)) key=ch.tvgId;
+    else { var g=epg.nameIndex.get(normalize(ch.name)); if(g) key=g; }
+    ch.epgKey=key;
+  });
+}
+function getNowNextFor(epgKey){
+  if(!epgKey) return {now:null,next:null};
+  var list=epg.programsById.get(epgKey)||[], now=new Date(), cur=null,nxt=null;
+  for(var i=0;i<list.length;i++){
+    var p=list[i]; if(p.start&&p.stop&&now>=p.start&&now<=p.stop){ cur=p; nxt=list[i+1]||null; break; }
+    if(p.start&&now<p.start){ nxt=p; break; }
   }
-
-  overlay.style.display = "block";
-  clearTimeout(inputTimeout);
-  inputTimeout = setTimeout(() => {
-    if (channels[chIndex]) setChannel(chIndex);
-    channelInput = '';
-    overlay.style.display = "none";
-  }, 2000);
+  if(!cur&&list.length){ for(var j=list.length-1;j>=0;j--){ var q=list[j]; if(q.start&&now>=q.start){ cur=q; nxt=list[j+1]||null; break; } } }
+  return {now:cur,next:nxt};
 }
 
-function updateChannelStatus(index) {
-  const ch = channels[index];
-  const statusBox = document.getElementById("channelStatus");
-  statusBox.textContent = ch ? `Canal ${index + 1} - ${ch.name}` : "Canal desconocido";
-  statusBox.style.display = "block";
-  clearTimeout(channelStatusTimeout);
-  channelStatusTimeout = setTimeout(() => { statusBox.style.display = "none"; }, 15000);
+/* ================== FETCH XMLTV/M3U ================== */
+function parseXMLTV(xmlText){
+  var doc=new DOMParser().parseFromString(xmlText,'text/xml');
+  epg.channelsById.clear(); epg.nameIndex.clear(); epg.programsById.clear();
+  doc.querySelectorAll('channel').forEach(function(c){
+    var id=c.getAttribute('id')||'', dn=(c.querySelector('display-name')||{}).textContent||id, icon=(c.querySelector('icon')||{}).getAttribute?c.querySelector('icon').getAttribute('src'):'';
+    epg.channelsById.set(id,{id:id,displayName:dn,icon:icon}); epg.nameIndex.set(normalize(dn), id);
+  });
+  doc.querySelectorAll('programme').forEach(function(p){
+    var cid=p.getAttribute('channel')||'', start=parseXMLTVDate(p.getAttribute('start')), stop=parseXMLTVDate(p.getAttribute('stop')), title=(p.querySelector('title')||{}).textContent||'', desc=(p.querySelector('desc')||{}).textContent||'';
+    if(!epg.programsById.has(cid)) epg.programsById.set(cid,[]);
+    epg.programsById.get(cid).push({cid:cid,start:start,stop:stop,title:title,desc:desc});
+  });
+  epg.programsById.forEach(function(list){ list.sort(function(a,b){return (a.start?+a.start:0)-(b.start?+b.start:0);}); });
 }
-
-/* =============== Tareas periódicas =============== */
-/* Cada 60s: refrescar textos (cambio de programa), mantener progreso con el tick de 1s */
-setInterval(()=>{
-  if (epg.programsById.size && channels[currentIndex]) {
-    updateInfoBar(channels[currentIndex], false); // refresca "Ahora/Sigue" sin autohide
-    if (guide.style.display === "block") renderGuide();
+function parseM3U(text){
+  var lines=text.split(/\r?\n/), list=[], ch=null;
+  for(var i=0;i<lines.length;i++){
+    var line=lines[i].trim(); if(!line) continue;
+    if(line.startsWith('#EXTINF')){
+      var title=(line.match(/,(.*)$/)||[])[1]||'';
+      var attrs={}, re=/([a-zA-Z0-9\-]+)="([^"]*)"/g, m; while((m=re.exec(line))) attrs[m[1]]=m[2];
+      ch={name:attrs['tvg-name']||title||'Canal',logo:attrs['tvg-logo']||'',title:title||'',url:'',tvgId:attrs['tvg-id']||'',group:attrs['group-title']||'',epgKey:null};
+    }else if(/^https?:\/\//i.test(line)){
+      if(!ch) ch={name:'Canal',logo:'',title:'',url:'',tvgId:'',group:'',epgKey:null};
+      ch.url=line; list.push(ch); ch=null;
+    }
   }
-}, 60000);
+  channels=list;
+}
 
-/* =============== Inicio =============== */
-fetchEPG();   // carga EPG desde tu URL
-fetchM3U();   // carga lista M3U
+/* ================== ARRANQUE ================== */
+function start(){
+  // foco inicial y hint
+  ensureFocus(); focusHint.style.display='block';
+  setTimeout(function(){ focusHint.style.display='none'; }, 4000);
+  fetchEPG(); fetchM3U();
+}
+function ensureFocus(){ if(document.activeElement!==document.body){ try{document.body.focus();}catch(_){} } }
+window.addEventListener('load', start);
 </script>
 </body>
 </html>
