@@ -3,18 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>TV Box App</title>
+<title>TV Box (Compat)</title>
 <style>
   html,body{margin:0;background:#000;color:#fff;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
   #player{width:100vw;height:100vh;object-fit:cover;background:#000}
   #player.hidden{display:none}
 
-  /* Info bar (azul) con progreso */
-  #infoBar{
-    position:absolute;top:0;left:0;right:0;
-    display:none;align-items:center;justify-content:space-between;gap:10px;
-    padding:8px 12px;background:rgba(0,102,255,.35);color:#fff;z-index:25;font-size:14px;line-height:1.2
-  }
+  /* Info bar (azul) con progreso y autohide */
+  #infoBar{position:absolute;top:0;left:0;right:0;display:none;align-items:center;justify-content:space-between;gap:8px;padding:8px 12px;background:rgba(0,102,255,.35);color:#fff;z-index:25;font-size:14px;line-height:1.2}
   body.guide-open #infoBar{right:360px}
   .ib-left,.ib-center,.ib-right{display:flex;align-items:center;gap:8px}
   .ib-col{display:flex;flex-direction:column;gap:2px}
@@ -27,8 +23,9 @@
   .ib-clock{font-weight:700}
   .ib-date{font-size:12px;opacity:.95}
 
-  /* Guía */
   #guideToggle{position:absolute;top:10px;right:10px;background:rgba(255,255,255,.25);border:0;color:#fff;padding:8px 12px;z-index:30}
+  #configBtn{position:absolute;top:10px;left:10px;background:rgba(255,255,255,.25);border:0;color:#fff;padding:8px 12px;z-index:30}
+
   #guide{position:absolute;top:0;right:0;width:360px;height:100vh;background:rgba(0,0,0,.6);overflow-y:auto;display:none;z-index:20}
   .channel{padding:10px;border-bottom:1px solid #444;cursor:pointer}
   .channel.selected{background:rgba(255,255,255,.2)}
@@ -38,22 +35,31 @@
   .ch-epg-now{font-size:12px;opacity:.9}
   .ch-epg-next{font-size:11px;opacity:.7}
 
-  /* Overlays */
   #waitOverlay{position:absolute;inset:0;background:#000;z-index:15;display:flex;align-items:center;justify-content:center}
   #channelOverlay{position:absolute;top:40%;left:50%;transform:translate(-50%,-50%);font:bold 3em monospace;color:#fff;background:rgba(0,0,0,.7);padding:18px 32px;border-radius:10px;display:none;z-index:50;text-align:center}
   #overlayName{font-size:.5em;margin-top:10px}
   #returnMessage{position:absolute;top:20%;left:50%;transform:translate(-50%,-50%);font-size:2em;color:#ffcc00;background:rgba(0,0,0,.6);padding:12px 24px;border-radius:10px;display:none;z-index:60}
   #channelStatus{display:none;position:absolute;top:10px;left:10px;background:rgba(0,0,0,.3);color:#fff;font-size:16px;padding:6px 12px;border-radius:6px;z-index:25}
 
-  /* “Focus guard” UI hint (opcional) */
-  #focusHint{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.45);padding:6px 10px;border-radius:6px;font-size:12px;display:none;z-index:26}
+  /* Config overlay */
+  #cfg{position:absolute;inset:0;background:rgba(0,0,0,.85);z-index:70;display:none;padding:16px;overflow:auto}
+  #cfg h3{margin:0 0 10px}
+  #cfg label{font-size:12px;opacity:.9}
+  #cfg input,#cfg textarea{width:100%;padding:8px;margin:6px 0 12px;background:#111;border:1px solid #333;color:#fff;border-radius:6px}
+  #cfg .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  #cfg .btns{display:flex;gap:10px;flex-wrap:wrap}
+  #cfg button{background:#234;border:1px solid #456;color:#fff;padding:8px 12px;border-radius:6px}
+
+  /* Log overlay */
+  #log{position:absolute;bottom:0;left:0;right:0;max-height:40vh;overflow:auto;background:rgba(0,0,0,.8);border-top:1px solid #333;font:12px/1.35 ui-monospace,Consolas,monospace;color:#9fe;padding:8px;display:none;z-index:80;white-space:pre-wrap}
+  #log b{color:#fff}
 
   @media (max-width:720px){.ib-center{display:none} body.guide-open #infoBar{right:0} .ib-progress{display:none}}
 </style>
 </head>
 <body>
 
-<video id="player" controls autoplay tabindex="-1"></video>
+<video id="player" controls autoplay></video>
 
 <div id="infoBar">
   <div class="ib-left">
@@ -74,6 +80,7 @@
   </div>
 </div>
 
+<button id="configBtn">Config</button>
 <button id="guideToggle">Guía</button>
 <div id="guide"></div>
 
@@ -81,320 +88,309 @@
 <div id="channelOverlay"><div id="overlayNumber">12</div><div id="overlayName">Canal</div></div>
 <div id="returnMessage">Volviendo a canal anterior...</div>
 <div id="channelStatus"></div>
-<div id="focusHint">Presioná OK/Enter para activar controles</div>
+
+<!-- Config overlay -->
+<div id="cfg">
+  <h3>Config rápida</h3>
+  <div class="row">
+    <div>
+      <label>URL M3U</label>
+      <input id="m3uUrl" type="url" placeholder="https://.../lista.m3u">
+      <label>Pegar M3U (alternativa si hay CORS)</label>
+      <textarea id="m3uPaste" placeholder="#EXTM3U&#10;#EXTINF:-1,...&#10;http://..."></textarea>
+    </div>
+    <div>
+      <label>URL EPG (XMLTV)</label>
+      <input id="epgUrl" type="url" placeholder="https://.../guia.xml">
+      <label>Pegar EPG (XML)</label>
+      <textarea id="epgPaste" placeholder="&lt;tv&gt;...&lt;/tv&gt;"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <div>
+      <label>Offset global EPG (minutos, +/−)</label>
+      <input id="epgOffset" type="number" value="0">
+    </div>
+    <div>
+      <label>Si la EPG NO trae zona horaria</label>
+      <select id="noTzMode">
+        <option value="local" selected>Interpretar como hora local</option>
+        <option value="utc_offset">Tomar como UTC + offset</option>
+      </select>
+    </div>
+  </div>
+  <div class="btns">
+    <button id="btnApply">Aplicar / Cargar</button>
+    <button id="btnCloseCfg">Cerrar</button>
+  </div>
+  <div style="margin-top:8px;font-size:12px;opacity:.8">
+    Nota: si tu servidor no habilita CORS, usá “Pegar M3U/EPG” o sirvelos en el mismo dominio.
+  </div>
+</div>
+
+<!-- Log overlay -->
+<div id="log"></div>
 
 <script>
-/* ================== CONFIG ================== */
-var M3U_URL = "https://mi-app-rv2-mkrk.vercel.app/canales.m3u";
-var EPG_URL = "https://eo-beta.vercel.app/px.xml";
+/* ====================== CONFIG INICIAL ====================== */
+var DEFAULT_M3U_URL = "https://mi-app-rv2-mkrk.vercel.app/canales.m3u";
+var DEFAULT_EPG_URL = "https://eo-beta.vercel.app/px.xml";
+var EPG_NO_TZ_MODE  = 'local';    // 'local' | 'utc_offset'
+var EPG_OFFSET_MIN  = 0;          // desfase global minutos
 
-/* Si la EPG NO trae TZ: 'local' (recomendado) o 'utc_offset' con offset abajo */
-var EPG_NO_TZ_MODE = 'local';
-var EPG_OFFSET_MIN = 0;   // desfase global por si tu proveedor está corrido (minutos)
-
-/* ================== ESTADO / REFS ================== */
+/* ====================== ESTADO / REFS ====================== */
 var player = document.getElementById('player');
 var guide  = document.getElementById('guide');
 var guideToggle=document.getElementById('guideToggle');
-var infoBar=document.getElementById('infoBar');
-var waitLogo=document.getElementById('waitLogo');
-var focusHint=document.getElementById('focusHint');
+var cfgBtn = document.getElementById('configBtn');
+var cfg = document.getElementById('cfg');
+var m3uUrlInp = document.getElementById('m3uUrl');
+var m3uPaste  = document.getElementById('m3uPaste');
+var epgUrlInp = document.getElementById('epgUrl');
+var epgPaste  = document.getElementById('epgPaste');
+var epgOffsetInp = document.getElementById('epgOffset');
+var noTzModeSel = document.getElementById('noTzMode');
+var btnApply = document.getElementById('btnApply');
+var btnCloseCfg = document.getElementById('btnCloseCfg');
 
-var ibLogo=document.getElementById('ibLogo');
-var ibChannel=document.getElementById('ibChannel');
-var ibGroup=document.getElementById('ibGroup');
-var ibNowTitle=document.getElementById('ibNowTitle');
-var ibNowTime=document.getElementById('ibNowTime');
-var ibNextTitle=document.getElementById('ibNextTitle');
-var ibNextTime=document.getElementById('ibNextTime');
-var ibClock=document.getElementById('ibClock');
-var ibDate=document.getElementById('ibDate');
-var ibProgressFill=document.getElementById('ibProgressFill');
+var infoBar = document.getElementById('infoBar');
+var ibLogo=document.getElementById('ibLogo'), ibChannel=document.getElementById('ibChannel'),
+    ibGroup=document.getElementById('ibGroup'), ibNowTitle=document.getElementById('ibNowTitle'),
+    ibNowTime=document.getElementById('ibNowTime'), ibNextTitle=document.getElementById('ibNextTitle'),
+    ibNextTime=document.getElementById('ibNextTime'), ibClock=document.getElementById('ibClock'),
+    ibDate=document.getElementById('ibDate'), ibProgressFill=document.getElementById('ibProgressFill');
+
+var waitLogo=document.getElementById('waitLogo');
+var logBox = document.getElementById('log');
 
 var channels=[], currentIndex=0, previousIndex=0;
-var infoBarHideTimer=null, channelStatusTimeout=null;
-var channelInput='', inputTimeout=null;
+var channelInput='', inputTimeout=null, infoBarHideTimer=null, channelStatusTimeout=null;
 
-var epg = { channelsById:new Map(), nameIndex:new Map(), programsById:new Map() };
+var epg = { channelsById:{}, nameIndex:{}, programsById:{} };
 
-/* ================== UTILS ================== */
-function normalize(s){return (s||'').toString().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ').trim().toLowerCase();}
-function fmtTime(d){return d? d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}) : '';}
+/* ====================== LOG ====================== */
+function log(){ 
+  var msg = Array.prototype.map.call(arguments, function(a){ 
+    return (typeof a==='object')? JSON.stringify(a): String(a); 
+  }).join(' ');
+  logBox.textContent += msg + "\n";
+  logBox.scrollTop = logBox.scrollHeight;
+}
+function showLog(show){ logBox.style.display = show? 'block':'none'; }
+
+/* ====================== HELPERS ====================== */
+function xhrGet(url, cb){
+  try{
+    var x = new XMLHttpRequest();
+    x.open('GET', url, true);
+    x.onreadystatechange = function(){
+      if (x.readyState === 4){
+        if (x.status >= 200 && x.status < 300){
+          cb(null, x.responseText);
+        } else {
+          cb(new Error('HTTP '+x.status+' al pedir '+url), null);
+        }
+      }
+    };
+    x.onerror = function(){ cb(new Error('Error de red (posible CORS) al pedir '+url), null); };
+    x.send();
+  }catch(e){ cb(e,null); }
+}
+function normalize(s){ return (s||'').toString().replace(/\u0300-\u036f/g,'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ').trim().toLowerCase(); }
+function fmtTime(d){ return d? d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'}) : ''; }
+
 function parseXMLTVDate(s){
   if(!s) return null;
-  var m=s.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})(?:\s?([+\-]\d{4}|Z))?/); if(!m) return null;
+  var m = s.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})(?:\s?([+\-]\d{4}|Z))?/);
+  if(!m) return null;
   var Y=m[1],Mo=m[2],D=m[3],H=m[4],Mi=m[5],S=m[6],tz=m[7], d;
-  if(tz){ var tzIso = tz==='Z'?'Z':(tz.slice(0,3)+':'+tz.slice(3)); d = new Date(Y+'-'+Mo+'-'+D+'T'+H+':'+Mi+':'+S+tzIso); }
-  else if(EPG_NO_TZ_MODE==='local'){ d = new Date(+Y,+Mo-1,+D,+H,+Mi,+S); }
-  else { d = new Date(Date.parse(Y+'-'+Mo+'-'+D+'T'+H+':'+Mi+':'+S+'Z')); d = new Date(d.getTime()+EPG_OFFSET_MIN*60000); }
-  if(isNaN(d.getTime())) return null;
-  if(EPG_NO_TZ_MODE==='local') d = new Date(d.getTime()+EPG_OFFSET_MIN*60000);
+  if (tz){
+    var tzIso = (tz==='Z')?'Z':(tz.slice(0,3)+':'+tz.slice(3));
+    d = new Date(Y+'-'+Mo+'-'+D+'T'+H+':'+Mi+':'+S+tzIso);
+  } else if (EPG_NO_TZ_MODE==='local'){
+    d = new Date(+Y,+Mo-1,+D,+H,+Mi,+S);
+  } else {
+    d = new Date(Date.parse(Y+'-'+Mo+'-'+D+'T'+H+':'+Mi+':'+S+'Z'));
+    d = new Date(d.getTime() + EPG_OFFSET_MIN*60000);
+  }
+  if (isNaN(d.getTime())) return null;
+  if (EPG_NO_TZ_MODE==='local') d = new Date(d.getTime() + EPG_OFFSET_MIN*60000);
   return d;
 }
 
-/* ================== RELOJ + PROGRESO ================== */
+/* ====================== RELOJ + PROGRESO ====================== */
 function tick(){
   var now = new Date();
   ibClock.textContent = now.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});
   ibDate.textContent  = now.toLocaleDateString();
+
   var ch = channels[currentIndex];
-  if(ch && ch.epgKey){ var pair=getNowNextFor(ch.epgKey); if(pair.now) updateProgress(pair.now.start,pair.now.stop); else updateProgress(); }
-  else updateProgress();
+  if(ch && ch.epgKey){
+    var pair = getNowNextFor(ch.epgKey);
+    if (pair.now) updateProgress(pair.now.start, pair.now.stop);
+    else updateProgress();
+  } else updateProgress();
 }
 setInterval(tick, 1000); tick();
 
 function updateProgress(s,e){
   if(!s||!e||s>=e){ ibProgressFill.style.width='0%'; return; }
-  var now=Date.now(), pct=Math.max(0,Math.min(100, ((now - s.getTime())/(e.getTime()-s.getTime()))*100));
-  ibProgressFill.style.width=pct.toFixed(1)+'%';
+  var now=Date.now(), pct = Math.max(0, Math.min(100, ((now - s.getTime())/(e.getTime()-s.getTime()))*100));
+  ibProgressFill.style.width = pct.toFixed(1)+'%';
 }
 
-/* ================== CARGA M3U/EPG ================== */
-function fetchM3U(){ fetch(M3U_URL).then(r=>r.text()).then(parseM3U).then(function(){ applyEPGMatching(); renderGuide(); setChannel(0); }).catch(console.error); }
-function fetchEPG(){ fetch(EPG_URL).then(r=>r.text()).then(parseXMLTV).then(function(){ applyEPGMatching(); renderGuide(); if(channels[currentIndex]) updateInfoBar(channels[currentIndex], false); }).catch(console.error); }
-
-function parseM3U(text){
-  var lines=text.split(/\r?\n/), list=[], ch=null;
-  for(var i=0;i<lines.length;i++){
-    var line=lines[i].trim(); if(!line) continue;
-    if(line.startsWith('#EXTINF')){
-      var title=(line.match(/,(.*)$/)||[])[1]||'';
-      var attrs={}, re=/([a-zA-Z0-9\-]+)="([^"]*)"/g, m; while((m=re.exec(line))) attrs[m[1]]=m[2];
-      ch={name:attrs['tvg-name']||title||'Canal',logo:attrs['tvg-logo']||'',title:title||'',url:'',tvgId:attrs['tvg-id']||'',group:attrs['group-title']||'',epgKey:null};
-    }else if(/^https?:\/\//i.test(line)){
+/* ====================== CARGA M3U ====================== */
+function loadM3UFromText(text){
+  var lines = text.split(/\r?\n/), list=[], ch=null, i;
+  for(i=0;i<lines.length;i++){
+    var line = lines[i].trim(); if(!line) continue;
+    if(line.indexOf('#EXTINF')===0){
+      var nameMatch = line.match(/,(.*)$/);
+      var title = nameMatch ? nameMatch[1].trim() : '';
+      var attrs={}, re=/([a-zA-Z0-9\-]+)="([^"]*)"/g, m;
+      while ((m = re.exec(line))) attrs[m[1]] = m[2];
+      ch = {
+        name: attrs['tvg-name'] || title || 'Canal',
+        logo: attrs['tvg-logo'] || '',
+        title: title || '',
+        url: '',
+        tvgId: attrs['tvg-id'] || '',
+        group: attrs['group-title'] || '',
+        epgKey: null
+      };
+    } else if (/^https?:\/\//i.test(line)){
       if(!ch) ch={name:'Canal',logo:'',title:'',url:'',tvgId:'',group:'',epgKey:null};
       ch.url=line; list.push(ch); ch=null;
     }
   }
-  channels=list;
+  channels = list;
+  log('<b>M3U</b>: canales cargados = ' + channels.length);
 }
 
-function parseXMLTV(xmlText){
-  var doc=new DOMParser().parseFromString(xmlText,'text/xml');
-  epg.channelsById.clear(); epg.nameIndex.clear(); epg.programsById.clear();
-
-  doc.querySelectorAll('channel').forEach(function(c){
-    var id=c.getAttribute('id')||'', dn=(c.querySelector('display-name')||{}).textContent||id, icon=(c.querySelector('icon')||{}).getAttribute?c.querySelector('icon').getAttribute('src'):'';
-    epg.channelsById.set(id,{id:id,displayName:dn,icon:icon}); epg.nameIndex.set(normalize(dn), id);
+function fetchM3U(url){
+  xhrGet(url, function(err, txt){
+    if(err){ log('ERROR M3U:', err.message); alert('No se pudo descargar la M3U. Revisá CORS/URL. Probá pegarla en Config.'); return; }
+    loadM3UFromText(txt);
+    applyEPGMatching(); renderGuide(); setChannel(0);
   });
-  doc.querySelectorAll('programme').forEach(function(p){
-    var cid=p.getAttribute('channel')||'', start=parseXMLTVDate(p.getAttribute('start')), stop=parseXMLTVDate(p.getAttribute('stop')), title=(p.querySelector('title')||{}).textContent||'', desc=(p.querySelector('desc')||{}).textContent||'';
-    if(!epg.programsById.has(cid)) epg.programsById.set(cid,[]);
-    epg.programsById.get(cid).push({cid:cid,start:start,stop:stop,title:title,desc:desc});
-  });
-  epg.programsById.forEach(function(list){ list.sort(function(a,b){return (a.start?+a.start:0)-(b.start?+b.start:0);}); });
 }
 
-/* ================== MATCH Y EPG HELPERS ================== */
+/* ====================== CARGA EPG ====================== */
+function loadEPGFromXML(xmlText){
+  var parser = new DOMParser();
+  var doc = parser.parseFromString(xmlText, 'text/xml');
+
+  epg.channelsById = {}; epg.nameIndex = {}; epg.programsById = {};
+
+  var chs = doc.querySelectorAll('channel'), i;
+  for(i=0;i<chs.length;i++){
+    var c = chs[i], id = c.getAttribute('id') || '';
+    var dnEl = c.querySelector('display-name');
+    var dn = dnEl ? (dnEl.textContent||'').trim() : id;
+    var iconEl = c.querySelector('icon');
+    var icon = iconEl && iconEl.getAttribute ? iconEl.getAttribute('src') : '';
+    epg.channelsById[id] = {id:id, displayName:dn, icon:icon};
+    epg.nameIndex[ normalize(dn) ] = id;
+  }
+
+  var progs = doc.querySelectorAll('programme');
+  for(i=0;i<progs.length;i++){
+    var p = progs[i], cid = p.getAttribute('channel') || '';
+    var start = parseXMLTVDate(p.getAttribute('start'));
+    var stop  = parseXMLTVDate(p.getAttribute('stop'));
+    var tEl = p.querySelector('title'); var title = tEl ? tEl.textContent : '';
+    var dEl = p.querySelector('desc');  var desc  = dEl ? dEl.textContent : '';
+    if(!epg.programsById[cid]) epg.programsById[cid] = [];
+    epg.programsById[cid].push({cid:cid,start:start,stop:stop,title:title,desc:desc});
+  }
+
+  // ordenar
+  for (var cid in epg.programsById){
+    epg.programsById[cid].sort(function(a,b){ return (a.start?+a.start:0) - (b.start?+b.start:0); });
+  }
+  log('<b>EPG</b>: canales='+Object.keys(epg.channelsById).length+' programas='+Object.keys(epg.programsById).length);
+}
+
+function fetchEPG(url){
+  xhrGet(url, function(err, txt){
+    if(err){ log('ERROR EPG:', err.message); alert('No se pudo descargar la EPG. Revisá CORS/URL. Probá pegar el XML en Config.'); return; }
+    loadEPGFromXML(txt);
+    applyEPGMatching(); renderGuide();
+    if (channels[currentIndex]) updateInfoBar(channels[currentIndex], false);
+  });
+}
+
+/* ====================== MATCHING ====================== */
 function applyEPGMatching(){
-  channels.forEach(function(ch){
-    var key=null;
-    if(ch.tvgId && epg.channelsById.has(ch.tvgId)) key=ch.tvgId;
-    else { var guess=epg.nameIndex.get(normalize(ch.name)); if(guess) key=guess; }
-    ch.epgKey=key;
-  });
+  var i;
+  for(i=0;i<channels.length;i++){
+    var ch = channels[i], key=null;
+    if (ch.tvgId && epg.channelsById[ch.tvgId]) key = ch.tvgId;
+    else{
+      var guess = epg.nameIndex[ normalize(ch.name) ];
+      if (guess) key = guess;
+    }
+    ch.epgKey = key;
+  }
 }
+
+/* ====================== EPG NOW/NEXT ====================== */
 function getNowNextFor(epgKey){
   if(!epgKey) return {now:null,next:null};
-  var list=epg.programsById.get(epgKey)||[], now=new Date(), cur=null,nxt=null;
-  for(var i=0;i<list.length;i++){
-    var p=list[i]; if(p.start&&p.stop&&now>=p.start&&now<=p.stop){cur=p;nxt=list[i+1]||null;break;}
-    if(p.start&&now<p.start){nxt=p;break;}
+  var list = epg.programsById[epgKey] || [];
+  var now = new Date(), current=null, next=null, i;
+
+  for(i=0;i<list.length;i++){
+    var p = list[i];
+    if(p.start && p.stop && now>=p.start && now<=p.stop){ current=p; next=list[i+1]||null; break; }
+    if(p.start && now<p.start){ next=p; break; }
   }
-  if(!cur&&list.length){ for(var j=list.length-1;j>=0;j--){ var q=list[j]; if(q.start&&now>=q.start){cur=q;nxt=list[j+1]||null;break;} } }
-  return {now:cur,next:nxt};
+  if(!current && list.length){
+    for(i=list.length-1;i>=0;i--){
+      var q=list[i]; if(q.start && now>=q.start){ current=q; next=list[i+1]||null; break; }
+    }
+  }
+  return {now:current,next:next};
 }
 
-/* ================== INFO BAR ================== */
+/* ====================== INFO BAR ====================== */
 function updateInfoBar(ch, autohide){
-  ibChannel.textContent = ch?.name || '—';
-  ibGroup.textContent   = ch?.group || '';
-  ibLogo.src            = ch?.logo || 'https://i.ibb.co/0jzN7V6/default-icon.png';
+  ibChannel.textContent = ch? ch.name : '—';
+  ibGroup.textContent   = ch && ch.group ? ch.group : '';
+  ibLogo.src            = (ch && ch.logo) ? ch.logo : 'https://i.ibb.co/0jzN7V6/default-icon.png';
 
-  var pair=getNowNextFor(ch?.epgKey);
-  if(pair.now){
+  var pair = getNowNextFor(ch? ch.epgKey : null);
+  if (pair.now){
     ibNowTitle.textContent = pair.now.title || '(sin título)';
     ibNowTime.textContent  = '('+fmtTime(pair.now.start)+'–'+fmtTime(pair.now.stop)+')';
     updateProgress(pair.now.start, pair.now.stop);
-  }else{ ibNowTitle.textContent='Sin datos'; ibNowTime.textContent=''; updateProgress(); }
-  if(pair.next){ ibNextTitle.textContent=pair.next.title||'(sin título)'; ibNextTime.textContent='('+fmtTime(pair.next.start)+'–'+fmtTime(pair.next.stop)+')'; }
-  else { ibNextTitle.textContent='—'; ibNextTime.textContent=''; }
+  } else {
+    ibNowTitle.textContent = 'Sin datos';
+    ibNowTime.textContent  = '';
+    updateProgress();
+  }
+  if (pair.next){
+    ibNextTitle.textContent = pair.next.title || '(sin título)';
+    ibNextTime.textContent  = '('+fmtTime(pair.next.start)+'–'+fmtTime(pair.next.stop)+')';
+  } else {
+    ibNextTitle.textContent = '—';
+    ibNextTime.textContent  = '';
+  }
 
   showInfoBar(autohide?14:0);
 }
 function showInfoBar(seconds){
   clearTimeout(infoBarHideTimer);
   infoBar.style.display='flex';
-  if(seconds>0) infoBarHideTimer=setTimeout(function(){infoBar.style.display='none';}, seconds*1000);
+  if(seconds>0){ infoBarHideTimer=setTimeout(function(){ infoBar.style.display='none'; }, seconds*1000); }
 }
 
-/* ================== UI: GUÍA Y CANALES ================== */
+/* ====================== GUÍA ====================== */
 function renderGuide(){
   guide.innerHTML='';
-  channels.forEach(function(ch,i){
-    var div=document.createElement('div'); div.className='channel'; div.dataset.index=i;
-    var row=document.createElement('div'); row.className='ch-row';
-    var img=document.createElement('img'); img.className='ch-logo'; img.src=ch.logo||'https://i.ibb.co/0jzN7V6/default-icon.png'; img.alt=ch.name;
-    var info=document.createElement('div');
-    var title=document.createElement('div'); title.className='ch-title'; title.textContent=ch.name;
-    var nowDiv=document.createElement('div'); nowDiv.className='ch-epg-now';
-    var nextDiv=document.createElement('div'); nextDiv.className='ch-epg-next';
-    var pair=getNowNextFor(ch.epgKey);
-    nowDiv.textContent = pair.now ? ('Ahora: '+(pair.now.title||'(sin título)')+' ('+fmtTime(pair.now.start)+'–'+fmtTime(pair.now.stop)+')') : 'Ahora: Sin datos';
-    nextDiv.textContent= pair.next? ('Sigue: '+(pair.next.title||'(sin título)')+' ('+fmtTime(pair.next.start)+'–'+fmtTime(pair.next.stop)+')') : '';
-    info.appendChild(title); info.appendChild(nowDiv); info.appendChild(nextDiv);
-    row.appendChild(img); row.appendChild(info); div.appendChild(row); guide.appendChild(div);
-  });
-  highlightSelected();
-}
-function highlightSelected(){ Array.prototype.forEach.call(document.querySelectorAll('.channel'), function(el,i){ el.classList.toggle('selected', i===currentIndex); }); }
-
-function setChannel(index){
-  if(!channels[index]) return;
-  previousIndex=currentIndex; currentIndex=index;
-  var ch=channels[index];
-  player.src=ch.url;
-  waitLogo.src=ch.logo||'https://i.ibb.co/0jzN7V6/default-icon.png';
-  updateInfoBar(ch, true);
-  highlightSelected();
-}
-
-/* ================== TECLAS: CAPTURA ROBUSTA ================== */
-/* Mapea key / code / keyCode de remotos Android TV y teclados */
-function getIntent(e){
-  var k=e.key, c=e.code, kc=e.keyCode||e.which;
-  // DPAD / navegación
-  if(k==='ArrowUp'   || kc===19) return 'UP';
-  if(k==='ArrowDown' || kc===20) return 'DOWN';
-  if(k==='ArrowLeft' || kc===21) return 'LEFT';
-  if(k==='ArrowRight'|| kc===22) return 'RIGHT';
-  // OK / Enter
-  if(k==='Enter' || kc===23 || kc===66) return 'OK';
-  // Back / Return (Android TV: 4, WebOS: 461)
-  if(k==='Backspace'|| k==='Escape' || kc===4 || kc===27 || kc===461) return 'BACK';
-  // Info
-  if(k==='Info' || k==='F1' || k==='i' || kc===457) return 'INFO';
-  // Guide
-  if(k==='Guide' || kc===458) return 'GUIDE';
-  // Channel +/- (166/167 son comunes)
-  if(k==='ChannelUp'   || kc===166) return 'CH_UP';
-  if(k==='ChannelDown' || kc===167) return 'CH_DOWN';
-  // Play/Pause
-  if(k==='MediaPlayPause' || kc===85 || kc===179) return 'PLAYPAUSE';
-  // Números: PC (48–57), Android TV (7–16)
-  if((kc>=48&&kc<=57) || (kc>=7&&kc<=16)) return 'DIGIT';
-  return '';
-}
-
-/* Forzamos foco para que el WebView entregue las teclas */
-function ensureFocus(){ if(document.activeElement!==document.body){ try{document.body.focus();}catch(_){} } }
-window.addEventListener('load', function(){ document.body.setAttribute('tabindex','-1'); ensureFocus(); setTimeout(ensureFocus,200); setTimeout(ensureFocus,1000); });
-document.addEventListener('click', ensureFocus);
-document.addEventListener('touchstart', ensureFocus);
-
-/* Escucha en fase de captura para vencer al <video> */
-document.addEventListener('keydown', function(e){
-  var intent = getIntent(e);
-  if(!intent) return;
-  e.preventDefault(); e.stopPropagation();
-
-  var isGuideOpen = (guide.style.display==='block');
-
-  // Acumulador de números (salto directo)
-  if(intent==='DIGIT'){
-    var kc=e.keyCode||e.which, d;
-    if(kc>=48&&kc<=57) d=String.fromCharCode(kc);
-    else if(kc>=7&&kc<=16) d=String(kc-7);
-    else d=(e.key||'').replace(/\D/g,'');
-    if(!d) return;
-    channelInput+=d;
-    showChannelOverlay(channelInput);
-    clearTimeout(inputTimeout);
-    inputTimeout=setTimeout(function(){
-      var idx=parseInt(channelInput,10)-1;
-      if(!isNaN(idx) && channels[idx]) setChannel(idx);
-      channelInput=''; hideChannelOverlay();
-    },1200);
-    return;
-  }
-
-  switch(intent){
-    case 'UP':
-      if(isGuideOpen){ moveGuide(-1); } else { stepChannel(-1); }
-      break;
-    case 'DOWN':
-      if(isGuideOpen){ moveGuide(+1); } else { stepChannel(+1); }
-      break;
-    case 'LEFT':
-      if(isGuideOpen){ closeGuide(); } break;
-    case 'RIGHT':
-      if(!isGuideOpen){ openGuide(); } break;
-    case 'OK':
-      if(isGuideOpen){ selectGuide(); } else { showInfoBar(14); }
-      break;
-    case 'BACK':
-      if(isGuideOpen){ closeGuide(); }
-      else { showReturnAndGoBack(); }
-      break;
-    case 'INFO':
-      if(channels[currentIndex]) updateInfoBar(channels[currentIndex], true);
-      break;
-    case 'GUIDE':
-      if(isGuideOpen) closeGuide(); else openGuide();
-      break;
-    case 'CH_UP':
-      stepChannel(+1); break;
-    case 'CH_DOWN':
-      stepChannel(-1); break;
-    case 'PLAYPAUSE':
-      try{ if(player.paused) player.play(); else player.pause(); }catch(_){}
-      break;
-  }
-}, true);
-
-/* Helpers de guía y zapping */
-function moveGuide(delta){
-  var items=[].slice.call(document.querySelectorAll('.channel'));
-  if(!items.length) return;
-  var idx=items.findIndex(el=>el.classList.contains('selected'));
-  if(idx<0) idx=currentIndex;
-  idx=(idx+delta+channels.length)%channels.length;
-  items.forEach((el,i)=>el.classList.toggle('selected', i===idx));
-  items[idx].scrollIntoView({block:'center',behavior:'smooth'});
-}
-function selectGuide(){
-  var item=document.querySelector('.channel.selected');
-  if(!item) return; setChannel(+item.dataset.index); closeGuide();
-}
-function stepChannel(delta){
-  var idx=(currentIndex+delta+channels.length)%channels.length; setChannel(idx);
-}
-function openGuide(){ guide.style.display='block'; document.body.classList.add('guide-open'); renderGuide(); ensureFocus(); }
-function closeGuide(){ guide.style.display='none'; document.body.classList.remove('guide-open'); ensureFocus(); }
-
-/* Overlays de canal / volver */
-function showChannelOverlay(txt){
-  var o=document.getElementById('channelOverlay'); o.style.display='block';
-  document.getElementById('overlayNumber').textContent=txt;
-  var idx=parseInt(txt,10)-1; document.getElementById('overlayName').textContent = channels[idx]?channels[idx].name:'—';
-}
-function hideChannelOverlay(){ document.getElementById('channelOverlay').style.display='none'; }
-function showReturnAndGoBack(){
-  var box=document.getElementById('returnMessage'); box.style.display='block';
-  setTimeout(function(){ box.style.display='none'; setChannel(previousIndex); }, 1200);
-}
-
-/* ================== CLICK HANDLERS BÁSICOS ================== */
-guide.addEventListener('click', function(e){
-  var item=e.target.closest('.channel'); if(!item) return; setChannel(+item.dataset.index); closeGuide();
-});
-guideToggle.addEventListener('click', function(){ (guide.style.display==='block')? closeGuide(): openGuide(); });
-
-/* ================== RENDER GUÍA ================== */
-function renderGuide(){
-  guide.innerHTML='';
-  channels.forEach(function(ch,i){
-    var div=document.createElement('div'); div.className='channel'; div.dataset.index=i;
+  for (var i=0;i<channels.length;i++){
+    var ch = channels[i];
+    var div=document.createElement('div'); div.className='channel'; div.setAttribute('data-index', i);
     var row=document.createElement('div'); row.className='ch-row';
     var img=document.createElement('img'); img.className='ch-logo'; img.src=ch.logo||'https://i.ibb.co/0jzN7V6/default-icon.png';
     var info=document.createElement('div');
@@ -406,69 +402,144 @@ function renderGuide(){
     nextDiv.textContent = pair.next?('Sigue: '+(pair.next.title||'(sin título)')+' ('+fmtTime(pair.next.start)+'–'+fmtTime(pair.next.stop)+')'):'';
     info.appendChild(title); info.appendChild(nowDiv); info.appendChild(nextDiv);
     row.appendChild(img); row.appendChild(info); div.appendChild(row); guide.appendChild(div);
-  });
+  }
+  highlightSelected();
+}
+function highlightSelected(){
+  var nodes = document.querySelectorAll('.channel');
+  for (var i=0;i<nodes.length;i++){
+    nodes[i].classList.toggle('selected', i===currentIndex);
+  }
+}
+
+/* ====================== ZAPPING ====================== */
+function setChannel(index){
+  if(!channels[index]) return;
+  previousIndex=currentIndex; currentIndex=index;
+  var ch = channels[index];
+  player.src = ch.url;
+  waitLogo.src = ch.logo || 'https://i.ibb.co/0jzN7V6/default-icon.png';
+  updateInfoBar(ch, true);
   highlightSelected();
 }
 
-/* ================== CARGA EPG + MATCH ================== */
-function applyEPGMatching(){
-  channels.forEach(function(ch){
-    var key=null; if(ch.tvgId && epg.channelsById.has(ch.tvgId)) key=ch.tvgId;
-    else { var g=epg.nameIndex.get(normalize(ch.name)); if(g) key=g; }
-    ch.epgKey=key;
-  });
+/* ====================== TECLAS TV BOX ====================== */
+function getIntent(e){
+  var k=e.key, kc=e.keyCode||e.which;
+  if(k==='ArrowUp'   || kc===19) return 'UP';
+  if(k==='ArrowDown' || kc===20) return 'DOWN';
+  if(k==='ArrowLeft' || kc===21) return 'LEFT';
+  if(k==='ArrowRight'|| kc===22) return 'RIGHT';
+  if(k==='Enter' || kc===23 || kc===66) return 'OK';
+  if(k==='Backspace'||k==='Escape'||kc===4||kc===27||kc===461) return 'BACK';
+  if(k==='Info'||k==='F1'||k==='i'||kc===457) return 'INFO';
+  if(k==='Guide'||kc===458) return 'GUIDE';
+  if(k==='ChannelUp'||kc===166) return 'CH_UP';
+  if(k==='ChannelDown'||kc===167) return 'CH_DOWN';
+  if((kc>=48&&kc<=57)||(kc>=7&&kc<=16)) return 'DIGIT';
+  if(k==='l' || k==='L') return 'LOG';
+  return '';
 }
-function getNowNextFor(epgKey){
-  if(!epgKey) return {now:null,next:null};
-  var list=epg.programsById.get(epgKey)||[], now=new Date(), cur=null,nxt=null;
-  for(var i=0;i<list.length;i++){
-    var p=list[i]; if(p.start&&p.stop&&now>=p.start&&now<=p.stop){ cur=p; nxt=list[i+1]||null; break; }
-    if(p.start&&now<p.start){ nxt=p; break; }
-  }
-  if(!cur&&list.length){ for(var j=list.length-1;j>=0;j--){ var q=list[j]; if(q.start&&now>=q.start){ cur=q; nxt=list[j+1]||null; break; } } }
-  return {now:cur,next:nxt};
-}
+function ensureFocus(){ if(document.activeElement!==document.body){ try{document.body.focus();}catch(e){} } }
+window.addEventListener('load', function(){ document.body.setAttribute('tabindex','1'); ensureFocus(); setTimeout(ensureFocus,200); setTimeout(ensureFocus,1000); });
+document.addEventListener('click', ensureFocus);
+document.addEventListener('touchstart', ensureFocus);
 
-/* ================== FETCH XMLTV/M3U ================== */
-function parseXMLTV(xmlText){
-  var doc=new DOMParser().parseFromString(xmlText,'text/xml');
-  epg.channelsById.clear(); epg.nameIndex.clear(); epg.programsById.clear();
-  doc.querySelectorAll('channel').forEach(function(c){
-    var id=c.getAttribute('id')||'', dn=(c.querySelector('display-name')||{}).textContent||id, icon=(c.querySelector('icon')||{}).getAttribute?c.querySelector('icon').getAttribute('src'):'';
-    epg.channelsById.set(id,{id:id,displayName:dn,icon:icon}); epg.nameIndex.set(normalize(dn), id);
-  });
-  doc.querySelectorAll('programme').forEach(function(p){
-    var cid=p.getAttribute('channel')||'', start=parseXMLTVDate(p.getAttribute('start')), stop=parseXMLTVDate(p.getAttribute('stop')), title=(p.querySelector('title')||{}).textContent||'', desc=(p.querySelector('desc')||{}).textContent||'';
-    if(!epg.programsById.has(cid)) epg.programsById.set(cid,[]);
-    epg.programsById.get(cid).push({cid:cid,start:start,stop:stop,title:title,desc:desc});
-  });
-  epg.programsById.forEach(function(list){ list.sort(function(a,b){return (a.start?+a.start:0)-(b.start?+b.start:0);}); });
-}
-function parseM3U(text){
-  var lines=text.split(/\r?\n/), list=[], ch=null;
-  for(var i=0;i<lines.length;i++){
-    var line=lines[i].trim(); if(!line) continue;
-    if(line.startsWith('#EXTINF')){
-      var title=(line.match(/,(.*)$/)||[])[1]||'';
-      var attrs={}, re=/([a-zA-Z0-9\-]+)="([^"]*)"/g, m; while((m=re.exec(line))) attrs[m[1]]=m[2];
-      ch={name:attrs['tvg-name']||title||'Canal',logo:attrs['tvg-logo']||'',title:title||'',url:'',tvgId:attrs['tvg-id']||'',group:attrs['group-title']||'',epgKey:null};
-    }else if(/^https?:\/\//i.test(line)){
-      if(!ch) ch={name:'Canal',logo:'',title:'',url:'',tvgId:'',group:'',epgKey:null};
-      ch.url=line; list.push(ch); ch=null;
-    }
-  }
-  channels=list;
-}
+document.addEventListener('keydown', function(e){
+  var intent = getIntent(e); if(!intent) return;
+  e.preventDefault(); e.stopPropagation();
 
-/* ================== ARRANQUE ================== */
-function start(){
-  // foco inicial y hint
-  ensureFocus(); focusHint.style.display='block';
-  setTimeout(function(){ focusHint.style.display='none'; }, 4000);
-  fetchEPG(); fetchM3U();
+  var isGuideOpen = (guide.style.display==='block');
+
+  if(intent==='LOG'){ showLog(logBox.style.display!=='block'); return; }
+
+  if(intent==='DIGIT'){
+    var kc=e.keyCode||e.which, d;
+    if(kc>=48&&kc<=57) d=String.fromCharCode(kc);
+    else if(kc>=7&&kc<=16) d=String(kc-7);
+    else d=(e.key||'').replace(/\D/g,'');
+    if(!d) return;
+    channelInput+=d;
+    document.getElementById('channelOverlay').style.display='block';
+    document.getElementById('overlayNumber').textContent=channelInput;
+    var idx=parseInt(channelInput,10)-1;
+    document.getElementById('overlayName').textContent = channels[idx]?channels[idx].name:'—';
+    clearTimeout(inputTimeout);
+    inputTimeout=setTimeout(function(){
+      if(channels[idx]) setChannel(idx);
+      channelInput=''; document.getElementById('channelOverlay').style.display='none';
+    },1200);
+    return;
+  }
+
+  switch(intent){
+    case 'UP':   isGuideOpen? moveGuide(-1): stepChannel(-1); break;
+    case 'DOWN': isGuideOpen? moveGuide(+1): stepChannel(+1); break;
+    case 'LEFT': if(isGuideOpen) closeGuide(); break;
+    case 'RIGHT':if(!isGuideOpen) openGuide(); break;
+    case 'OK':   isGuideOpen? selectGuide(): showInfoBar(14); break;
+    case 'BACK': isGuideOpen? closeGuide(): returnPrev(); break;
+    case 'INFO': if(channels[currentIndex]) updateInfoBar(channels[currentIndex], true); break;
+    case 'GUIDE':isGuideOpen? closeGuide(): openGuide(); break;
+    case 'CH_UP': stepChannel(+1); break;
+    case 'CH_DOWN': stepChannel(-1); break;
+  }
+}, true);
+
+function moveGuide(delta){
+  var items = document.querySelectorAll('.channel'); if(!items.length) return;
+  var idx = -1, i;
+  for(i=0;i<items.length;i++){ if(items[i].classList.contains('selected')){ idx=i; break; } }
+  if(idx<0) idx=currentIndex;
+  idx = (idx+delta+channels.length)%channels.length;
+  for(i=0;i<items.length;i++){ items[i].classList.toggle('selected', i===idx); }
+  items[idx].scrollIntoView({block:'center'});
 }
-function ensureFocus(){ if(document.activeElement!==document.body){ try{document.body.focus();}catch(_){} } }
-window.addEventListener('load', start);
+function selectGuide(){ var item=document.querySelector('.channel.selected'); if(!item) return; setChannel(+item.getAttribute('data-index')); closeGuide(); }
+function stepChannel(delta){ var idx=(currentIndex+delta+channels.length)%channels.length; setChannel(idx); }
+function openGuide(){ guide.style.display='block'; document.body.classList.add('guide-open'); renderGuide(); ensureFocus(); }
+function closeGuide(){ guide.style.display='none'; document.body.classList.remove('guide-open'); ensureFocus(); }
+function returnPrev(){ var box=document.getElementById('returnMessage'); box.style.display='block'; setTimeout(function(){ box.style.display='none'; setChannel(previousIndex); },1200); }
+
+/* ====================== BOTONES ====================== */
+guideToggle.onclick=function(){ (guide.style.display==='block')? closeGuide(): openGuide(); };
+cfgBtn.onclick=function(){ openCfg(); };
+btnCloseCfg.onclick=function(){ closeCfg(); };
+btnApply.onclick=function(){
+  closeCfg();
+  EPG_NO_TZ_MODE = noTzModeSel.value;
+  EPG_OFFSET_MIN = parseInt(epgOffsetInp.value||'0',10)||0;
+
+  if (epgPaste.value.trim()){
+    loadEPGFromXML(epgPaste.value); log('EPG cargada por pegado'); 
+  } else if (epgUrlInp.value.trim()){
+    fetchEPG(epgUrlInp.value.trim());
+  }
+
+  if (m3uPaste.value.trim()){
+    loadM3UFromText(m3uPaste.value); applyEPGMatching(); renderGuide(); setChannel(0); log('M3U cargada por pegado');
+  } else if (m3uUrlInp.value.trim()){
+    fetchM3U(m3uUrlInp.value.trim());
+  }
+};
+
+/* ====================== CFG OVERLAY ====================== */
+function openCfg(){
+  m3uUrlInp.value = m3uUrlInp.value || DEFAULT_M3U_URL;
+  epgUrlInp.value = epgUrlInp.value || DEFAULT_EPG_URL;
+  epgOffsetInp.value = EPG_OFFSET_MIN;
+  noTzModeSel.value  = EPG_NO_TZ_MODE;
+  cfg.style.display = 'block';
+}
+function closeCfg(){ cfg.style.display = 'none'; }
+
+/* ====================== RENDER / START ====================== */
+function renderStart(){
+  // Carga inicial por URL (si CORS lo permite)
+  fetchEPG(DEFAULT_EPG_URL);
+  fetchM3U(DEFAULT_M3U_URL);
+}
+renderStart();
 </script>
 </body>
 </html>
