@@ -2,100 +2,104 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>↔ Google Sheets</title>
+  <title>Gestor de Contenidos</title>
   <style>
-    body { font-family: Arial; padding: 20px; background: #f3f3f3; }
-    h2 { color: #444; }
-    input, button { margin: 10px 0; }
-    #log { background: #eee; padding: 10px; border-radius: 5px; white-space: pre-wrap; }
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background: #f3f3f3;
+      color: #333;
+    }
+    h2 {
+      color: #444;
+    }
+    input, button {
+      margin-top: 10px;
+      padding: 8px;
+    }
+    #log {
+      margin-top: 20px;
+      background: #eee;
+      padding: 10px;
+      border-radius: 4px;
+      white-space: pre-wrap;
+    }
+    progress {
+      width: 100%;
+      height: 20px;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
-  <h2>🔁↔ Google Sheets</h2>
 
-  <input type="file" id="m3uFile" accept=".m3u"><br>
-  <button onclick="processM3U()">Enviar a Google Sheets</button><br><br>
-  <button onclick="downloadM3U()">⬇️ Descargar</button>
+  <h2>📁 Procesador de Archivos</h2>
 
-  <div id="log">🧠 Esperando acción...</div>
+  <input type="file" id="fileInput" accept=".txt,.csv,.data"><br>
+  <button onclick="procesarArchivo()">Procesar y Enviar</button>
+
+  <progress id="barraProgreso" value="0" max="100"></progress>
+
+  <div id="log">Esperando archivo...</div>
 
   <script>
-    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzqXdG41_YISkWAhmc8XFQp15XVnttYTypH8O90o9vcBAMRDITCKMz5dcnaUHAY-6Qu/exec'; // <== Pega la URL del Web App aquí
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzqXdG41_YISkWAhmc8XFQp15XVnttYTypH8O90o9vcBAMRDITCKMz5dcnaUHAY-6Qu/exec';
 
-    async function processM3U() {
-      const fileInput = document.getElementById('m3uFile');
+    async function procesarArchivo() {
+      const fileInput = document.getElementById('fileInput');
       const log = document.getElementById('log');
+      const barra = document.getElementById('barraProgreso');
 
       if (!fileInput.files.length) {
-        log.textContent = "⚠️ Selecciona un archivo .m3u primero.";
+        log.textContent = "⚠️ Selecciona un archivo primero.";
         return;
       }
 
       const reader = new FileReader();
       reader.onload = async function(e) {
         const lines = e.target.result.split('\n');
-        const channels = [];
+        const items = [];
 
         for (let i = 0; i < lines.length; i++) {
           if (lines[i].startsWith('#EXTINF')) {
-            const extinf = lines[i];
-            const url = lines[i + 1]?.trim();
+            const dataLine = lines[i];
+            const nextLine = lines[i + 1]?.trim();
 
-            const logo = extinf.match(/tvg-logo="([^"]+)"/)?.[1] || '';
-            const group = extinf.match(/group-title="([^"]+)"/)?.[1] || '';
-            const name = extinf.split(',').pop().trim();
+            const logo = dataLine.match(/tvg-logo="([^"]+)"/)?.[1] || '';
+            const group = dataLine.match(/group-title="([^"]+)"/)?.[1] || '';
+            const name = dataLine.split(',').pop().trim();
 
-            channels.push({ name, url, logo, group });
+            items.push({ name, url: nextLine, logo, group });
           }
         }
 
-        log.textContent = `⏳ Procesando ${channels.length} canales...`;
+        log.textContent = `Total procesado: ${items.length} entradas\nIniciando envío...`;
+        barra.value = 0;
 
-        for (let i = 0; i < channels.length; i += 50) {
-          const chunk = channels.slice(i, i + 50);
+        for (let i = 0; i < items.length; i += 50) {
+          const chunk = items.slice(i, i + 50);
           const formData = new FormData();
           formData.append("data", JSON.stringify(chunk));
 
-          const res = await fetch(GOOGLE_SCRIPT_URL, {
-            method: 'POST',
-            body: formData
-          });
-
-          const text = await res.text();
-          log.textContent += `\n✔️ Chunk enviado: ${text}`;
+          try {
+            const res = await fetch(GOOGLE_SCRIPT_URL, {
+              method: 'POST',
+              body: formData
+            });
+            const text = await res.text();
+            const porcentaje = Math.min(100, Math.floor(((i + 50) / items.length) * 100));
+            barra.value = porcentaje;
+            log.textContent = `Enviando... ${porcentaje}% completado (${i + 50}/${items.length})\nÚltima respuesta: ${text}`;
+          } catch (err) {
+            log.textContent += `\n❌ Error: ${err}`;
+            break;
+          }
         }
 
-        log.textContent += `\n✅ Finalizado. Todos los canales fueron enviados.`;
+        log.textContent += `\n✅ Proceso finalizado.`;
       };
 
       reader.readAsText(fileInput.files[0]);
-    }
-
-    async function downloadM3U() {
-      const log = document.getElementById('log');
-      log.textContent = "📥 Descargando desde Sheets...";
-
-      try {
-        const res = await fetch(GOOGLE_SCRIPT_URL);
-        const channels = await res.json();
-
-        let m3uContent = '#EXTM3U\n';
-        channels.forEach(ch => {
-          m3uContent += `#EXTINF:-1 tvg-logo="${ch.logo}" group-title="${ch.group}",${ch.name}\n${ch.url}\n`;
-        });
-
-        const blob = new Blob([m3uContent], { type: 'text/plain' });
-        const a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = 'canales_from_sheets.m3u';
-        document.body.appendChild(a);
-        a.click();
-        a.remove();
-
-        log.textContent += `\n✅ Descargado: ${channels.length} canales`;
-      } catch (err) {
-        log.textContent += `\n❌ Error al descargar: ${err}`;
-      }
     }
   </script>
 </body>
