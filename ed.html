@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>M3U <=> Google Sheets</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+    h2 { color: #444; }
+    input, button { margin: 5px 0; }
+    #log { white-space: pre-wrap; background: #eee; padding: 10px; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h2>🔁 Convertir M3U <=> Google Sheets</h2>
+
+  <label>Cargar archivo M3U:</label><br>
+  <input type="file" id="m3uFile" accept=".m3u"><br>
+  <button onclick="processM3U()">Enviar a Google Sheets</button><br><br>
+
+  <button onclick="downloadM3U()">⬇️ Descargar desde Google Sheets como .m3u</button>
+
+  <div id="log">🧠 Esperando acciones...</div>
+
+  <script>
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwlJP-zphb3X5SgdhhmwfQFRpNKCDRejh4vjq-B8O9289FJFmfvGrQa8TUpwxffMVe6/exec';
+
+    async function processM3U() {
+      const fileInput = document.getElementById('m3uFile');
+      const log = document.getElementById('log');
+
+      if (!fileInput.files.length) {
+        log.textContent = "⚠️ Debes seleccionar un archivo .m3u";
+        return;
+      }
+
+      const reader = new FileReader();
+      reader.onload = async function(e) {
+        const lines = e.target.result.split('\n');
+        const channels = [];
+
+        for (let i = 0; i < lines.length; i++) {
+          if (lines[i].startsWith('#EXTINF')) {
+            const extinf = lines[i];
+            const url = lines[i + 1]?.trim();
+
+            const logo = extinf.match(/tvg-logo="([^"]+)"/)?.[1] || '';
+            const group = extinf.match(/group-title="([^"]+)"/)?.[1] || '';
+            const name = extinf.split(',').pop().trim();
+
+            channels.push({ name, url, logo, group });
+          }
+        }
+
+        log.textContent = `📡 Canales procesados: ${channels.length}\n⏳ Enviando a Google Sheets...`;
+
+        try {
+          for (let i = 0; i < channels.length; i += 50) {
+            const chunk = channels.slice(i, i + 50);
+            const res = await fetch(GOOGLE_SCRIPT_URL, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(chunk)
+            });
+            const response = await res.json();
+            log.textContent += `\n✔️ Chunk enviado (${response.count || "?"})`;
+          }
+          log.textContent += `\n✅ Todos los datos fueron enviados correctamente.`;
+        } catch (error) {
+          log.textContent += `\n❌ Error al enviar: ${error}`;
+        }
+      };
+
+      reader.readAsText(fileInput.files[0]);
+    }
+
+    async function downloadM3U() {
+      const log = document.getElementById('log');
+      log.textContent = "📥 Descargando canales desde Google Sheets...";
+
+      try {
+        const res = await fetch(GOOGLE_SCRIPT_URL);
+        const channels = await res.json();
+
+        let m3uContent = '#EXTM3U\n';
+        channels.forEach(ch => {
+          m3uContent += `#EXTINF:-1 tvg-logo="${ch.logo}" group-title="${ch.group}",${ch.name}\n${ch.url}\n`;
+        });
+
+        const blob = new Blob([m3uContent], { type: 'text/plain' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'from_google_sheet.m3u';
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+
+        log.textContent += `\n✅ Archivo .m3u generado (${channels.length} canales)`;
+      } catch (err) {
+        log.textContent += `\n❌ Error al descargar: ${err}`;
+      }
+    }
+  </script>
+</body>
+</html>
