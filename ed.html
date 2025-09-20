@@ -2,42 +2,26 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Gestor de Contenidos</title>
+  <title>Gestor con Filtro de Categorías</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 30px;
-      background: #f3f3f3;
-      color: #333;
-    }
-    h2 {
-      color: #444;
-    }
-    input, button {
-      margin-top: 10px;
-      padding: 8px;
-    }
-    #log {
-      margin-top: 20px;
-      background: #eee;
-      padding: 10px;
-      border-radius: 4px;
-      white-space: pre-wrap;
-    }
-    progress {
-      width: 100%;
-      height: 20px;
-      margin-top: 10px;
-    }
+    body { font-family: Arial, sans-serif; padding: 30px; background: #f0f0f0; color: #333; }
+    input, button { margin: 10px 0; padding: 8px; }
+    #categorias { margin: 20px 0; padding: 10px; background: #fff; border: 1px solid #ccc; max-height: 300px; overflow-y: auto; }
+    .categoria { margin-bottom: 5px; }
+    #log { white-space: pre-wrap; background: #eee; padding: 10px; border-radius: 4px; margin-top: 20px; }
+    progress { width: 100%; height: 20px; margin-top: 10px; }
   </style>
 </head>
 <body>
 
-  <h2>📁 Procesador de Archivos</h2>
+  <h2>📁 Procesar Archivo con Filtro</h2>
 
   <input type="file" id="fileInput" accept=".txt,.csv,.data"><br>
-  <button onclick="procesarArchivo()">Procesar y Enviar</button>
+  <button onclick="analizarArchivo()">Analizar Categorías</button>
 
+  <div id="categorias">⚠️ Aún no se ha cargado ningún archivo.</div>
+
+  <button onclick="enviarSeleccionados()">Enviar Selección</button>
   <progress id="barraProgreso" value="0" max="100"></progress>
 
   <div id="log">Esperando archivo...</div>
@@ -45,20 +29,22 @@
   <script>
     const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzqXdG41_YISkWAhmc8XFQp15XVnttYTypH8O90o9vcBAMRDITCKMz5dcnaUHAY-6Qu/exec';
 
-    async function procesarArchivo() {
-      const fileInput = document.getElementById('fileInput');
-      const log = document.getElementById('log');
-      const barra = document.getElementById('barraProgreso');
+    let todosLosCanales = [];
 
-      if (!fileInput.files.length) {
-        log.textContent = "⚠️ Selecciona un archivo primero.";
+    function analizarArchivo() {
+      const input = document.getElementById('fileInput');
+      const log = document.getElementById('log');
+      const categoriasDiv = document.getElementById('categorias');
+
+      if (!input.files.length) {
+        log.textContent = "⚠️ Selecciona un archivo.";
         return;
       }
 
       const reader = new FileReader();
-      reader.onload = async function(e) {
+      reader.onload = function(e) {
         const lines = e.target.result.split('\n');
-        const items = [];
+        todosLosCanales = [];
 
         for (let i = 0; i < lines.length; i++) {
           if (lines[i].startsWith('#EXTINF')) {
@@ -66,40 +52,69 @@
             const nextLine = lines[i + 1]?.trim();
 
             const logo = dataLine.match(/tvg-logo="([^"]+)"/)?.[1] || '';
-            const group = dataLine.match(/group-title="([^"]+)"/)?.[1] || '';
+            const group = dataLine.match(/group-title="([^"]+)"/)?.[1] || 'Sin categoría';
             const name = dataLine.split(',').pop().trim();
 
-            items.push({ name, url: nextLine, logo, group });
+            todosLosCanales.push({ name, url: nextLine, logo, group });
           }
         }
 
-        log.textContent = `Total procesado: ${items.length} entradas\nIniciando envío...`;
-        barra.value = 0;
+        // Extraer categorías únicas
+        const categorias = [...new Set(todosLosCanales.map(c => c.group))].sort();
 
-        for (let i = 0; i < items.length; i += 50) {
-          const chunk = items.slice(i, i + 50);
-          const formData = new FormData();
-          formData.append("data", JSON.stringify(chunk));
+        // Mostrar checkboxes
+        categoriasDiv.innerHTML = '<strong>Selecciona las categorías a enviar:</strong><br>';
+        categorias.forEach(cat => {
+          const id = 'cat_' + btoa(cat).replace(/[^a-z0-9]/gi, '');
+          categoriasDiv.innerHTML += `
+            <div class="categoria">
+              <input type="checkbox" id="${id}" name="categoria" value="${cat}" checked>
+              <label for="${id}">${cat}</label>
+            </div>
+          `;
+        });
 
-          try {
-            const res = await fetch(GOOGLE_SCRIPT_URL, {
-              method: 'POST',
-              body: formData
-            });
-            const text = await res.text();
-            const porcentaje = Math.min(100, Math.floor(((i + 50) / items.length) * 100));
-            barra.value = porcentaje;
-            log.textContent = `Enviando... ${porcentaje}% completado (${i + 50}/${items.length})\nÚltima respuesta: ${text}`;
-          } catch (err) {
-            log.textContent += `\n❌ Error: ${err}`;
-            break;
-          }
-        }
-
-        log.textContent += `\n✅ Proceso finalizado.`;
+        log.textContent = `🎯 Archivo procesado. Total de categorías: ${categorias.length}. Total de entradas: ${todosLosCanales.length}.`;
       };
 
-      reader.readAsText(fileInput.files[0]);
+      reader.readAsText(input.files[0]);
+    }
+
+    async function enviarSeleccionados() {
+      const log = document.getElementById('log');
+      const barra = document.getElementById('barraProgreso');
+      const seleccionados = [...document.querySelectorAll('input[name="categoria"]:checked')].map(e => e.value);
+
+      if (seleccionados.length === 0) {
+        log.textContent = "⚠️ No seleccionaste ninguna categoría.";
+        return;
+      }
+
+      const filtrados = todosLosCanales.filter(c => seleccionados.includes(c.group));
+      log.textContent = `📤 Enviando ${filtrados.length} entradas...`;
+      barra.value = 0;
+
+      for (let i = 0; i < filtrados.length; i += 50) {
+        const chunk = filtrados.slice(i, i + 50);
+        const formData = new FormData();
+        formData.append("data", JSON.stringify(chunk));
+
+        try {
+          const res = await fetch(GOOGLE_SCRIPT_URL, {
+            method: 'POST',
+            body: formData
+          });
+          const respuesta = await res.text();
+          const porcentaje = Math.floor(((i + 50) / filtrados.length) * 100);
+          barra.value = porcentaje;
+          log.textContent = `✅ Enviando... ${porcentaje}% (${i + 50}/${filtrados.length})\nÚltima respuesta: ${respuesta}`;
+        } catch (err) {
+          log.textContent += `\n❌ Error: ${err}`;
+          break;
+        }
+      }
+
+      log.textContent += `\n✔️ Proceso finalizado.`;
     }
   </script>
 </body>
