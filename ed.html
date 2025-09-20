@@ -2,34 +2,32 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>M3U <=> Google Sheets</title>
+  <title>↔ Google Sheets</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+    body { font-family: Arial; padding: 20px; background: #f3f3f3; }
     h2 { color: #444; }
-    input, button { margin: 5px 0; }
-    #log { white-space: pre-wrap; background: #eee; padding: 10px; border-radius: 5px; }
+    input, button { margin: 10px 0; }
+    #log { background: #eee; padding: 10px; border-radius: 5px; white-space: pre-wrap; }
   </style>
 </head>
 <body>
-  <h2>🔁 Convertir M3U <=> Google Sheets</h2>
+  <h2>🔁↔ Google Sheets</h2>
 
-  <label>Cargar archivo M3U:</label><br>
   <input type="file" id="m3uFile" accept=".m3u"><br>
   <button onclick="processM3U()">Enviar a Google Sheets</button><br><br>
+  <button onclick="downloadM3U()">⬇️ Descargar</button>
 
-  <button onclick="downloadM3U()">⬇️ Descargar desde Google Sheets como .m3u</button>
-
-  <div id="log">🧠 Esperando acciones...</div>
+  <div id="log">🧠 Esperando acción...</div>
 
   <script>
-    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwwnsAx_ZFjIfR0PFICQDse-1q1BZ3FxPEOBVnaA89JcTAyeCxfgzd5xPICABhtcEQY/exec';
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzqXdG41_YISkWAhmc8XFQp15XVnttYTypH8O90o9vcBAMRDITCKMz5dcnaUHAY-6Qu/exec'; // <== Pega la URL del Web App aquí
 
     async function processM3U() {
       const fileInput = document.getElementById('m3uFile');
       const log = document.getElementById('log');
 
       if (!fileInput.files.length) {
-        log.textContent = "⚠️ Debes seleccionar un archivo .m3u";
+        log.textContent = "⚠️ Selecciona un archivo .m3u primero.";
         return;
       }
 
@@ -51,23 +49,23 @@
           }
         }
 
-        log.textContent = `📡 Canales procesados: ${channels.length}\n⏳ Enviando a Google Sheets...`;
+        log.textContent = `⏳ Procesando ${channels.length} canales...`;
 
-        try {
-          for (let i = 0; i < channels.length; i += 50) {
-            const chunk = channels.slice(i, i + 50);
-            const res = await fetch(GOOGLE_SCRIPT_URL, {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(chunk)
-            });
-            const response = await res.json();
-            log.textContent += `\n✔️ Chunk enviado (${response.count || "?"})`;
-          }
-          log.textContent += `\n✅ Todos los datos fueron enviados correctamente.`;
-        } catch (error) {
-          log.textContent += `\n❌ Error al enviar: ${error}`;
+        for (let i = 0; i < channels.length; i += 50) {
+          const chunk = channels.slice(i, i + 50);
+          const formData = new FormData();
+          formData.append("data", JSON.stringify(chunk));
+
+          const res = await fetch(GOOGLE_SCRIPT_URL, {
+            method: 'POST',
+            body: formData
+          });
+
+          const text = await res.text();
+          log.textContent += `\n✔️ Chunk enviado: ${text}`;
         }
+
+        log.textContent += `\n✅ Finalizado. Todos los canales fueron enviados.`;
       };
 
       reader.readAsText(fileInput.files[0]);
@@ -75,7 +73,7 @@
 
     async function downloadM3U() {
       const log = document.getElementById('log');
-      log.textContent = "📥 Descargando canales desde Google Sheets...";
+      log.textContent = "📥 Descargando desde Sheets...";
 
       try {
         const res = await fetch(GOOGLE_SCRIPT_URL);
@@ -89,12 +87,12 @@
         const blob = new Blob([m3uContent], { type: 'text/plain' });
         const a = document.createElement('a');
         a.href = URL.createObjectURL(blob);
-        a.download = 'from_google_sheet.m3u';
+        a.download = 'canales_from_sheets.m3u';
         document.body.appendChild(a);
         a.click();
         a.remove();
 
-        log.textContent += `\n✅ Archivo .m3u generado (${channels.length} canales)`;
+        log.textContent += `\n✅ Descargado: ${channels.length} canales`;
       } catch (err) {
         log.textContent += `\n❌ Error al descargar: ${err}`;
       }
