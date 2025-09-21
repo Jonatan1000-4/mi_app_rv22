@@ -2,154 +2,150 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Procesador Optimizado</title>
+  <title>Selector de Canales con Buscador</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      padding: 30px;
-      color: #222;
-    }
-    h2 { margin-bottom: 10px; }
-    input[type="file"], button {
-      padding: 10px;
-      margin: 10px 0;
-    }
-    #categorias {
-      background: #fff;
-      padding: 15px;
-      border: 1px solid #ccc;
-      max-height: 300px;
-      overflow-y: auto;
-      margin-top: 10px;
-    }
-    .categoria {
-      margin-bottom: 5px;
-      font-size: 14px;
-    }
-    progress {
-      width: 100%;
-      height: 20px;
-      margin-top: 10px;
-    }
-    #log {
-      margin-top: 20px;
-      background: #eee;
-      padding: 10px;
-      border-radius: 5px;
-      white-space: pre-wrap;
-      font-size: 14px;
-    }
+    body { font-family: Arial; padding: 20px; background: #f3f3f3; color: #222; }
+    #searchInput { width: 100%; padding: 10px; margin-bottom: 20px; font-size: 1.1em; }
+    #results { max-height: 500px; overflow-y: auto; background: #fff; border: 1px solid #ccc; padding: 10px; }
+    .channel-item { padding: 8px; border-bottom: 1px solid #ddd; display: flex; align-items: center; }
+    .channel-item:last-child { border-bottom: none; }
+    .channel-item label { flex: 1; margin-left: 10px; }
+    .channel-item input[type="checkbox"] { flex: 0; }
+    #sendButton { padding: 10px 20px; font-size: 1.1em; margin-top: 20px; }
+    #log { margin-top: 20px; white-space: pre-wrap; background: #eee; padding: 10px; border-radius: 4px; }
   </style>
 </head>
 <body>
 
-  <h2>📁 Procesador de Contenido</h2>
+  <h2>Filtrar y Seleccionar Canales</h2>
+  <input type="file" id="fileInput" accept=".m3u,.txt,.csv"><br>
+  <button onclick="loadChannels()">Cargar Lista</button>
 
-  <input type="file" id="fileInput" accept=".txt,.csv,.data">
-  <button onclick="analizarArchivo()">Analizar</button>
+  <input type="text" id="searchInput" placeholder="Buscar por nombre o grupo..." disabled>
 
-  <div id="categorias">📌 Esperando archivo...</div>
+  <div id="results">No hay canales cargados.</div>
 
-  <button onclick="enviarSeleccion()">Enviar Seleccionados</button>
-  <progress id="barraProgreso" value="0" max="100"></progress>
+  <button id="sendButton" onclick="sendSelected()" disabled>Enviar seleccionados</button>
 
-  <div id="log">Log de proceso...</div>
+  <div id="log">Log:</div>
 
   <script>
     const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzqXdG41_YISkWAhmc8XFQp15XVnttYTypH8O90o9vcBAMRDITCKMz5dcnaUHAY-6Qu/exec';
 
-    let canales = [];
+    let allChannels = []; // { name, url, logo, group }
+    let filteredChannels = [];
+    const maxSendChunk = 50;
 
-    function analizarArchivo() {
-      const archivo = document.getElementById('fileInput').files[0];
+    async function loadChannels() {
+      const input = document.getElementById('fileInput');
       const log = document.getElementById('log');
-      const categoriasDiv = document.getElementById('categorias');
+      const results = document.getElementById('results');
+      const searchInput = document.getElementById('searchInput');
+      const sendButton = document.getElementById('sendButton');
 
-      if (!archivo) {
-        log.textContent = '⚠️ Selecciona un archivo válido.';
+      if (!input.files.length) {
+        log.textContent = "⚠️ Selecciona un archivo primero.";
         return;
       }
+      log.textContent = "Cargando archivo...";
+      allChannels = [];
+      filteredChannels = [];
 
-      const reader = new FileReader();
-      reader.onload = function(e) {
-        const lineas = e.target.result.split('\n');
-        canales = [];
-        const contadorCategorias = {};
+      const text = await input.files[0].text();
+      const lines = text.split(/\r?\n/);
 
-        for (let i = 0; i < lineas.length; i++) {
-          if (lineas[i].startsWith('#EXTINF')) {
-            const datos = lineas[i];
-            const url = lineas[i + 1]?.trim();
-            const nombre = datos.split(',').pop().trim();
-            const logo = datos.match(/tvg-logo="([^"]+)"/)?.[1] || '';
-            const grupo = datos.match(/group-title="([^"]+)"/)?.[1] || 'Sin grupo';
-
-            canales.push({ name: nombre, url, logo, group: grupo });
-            contadorCategorias[grupo] = (contadorCategorias[grupo] || 0) + 1;
-          }
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        if (line.startsWith('#EXTINF')) {
+          const infoLine = line;
+          const urlLine = lines[i+1]?.trim() || '';
+          const name = infoLine.split(',').pop().trim();
+          const logoMatch = infoLine.match(/tvg-logo="([^"]+)"/);
+          const logo = logoMatch ? logoMatch[1] : '';
+          const groupMatch = infoLine.match(/group-title="([^"]+)"/);
+          const group = groupMatch ? groupMatch[1] : '';
+          allChannels.push({ name, url: urlLine, logo, group });
         }
+      }
 
-        // Mostrar categorías
-        const categorias = Object.keys(contadorCategorias).sort((a, b) => a.localeCompare(b));
-        categoriasDiv.innerHTML = '<strong>Selecciona categorías:</strong><br>';
-
-        categorias.forEach(cat => {
-          const id = 'cat_' + btoa(cat).replace(/[^a-z0-9]/gi, '');
-          categoriasDiv.innerHTML += `
-            <div class="categoria">
-              <input type="checkbox" id="${id}" name="categoria" value="${cat}" checked>
-              <label for="${id}">${cat} (${contadorCategorias[cat]})</label>
-            </div>
-          `;
-        });
-
-        log.textContent = `🔍 Procesado: ${canales.length} entradas, ${categorias.length} grupos.`;
-      };
-
-      reader.readAsText(archivo);
+      log.textContent = `✅ Se han cargado ${allChannels.length.toLocaleString()} canales.`;
+      searchInput.disabled = false;
+      sendButton.disabled = false;
+      // Mostrar todos inicialmente
+      filteredChannels = allChannels.slice();
+      renderResults();
     }
 
-    async function enviarSeleccion() {
-      const seleccionados = [...document.querySelectorAll('input[name="categoria"]:checked')].map(e => e.value);
-      const barra = document.getElementById('barraProgreso');
+    function renderResults() {
+      const results = document.getElementById('results');
+      results.innerHTML = '';
+      if (!filteredChannels.length) {
+        results.textContent = 'No se encontró ningún canal.';
+        return;
+      }
+      filteredChannels.forEach((ch, idx) => {
+        const div = document.createElement('div');
+        div.classList.add('channel-item');
+        const cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.id = 'ch_' + idx;
+        cb.value = idx;
+        const label = document.createElement('label');
+        label.htmlFor = cb.id;
+        label.textContent = `#${idx+1} — ${ch.name} (${ch.group || 'sin grupo'})`;
+        div.append(cb);
+        div.append(label);
+        results.append(div);
+      });
+    }
+
+    document.getElementById('searchInput').addEventListener('input', function () {
+      const term = this.value.trim().toLowerCase();
+      if (!term) {
+        filteredChannels = allChannels.slice();
+      } else {
+        filteredChannels = allChannels.filter(ch =>
+          ch.name.toLowerCase().includes(term) ||
+          ch.group.toLowerCase().includes(term)
+        );
+      }
+      renderResults();
+    });
+
+    async function sendSelected() {
       const log = document.getElementById('log');
-
-      if (seleccionados.length === 0) {
-        log.textContent = '⚠️ Debes seleccionar al menos una categoría.';
+      const checkboxes = document.querySelectorAll('#results input[type="checkbox"]:checked');
+      if (!checkboxes.length) {
+        log.textContent = "⚠️ No seleccionaste ningún canal.";
         return;
       }
+      log.textContent = `Enviando ${checkboxes.length} canales...`;
 
-      const filtrados = canales.filter(c => seleccionados.includes(c.group));
-      if (filtrados.length === 0) {
-        log.textContent = '⚠️ No hay entradas que coincidan.';
-        return;
-      }
+      const selected = Array.from(checkboxes).map(cb => {
+        const idx = parseInt(cb.value, 10);
+        return allChannels[idx];
+      });
 
-      log.textContent = `⏳ Enviando ${filtrados.length} entradas...`;
-      barra.value = 0;
-
-      for (let i = 0; i < filtrados.length; i += 50) {
-        const bloque = filtrados.slice(i, i + 50);
+      // Enviar en chunks
+      for (let i = 0; i < selected.length; i += maxSendChunk) {
+        const chunk = selected.slice(i, i + maxSendChunk);
         const formData = new FormData();
-        formData.append('data', JSON.stringify(bloque));
-
+        formData.append("data", JSON.stringify(chunk));
         try {
           const res = await fetch(GOOGLE_SCRIPT_URL, {
             method: 'POST',
             body: formData
           });
-          const txt = await res.text();
-          const progreso = Math.floor(((i + 50) / filtrados.length) * 100);
-          barra.value = progreso;
-          log.textContent = `✅ ${progreso}% completado (${i + 50}/${filtrados.length})\nÚltima respuesta: ${txt}`;
-        } catch (err) {
-          log.textContent += `\n❌ Error: ${err}`;
+          const text = await res.text();
+          log.textContent += `\n✔️ Chunk enviado (${i + chunk.length} de ${selected.length}): ${text}`;
+        }
+        catch(err) {
+          log.textContent += `\n❌ Error al enviar chunk: ${err}`;
           break;
         }
       }
 
-      log.textContent += '\n✔️ Proceso finalizado.';
+      log.textContent += `\n✅ Envío completo.`;
     }
   </script>
 
