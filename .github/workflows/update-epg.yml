@@ -1,0 +1,25 @@
+name: Actualizar EPG
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # cada 6 horas
+  workflow_dispatch:        # correr manualmente desde Actions
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Descargar EPG
+        run: |
+          curl -L "http://tvpremiund.ddns.me:33200/xmltv.php?username=jcb2701&password=2701jcb" -o xmltv.xml
+
+      - name: Commit y Push
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add xmltv.xml
+          git commit -m "Actualizar EPG automático" || echo "No hay cambios para commitear"
+          git push
