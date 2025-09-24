@@ -2,15 +2,21 @@
 #EXTINF:-1 tvg-id="TELEFE.ar" tvg-name="TELEFE HD" tvg-logo="https://i.ibb.co/PGbgnvQV/640px-Telefe-nuevo-logo.png" group-title="NACIONALES",TELEFE HD
 http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/445580.m3u8
 #EXTINF:-1 tvg-id="EL TRECE.ar" tvg-name="CANAL 13 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUxd6vjCPiTZWnhGdbdAMoqNTZGbzvCHO1A&usqp=CAU" group-title="NACIONALES",CANAL 13 HD
-http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/384323.m3u8
+http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/445575.m3u8
+#EXTINF:-1 tvg-id="EL NUEVE.ar" tvg-name="CRONICA HD" tvg-logo="http://novabox.club:80/images/7IrseOt_dvIZ6LfZ2bAvmRwTUQsLRQ9t0jRQkT32QrqJ-KGfQfwdSTsg-yu9Jjl2yo53WyuO3kGX4qX11Zbe3g.png" group-title="NACIONALES",EL NUEVE
+http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/445573.m3u8
+#EXTINF:-1 tvg-id="EL NUEVE.ar" tvg-name="TV PUBLICA" tvg-logo="https://i.postimg.cc/cLtNCgRK/tvp.png" group-title="NACIONALES",TV PUBLICA
+http://tvpremiund.ddns.me:2082/jcb2701/2701jcb/167
 #EXTINF:-1 tvg-id="CRONICA TV.ar" tvg-name="CRONICA HD" tvg-logo="https://i.ibb.co/ZzGH0b3S/images.jpg" group-title="NACIONALES",CRONICA HD
-http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/384337.m3u8
+http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/445572.m3u8
 #EXTINF:-1 tvg-id="A24.ar" tvg-name="A24 HD" tvg-logo="https://i.ibb.co/pv4Kf9D1/images.png" group-title="NACIONALES",A24 HD
-http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/384335.m3u8
+http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/445561.m3u8
+#EXTINF:-1 tvg-id="TN.ar" tvg-name="TN HD" tvg-logo="http://novabox.club:80/images/jF5pqw7bXCsZuq58Y_-kWPaIWfU2f43ZPsPR9Z9zGvSWrUIO3GhvaII06KgbiC8f9S2alwIuXudqkcouSpEGGjijDRFY8dV8r0SnOADE4xypaXwc-1AECuXICySs7S88.jpg" group-title="NACIONALES",TN HD
+http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/445561.m3u8
 #EXTINF:-1 tvg-id="Canal 26.ar" tvg-name="CANAL 26 DE NOTICIAS SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShxTPhW_bp7ia83Wwb8ZtN0sE-dqon-Uuj6w&usqp=CAU" group-title="NACIONALES",CANAL 26 DE NOTICIAS SD
 http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/384339.m3u8
 #EXTINF:-1 tvg-id="ARGENTINISIMA.ar" tvg-name="ARGENTINISIMA HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSme3KO2n4jP4MV4eW2pFgxXKCr4wirNrpQg&usqp=CAU" group-title="NACIONALES",ARGENTINISIMA HD
-http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/384340.m3u8
+http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/445577.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Canal 3" tvg-logo="https://i.ibb.co/qYVCtrzC/pngtree-tv-logo-design-concept-company-elegant-multimedia-vector-picture-image-9946314.png" group-title="INTERIOR ARGENTINA",Canal 3
 http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/397604.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Canal Televida" tvg-logo="https://i.ibb.co/qYVCtrzC/pngtree-tv-logo-design-concept-company-elegant-multimedia-vector-picture-image-9946314.png" group-title="INTERIOR ARGENTINA",Canal Televida
@@ -210,7 +216,7 @@ http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/391345.m3u8
 #EXTINF:-1 tvg-id="Telehit.ar" tvg-name="TELEHIT" tvg-logo="http://goldfull.pro:8880/images/5825f3b2cd0eedb0fc8ff03f93d58143.png" group-title="Musica",TELEHIT
 http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/391346.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="LOS SIMPSON" tvg-logo="http://redworld.pro:8880/images/18a5e99d0d570b208370f47a0f978e93.jpg" group-title=" 24 - 7 ",LOS SIMPSON
-http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/437999.m3u8
+http://tvpremiund.ddns.me:2082/jcb2701/2701jcb/31721
 #EXTINF:-1 tvg-id="" tvg-name="24/7 Chavo del 8" tvg-logo="http://127.0.0.1/" group-title=" 24 - 7 ",24/7 Chavo del 8
 http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/437985.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="24/7  Tom y Jerry" tvg-logo="http://novabox.club:80/images/-8H6WifTICAzySJJMw1rvwvtxqpAeZ9dVN5caZDgg2pncqk23dpJTgqp9SjQ093an-VnYyH-JnCMriCGgRp6XmyCKNOatJaHxLRTqz4XNDQ.jpg" group-title=" 24 - 7 ",24/7  Tom y Jerry
@@ -301,4 +307,5 @@ http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/308919.m3u8
 http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/308920.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="EL CONJURO 4" tvg-logo="https://i.ibb.co/d41scL46/images-2.jpg" group-title=" PELIS ",EL CONJURO 4
 http://redworld.pro:8880/movie/Jonatan12/uwZEYrEuejWv/445345.mp4
+
 
