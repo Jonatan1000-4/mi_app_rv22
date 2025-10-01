@@ -14,7 +14,7 @@ jobs:
 
       - name: Descargar EPG
         run: |
-          curl -L "http://tvpremiund.ddns.me:33200/xmltv.php?username=jcb2701&password=2701jcb" -o xmltv.xml
+          curl -L "http://tv.zapping.life:8080/xmltv.php?username=tjsr12021&password=HKC1uFeg2C&type=xml_plus" -o xmltv.xml
 
       - name: Commit y Push
         run: |
