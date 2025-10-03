@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="mega.cl" tvg-name="CL | MEGA HD" tvg-logo="http://redworld.pro:8880/images/1ae67befe5da5b3cdd6d0bd76ed1f03f.png" group-title="⭐️ CHILE  ",CL | MEGA HD
-http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/28244.m3u8
+https:https://cdn.cvattv.com.ar/live/c5eds/C9N_C4/SA_Live_dash_enc/C9N_C4.mpd
 #EXTINF:-1 tvg-id="chilevision.cl" tvg-name="CL | MEGA SD" tvg-logo="http://redworld.pro:8880/images/1ae67befe5da5b3cdd6d0bd76ed1f03f.png" group-title="⭐️ CHILE  ",CL | MEGA SD
 http://1a-1791.com/live/u7gf26qm/slot-25/8m33-slam_720p/chunklist_DVR.m3u8
 #EXTINF:-1 tvg-id="chilevision.cl" tvg-name="CL | CHILEVISION HD" tvg-logo="http://redworld.pro:8880/images/06074edd7f572f827c08c4ef64c49049.png" group-title="⭐️ CHILE  ",CL | CHILEVISION HD
