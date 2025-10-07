@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="AMV.ar" tvg-name="America TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Americatvlogo2015.svg/1200px-Americatvlogo2015.svg.png" group-title="ARGENTINA",America TV
+https://xenolyzb.com/stream/zZvu-JGdeqZ4DQmBbRzfRg/kjhhiuahiuhgihdf/1759867762/61120153/master.m3u8
 #EXTINF:-1 tvg-id="AMERICA TV.ar" tvg-name="America TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Americatvlogo2015.svg/1200px-Americatvlogo2015.svg.png" group-title="ARGENTINA",America TV
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/6989
 #EXTINF:-1 tvg-id="TV PUBLICA.ar" tvg-name="TV Publica" tvg-logo="https://i.postimg.cc/cLtNCgRK/tvp.png" group-title="ARGENTINA",TV Publica
@@ -207,6 +209,7 @@ http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7094
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31708
 #EXTINF:-1 tvg-id="" tvg-name="Cinema Marvel 24/7" tvg-logo="https://i.ibb.co/8Xf1rWT/Icono-24-7-78486-19.jpg" group-title="CANALES 24/7",Cinema Marvel 24/7
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31706
+
 
 
 
