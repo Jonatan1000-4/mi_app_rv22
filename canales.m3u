@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="EL TRECE.ar" tvg-name="TVLIBRE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_DirecTV_logo.png/978px-The_DirecTV_logo.png" group-title="ARGENTINA",TV LIBRE
+https://tvlibre.cc/html/fl/?get=VG9kb05vdGljaWFz
 #EXTINF:-1 tvg-id="AMERICA TV.ar" tvg-name="America TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Americatvlogo2015.svg/1200px-Americatvlogo2015.svg.png" group-title="ARGENTINA",America TV
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/6989
 #EXTINF:-1 tvg-id="TV PUBLICA.ar" tvg-name="TV Publica" tvg-logo="https://i.postimg.cc/cLtNCgRK/tvp.png" group-title="ARGENTINA",TV Publica
@@ -213,6 +215,7 @@ http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31708
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31706
 #EXTINF:-1 tvg-id="" tvg-name="Transformers" tvg-logo="https://ww4.pelisplushd.to/poster/transformers-thumb.jpg" group-title="Peliculas",Transformers
 https://yuguaab.com/stream/ZMnd27UNn8C1citjAmLVFQ/kjhhiuahiuhgihdf/1759921476/11188700/master.m3u8
+
 
 
 
