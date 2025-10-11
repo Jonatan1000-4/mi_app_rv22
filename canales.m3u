@@ -1,231 +1,273 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="EL TRECE.ar" tvg-name="TVLIBRE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_DirecTV_logo.png/978px-The_DirecTV_logo.png" group-title="ARGENTINA",TV LIBRE
-https://tvlibre.cc/html/fl/?get=VG9kb05vdGljaWFz
-#EXTINF:-1 tvg-id="AMERICA TV.ar" tvg-name="America TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Americatvlogo2015.svg/1200px-Americatvlogo2015.svg.png" group-title="ARGENTINA",America TV
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/6989
-#EXTINF:-1 tvg-id="TV PUBLICA.ar" tvg-name="TV Publica" tvg-logo="https://i.postimg.cc/cLtNCgRK/tvp.png" group-title="ARGENTINA",TV Publica
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/166
-#EXTINF:-1 tvg-id="EL NUEVE.ar" tvg-name="El Nueve" tvg-logo="https://www.seekpng.com/png/full/345-3453836_ar-canal-9-el-nueve-el-nueve-logo.png" group-title="ARGENTINA",El Nueve
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2346
-#EXTINF:-1 tvg-id="TV PUBLICA.ar" tvg-name="Cosmos TV" tvg-logo="https://i0.wp.com/5900.tv/wp-content/uploads/2023/09/CosmosTV.jpg" group-title="ARGENTINA",Cosmos TV
-https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
-#EXTINF:-1 tvg-id="TV PUBLICA.ar" tvg-name="aa" tvg-logo="https://i.postimg.cc/cLtNCgRK/tvp.png" group-title="ARGENTINA",aa
-https://livetrx01.vodgc.net/eltrecetv/index.m3u8
-#EXTINF:-1 tvg-id="TELEFE.ar" tvg-name="TELEFE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Telefe.png" group-title="ARGENTINA",TELEFE
-https://edge-vod06-sl.cvattv.com.ar/tok_eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzYwMTYxMTgzIiwic2lwIjoiMTM4Ljg0LjYzLjI0MSIsInBhdGgiOiIvbGl2ZS9jNmVkcy9IVFYvU0FfTGl2ZV9kYXNoX2VuYy8iLCJzZXNzaW9uX2Nkbl9pZCI6IjNlZjU2ZDQzZjAyNTVmM2YiLCJzZXNzaW9uX2lkIjoiIiwiY2xpZW50X2lkIjoiIiwiZGV2aWNlX2lkIjoiIiwibWF4X3Nlc3Npb25zIjowLCJzZXNzaW9uX2R1cmF0aW9uIjowLCJ1cmwiOiJodHRwczovLzIwMS4yMzUuNjYuMTE0IiwiYXVkIjoiMTM5Iiwic291cmNlcyI6Wzg1LDE0NCw4Niw4OF19.pi8xNITH86ZWOswsFuAFLnKjefyQqu66brTMeLiJ8upnsiY9-Xc4LSoCOjvj3w-oE3KAMNjOMkwoPDbnYZSs4Q==/live/c6eds/HTV/SA_Live_dash_enc/HTV-mp4a_145200_spa=2-scale=48000-p=338788210600600-16316063580188.mp4
-#EXTINF:-1 tvg-id="EL TRECE.ar" tvg-name="El Trece" tvg-logo="https://4.bp.blogspot.com/-qbC3LvpmKVM/Ufm9YzqCi6I/AAAAAAAAAJw/CHVpYurVoMI/s1600/Logo_Canal_Trece_actual1.png" group-title="ARGENTINA",El Trece
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/6988
-#EXTINF:-1 tvg-id="A24.ar" tvg-name="A24" tvg-logo="https://www.reportv.com.ar/buscador/img/Logos/48806494.jpg" group-title="ARGENTINA",A24
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2339
-#EXTINF:-1 tvg-id="LA NACION+.ar" tvg-name="LN+ La Nación" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/LN%2B.png" group-title="ARGENTINA",LN+ La Nación
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2344
-#EXTINF:-1 tvg-id="ARGENTINISIMA.ar" tvg-name="Argentinisima Satelital" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/argentinisimasatelital-profile_image-9aa9b79bfdfe6068-300x300.jpeg" group-title="ARGENTINA",Argentinisima Satelital
-https://stream1.sersat.com/hls/argentinisima.m3u8
-#EXTINF:-1 tvg-id="TN.ar" tvg-name="TN" tvg-logo="https://play-lh.googleusercontent.com/pL331qhVv3KATHzIaVnkrQhyNRrV6YWLIzf0SctwFR8sUMY8aCYobe70OTdbQPyVkuc" group-title="ARGENTINA",TN
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/72756
-#EXTINF:-1 tvg-id="" tvg-name="Neo TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjnznUgXDQ6hLhj3DrihDXHdknA546NVeq7w&s" group-title="AREGIONALES",Neo TV
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/69881
-#EXTINF:-1 tvg-id="NET TV.ar" tvg-name="NET TV HD" tvg-logo="https://www.canalnet.tv/_templates/desktop/includes/img/lfooter.png" group-title="REGIONALES",NET TV HD
-https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="13 Max Television" tvg-logo="https://cdn.m3u.cl/logo/251_13_Max_Television.png" group-title="REGIONALES",13 Max Television
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/75067
-#EXTINF:-1 tvg-id="" tvg-name="Canal 34 San Juan" tvg-logo="https://cdn.m3u.cl/logo/1346_Canal_34_San_Juan.png" group-title="REGIONALES",Canal 34 San Juan
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/75103
-#EXTINF:-1 tvg-id="" tvg-name="Canal 4 San Juan" tvg-logo="https://cdn.m3u.cl/logo/260_Canal_4_San_Juan.png" group-title="REGIONALES",Canal 4 San Juan
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/75109
-#EXTINF:-1 tvg-id="" tvg-name="Telesol San Juan" tvg-logo="https://cdn.m3u.cl/logo/295_Telesol_San_Juan.png" group-title="REGIONALES",Telesol San Juan
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/75214
-#EXTINF:-1 tvg-id="Canal 26.ar" tvg-name="Canal 26" tvg-logo="https://ibyme.org.ar/wp-content/uploads/2023/05/26-noticias.png" group-title="ARGENTINA",Canal 26
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/1891
-#EXTINF:-1 tvg-id="" tvg-name="Chaco TV" tvg-logo="https://image.winudf.com/v2/image/Y29tLmVjb20uY2hhY290dl9pY29uXzE1MTk2OTYyOTBfMDYw/icon.png?w=170&fakeurl=1&type=.png" group-title="REGIONALES",Chaco TV
-https://wowzasrv.chaco.gov.ar/Streamtv/chacotv/playlist.m3u8
-#EXTINF:-1 tvg-id="CANAL 9 TELEVIDA.ar" tvg-name="Canal 9 Televida" tvg-logo="https://cdn.m3u.cl/logo/309_Canal_9_Televida.png" group-title="REGIONALES",Canal 9 Televida
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/75130
-#EXTINF:-1 tvg-id="EL GARAGE.ar" tvg-name="Garage TV" tvg-logo="https://cdn.mitvstatic.com/channels/ar_el-garage_m.png" group-title="REGIONALES",Garage TV
-https://stream1.sersat.com/hls/garagetv.m3u8
-#EXTINF:-1 tvg-id="AZ CORAZON.mx" tvg-name="Az Corazón" tvg-logo="http://1.bp.blogspot.com/-Nwn_ksaYk7s/VjEN7wA7SSI/AAAAAAAAAg0/wIJBr_8zo08/s1600/azcorazon.png" group-title="VARIEDADES",Az Corazón
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2550
-#EXTINF:-1 tvg-id="" tvg-name="Las Estrellas" tvg-logo="https://cdn.mitvstatic.com/channels/las-estrellas-m.png" group-title="VARIEDADES",Las Estrellas
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/50819
-#EXTINF:-1 tvg-id="" tvg-name="Las Estrellas 2" tvg-logo="https://cdn.mitvstatic.com/channels/las-estrellas-m.png" group-title="VARIEDADES",Las Estrellas 2
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2548
-#EXTINF:-1 tvg-id="" tvg-name="TLNovelas" tvg-logo="https://cdn.mitvstatic.com/channels/cl_tlnovelas_m.png" group-title="VARIEDADES",TLNovelas
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2549
-#EXTINF:-1 tvg-id="EL GOURMET.ar" tvg-name="El Gourmet" tvg-logo="https://assets3.domestika.org/project-covers/000/150/543/150543-thumb-gourmet.png?1415314426" group-title="VARIEDADES",El Gourmet
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2693
-#EXTINF:-1 tvg-id="LIFETIME HD.ar" tvg-name="Lifetime" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Lifetimelogo.png" group-title="VARIEDADES",Lifetime
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2443
-#EXTINF:-1 tvg-id="" tvg-name="Pasiones HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Pasiones_Tv_logo.svg/1200px-Pasiones_Tv_logo.svg.png" group-title="VARIEDADES",Pasiones HD
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/4888
-#EXTINF:-1 tvg-id="BabyTV.ar" tvg-name="Baby TV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/c/ca/Baby_TV.png" group-title="INFANTIL",Baby TV
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2467
-#EXTINF:-1 tvg-id="CARTOON NETWORK HD.ar" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg" group-title="INFANTIL",Cartoon Network
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2470
-#EXTINF:-1 tvg-id="NICKELODEON.ar" tvg-name="Nickelodeon" tvg-logo="https://www.edigitalagency.com.au/wp-content/uploads/Nickelodeon-logo-png.png" group-title="INFANTIL",Nickelodeon
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2477
-#EXTINF:-1 tvg-id="NICK JR.ar" tvg-name="Nick Jr." tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/1280px-Nick_Jr._logo_2009.svg.png" group-title="INFANTIL",Nick Jr.
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2478
-#EXTINF:-1 tvg-id="DISCOVERY KIDS HD.ar" tvg-name="Discovery Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Discovery_Kids_Logo_%282021%29.webp/215px-Discovery_Kids_Logo_%282021%29.webp.png" group-title="INFANTIL",Discovery Kids
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2471
-#EXTINF:-1 tvg-id="DISNEY HD.ar" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg" group-title="INFANTIL",Disney Channel
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2472
-#EXTINF:-1 tvg-id="DISNEY JR.ar" tvg-name="Disney Junior" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCTfTiS4qLEOEXEIXxz18s4nF1atwQXFlCLQ&s" group-title="INFANTIL",Disney Junior
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2473
-#EXTINF:-1 tvg-id="PAKAPAKA.ar" tvg-name="Paka-Paka" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/35/Pakapaka_logotipo_%282010-2016%29.png" group-title="INFANTIL",Paka-Paka
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2480
-#EXTINF:-1 tvg-id="TOONCAST.ar" tvg-name="Tooncast" tvg-logo="https://pm1.aminoapps.com/6840/19618b9f5807115e3902bb92fd04104b890ee39dv2_hq.jpg" group-title="INFANTIL",Tooncast
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2482
-#EXTINF:-1 tvg-id="SonyChannelMexico.mx" tvg-name="Sony Cine" tvg-logo="https://pbs.twimg.com/profile_images/1356336769801670657/FPYpB4S7_400x400.jpg" group-title="CINE",Sony Cine
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/52273
-#EXTINF:-1 tvg-id="SPACE.ar" tvg-name="Space" tvg-logo="https://3.bp.blogspot.com/-ifCagZ77nfw/W6ls2LsJInI/AAAAAAAAAN0/_I_JmomLjTQi9WTGmoACu3q4mRNmJW03wCPcBGAYYCw/s1600/space.png" group-title="CINE",Space
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/47856
-#EXTINF:-1 tvg-id="TNT.ar" tvg-name="TNT HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/TNT_TV_logo.svg/1200px-TNT_TV_logo.svg.png" group-title="CINE",TNT HD
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/57187
-#EXTINF:-1 tvg-id="" tvg-name="TNT Series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/TNT_Serie_Logo_2016.png" group-title="CINE",TNT Series
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/57188
-#EXTINF:-1 tvg-id="TCM.ar" tvg-name="TCM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ef/Turner_Classic_Movies_%28TCM%2C_Latin_America%29_-_2015_logo.png" group-title="CINE",TCM
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2662
-#EXTINF:-1 tvg-id="" tvg-name="Universal Channel" tvg-logo="http://1.bp.blogspot.com/-vZ7-rkLTaQA/TgeZExzxYcI/AAAAAAAABpM/ZtVIi2OJm2o/s1600/Universal+Channel+logo+2010.png" group-title="CINE",Universal Channel
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7051
-#EXTINF:-1 tvg-id="I93.67920.schedulesdirect.org" tvg-name="Cinecanal" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/1280px-CinecanalLA.png" group-title="CINE",Cinecanal
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7054
-#EXTINF:-1 tvg-id="CinemaxSouth.us" tvg-name="Cinemax" tvg-logo="https://e7.pngegg.com/pngimages/946/949/png-clipart-logo-cinemax-television-channel-space-television-text.png" group-title="CINE",Cinemax
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2623
-#EXTINF:-1 tvg-id="" tvg-name="Cinema Disney Family" tvg-logo="https://i.pinimg.com/564x/85/28/a7/8528a75f13fbf7c4482ac68007abfd8e.jpg" group-title="CINE",Cinema Disney Family
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/48949
-#EXTINF:-1 tvg-id="" tvg-name="Cinema Disney" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/Disney_cinema_logo.png" group-title="CINE",Cinema Disney
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/49063
-#EXTINF:-1 tvg-id="" tvg-name="Dreamworks" tvg-logo="https://www.thedailytelevision.com/sites/default/files/notas/imagenes/interior/dreamworks_grande_1.jpg" group-title="CINE",Dreamworks
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/56978
-#EXTINF:-1 tvg-id="FX.ar" tvg-name="FX" tvg-logo="https://vignette.wikia.nocookie.net/iceagefanon/images/d/d7/Fx-logo.png/revision/latest?cb=20151205215619" group-title="CINE",FX
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/30432
-#EXTINF:-1 tvg-id="I592.68317.schedulesdirect.org" tvg-name="Golden" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logo_Golden_TV.svg/180px-Logo_Golden_TV.svg.png" group-title="CINE",Golden
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2638
-#EXTINF:-1 tvg-id="" tvg-name="Golden Plus" tvg-logo="https://i.postimg.cc/Sxd9XyY0/gplus.png" group-title="CINE",Golden Plus
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2640
-#EXTINF:-1 tvg-id="HBO POP HD.ar" tvg-name="HBO" tvg-logo="https://seeklogo.com/images/H/HBO-logo-49E64C6314-seeklogo.com.png" group-title="CINE",HBO
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7010
-#EXTINF:-1 tvg-id="HBO.cl" tvg-name="HBO HD" tvg-logo="https://seeklogo.com/images/H/HBO-logo-49E64C6314-seeklogo.com.png" group-title="CINE",HBO HD
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2642
-#EXTINF:-1 tvg-id="HBO 2.ar" tvg-name="HBO 2 HD" tvg-logo="https://seeklogo.com/images/H/HBO-logo-49E64C6314-seeklogo.com.png" group-title="CINE",HBO 2 HD
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2643
-#EXTINF:-1 tvg-id="HBO FAMILY.ar" tvg-name="HBO Family" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/HBO_Family_Asia_logo.svg/512px-HBO_Family_Asia_logo.svg.png" group-title="CINE",HBO Family
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7013
-#EXTINF:-1 tvg-id="HBO MUNDI.ar" tvg-name="HBO Mundi  HD" tvg-logo="https://seeklogo.com/images/H/HBO-logo-49E64C6314-seeklogo.com.png" group-title="CINE",HBO Mundi  HD
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/30415
-#EXTINF:-1 tvg-id="HBO PLUS HD.ar" tvg-name="HBO Plus" tvg-logo="https://cdn.mitvstatic.com/channels/ar_hbo-plus-este_m.png" group-title="CINE",HBO Plus
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7012
-#EXTINF:-1 tvg-id="HBO SIGNATURE.ar" tvg-name="HBO Signature" tvg-logo="https://seeklogo.com/images/H/HBO-logo-49E64C6314-seeklogo.com.png" group-title="CINE",HBO Signature
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7014
-#EXTINF:-1 tvg-id="HBO XTREME.ar" tvg-name="HBO Xtreme" tvg-logo="https://seeklogo.com/images/H/HBO-logo-49E64C6314-seeklogo.com.png" group-title="CINE",HBO Xtreme
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/30625
-#EXTINF:-1 tvg-id="" tvg-name="Movistar Cine" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5fiFbvA3_jxRvPz3ym5xeN5PADTCnxmtxyg&s" group-title="CINE",Movistar Cine
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2647
-#EXTINF:-1 tvg-id="" tvg-name="MultiPremier" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/04/Multipremier_logo_2020.png/revision/latest?cb=20201129220038&path-prefix=es" group-title="CINE",MultiPremier
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/77337
-#EXTINF:-1 tvg-id="" tvg-name="Netflix Cinema 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/2048px-Netflix_icon.svg.png" group-title="CINE",Netflix Cinema 1
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/51451
-#EXTINF:-1 tvg-id="" tvg-name="Disney Cinema 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/Disney_cinema_logo.png" group-title="CINE",Disney Cinema 1
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/51456
-#EXTINF:-1 tvg-id="PARAMOUNT CHANNEL.ar" tvg-name="Paramount Channel" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/59/Paramount_Channel.svg/revision/latest?cb=20240105193641" group-title="CINE",Paramount Channel
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/4884
-#EXTINF:-1 tvg-id="" tvg-name="Prime Video" tvg-logo="https://cinetvymas.cl/wp-content/uploads/2023/08/amazon-prime-chile.png" group-title="CINE",Prime Video
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2657
-#EXTINF:-1 tvg-id="" tvg-name="Plex Retro" tvg-logo="https://i.postimg.cc/pXnNZzXr/plex.jpg" group-title="CINE",Plex Retro
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7003
-#EXTINF:-1 tvg-id="STAR CHANNEL HD.ar" tvg-name="Star Channel" tvg-logo="https://i.postimg.cc/Y0KsKMk5/st-ch.png" group-title="CINE",Star Channel
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7015
-#EXTINF:-1 tvg-id="SonyChannelMexico.mx" tvg-name="Sony" tvg-logo="https://images.seeklogo.com/logo-png/12/2/sony-logo-png_seeklogo-129420.png" group-title="CINE",Sony
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2648
-#EXTINF:-1 tvg-id="" tvg-name="Eventos Especiales" tvg-logo="https://static-assets.bamgrid.com/product/starplus/images/share-default.d72cf588f6d06cba22171f5ae44289d3.png" group-title="DEPORTES",Eventos Especiales
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/50562
-#EXTINF:-1 tvg-id="TNT SPORTS.ar" tvg-name="TNT Argentina" tvg-logo="https://i.postimg.cc/y8YqmCkM/TN1.png" group-title="DEPORTES",TNT Argentina
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/57162
-#EXTINF:-1 tvg-id="" tvg-name="DirecTV SPORT" tvg-logo="https://i.postimg.cc/J7gQ1JJW/D1.png" group-title="DEPORTES",DirecTV SPORT
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/47580
-#EXTINF:-1 tvg-id="" tvg-name="DirecTV 2" tvg-logo="https://i.postimg.cc/Wbkwt36q/D2.png" group-title="DEPORTES",DirecTV 2
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31760
-#EXTINF:-1 tvg-id="ESPN PREMIUM.ar" tvg-name="ESPN Premium Argentina" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5a/ESPN_Premium_%28red_and_white%29_2022.png" group-title="DEPORTES",ESPN Premium Argentina
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/6463
-#EXTINF:-1 tvg-id="ESPN.ar" tvg-name="ESPN 1" tvg-logo="https://i.postimg.cc/gkRW1qcD/e748f3c0-3f7c-3088-a90a-0ccb2588e0ed.png" group-title="DEPORTES",ESPN 1
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/51157
-#EXTINF:-1 tvg-id="ESPN 2.ar" tvg-name="ESPN 2" tvg-logo="https://i.postimg.cc/DZK8nWWp/espn2.png" group-title="DEPORTES",ESPN 2
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/51158
-#EXTINF:-1 tvg-id="ESPN 3.ar" tvg-name="ESPN 3" tvg-logo="https://i.postimg.cc/wvc3v6Lq/espn3.png" group-title="DEPORTES",ESPN 3
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/5601
-#EXTINF:-1 tvg-id="" tvg-name="ESPN 4" tvg-logo="https://i.postimg.cc/Dfcvzc3w/61a4c896fc740bb1476f0225-LOGO-ESPN4-2.png" group-title="DEPORTES",ESPN 4
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/50373
-#EXTINF:-1 tvg-id="" tvg-name="ES*PN 5" tvg-logo="https://www.tumundo.cl/wp-content/uploads/2022/11/Proyecto-nuevo-1.png" group-title="DEPORTES",ES*PN 5
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/52202
-#EXTINF:-1 tvg-id="" tvg-name="ES*PN 6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ESPN_6_logo.svg/2560px-ESPN_6_logo.svg.png" group-title="DEPORTES",ES*PN 6
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/54541
-#EXTINF:-1 tvg-id="" tvg-name="ES*PN 7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/ESPN_7_logo.svg/2560px-ESPN_7_logo.svg.png" group-title="DEPORTES",ES*PN 7
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/37134
-#EXTINF:-1 tvg-id="" tvg-name="D*ZN 1" tvg-logo="https://images.icon-icons.com/2389/PNG/512/dazn_logo_icon_145353.png" group-title="DEPORTES",DAZN 1
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/81516
-#EXTINF:-1 tvg-id="FOX SPORTS.ar" tvg-name="Fox Sports 1 Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Logo_fox_sports_2012.png/640px-Logo_fox_sports_2012.png" group-title="DEPORTES",Fox Sports 1 Argentina
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/3082
-#EXTINF:-1 tvg-id="FOX SPORTS 2.ar" tvg-name="Fox Sports 2 Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Fox_Sports_2_Argentina_2023.svg/800px-Fox_Sports_2_Argentina_2023.svg.png" group-title="DEPORTES",Fox Sports 2 Argentina
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/3086
-#EXTINF:-1 tvg-id="FOX SPORTS 3.ar" tvg-name="Fox Sports 3 Argentina" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Fox_Sports_3_Argentina_2023.svg/1200px-Fox_Sports_3_Argentina_2023.svg.png" group-title="DEPORTES",Fox Sports 3 Argentina
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/76709
-#EXTINF:-1 tvg-id="" tvg-name="STAR CHANNEL" tvg-logo="https://static-assets.bamgrid.com/product/starplus/images/share-default.d72cf588f6d06cba22171f5ae44289d3.png" group-title="DEPORTES",STAR +1
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/50006
-#EXTINF:-1 tvg-id="TYC SPORTS HD.ar" tvg-name="TyC Sports" tvg-logo="http://1.bp.blogspot.com/-lfBqQgLIqeo/VkLMvxnL7ZI/AAAAAAAAS8I/0ZShko69LPA/s1600/zrtn_021p4fd1d019_tn.jpg" group-title="DEPORTES",TyC Sports
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/5582
-#EXTINF:-1 tvg-id="ANIMAL PLANET HD.ar" tvg-name="Animal Planet" tvg-logo="https://e7.pngegg.com/pngimages/694/46/png-clipart-animal-planet-logo-icons-logos-emojis-iconic-brands.png" group-title="CULTURA",Animal Planet
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2454
-#EXTINF:-1 tvg-id="" tvg-name="CGTN en Español" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/CGTN_Espanol.png" group-title="CULTURA",CGTN en Español
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/6
-#EXTINF:-1 tvg-id="DISCOVERY CHANNEL HD.ar" tvg-name="Discovery Channel" tvg-logo="http://img1.wikia.nocookie.net/__cb20141027100430/logopedia/images/b/bd/Discovery_Channel_logo.png" group-title="CULTURA",Discovery Channel
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2455
-#EXTINF:-1 tvg-id="DISCOVERY HOME AND HEALTH HD.ar" tvg-name="Discovery Home & Health" tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6924cdade706debff8d_homeandhealth.png" group-title="CULTURA",Discovery Home & Health
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2457
-#EXTINF:-1 tvg-id="DISCOVERY ID HD.ar" tvg-name="Discovery Investigation" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d5/Idlogo2016.png" group-title="CULTURA",Discovery Investigation
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/30608
-#EXTINF:-1 tvg-id="DISCOVERY SCIENCE.ar" tvg-name="Discovery Science" tvg-logo="https://www.skymedia.co.uk/wp-content/uploads/2016/01/channel-logo-discovery-science.png" group-title="CULTURA",Discovery Science
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/30609
-#EXTINF:-1 tvg-id="DISCOVERY THEATER HD.ar" tvg-name="Discovery Theater" tvg-logo="https://vignette.wikia.nocookie.net/tvcable/images/b/b4/LOGO_THEATER_BLACK1.png/revision/latest?cb=20150325154716&path-prefix=es" group-title="CULTURA",Discovery Theater
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/38519
-#EXTINF:-1 tvg-id="" tvg-name="Discovery TLC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/TLC_Logo_Germany.svg/800px-TLC_Logo_Germany.svg.png" group-title="CULTURA",Discovery TLC
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2461
-#EXTINF:-1 tvg-id="DISCOVERY TURBO.ar" tvg-name="Discovery Turbo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Discovery_Turbo_logo.svg/1280px-Discovery_Turbo_logo.svg.png" group-title="CULTURA",Discovery Turbo
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2462
-#EXTINF:-1 tvg-id="DISCOVERY WORLD HD.ar" tvg-name="Discovery World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/World_Discovery_HD_logo.svg/1200px-World_Discovery_HD_logo.svg.png" group-title="CULTURA",Discovery World
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/30610
-#EXTINF:-1 tvg-id="H2 HD.ar" tvg-name="H2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/H2_channel_logo.PNG" group-title="CULTURA",H2
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2463
-#EXTINF:-1 tvg-id="HISTORY HD.ar" tvg-name="History" tvg-logo="https://i.postimg.cc/C57MNtWL/histiry.png" group-title="CULTURA",History
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7062
-#EXTINF:-1 tvg-id="NAT GEO.ar" tvg-name="National Geographic" tvg-logo="https://i.ibb.co/gzxhzPf/2560px-National-Geographic-Logo-svg.png" group-title="CULTURA",National Geographic
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2465
-#EXTINF:-1 tvg-id="" tvg-name="Nat Geo WILD" tvg-logo="https://m.media-amazon.com/images/I/31aS1I5K2HL._UF894,1000_QL80_.jpg" group-title="CULTURA",Nat Geo WILD
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2466
-#EXTINF:-1 tvg-id="" tvg-name="Los  Simpsons  24/7" tvg-logo="https://img.huffingtonpost.com/asset/5df79f752500004071d3050f.jpeg" group-title="CANALES 24/7",Los  Simpsons  24/7
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31721
-#EXTINF:-1 tvg-id="" tvg-name="El Chavo del 8 24/7" tvg-logo="https://i.postimg.cc/rFSCG5w1/chavo.png" group-title="CANALES 24/7",El Chavo del 8 24/7
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/14720
-#EXTINF:-1 tvg-id="" tvg-name="El Chapulín Colorado 24/7" tvg-logo="https://i.ibb.co/8Xf1rWT/Icono-24-7-78486-19.jpg" group-title="CANALES 24/7",El Chapulín Colorado 24/7
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/49647
-#EXTINF:-1 tvg-id="" tvg-name="Bob Esponja 24/7" tvg-logo="https://vignette.wikia.nocookie.net/bobesponja/images/b/bb/Bob_Esponja.png" group-title="CANALES 24/7",Bob Esponja 24/7
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7094
-#EXTINF:-1 tvg-id="" tvg-name="Cinema Disney Pixar 24/7" tvg-logo="https://i.ibb.co/8Xf1rWT/Icono-24-7-78486-19.jpg" group-title="CANALES 24/7",Cinema Disney Pixar 24/7
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31708
-#EXTINF:-1 tvg-id="" tvg-name="Cinema Marvel 24/7" tvg-logo="https://i.ibb.co/8Xf1rWT/Icono-24-7-78486-19.jpg" group-title="CANALES 24/7",Cinema Marvel 24/7
-http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31706
-#EXTINF:-1 tvg-id="" tvg-name="Transformers" tvg-logo="https://ww4.pelisplushd.to/poster/transformers-thumb.jpg" group-title="Peliculas",Transformers
-https://yuguaab.com/stream/ZMnd27UNn8C1citjAmLVFQ/kjhhiuahiuhgihdf/1759921476/11188700/master.m3u8
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="Telefe" tvg-logo="https://bestleague.world/img/telefe.png" group-title="ARGENTINA",Telefe
+https://tvlibre.cc/en-vivo/telefe/hl.html
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="Telefe" tvg-logo="https://bestleague.world/img/telefe.png" group-title="ARGENTINA",Telefe
+https://la14hd.com/vivo/canales.php?stream=telefe
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="Telefe" tvg-logo="https://bestleague.world/img/telefe.png" group-title="ARGENTINA",Telefe
+https://tvlibre.cc/pc/ext/?r=https%3A%2F%2Fsupercanal-cdn1.tbxdrm.com%2Ftelefe%2Fmanifest.mpd%3Fck%3DeyJhNWQ1ODgyNzBiNTU1YWQxYjllMDkzMTUxOTNjZTRmYyI6Ijc0MzhhYWYwYWY0MjAwMzQ0NjdhMTM0NjIzYzEzYjJlIiwiNTVmYTY3Y2UyNTQ3NTE1MzhmMTQzY2EzM2Q1YWZiZjUiOiJiY2RmMDY0NDE3MDMwN2JjMDU3ZGIzNWQ4OTYwNmQxZSIsImM2MmYxNzM0ODY1NjU1ODI5YjQyZTRlYWRkMzM3NDY2IjoiNWE0NTMwZGIzZmMzZWM3Zjc0ODYxOGQ0YTI0Y2JlZjIifQ%253D%253D%26title%3D%26headers%3DeyJvcmlnaW4iOiJodHRwczovL3d3dy5taW8udHYiLCJyZWZlcmVyIjoiaHR0cHM6Ly93d3cubWlvLnR2LyJ9
+#EXTINF:-1 tvg-id="Telefe.ar" tvg-name="Telefe" tvg-logo="https://bestleague.world/img/telefe.png" group-title="ARGENTINA",Telefe
+https://tvlibre.cc/pc/?get=EVENTO4
+#EXTINF:-1 tvg-id="ElTrece.ar" tvg-name="El Trece" tvg-logo="https://bestleague.world/img/eltrece.webp" group-title="ARGENTINA",El Trece
+https://live-01-02-eltrece.vodgc.net/eltrecetv/index.m3u8
+#EXTINF:-1 tvg-id="ElNueve.ar" tvg-name="El Nueve" tvg-logo="https://bestleague.world/img/nueve.webp" group-title="ARGENTINA",El Nueve
+https://player.twitch.tv/?channel=elnueveenvivo&parent=tvlibre.cc
+#EXTINF:-1 tvg-id="TVPÃºblica.ar" tvg-name="TV PÃºblica" tvg-logo="https://bestleague.world/img/tvpublica.webp" group-title="ARGENTINA",TV PÃºblica
+https://streamtp22.com/global1.php?stream=tv_publica
+#EXTINF:-1 tvg-id="CrÃ³nicaTV.ar" tvg-name="CrÃ³nica TV" tvg-logo="https://bestleague.world/img/cronica.png" group-title="ARGENTINA",CrÃ³nica TV
+https://www.youtube.com/embed/avly0uwZzOE
+#EXTINF:-1 tvg-id="C5N.ar" tvg-name="C5N" tvg-logo="https://bestleague.world/img/c5n.webp" group-title="ARGENTINA",C5N
+https://www.youtube.com/embed/Uo-ziJhrTvI
+#EXTINF:-1 tvg-id="TN.ar" tvg-name="TN" tvg-logo="https://bestleague.world/img/tn.png" group-title="ARGENTINA",TN
+https://www.youtube.com/embed/cb12KmMMDJA
+#EXTINF:-1 tvg-id="LaNaciÃ³n.ar" tvg-name="La NaciÃ³n" tvg-logo="https://bestleague.world/img/ln.webp" group-title="ARGENTINA",La NaciÃ³n
+https://www.youtube.com/embed/5f__Ls4_VYQ
+#EXTINF:-1 tvg-id="DiputadosTV.ar" tvg-name="Diputados TV" tvg-logo="https://bestleague.world/img/dtv.webp" group-title="ARGENTINA",Diputados TV
+https://www.youtube.com/embed/GlS1fG8VhUg
+#EXTINF:-1 tvg-id="CiudadMagazine.ar" tvg-name="Ciudad Magazine" tvg-logo="https://bestleague.world/img/ciudad.webp" group-title="ARGENTINA",Ciudad Magazine
+https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/index.m3u8
+#EXTINF:-1 tvg-id="BravoTV.ar" tvg-name="Bravo TV" tvg-logo="https://bestleague.world/img/bravotv.png" group-title="ARGENTINA",Bravo TV
+https://rudo.video/live/bravo
+#EXTINF:-1 tvg-id="NetTV.ar" tvg-name="Net TV" tvg-logo="https://bestleague.world/img/nettv.webp" group-title="ARGENTINA",Net TV
+https://bestleague.world/canal/?id=NETTV
+#EXTINF:-1 tvg-id="IpNoticias.ar" tvg-name="Ip Noticias" tvg-logo="https://bestleague.world/img/ip.webp" group-title="ARGENTINA",Ip Noticias
+https://player.castr.com/live_b1ae88e0ddc711ee83caa324be6c0747
+#EXTINF:-1 tvg-id="IpNoticias.ar" tvg-name="Ip Noticias" tvg-logo="https://bestleague.world/img/ip.webp" group-title="ARGENTINA",Ip Noticias
+https://player.twitch.tv/?channel=ip_noticias&parent=tvlibre.cc
+#EXTINF:-1 tvg-id="Televida.ar" tvg-name="Televida" tvg-logo="https://bestleague.world/img/televida.webp" group-title="ARGENTINA",Televida
+https://bestleague.world/canal/?id=TELEVIDAHLS
+#EXTINF:-1 tvg-id="CaracolTV.ar" tvg-name="Caracol TV" tvg-logo="https://bestleague.world/img/caracoltv.webp" group-title="ARGENTINA",Caracol TV
+https://chatytvgratishd.me/canal.php?id=caracol
+#EXTINF:-1 tvg-id="CaracolTV.ar" tvg-name="Caracol TV" tvg-logo="https://bestleague.world/img/caracoltv.webp" group-title="ARGENTINA",Caracol TV
+https://la14hd.com/vivo/canal.php?stream=caracol
+#EXTINF:-1 tvg-id="Canal5.ar" tvg-name="Canal 5" tvg-logo="https://bestleague.world/img/canal5.webp" group-title="ARGENTINA",Canal 5
+https://streamtp22.com/global1.php?stream=canal5mx
+#EXTINF:-1 tvg-id="Canal5.ar" tvg-name="Canal 5" tvg-logo="https://bestleague.world/img/canal5.webp" group-title="ARGENTINA",Canal 5
+https://rereyano.ru/player/3/107
+#EXTINF:-1 tvg-id="Canal5.ar" tvg-name="Canal 5" tvg-logo="https://bestleague.world/img/canal5.webp" group-title="ARGENTINA",Canal 5
+https://la14hd.com/vivo/canales.php?stream=canal5
+#EXTINF:-1 tvg-id="TyCSports.ar" tvg-name="TyC Sports" tvg-logo="https://bestleague.world/img/tyc.webp" group-title="ARGENTINA",TyC Sports
+https://la14hd.com/vivo/canales.php?stream=tycsports
+#EXTINF:-1 tvg-id="TyCSports.ar" tvg-name="TyC Sports" tvg-logo="https://bestleague.world/img/tyc.webp" group-title="ARGENTINA",TyC Sports
+https://voodc.com/embed/85818c919d8b998c847a8595a0889886897c.html
+#EXTINF:-1 tvg-id="TyCSports.ar" tvg-name="TyC Sports" tvg-logo="https://bestleague.world/img/tyc.webp" group-title="ARGENTINA",TyC Sports
+https://tvlibre.cc/pc/ext/?r=https://ch01-04-11-tyc.vodgc.net/out/v1/84ee2b0cce384a30abd70b05562ddd91/index.m3u8%3Fheaders%3DeyJvcmlnaW4iOiJodHRwczovL3BsYXkudHljc3BvcnRzLmNvbSIsInJlZmVyZXIiOiJodHRwczovL3BsYXkudHljc3BvcnRzLmNvbS8ifQ%3D%3D
+#EXTINF:-1 tvg-id="TyCSports.ar" tvg-name="TyC Sports" tvg-logo="https://bestleague.world/img/tyc.webp" group-title="ARGENTINA",TyC Sports
+https://mediastore01.playme.com.ar/dash/CH_TYCSPORTS/playlist.mpd?
+#EXTINF:-1 tvg-id="TyCSports.ar" tvg-name="TyC Sports" tvg-logo="https://bestleague.world/img/tyc.webp" group-title="ARGENTINA",TyC Sports
+https://tvlibre.cc/pc/?get=EVENTO2
+#EXTINF:-1 tvg-id="TyCSports.ar" tvg-name="TyC Sports" tvg-logo="https://bestleague.world/img/tyc.webp" group-title="ARGENTINA",TyC Sports
+https://tvlibre.cc/pc/ext/?r=https%3A%2F%2Fch04-04-11-tyc.vodgc.net%2Fout%2Fv1%2F366fc52554ae42c58465ea4b278eac0c%2Findex.m3u8%3Fheaders%3DeyJvcmlnaW4iOiJodHRwczovL3BsYXkudHljc3BvcnRzLmNvbSIsInJlZmVyZXIiOiJodHRwczovL3BsYXkudHljc3BvcnRzLmNvbS8ifQ%3D%3D
+#EXTINF:-1 tvg-id="TNTSportsPremium.ar" tvg-name="TNT Sports Premium" tvg-logo="https://bestleague.world/img/tntar.svg" group-title="ARGENTINA",TNT Sports Premium
+https://csc-axs-edge01.sensa.com.ar/live/eds/TNTSports/live_dash_cld/TNTSports.mpd
+#EXTINF:-1 tvg-id="TNTSportsPremium.ar" tvg-name="TNT Sports Premium" tvg-logo="https://bestleague.world/img/tntar.svg" group-title="ARGENTINA",TNT Sports Premium
+https://cdn.trimi.com.ar/live/sm-live/TNT_SPORTS_BKP4/sa_live_dash_ll/TNT_SPORTS_BKP4.mpd
+#EXTINF:-1 tvg-id="TNTSportsPremium.ar" tvg-name="TNT Sports Premium" tvg-logo="https://bestleague.world/img/tntar.svg" group-title="ARGENTINA",TNT Sports Premium
+https://la14hd.com/vivo/canal.php?stream=tntsports
+#EXTINF:-1 tvg-id="TNTSportsPremium.ar" tvg-name="TNT Sports Premium" tvg-logo="https://bestleague.world/img/tntar.svg" group-title="ARGENTINA",TNT Sports Premium
+https://streamtp22.com/global1.php?stream=tntsports
+#EXTINF:-1 tvg-id="TNTSportsPremium.ar" tvg-name="TNT Sports Premium" tvg-logo="https://bestleague.world/img/tntar.svg" group-title="ARGENTINA",TNT Sports Premium
+https://elcanaldeportivo.com/tntsports.php
+#EXTINF:-1 tvg-id="ESPNPremium.ar" tvg-name="ESPN Premium" tvg-logo="https://bestleague.world/img/espnpr.webp" group-title="ARGENTINA",ESPN Premium
+https://cdn.trimi.com.ar/live/sm-live/ESPN_PREM_BKP4/sa_live_dash_ll/ESPN_PREM_BKP4.mpd
+#EXTINF:-1 tvg-id="ESPNPremium.ar" tvg-name="ESPN Premium" tvg-logo="https://bestleague.world/img/espnpr.webp" group-title="ARGENTINA",ESPN Premium
+https://csc-axs-edge01.sensa.com.ar/live/eds/ESPNPremium/live_dash_cld/ESPNPremium.mpd
+#EXTINF:-1 tvg-id="ESPNPremium.ar" tvg-name="ESPN Premium" tvg-logo="https://bestleague.world/img/espnpr.webp" group-title="ARGENTINA",ESPN Premium
+https://la14hd.com/vivo/canal.php?stream=espnpremium
+#EXTINF:-1 tvg-id="ESPNPremium.ar" tvg-name="ESPN Premium" tvg-logo="https://bestleague.world/img/espnpr.webp" group-title="ARGENTINA",ESPN Premium
+https://streamtp22.com/global1.php?stream=espnpremium
+#EXTINF:-1 tvg-id="ESPNPremium.ar" tvg-name="ESPN Premium" tvg-logo="https://bestleague.world/img/espnpr.webp" group-title="ARGENTINA",ESPN Premium
+https://elcanaldeportivo.com/espnpremium.php
+#EXTINF:-1 tvg-id="DSports.ar" tvg-name="DSports" tvg-logo="https://bestleague.world/img/dsports.webp" group-title="ARGENTINA",DSports
+https://la14hd.com/vivo/canales.php?stream=dsports
+#EXTINF:-1 tvg-id="DSports.ar" tvg-name="DSports" tvg-logo="https://bestleague.world/img/dsports.webp" group-title="ARGENTINA",DSports
+https://elcanaldeportivo.com/directvsports.php
+#EXTINF:-1 tvg-id="DSports2.ar" tvg-name="DSports 2" tvg-logo="https://bestleague.world/img/dsports2.webp" group-title="ARGENTINA",DSports 2
+https://la14hd.com/vivo/canales.php?stream=dsports2
+#EXTINF:-1 tvg-id="DSports2.ar" tvg-name="DSports 2" tvg-logo="https://bestleague.world/img/dsports2.webp" group-title="ARGENTINA",DSports 2
+https://elcanaldeportivo.com/dsports2.php
+#EXTINF:-1 tvg-id="DSportsPlus.ar" tvg-name="DSports Plus" tvg-logo="https://bestleague.world/img/dsportsplus.webp" group-title="ARGENTINA",DSports Plus
+https://elcanaldeportivo.com/directvplushd.php
+#EXTINF:-1 tvg-id="DSportsPlus.ar" tvg-name="DSports Plus" tvg-logo="https://bestleague.world/img/dsportsplus.webp" group-title="ARGENTINA",DSports Plus
+https://streamtp22.com/global1.php?stream=dsportsplus
+#EXTINF:-1 tvg-id="DSportsPlus.ar" tvg-name="DSports Plus" tvg-logo="https://bestleague.world/img/dsportsplus.webp" group-title="ARGENTINA",DSports Plus
+https://rereyano.ru/player/3/96
+#EXTINF:-1 tvg-id="ESPN1.ar" tvg-name="ESPN 1" tvg-logo="https://bestleague.world/img/espn.webp" group-title="ARGENTINA",ESPN 1
+https://csc-axs-edge01.sensa.com.ar/live/eds/ESPN/live_dash_cld/ESPN.mpd
+#EXTINF:-1 tvg-id="ESPN1.ar" tvg-name="ESPN 1" tvg-logo="https://bestleague.world/img/espn.webp" group-title="ARGENTINA",ESPN 1
+https://streamtp22.com/global1.php?stream=espn
+#EXTINF:-1 tvg-id="ESPN1.ar" tvg-name="ESPN 1" tvg-logo="https://bestleague.world/img/espn.webp" group-title="ARGENTINA",ESPN 1
+https://la14hd.com/vivo/canales.php?stream=espn
+#EXTINF:-1 tvg-id="ESPN1.ar" tvg-name="ESPN 1" tvg-logo="https://bestleague.world/img/espn.webp" group-title="ARGENTINA",ESPN 1
+https://welivesport.shop/embed/espn1col.php
+#EXTINF:-1 tvg-id="ESPN1.ar" tvg-name="ESPN 1" tvg-logo="https://bestleague.world/img/espn.webp" group-title="ARGENTINA",ESPN 1
+https://elcanaldeportivo.com/espnhd.php
+#EXTINF:-1 tvg-id="ESPN1.ar" tvg-name="ESPN 1" tvg-logo="https://bestleague.world/img/espn.webp" group-title="ARGENTINA",ESPN 1
+https://elcanaldeportivo.com/espn-sharecast.php
+#EXTINF:-1 tvg-id="ESPN2.ar" tvg-name="ESPN 2" tvg-logo="https://bestleague.world/img/espn2.webp" group-title="ARGENTINA",ESPN 2
+https://streamtp22.com/global1.php?stream=espn2
+#EXTINF:-1 tvg-id="ESPN2.ar" tvg-name="ESPN 2" tvg-logo="https://bestleague.world/img/espn2.webp" group-title="ARGENTINA",ESPN 2
+https://la14hd.com/vivo/canales.php?stream=espn2
+#EXTINF:-1 tvg-id="ESPN2.ar" tvg-name="ESPN 2" tvg-logo="https://bestleague.world/img/espn2.webp" group-title="ARGENTINA",ESPN 2
+https://elcanaldeportivo.com/espn2hd.php
+#EXTINF:-1 tvg-id="ESPN3.ar" tvg-name="ESPN 3" tvg-logo="https://bestleague.world/img/espn3.webp" group-title="ARGENTINA",ESPN 3
+https://streamtp22.com/global1.php?stream=espn3
+#EXTINF:-1 tvg-id="ESPN3.ar" tvg-name="ESPN 3" tvg-logo="https://bestleague.world/img/espn3.webp" group-title="ARGENTINA",ESPN 3
+https://la14hd.com/vivo/canales.php?stream=espn3
+#EXTINF:-1 tvg-id="ESPN3.ar" tvg-name="ESPN 3" tvg-logo="https://bestleague.world/img/espn3.webp" group-title="ARGENTINA",ESPN 3
+https://elcanaldeportivo.com/espn3hd.php
+#EXTINF:-1 tvg-id="ESPN4.ar" tvg-name="ESPN 4" tvg-logo="https://bestleague.world/img/espn4.webp" group-title="ARGENTINA",ESPN 4
+https://streamtp22.com/global1.php?stream=espn4
+#EXTINF:-1 tvg-id="ESPN4.ar" tvg-name="ESPN 4" tvg-logo="https://bestleague.world/img/espn4.webp" group-title="ARGENTINA",ESPN 4
+https://la14hd.com/vivo/canales.php?stream=espn4
+#EXTINF:-1 tvg-id="ESPN4.ar" tvg-name="ESPN 4" tvg-logo="https://bestleague.world/img/espn4.webp" group-title="ARGENTINA",ESPN 4
+https://elcanaldeportivo.com/espn4.php
+#EXTINF:-1 tvg-id="ESPN5.ar" tvg-name="ESPN 5" tvg-logo="https://bestleague.world/img/espn5.webp" group-title="ARGENTINA",ESPN 5
+https://streamtp22.com/global1.php?stream=espn5
+#EXTINF:-1 tvg-id="ESPN5.ar" tvg-name="ESPN 5" tvg-logo="https://bestleague.world/img/espn5.webp" group-title="ARGENTINA",ESPN 5
+https://la14hd.com/vivo/canales.php?stream=espn5
+#EXTINF:-1 tvg-id="ESPN5.ar" tvg-name="ESPN 5" tvg-logo="https://bestleague.world/img/espn5.webp" group-title="ARGENTINA",ESPN 5
+https://elcanaldeportivo.com/espn5.php
+#EXTINF:-1 tvg-id="ESPN6.ar" tvg-name="ESPN 6" tvg-logo="https://bestleague.world/img/espn6.webp" group-title="ARGENTINA",ESPN 6
+https://streamtp22.com/global1.php?stream=espn6
+#EXTINF:-1 tvg-id="ESPN6.ar" tvg-name="ESPN 6" tvg-logo="https://bestleague.world/img/espn6.webp" group-title="ARGENTINA",ESPN 6
+https://la14hd.com/vivo/canales.php?stream=espn6
+#EXTINF:-1 tvg-id="ESPN6.ar" tvg-name="ESPN 6" tvg-logo="https://bestleague.world/img/espn6.webp" group-title="ARGENTINA",ESPN 6
+https://elcanaldeportivo.com/espn6.php
+#EXTINF:-1 tvg-id="ESPN7.ar" tvg-name="ESPN 7" tvg-logo="https://bestleague.world/img/espn7.png" group-title="ARGENTINA",ESPN 7
+https://streamtp22.com/global1.php?stream=espn7
+#EXTINF:-1 tvg-id="ESPN7.ar" tvg-name="ESPN 7" tvg-logo="https://bestleague.world/img/espn7.png" group-title="ARGENTINA",ESPN 7
+https://la14hd.com/vivo/canales.php?stream=espn7
+#EXTINF:-1 tvg-id="ESPN7.ar" tvg-name="ESPN 7" tvg-logo="https://bestleague.world/img/espn7.png" group-title="ARGENTINA",ESPN 7
+https://elcanaldeportivo.com/espn7.php
+#EXTINF:-1 tvg-id="FOXSports1.ar" tvg-name="FOX Sports 1" tvg-logo="https://bestleague.world/img/foxsports.png" group-title="ARGENTINA",FOX Sports 1
+https://mediastore02.playme.com.ar/dash/CH_FOXSPORTS/playlist.mpd?
+#EXTINF:-1 tvg-id="FOXSports1.ar" tvg-name="FOX Sports 1" tvg-logo="https://bestleague.world/img/foxsports.png" group-title="ARGENTINA",FOX Sports 1
+https://la14hd.com/vivo/canales.php?stream=foxsports
+#EXTINF:-1 tvg-id="FOXSports1.ar" tvg-name="FOX Sports 1" tvg-logo="https://bestleague.world/img/foxsports.png" group-title="ARGENTINA",FOX Sports 1
+https://streamtp22.com/global1.php?stream=fox1ar
+#EXTINF:-1 tvg-id="FOXSports1.ar" tvg-name="FOX Sports 1" tvg-logo="https://bestleague.world/img/foxsports.png" group-title="ARGENTINA",FOX Sports 1
+https://rereyano.ru/player/2/78
+#EXTINF:-1 tvg-id="FOXSports1.ar" tvg-name="FOX Sports 1" tvg-logo="https://bestleague.world/img/foxsports.png" group-title="ARGENTINA",FOX Sports 1
+https://dlhd.dad/stream/stream-787.php
+#EXTINF:-1 tvg-id="FOXSports2.ar" tvg-name="FOX Sports 2" tvg-logo="https://bestleague.world/img/foxsports2.png" group-title="ARGENTINA",FOX Sports 2
+https://la14hd.com/vivo/canales.php?stream=foxsports2
+#EXTINF:-1 tvg-id="FOXSports2.ar" tvg-name="FOX Sports 2" tvg-logo="https://bestleague.world/img/foxsports2.png" group-title="ARGENTINA",FOX Sports 2
+https://streamtp22.com/global1.php?stream=fox2ar
+#EXTINF:-1 tvg-id="FOXSports3.ar" tvg-name="FOX Sports 3" tvg-logo="https://bestleague.world/img/foxsports3.png" group-title="ARGENTINA",FOX Sports 3
+https://la14hd.com/vivo/canales.php?stream=foxsports3
+#EXTINF:-1 tvg-id="FOXSports3.ar" tvg-name="FOX Sports 3" tvg-logo="https://bestleague.world/img/foxsports3.png" group-title="ARGENTINA",FOX Sports 3
+https://streamtp22.com/global1.php?stream=fox3ar
+#EXTINF:-1 tvg-id="FOXSports1MX.ar" tvg-name="FOX Sports 1 MX" tvg-logo="https://bestleague.world/img/foxmx.png" group-title="ARGENTINA",FOX Sports 1 MX
+https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oboxe53wyo/out/v1/f7892a9d706d419a846d738fa22ea33e/cenc.mpd
+#EXTINF:-1 tvg-id="FOXSports1MX.ar" tvg-name="FOX Sports 1 MX" tvg-logo="https://bestleague.world/img/foxmx.png" group-title="ARGENTINA",FOX Sports 1 MX
+https://streamtp22.com/global1.php?stream=foxsportsmx
+#EXTINF:-1 tvg-id="FOXSports1MX.ar" tvg-name="FOX Sports 1 MX" tvg-logo="https://bestleague.world/img/foxmx.png" group-title="ARGENTINA",FOX Sports 1 MX
+https://la14hd.com/vivo/canales.php?stream=foxsportsmx
+#EXTINF:-1 tvg-id="FOXSports1MX.ar" tvg-name="FOX Sports 1 MX" tvg-logo="https://bestleague.world/img/foxmx.png" group-title="ARGENTINA",FOX Sports 1 MX
+https://rereyano.ru/player/2/101
+#EXTINF:-1 tvg-id="FOXSports1MX.ar" tvg-name="FOX Sports 1 MX" tvg-logo="https://bestleague.world/img/foxmx.png" group-title="ARGENTINA",FOX Sports 1 MX
+https://dlhd.dad/stream/stream-929.php
+#EXTINF:-1 tvg-id="FOXSports2MX.ar" tvg-name="FOX Sports 2 MX" tvg-logo="https://bestleague.world/img/fox2mx.png" group-title="ARGENTINA",FOX Sports 2 MX
+https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tepjqej1ys/out/v1/c9c9159baee749a19612b1598495859a/cenc.mpd
+#EXTINF:-1 tvg-id="FOXSports2MX.ar" tvg-name="FOX Sports 2 MX" tvg-logo="https://bestleague.world/img/fox2mx.png" group-title="ARGENTINA",FOX Sports 2 MX
+https://la14hd.com/vivo/canales.php?stream=foxsports2mx
+#EXTINF:-1 tvg-id="FOXSports2MX.ar" tvg-name="FOX Sports 2 MX" tvg-logo="https://bestleague.world/img/fox2mx.png" group-title="ARGENTINA",FOX Sports 2 MX
+https://streamtp22.com/global1.php?stream=foxsports2mx
+#EXTINF:-1 tvg-id="FOXSports3MX.ar" tvg-name="FOX Sports 3 MX" tvg-logo="https://bestleague.world/img/fox3mx.png" group-title="ARGENTINA",FOX Sports 3 MX
+https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wybgz0orr8/out/v1/2f6d1612abd44f5883917f8a585b955f/cenc.mpd
+#EXTINF:-1 tvg-id="FOXSports3MX.ar" tvg-name="FOX Sports 3 MX" tvg-logo="https://bestleague.world/img/fox3mx.png" group-title="ARGENTINA",FOX Sports 3 MX
+https://streamtp22.com/global1.php?stream=foxsports3mx
+#EXTINF:-1 tvg-id="FOXSports3MX.ar" tvg-name="FOX Sports 3 MX" tvg-logo="https://bestleague.world/img/fox3mx.png" group-title="ARGENTINA",FOX Sports 3 MX
+https://la14hd.com/vivo/canales.php?stream=foxsports3mx
+#EXTINF:-1 tvg-id="FOXSportsPremiumMX.ar" tvg-name="FOX Sports Premium MX" tvg-logo="https://bestleague.world/img/foxpr.png" group-title="ARGENTINA",FOX Sports Premium MX
+https://ottb.live.cf.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd
+#EXTINF:-1 tvg-id="FOXSportsPremiumMX.ar" tvg-name="FOX Sports Premium MX" tvg-logo="https://bestleague.world/img/foxpr.png" group-title="ARGENTINA",FOX Sports Premium MX
+https://streamtp22.com/global1.php?stream=foxsportspremium
+#EXTINF:-1 tvg-id="FOXSportsPremiumMX.ar" tvg-name="FOX Sports Premium MX" tvg-logo="https://bestleague.world/img/foxpr.png" group-title="ARGENTINA",FOX Sports Premium MX
+https://la14hd.com/vivo/canales.php?stream=foxsportspremium
+#EXTINF:-1 tvg-id="FOXSportsPremiumMX.ar" tvg-name="FOX Sports Premium MX" tvg-logo="https://bestleague.world/img/foxpr.png" group-title="ARGENTINA",FOX Sports Premium MX
+https://rereyano.ru/player/2/104
+#EXTINF:-1 tvg-id="FOXSportsPremiumMX.ar" tvg-name="FOX Sports Premium MX" tvg-logo="https://bestleague.world/img/foxpr.png" group-title="ARGENTINA",FOX Sports Premium MX
+https://dlhd.dad/stream/stream-830.php
+#EXTINF:-1 tvg-id="ESPN1MX.ar" tvg-name="ESPN 1 MX" tvg-logo="https://bestleague.world/img/espn.webp" group-title="ARGENTINA",ESPN 1 MX
+https://streamtp22.com/global1.php?stream=espnmx
+#EXTINF:-1 tvg-id="ESPN1MX.ar" tvg-name="ESPN 1 MX" tvg-logo="https://bestleague.world/img/espn.webp" group-title="ARGENTINA",ESPN 1 MX
+https://rereyano.ru/player/3/97
+#EXTINF:-1 tvg-id="ESPN1MX.ar" tvg-name="ESPN 1 MX" tvg-logo="https://bestleague.world/img/espn.webp" group-title="ARGENTINA",ESPN 1 MX
+https://la14hd.com/vivo/canales.php?stream=espnmx
+#EXTINF:-1 tvg-id="ESPN2MX.ar" tvg-name="ESPN 2 MX" tvg-logo="https://bestleague.world/img/espn2.webp" group-title="ARGENTINA",ESPN 2 MX
+https://streamtp22.com/global1.php?stream=espn2mx
+#EXTINF:-1 tvg-id="ESPN2MX.ar" tvg-name="ESPN 2 MX" tvg-logo="https://bestleague.world/img/espn2.webp" group-title="ARGENTINA",ESPN 2 MX
+https://rereyano.ru/player/3/98
+#EXTINF:-1 tvg-id="ESPN3MX.ar" tvg-name="ESPN 3 MX" tvg-logo="https://bestleague.world/img/espn3.webp" group-title="ARGENTINA",ESPN 3 MX
+https://streamtp22.com/global1.php?stream=espn3mx
+#EXTINF:-1 tvg-id="ESPN3MX.ar" tvg-name="ESPN 3 MX" tvg-logo="https://bestleague.world/img/espn3.webp" group-title="ARGENTINA",ESPN 3 MX
+https://la14hd.com/vivo/canales.php?stream=espn3mx
+#EXTINF:-1 tvg-id="ESPN4MX.ar" tvg-name="ESPN 4 MX" tvg-logo="https://bestleague.world/img/espn4.webp" group-title="ARGENTINA",ESPN 4 MX
+https://streamtp22.com/global1.php?stream=espn4mx
+#EXTINF:-1 tvg-id="ESPN4MX.ar" tvg-name="ESPN 4 MX" tvg-logo="https://bestleague.world/img/espn4.webp" group-title="ARGENTINA",ESPN 4 MX
+https://la14hd.com/vivo/canales.php?stream=espn4mx
+#EXTINF:-1 tvg-id="TUDN.ar" tvg-name="TUDN" tvg-logo="https://bestleague.world/img/tudn.png" group-title="ARGENTINA",TUDN
+https://streamtp22.com/global1.php?stream=tudn_usa
+#EXTINF:-1 tvg-id="TUDN.ar" tvg-name="TUDN" tvg-logo="https://bestleague.world/img/tudn.png" group-title="ARGENTINA",TUDN
+https://la14hd.com/vivo/canales.php?stream=tudn
+#EXTINF:-1 tvg-id="TUDN.ar" tvg-name="TUDN" tvg-logo="https://bestleague.world/img/tudn.png" group-title="ARGENTINA",TUDN
+https://elcanaldeportivo.com/udn.php
+#EXTINF:-1 tvg-id="ESPNDeportes.ar" tvg-name="ESPN Deportes" tvg-logo="https://bestleague.world/img/espndep.png" group-title="ARGENTINA",ESPN Deportes
+https://streamtp22.com/global1.php?stream=espndeportes
+#EXTINF:-1 tvg-id="ESPNDeportes.ar" tvg-name="ESPN Deportes" tvg-logo="https://bestleague.world/img/espndep.png" group-title="ARGENTINA",ESPN Deportes
+https://la14hd.com/vivo/canales.php?stream=espndeportes
+#EXTINF:-1 tvg-id="ESPNDeportes.ar" tvg-name="ESPN Deportes" tvg-logo="https://bestleague.world/img/espndep.png" group-title="ARGENTINA",ESPN Deportes
+https://rereyano.ru/player/2/71
+#EXTINF:-1 tvg-id="ESPNDeportes.ar" tvg-name="ESPN Deportes" tvg-logo="https://bestleague.world/img/espndep.png" group-title="ARGENTINA",ESPN Deportes
+https://dlhd.dad/stream/stream-375.php
+#EXTINF:-1 tvg-id="FOXDeportes.ar" tvg-name="FOX Deportes" tvg-logo="https://bestleague.world/img/foxdep.png" group-title="ARGENTINA",FOX Deportes
+https://streamtp22.com/global1.php?stream=fox_deportes_usa
+#EXTINF:-1 tvg-id="FOXDeportes.ar" tvg-name="FOX Deportes" tvg-logo="https://bestleague.world/img/foxdep.png" group-title="ARGENTINA",FOX Deportes
+https://la14hd.com/vivo/canales.php?stream=foxdeportes
+#EXTINF:-1 tvg-id="VTVPlus.ar" tvg-name="VTV Plus" tvg-logo="https://bestleague.world/img/vtvplus.webp" group-title="ARGENTINA",VTV Plus
+https://streamtp22.com/global1.php?stream=vtvplus
+#EXTINF:-1 tvg-id="VTVPlus.ar" tvg-name="VTV Plus" tvg-logo="https://bestleague.world/img/vtvplus.webp" group-title="ARGENTINA",VTV Plus
+https://rereyano.ru/player/3/109
+#EXTINF:-1 tvg-id="NBATV.ar" tvg-name="NBA TV" tvg-logo="https://bestleague.world/img/nba.png" group-title="ARGENTINA",NBA TV
+https://thedaddy.to/embed/stream-404.php
+#EXTINF:-1 tvg-id="WinSports.ar" tvg-name="Win Sports" tvg-logo="https://bestleague.world/img/win.png" group-title="ARGENTINA",Win Sports
+https://streamtp22.com/global1.php?stream=winsports
+#EXTINF:-1 tvg-id="WinSports.ar" tvg-name="Win Sports" tvg-logo="https://bestleague.world/img/win.png" group-title="ARGENTINA",Win Sports
+https://la14hd.com/vivo/canales.php?stream=winsports
+#EXTINF:-1 tvg-id="WinSports+.ar" tvg-name="Win Sports +" tvg-logo="https://bestleague.world/img/winsports.webp" group-title="ARGENTINA",Win Sports +
+https://streamtp22.com/global1.php?stream=winplus
+#EXTINF:-1 tvg-id="WinSports+.ar" tvg-name="Win Sports +" tvg-logo="https://bestleague.world/img/winsports.webp" group-title="ARGENTINA",Win Sports +
+https://streamtp22.com/global1.php?stream=winplus2
+#EXTINF:-1 tvg-id="WinSports+.ar" tvg-name="Win Sports +" tvg-logo="https://bestleague.world/img/winsports.webp" group-title="ARGENTINA",Win Sports +
+https://la14hd.com/vivo/canales.php?stream=winsportsplus
+#EXTINF:-1 tvg-id="WinSports+.ar" tvg-name="Win Sports +" tvg-logo="https://bestleague.world/img/winsports.webp" group-title="ARGENTINA",Win Sports +
+https://elcanaldeportivo.com/winmas.php
+#EXTINF:-1 tvg-id="WinSports+.ar" tvg-name="Win Sports +" tvg-logo="https://bestleague.world/img/winsports.webp" group-title="ARGENTINA",Win Sports +
+https://streamtp22.com/global1.php?stream=winplusonline1
+#EXTINF:-1 tvg-id="Liga1MAX.ar" tvg-name="Liga1 MAX" tvg-logo="https://bestleague.world/img/liga1max.webp" group-title="ARGENTINA",Liga1 MAX
+https://streamtp22.com/global1.php?stream=liga1max
+#EXTINF:-1 tvg-id="Liga1MAX.ar" tvg-name="Liga1 MAX" tvg-logo="https://bestleague.world/img/liga1max.webp" group-title="ARGENTINA",Liga1 MAX
+https://la14hd.com/vivo/canales.php?stream=liga1max
+#EXTINF:-1 tvg-id="Liga1MAX.ar" tvg-name="Liga1 MAX" tvg-logo="https://bestleague.world/img/liga1max.webp" group-title="ARGENTINA",Liga1 MAX
+https://elcanaldeportivo.com/liga1maxpe.php
+#EXTINF:-1 tvg-id="Liga1MAX.ar" tvg-name="Liga1 MAX" tvg-logo="https://bestleague.world/img/liga1max.webp" group-title="ARGENTINA",Liga1 MAX
+https://rereyano.ru/player/2/84
+#EXTINF:-1 tvg-id="LoveNature.ar" tvg-name="Love Nature" tvg-logo="https://bestleague.world/img/lovenature.png" group-title="ARGENTINA",Love Nature
+https://bestleague.world/canal/?id=LOVENATURE
+#EXTINF:-1 tvg-id="Golden.ar" tvg-name="Golden" tvg-logo="https://bestleague.world/img/Logo_Golden_TV.svg" group-title="ARGENTINA",Golden
+https://csc-axs-edge02.sensa.com.ar/live/eds/GoldenEdge/live_dash_cld/GoldenEdge.mpd
+#EXTINF:-1 tvg-id="Antena3.ar" tvg-name="Antena 3" tvg-logo="https://bestleague.world/img/antena3.webp" group-title="ARGENTINA",Antena 3
+https://bestleague.world/clappr/?id=ANTENA3
+#EXTINF:-1 tvg-id="Antena3.ar" tvg-name="Antena 3" tvg-logo="https://bestleague.world/img/antena3.webp" group-title="ARGENTINA",Antena 3
+https://ottb.live.cf.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/vmpuqwfici/out/v1/1a5a24e422764fb3934808e830545f8d/cenc.mpd
+#EXTINF:-1 tvg-id="Universo.ar" tvg-name="Universo" tvg-logo="https://bestleague.world/img/universo.png" group-title="ARGENTINA",Universo
+https://streamtp22.com/global1.php?stream=universo
+#EXTINF:-1 tvg-id="Universo.ar" tvg-name="Universo" tvg-logo="https://bestleague.world/img/universo.png" group-title="ARGENTINA",Universo
+https://rereyano.ru/player/3/72
+#EXTINF:-1 tvg-id="UnivisÃ­on.ar" tvg-name="UnivisÃ­on" tvg-logo="https://bestleague.world/img/univision.png" group-title="ARGENTINA",UnivisÃ­on
+https://streamtp22.com/global1.php?stream=univision_usa
+#EXTINF:-1 tvg-id="UnivisÃ­on.ar" tvg-name="UnivisÃ­on" tvg-logo="https://bestleague.world/img/univision.png" group-title="ARGENTINA",UnivisÃ­on
+https://la14hd.com/vivo/canales.php?stream=univision
+#EXTINF:-1 tvg-id="AdultSwim.ar" tvg-name="Adult Swim" tvg-logo="https://bestleague.world/img/adults.png" group-title="ARGENTINA",Adult Swim
+https://bestleague.world/canal/?id=ADULT_SWIM
