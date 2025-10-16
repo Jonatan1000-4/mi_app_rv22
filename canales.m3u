@@ -6,7 +6,7 @@ http://streamprostk.com:2082/56976159933wspztv/04012024ztv/166
 #EXTINF:-1 tvg-id="EL NUEVE.ar" tvg-name="El Nueve" tvg-logo="https://www.seekpng.com/png/full/345-3453836_ar-canal-9-el-nueve-el-nueve-logo.png" group-title="ARGENTINA",El Nueve
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2346
 #EXTINF:-1 tvg-id="TELEFE.ar" tvg-name="TELEFE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Telefe.png" group-title="ARGENTINA",TELEFE
-http://51.15.1.149:8080/56976159933wspztv/04012024ztv/2348?
+http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/445578.m3u8
 #EXTINF:-1 tvg-id="EL TRECE.ar" tvg-name="El Trece" tvg-logo="https://4.bp.blogspot.com/-qbC3LvpmKVM/Ufm9YzqCi6I/AAAAAAAAAJw/CHVpYurVoMI/s1600/Logo_Canal_Trece_actual1.png" group-title="ARGENTINA",El Trece
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/6988
 #EXTINF:-1 tvg-id="A24.ar" tvg-name="A24" tvg-logo="https://www.reportv.com.ar/buscador/img/Logos/48806494.jpg" group-title="ARGENTINA",A24
@@ -197,6 +197,8 @@ http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2465
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/2466
 #EXTINF:-1 tvg-id="" tvg-name="Los  Simpsons  24/7" tvg-logo="https://img.huffingtonpost.com/asset/5df79f752500004071d3050f.jpeg" group-title="CANALES 24/7",Los  Simpsons  24/7
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31721
+#EXTINF:-1 tvg-id="" tvg-name="Los  Simpsons  24/7 2" tvg-logo="https://img.huffingtonpost.com/asset/5df79f752500004071d3050f.jpeg" group-title="CANALES 24/7",Los  Simpsons  24/7 2
+http://redworld.pro:8880/live/Jonatan12/uwZEYrEuejWv/445505.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="El Chavo del 8 24/7" tvg-logo="https://i.postimg.cc/rFSCG5w1/chavo.png" group-title="CANALES 24/7",El Chavo del 8 24/7
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/14720
 #EXTINF:-1 tvg-id="" tvg-name="El Chapulín Colorado 24/7" tvg-logo="https://i.ibb.co/8Xf1rWT/Icono-24-7-78486-19.jpg" group-title="CANALES 24/7",El Chapulín Colorado 24/7
@@ -207,5 +209,6 @@ http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7094
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31708
 #EXTINF:-1 tvg-id="" tvg-name="Cinema Marvel 24/7" tvg-logo="https://i.ibb.co/8Xf1rWT/Icono-24-7-78486-19.jpg" group-title="CANALES 24/7",Cinema Marvel 24/7
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31706
+
 
 
