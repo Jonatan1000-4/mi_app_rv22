@@ -1,13 +1,13 @@
 #EXTM3U
 #EXTINF:-1 group-title="PELICULAS",tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/9CSTzX1pUrNLD7lsJ8h9hRFJtLQ.jpg" Rockstar: DUKI desde el fin del mundo (2025)
 http://tv.diablotv.net:8080/movie/aarcila/8KqMg4kAWM/150807.mkv
-#EXTINF:-1 group-title="PELICULAS",tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/j3Q2MrpmaOrKfN2pInNvRNhYa4G.jpg" Putin (2025)
+#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/j3Q2MrpmaOrKfN2pInNvRNhYa4G.jpg", Putin (2025)
 http://tv.diablotv.net:8080/movie/aarcila/8KqMg4kAWM/150804.mkv
-#EXTINF:-1 group-title="PELICULAS",tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/v1vs4RJyqzckfxPjyWN5zN1dEgH.jpg" Mantis (2025)
+#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/v1vs4RJyqzckfxPjyWN5zN1dEgH.jpg", Mantis (2025)
 http://tv.diablotv.net:8080/movie/aarcila/8KqMg4kAWM/149961.mkv
-#EXTINF:-1 group-title="PELICULAS",tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/djiVnOPhgYBId1ii67NxGDJ2c9i.jpg" Mirando a través del agua (2025)
+#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/djiVnOPhgYBId1ii67NxGDJ2c9i.jpg", Mirando a través del agua (2025)
 http://tv.diablotv.net:8080/movie/aarcila/8KqMg4kAWM/149960.mkv
-#EXTINF:-1 group-title="PELICULAS",tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4sic9AsYo2dyIUQdSKzw9XpuW03.jpg" El tesoro de Keops (2025)
+#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4sic9AsYo2dyIUQdSKzw9XpuW03.jpg", El tesoro de Keops (2025)
 http://tv.diablotv.net:8080/movie/aarcila/8KqMg4kAWM/150869.mkv
 #EXTINF:-1 group-title="PELICULAS",tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/hvIqaDUC48dwfd7taKczB7909Qg.jpg" 28 años después (2025)
 http://tv.diablotv.net:8080/movie/aarcila/8KqMg4kAWM/137753.mkv
@@ -189,19 +189,19 @@ http://tv.diablotv.net:8080/series/aarcila/8KqMg4kAWM/35587.mp4
 http://tv.diablotv.net:8080/series/aarcila/8KqMg4kAWM/35588.mp4
 #EXTINF:-1 group-title="SERIES",tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mkt6CMQXcgti8uCO1akz3iXLHDF.jpg" 31 Minutos S04 E11 (S04E11)
 http://tv.diablotv.net:8080/series/aarcila/8KqMg4kAWM/35589.mp4
-#EXTINF:-1 group-title="SERIES",tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zw5uJ1SpCz9XXMNvQaBVSAXl28z.jpg" 31 Minutos S04 E12 (S04E12)
+#EXTINF:-1 group-title="SERIES" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zw5uJ1SpCz9XXMNvQaBVSAXl28z.jpg", 31 Minutos S04 E12 (S04E12)
 http://tv.diablotv.net:8080/series/aarcila/8KqMg4kAWM/35590.mp4
-#EXTINF:-1 group-title="TV EN VIVO",tvg-logo="http://sunset-app.com/picons/sudamerica/a24.jpg" AR | A24
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://sunset-app.com/picons/sudamerica/a24.jpg", AR | A24
 http://app.tecnomolly.com:8080/Felipealaniz/bcTmmkKmnGae/67525
-#EXTINF:-1 group-title="TV EN VIVO",tvg-logo="https://i.postimg.cc/xjM6543q/canal26.jpg" AR | Canal 26
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/xjM6543q/canal26.jpg", AR | Canal 26
 http://app.tecnomolly.com:8080/Felipealaniz/bcTmmkKmnGae/67523
-#EXTINF:-1 group-title="TV EN VIVO",tvg-logo="https://i.postimg.cc/Bbhz71MG/telefe.jpg" AR | Telefe
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/Bbhz71MG/telefe.jpg", AR | Telefe
 http://app.tecnomolly.com:8080/Felipealaniz/bcTmmkKmnGae/181625
-#EXTINF:-1 group-title="TV EN VIVO",tvg-logo="https://cdn.mitvstatic.com/channels/ar_america-2-capital_m.png" AR | America Tv
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://cdn.mitvstatic.com/channels/ar_america-2-capital_m.png", AR | America Tv
 http://app.tecnomolly.com:8080/Felipealaniz/bcTmmkKmnGae/210627
-#EXTINF:-1 group-title="TV EN VIVO",tvg-logo="https://i.ytimg.com/vi/DOOr0RuuYN8/hqdefault.jpg" AR | ESPN 3
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.ytimg.com/vi/DOOr0RuuYN8/hqdefault.jpg", AR | ESPN 3
 http://app.tecnomolly.com:8080/Felipealaniz/bcTmmkKmnGae/292587
-#EXTINF:-1 group-title="TV EN VIVO",tvg-logo="https://cdn.mitvstatic.com/channels/ar_espn-2_m.png" AR | ESPN 2
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://cdn.mitvstatic.com/channels/ar_espn-2_m.png", AR | ESPN 2
 http://app.tecnomolly.com:8080/Felipealaniz/bcTmmkKmnGae/292588
-#EXTINF:-1 group-title="TV EN VIVO",tvg-logo="https://media.cdn.eldestapeweb.com/eldestape/122021/1639068588354/El-Trece.jpg?&cw" ARG | El Trece
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://media.cdn.eldestapeweb.com/eldestape/122021/1639068588354/El-Trece.jpg?&cw", ARG | El Trece
 http://app.tecnomolly.com:8080/Felipealaniz/bcTmmkKmnGae/316825
