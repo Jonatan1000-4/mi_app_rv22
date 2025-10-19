@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f6/Logotipo_de_America_TV.JPG" ,AR | AMÉRICA TV HD
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://television.com.ar/wp-content/uploads/2024/05/AmericaLogo2020.jpg" ,AR | AMÉRICA TV HD
 http://195.66.210.10:80/andres333/mUf9xxGXbG/209741
 #EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://cdn.mitvstatic.com/channels/ar_c5n_m.png" ,AR | C5N
 http://195.66.210.10:80/andres333/mUf9xxGXbG/242080
@@ -11,9 +11,9 @@ http://195.66.210.10:80/andres333/mUf9xxGXbG/54215
 http://195.66.210.10:80/andres333/mUf9xxGXbG/47017
 #EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4DC0-vjxdknUnvyD_wtUZ3iAacVmZqmj7_O6aRYYGT30zyv7Up4KWSamHZ_eZ3H84uhvmrXs-XiVCG2KX_xVteVyguWXrPr1D_MNiBJT6ckBDA_-5Gx-FTnaXA0EXGl4o2i91qFqnI0Z5P9N45IKO5TX3bDdWMmqTXzua5KV5YRDJAJnkNPN0hx9h/s558/CRONICATV.png" ,AR | CRÓNICA TV
 http://195.66.210.10:80/andres333/mUf9xxGXbG/19708
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q" ,AR | DEPORTV HD
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://d3b5jqy5xuub7g.cloudfront.net/wp-content/uploads/2021/05/DeporTVOK.jpg" ,AR | DEPORTV HD
 http://195.66.210.10:80/andres333/mUf9xxGXbG/19709
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png" ,AR | EL NUEVE HD
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://television.com.ar/wp-content/uploads/legacy/2020/elnuevelogo.jpg" ,AR | EL NUEVE HD
 http://195.66.210.10:80/andres333/mUf9xxGXbG/46977
 #EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/El13.ar.png" ,AR | EL TRECE
 http://195.66.210.10:80/andres333/mUf9xxGXbG/286050
