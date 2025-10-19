@@ -1,31 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kVcoxXAPfHo58FDwOCOF8NAW4bp.jpg" ,Se requiere mantenimiento (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/619809.mp4
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/n2xPRI0isWxKfX3UqlfnNPaPusg.jpg" ,Him: El elegido (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/619808.mp4
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ur3H6g9xmrLQX2Ioh9z3P904ZSC.jpg" ,Caramelo (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/619738.mp4
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4bON8gBbPCG4cyFmYHcZPnHlshm.jpg" ,Padre de familia: Música para Halloween (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/619670.mkv
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/j3Q2MrpmaOrKfN2pInNvRNhYa4G.jpg" ,Putin (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/619332.mp4
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/woWZlhtZHEKnGLaWXgOJQcLgkA5.jpg" ,Rockstar: DUKI desde el fin del mundo (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/619292.mp4
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/f474M02m9FocBhR6sr4DAkvoM2c.jpg" ,Downton Abbey: El gran final (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/619240.mp4
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/70Na5MXfOsFlJvoX6oKYAwOhNN9.jpg" ,Juego sucio (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/619241.mp4
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/oyl44sKyNdWbVajTAz6oG6DZm8V.jpg" ,Atrapado robando (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/619239.mp4
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/giRUiVTcAGzV7puyxkrzQudzFyc.jpg" ,Eddington (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/619022.mp4
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Fyouhu5GY9okg794Qy0qa03p3d.jpg" ,Match: La reina de las apps de citas (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/618099.mp4
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/1O1GV6UhiWW7uRG8m92VApsi96V.jpg" ,Una abogada brillante (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/618098.mp4
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/mtMJEIHjeHcLtvP0tFPAptk1Var.jpg" ,Rut y Booz (2025)
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/618692.mp4
-#EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/v1vs4RJyqzckfxPjyWN5zN1dEgH.jpg" ,Mantis (2025)
+
 http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/618693.mp4
 #EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kVcoxXAPfHo58FDwOCOF8NAW4bp.jpg" ,Se requiere mantenimiento (2025)
 http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/619809.mp4
@@ -55,7 +29,6 @@ http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/618098.mp4
 http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/618692.mp4
 #EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/v1vs4RJyqzckfxPjyWN5zN1dEgH.jpg" ,Mantis (2025)
 http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/618693.mp4
-#EXTM3U
 #EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iKntUTTLxUgizTe3jFcGLuHc84c.jpg" ,Viuda negra (2021)
 http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/414655.mkv
 #EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/scLV1AO6TLi45N7AJanjYR48i78.jpg" ,Hulk ( 2003 ) Lat
