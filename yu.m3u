@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://television.com.ar/wp-content/uploads/2024/05/AmericaLogo2020.jpg" ,AR | AMÉRICA TV HD
+#EXTINF:-1 group-title="TV EN VIVO" tvg-id="AMERICA TV.ar" tvg-logo="https://television.com.ar/wp-content/uploads/2024/05/AmericaLogo2020.jpg" ,AR | AMÉRICA TV HD
 http://195.66.210.10:80/andres333/mUf9xxGXbG/209741
 #EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://cdn.mitvstatic.com/channels/ar_c5n_m.png" ,AR | C5N
 http://195.66.210.10:80/andres333/mUf9xxGXbG/242080
