@@ -1,6 +1,276 @@
 #EXTM3U
-
-http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/618693.mp4
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f6/Logotipo_de_America_TV.JPG" ,AR | AMÉRICA TV HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/209741
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://cdn.mitvstatic.com/channels/ar_c5n_m.png" ,AR | C5N
+http://195.66.210.10:80/andres333/mUf9xxGXbG/242080
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://argentina.mom-gmr.org/uploads/_processed_/c/6/csm_16018-1639_import_f924de7718.png" ,AR | CANAL 26
+http://195.66.210.10:80/andres333/mUf9xxGXbG/54199
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2017/10/Canal-5-TV-Corrientes-en-vivo-Online.png" ,AR | CANAL 5 TV CORRIENTES
+http://195.66.210.10:80/andres333/mUf9xxGXbG/54215
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/52/3d3b0-canal9-2016.png/revision/latest/scale-to-width-down/250?cb" ,AR | CANAL 9 SALTA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/47017
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4DC0-vjxdknUnvyD_wtUZ3iAacVmZqmj7_O6aRYYGT30zyv7Up4KWSamHZ_eZ3H84uhvmrXs-XiVCG2KX_xVteVyguWXrPr1D_MNiBJT6ckBDA_-5Gx-FTnaXA0EXGl4o2i91qFqnI0Z5P9N45IKO5TX3bDdWMmqTXzua5KV5YRDJAJnkNPN0hx9h/s558/CRONICATV.png" ,AR | CRÓNICA TV
+http://195.66.210.10:80/andres333/mUf9xxGXbG/19708
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q" ,AR | DEPORTV HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/19709
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png" ,AR | EL NUEVE HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/46977
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/El13.ar.png" ,AR | EL TRECE
+http://195.66.210.10:80/andres333/mUf9xxGXbG/286050
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/El13.ar.png" ,AR | EL TRECE HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/46976
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d1/Large.logo_garageTV_HD.png.9288a09ab4d6cbef56c691cd4890aa24.png/revision/latest?cb" ,AR | GARAGE TV FHD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/209745
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2017/10/Litus-TV-en-vivo-Online.png" ,AR | LITUS TV SANTA FÉ
+http://195.66.210.10:80/andres333/mUf9xxGXbG/54231
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png" ,AR | NET TV
+http://195.66.210.10:80/andres333/mUf9xxGXbG/54165
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/PakaPaka.ar.png" ,AR | PAKA PAKA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/19555
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Telefe.png" ,AR | TELEFÉ HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/12933
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Telefe.png" ,AR | TELEFÉ INTERNACIONAL HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/259317
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://play-lh.googleusercontent.com/hM1uXjU4oXRKo1xfBhLLqFuTLNzvDhHw4XUvMOnv7eiR0Px8JFqzJjXQZdptxGcGsA" ,AR | TELEMAX
+http://195.66.210.10:80/andres333/mUf9xxGXbG/46973
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4d/Logo_TV_P%C3%BAblica_Digital.png" ,AR | TV PÚBLICA HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/46972
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/96/C13e0-volver.gif/revision/latest/scale-to-width-down/200?cb" ,AR | VOLVER
+http://195.66.210.10:80/andres333/mUf9xxGXbG/19983
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/A24_%282025%29.svg/800px-A24_%282025%29.svg.png" ,AR | A24
+http://195.66.210.10:80/andres333/mUf9xxGXbG/610876
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TN_todo_noticias_logo.svg/langes-1100px-TN_todo_noticias_logo.svg.png" ,AR | TN
+http://195.66.210.10:80/andres333/mUf9xxGXbG/613255
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://www.pikpng.com/pngl/b/339-3392974_chavo-del-8-png-chavo-del-8-meme.png" ,24/7 | EL CHAVO DEL 8  ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/216295
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | CINEMA HAPPY MADISON
+http://195.66.210.10:80/andres333/mUf9xxGXbG/177336
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | CINEMA DREAMWORKS
+http://195.66.210.10:80/andres333/mUf9xxGXbG/177326
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | CINEMA HORROR
+http://195.66.210.10:80/andres333/mUf9xxGXbG/177330
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | DISNEY LIVE ACTION
+http://195.66.210.10:80/andres333/mUf9xxGXbG/177324
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png" ,24/7 | LOS SIMPSON T1 ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/216822
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png" ,24/7 | LOS SIMPSON T2 ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/216938
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png" ,24/7 | LOS SIMPSON T3 ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/217023
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/929a9419701211.562ded5592985.jpg" ,24/7 | CANTINFLAS
+http://195.66.210.10:80/andres333/mUf9xxGXbG/107891
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://ahoramismo.com/wp-content/uploads/2020/11/Caso-cerrado.jpg?quality" ,24/7 | CASO CERRADO ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/107845
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a1/Zorro_1957_show_logo.jpg" ,24/7 | EL ZORRO 1957 ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/107878
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://dl.dropboxusercontent.com/s/h4xfofursz2py5j/futurama.png" ,24/7 | FUTURAMA ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/46284
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://e7.pngegg.com/pngimages/987/947/png-clipart-illustration-logo-graphic-design-brand-pink-panther-love-text.png" ,24/7 | LA PANTERA ROSA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/107989
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.pinimg.com/236x/a1/88/5b/a1885b75c13ac52ef1e5ba6d022d1ffb--charlie-chaplin.jpg" ,24/7 | LOS 3 CHIFLADOS
+http://195.66.210.10:80/andres333/mUf9xxGXbG/107893
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/dcheroesrpg/images/5/58/MacGyver1.jpg/revision/latest?cb" ,24/7 | MACGIVER ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/257380
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/AMC_logo_2016.png" ,CINE | AMC SUR
+http://195.66.210.10:80/andres333/mUf9xxGXbG/159149
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/640px-AXN_logo_%282015%29.svg.png" ,CINE | AXN HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/53047
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://iconape.com/wp-content/png_logo_vector/canal-dhe-logo.png" ,CINE | CANAL DHE FHD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/225716
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/Cinelatino_logo.png" ,CINE | CINE LATINO
+http://195.66.210.10:80/andres333/mUf9xxGXbG/55511
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://contarte.com.ar/wp-content/uploads/2018/09/cinecanal.jpg" ,CINE | CINECANAL HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/9494
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/640px-Cinemax_%28Yellow%29.svg.png" ,CINE | CINEMAX SUR
+http://195.66.210.10:80/andres333/mUf9xxGXbG/54167
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_m1il2uGPwFEmHlqAZTaPhpSY-oEuPgV-YR8FQqWNL7lv-Ev2CDFe_2zV9G4P5bpkNWUVj83zxKqUguDBYbgxC6gan0CBYgPoSX2NbgXI1BdFtWQdGIblZi4T0QGKC-f_UhK_qhMpYCE/s0/depelicula-2021.png" ,CINE | DE PELÍCULA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/53095
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/co/ClaroCinema.co.png" ,CINE | CLARO CINEMA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/276307
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/De-Pelicula-Plus-Logo.png" ,CINE | DE PELÍCULA PLUS
+http://195.66.210.10:80/andres333/mUf9xxGXbG/53091
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/30/De_Pel%C3%ADcula_Cl%C3%A1sico.png" ,CINE | DE PELÍCULA CLASSIC
+http://195.66.210.10:80/andres333/mUf9xxGXbG/53090
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://ewsat.com/img/EUROPA_EUROPA.png" ,CINE | EUROPA EUROPA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/473708
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://revistamomentos.co/wp-content/uploads/2017/06/Logo-Film-Arts.png" ,CINE | FILM & ARTS HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/19535
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://i.ibb.co/hX5Tjph/golden-edge.png" ,CINE | GOLDEN EDGE
+http://195.66.210.10:80/andres333/mUf9xxGXbG/9349
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/51/Golden_Plus_2020.png/revision/latest/scale-to-width-down/310?cb" ,CINE | GOLDEN PLUS
+http://195.66.210.10:80/andres333/mUf9xxGXbG/53089
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5b/Golden_premier.png/revision/latest?cb" ,CINE | GOLDEN PREMIER
+http://195.66.210.10:80/andres333/mUf9xxGXbG/67425
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://claroperupoc.vtexassets.com/arquivos/golden-premier-2hd-v2.png" ,CINE | GOLDEN PREMIER 2
+http://195.66.210.10:80/andres333/mUf9xxGXbG/453359
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://e1.pngegg.com/pngimages/397/604/png-clipart-tv-channel-icons-hbo-2-black-hbo-2-logo-thumbnail.png" ,CINE | HBO 2 SUR
+http://195.66.210.10:80/andres333/mUf9xxGXbG/286151
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/6132214100feb70004beb7ca.png" ,CINE | HBO HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/242029
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/HBO_Plus.png/640px-HBO_Plus.png" ,CINE | HBO PLUS ARG
+http://195.66.210.10:80/andres333/mUf9xxGXbG/159125
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/1280px-HBO_Pop.svg.png" ,CINE | HBO POP SD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/159124
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/1200px-HBO_Xtreme.svg.png" ,CINE | HBO XTREME SUR HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/54164
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/50/MC_logo_2022.png" ,CINE | MULTICINEMA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/453506
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.imgur.com/9jprbpv.png" ,CINE | MEGA CINE TV
+http://195.66.210.10:80/andres333/mUf9xxGXbG/558325
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3a/Multipremier_logo.svg.png/revision/latest?cb" ,CINE | MULTIPREMIER HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/453505
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://companieslogo.com/img/orig/PARA_BIG-d8040ab9.png?t" ,CINE | PARAMOUNT CHANNEL SUR
+http://195.66.210.10:80/andres333/mUf9xxGXbG/242033
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://sc.dish.com/shared/images/station-logos/SHO-E.PNG" ,CINE | SHOWTIME LATINO HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/159148
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/640px-SpaceLogo.svg.png" ,CINE | SPACE SUR
+http://195.66.210.10:80/andres333/mUf9xxGXbG/159153
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Sony_Cine_2021_Logo.png/revision/latest?cb" ,CINE | SONY
+http://195.66.210.10:80/andres333/mUf9xxGXbG/199523
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.pinimg.com/474x/bb/50/99/bb50999fb2860f8760ef4b22ef8bf09e.jpg" ,CINE | STAR CHANNEL SUR SD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/439809
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://1000marcas.net/wp-content/uploads/2021/11/Starz-logo-.png" ,CINE | STARZ LATINO HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/159130
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Logo_Studio_Universal.svg/2560px-Logo_Studio_Universal.svg.png" ,CINE | STUDIO UNIVERSAL HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/19572
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/1024px-TNT_Logo_2016.svg.png" ,CINE | TNT HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/439741
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" tvg-id="AMERICA TV.ar" ,AR | AMÉRICA TV HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/209741
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://cdn.mitvstatic.com/channels/ar_c5n_m.png" tvg-id="C5N.ar" ,AR | C5N
+http://195.66.210.10:80/andres333/mUf9xxGXbG/242080
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/2048px-Canal_26_logo_%282022%29.svg.png" tvg-id="Canal 26.ar" ,AR | CANAL 26
+http://195.66.210.10:80/andres333/mUf9xxGXbG/54199
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2017/10/Canal-5-TV-Corrientes-en-vivo-Online.png" tvg-id="I105.52762.schedulesdirect.org" ,AR | CANAL 5 TV CORRIENTES
+http://195.66.210.10:80/andres333/mUf9xxGXbG/54215
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/52/3d3b0-canal9-2016.png/revision/latest/scale-to-width-down/250?cb" ,AR | CANAL 9 SALTA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/47017
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4DC0-vjxdknUnvyD_wtUZ3iAacVmZqmj7_O6aRYYGT30zyv7Up4KWSamHZ_eZ3H84uhvmrXs-XiVCG2KX_xVteVyguWXrPr1D_MNiBJT6ckBDA_-5Gx-FTnaXA0EXGl4o2i91qFqnI0Z5P9N45IKO5TX3bDdWMmqTXzua5KV5YRDJAJnkNPN0hx9h/s558/CRONICATV.png" tvg-id="CRONICA TV.ar" ,AR | CRÓNICA TV
+http://195.66.210.10:80/andres333/mUf9xxGXbG/19708
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q" tvg-id="I631.112240.schedulesdirect.org" ,AR | DEPORTV HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/19709
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png" tvg-id="EL NUEVE.ar" ,AR | EL NUEVE HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/46977
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/El13.ar.png" tvg-id="EL TRECE.ar" ,AR | EL TRECE
+http://195.66.210.10:80/andres333/mUf9xxGXbG/286050
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/El13.ar.png" tvg-id="EL TRECE.ar" ,AR | EL TRECE HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/46976
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d1/Large.logo_garageTV_HD.png.9288a09ab4d6cbef56c691cd4890aa24.png/revision/latest?cb" tvg-id="EL GARAGE.ar" ,AR | GARAGE TV FHD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/209745
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2017/10/Litus-TV-en-vivo-Online.png" ,AR | LITUS TV SANTA FÉ
+http://195.66.210.10:80/andres333/mUf9xxGXbG/54231
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png" ,AR | NET TV
+http://195.66.210.10:80/andres333/mUf9xxGXbG/54165
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/PakaPaka.ar.png" ,AR | PAKA PAKA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/19555
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Telefe.png" tvg-id="TELEFE.ar" ,AR | TELEFÉ HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/12933
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Telefe.png" tvg-id="TELEFE.ar" ,AR | TELEFÉ INTERNACIONAL HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/259317
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://play-lh.googleusercontent.com/hM1uXjU4oXRKo1xfBhLLqFuTLNzvDhHw4XUvMOnv7eiR0Px8JFqzJjXQZdptxGcGsA" ,AR | TELEMAX
+http://195.66.210.10:80/andres333/mUf9xxGXbG/46973
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4d/Logo_TV_P%C3%BAblica_Digital.png" tvg-id="TV PUBLICA.ar" ,AR | TV PÚBLICA HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/46972
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/96/C13e0-volver.gif/revision/latest/scale-to-width-down/200?cb" ,VOLVER
+http://195.66.210.10:80/andres333/mUf9xxGXbG/19983
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/A24_%282025%29.svg/800px-A24_%282025%29.svg.png" tvg-id="A24.ar" ,AR | A24
+http://195.66.210.10:80/andres333/mUf9xxGXbG/610876
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TN_todo_noticias_logo.svg/langes-1100px-TN_todo_noticias_logo.svg.png" ,AR | TN
+http://195.66.210.10:80/andres333/mUf9xxGXbG/613255
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://www.pikpng.com/pngl/b/339-3392974_chavo-del-8-png-chavo-del-8-meme.png" ,24/7 | EL CHAVO DEL 8  ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/216295
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | CINEMA HAPPY MADISON
+http://195.66.210.10:80/andres333/mUf9xxGXbG/177336
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | CINEMA DREAMWORKS
+http://195.66.210.10:80/andres333/mUf9xxGXbG/177326
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | CINEMA HORROR
+http://195.66.210.10:80/andres333/mUf9xxGXbG/177330
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | DISNEY LIVE ACTION
+http://195.66.210.10:80/andres333/mUf9xxGXbG/177324
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png" ,24/7 | LOS SIMPSON T1 ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/216822
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png" ,24/7 | LOS SIMPSON T2 ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/216938
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png" ,24/7 | LOS SIMPSON T3 ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/217023
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/929a9419701211.562ded5592985.jpg" ,24/7 | CANTINFLAS
+http://195.66.210.10:80/andres333/mUf9xxGXbG/107891
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://ahoramismo.com/wp-content/uploads/2020/11/Caso-cerrado.jpg?quality" ,24/7 | CASO CERRADO ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/107845
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a1/Zorro_1957_show_logo.jpg" ,24/7 | EL ZORRO 1957 ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/107878
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://dl.dropboxusercontent.com/s/h4xfofursz2py5j/futurama.png" ,24/7 | FUTURAMA ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/46284
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://e7.pngegg.com/pngimages/987/947/png-clipart-illustration-logo-graphic-design-brand-pink-panther-love-text.png" ,24/7 | LA PANTERA ROSA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/107989
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.pinimg.com/236x/a1/88/5b/a1885b75c13ac52ef1e5ba6d022d1ffb--charlie-chaplin.jpg" ,24/7 | LOS 3 CHIFLADOS
+http://195.66.210.10:80/andres333/mUf9xxGXbG/107893
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/dcheroesrpg/images/5/58/MacGyver1.jpg/revision/latest?cb" ,24/7 | MACGIVER ⭐️
+http://195.66.210.10:80/andres333/mUf9xxGXbG/257380
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/AMC_logo_2016.png" ,CINE | AMC SUR
+http://195.66.210.10:80/andres333/mUf9xxGXbG/159149
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/640px-AXN_logo_%282015%29.svg.png" tvg-id="I209.26083.schedulesdirect.org" ,CINE | AXN HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/53047
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://iconape.com/wp-content/png_logo_vector/canal-dhe-logo.png" ,CINE | CANAL DHE FHD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/225716
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/Cinelatino_logo.png" ,CINE | CINE LATINO
+http://195.66.210.10:80/andres333/mUf9xxGXbG/55511
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://contarte.com.ar/wp-content/uploads/2018/09/cinecanal.jpg" tvg-id="I93.67920.schedulesdirect.org" ,CINE | CINECANAL HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/9494
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/640px-Cinemax_%28Yellow%29.svg.png" tvg-id="CinemaxSouth.us" ,CINE | CINEMAX SUR
+http://195.66.210.10:80/andres333/mUf9xxGXbG/54167
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_m1il2uGPwFEmHlqAZTaPhpSY-oEuPgV-YR8FQqWNL7lv-Ev2CDFe_2zV9G4P5bpkNWUVj83zxKqUguDBYbgxC6gan0CBYgPoSX2NbgXI1BdFtWQdGIblZi4T0QGKC-f_UhK_qhMpYCE/s0/depelicula-2021.png" tvg-id="I489.16288.schedulesdirect.org" ,CINE | DE PELÍCULA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/53095
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/co/ClaroCinema.co.png" ,CINE | CLARO CINEMA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/276307
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/De-Pelicula-Plus-Logo.png" tvg-id="I489.16288.schedulesdirect.org" ,CINE | DE PELÍCULA PLUS
+http://195.66.210.10:80/andres333/mUf9xxGXbG/53091
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/30/De_Pel%C3%ADcula_Cl%C3%A1sico.png" tvg-id="I489.16288.schedulesdirect.org" ,CINE | DE PELÍCULA CLASSIC
+http://195.66.210.10:80/andres333/mUf9xxGXbG/53090
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://ewsat.com/img/EUROPA_EUROPA.png" tvg-id="I1515.99979.schedulesdirect.org" ,CINE | EUROPA EUROPA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/473708
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://revistamomentos.co/wp-content/uploads/2017/06/Logo-Film-Arts.png" ,CINE | FILM & ARTS HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/19535
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://i.ibb.co/hX5Tjph/golden-edge.png" ,CINE | GOLDEN EDGE
+http://195.66.210.10:80/andres333/mUf9xxGXbG/9349
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/51/Golden_Plus_2020.png/revision/latest/scale-to-width-down/310?cb" tvg-id="I592.68317.schedulesdirect.org" ,CINE | GOLDEN PLUS
+http://195.66.210.10:80/andres333/mUf9xxGXbG/53089
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5b/Golden_premier.png/revision/latest?cb" ,CINE | GOLDEN PREMIER
+http://195.66.210.10:80/andres333/mUf9xxGXbG/67425
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://claroperupoc.vtexassets.com/arquivos/golden-premier-2hd-v2.png" tvg-id="I436.68317.schedulesdirect.org" ,CINE | GOLDEN PREMIER 2
+http://195.66.210.10:80/andres333/mUf9xxGXbG/453359
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://e1.pngegg.com/pngimages/397/604/png-clipart-tv-channel-icons-hbo-2-black-hbo-2-logo-thumbnail.png" tvg-id="HBO 2.ar" ,CINE | HBO 2 SUR
+http://195.66.210.10:80/andres333/mUf9xxGXbG/286151
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/6132214100feb70004beb7ca.png" tvg-id="HBO.CL" ,CINE | HBO HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/242029
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/HBO_Plus.png/640px-HBO_Plus.png" tvg-id="HBO PLUS.ar" ,CINE | HBO PLUS ARG
+http://195.66.210.10:80/andres333/mUf9xxGXbG/159125
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/1280px-HBO_Pop.svg.png" tvg-id="HBO POP HD.ar" ,CINE | HBO POP SD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/159124
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/1200px-HBO_Xtreme.svg.png" tvg-id="HBO XTREME.ar" ,CINE | HBO XTREME SUR HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/54164
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/50/MC_logo_2022.png" ,CINE | MULTICINEMA
+http://195.66.210.10:80/andres333/mUf9xxGXbG/453506
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.imgur.com/9jprbpv.png" ,CINE | MEGA CINE TV
+http://195.66.210.10:80/andres333/mUf9xxGXbG/558325
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3a/Multipremier_logo.svg.png/revision/latest?cb" ,CINE | MULTIPREMIER HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/453505
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://companieslogo.com/img/orig/PARA_BIG-d8040ab9.png?t" ,CINE | PARAMOUNT CHANNEL SUR
+http://195.66.210.10:80/andres333/mUf9xxGXbG/242033
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://sc.dish.com/shared/images/station-logos/SHO-E.PNG" ,CINE | SHOWTIME LATINO HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/159148
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/640px-SpaceLogo.svg.png" tvg-id="SPACE.ar" ,CINE | SPACE SUR
+http://195.66.210.10:80/andres333/mUf9xxGXbG/159153
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Sony_Cine_2021_Logo.png/revision/latest?cb" tvg-id="SonyChannelMexico.mx" ,CINE | SONY
+http://195.66.210.10:80/andres333/mUf9xxGXbG/199523
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.pinimg.com/474x/bb/50/99/bb50999fb2860f8760ef4b22ef8bf09e.jpg" tvg-id="STAR CHANNEL HD.ar" ,CINE | STAR CHANNEL SUR SD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/439809
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://1000marcas.net/wp-content/uploads/2021/11/Starz-logo-.png" ,CINE | STARZ LATINO HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/159130
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Logo_Studio_Universal.svg/2560px-Logo_Studio_Universal.svg.png" tvg-id="STUDIO UNIVERSAL HD.ar" ,CINE | STUDIO UNIVERSAL HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/19572
+#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/1024px-TNT_Logo_2016.svg.png" tvg-id="TNT.ar" ,CINE | TNT HD
+http://195.66.210.10:80/andres333/mUf9xxGXbG/439741
 #EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kVcoxXAPfHo58FDwOCOF8NAW4bp.jpg" ,Se requiere mantenimiento (2025)
 http://195.66.210.10:80/movie/andres333/mUf9xxGXbG/619809.mp4
 #EXTINF:-1 group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/n2xPRI0isWxKfX3UqlfnNPaPusg.jpg" ,Him: El elegido (2025)
@@ -1051,275 +1321,4 @@ http://195.66.210.10:80/series/andres333/mUf9xxGXbG/410403.avi
 http://195.66.210.10:80/series/andres333/mUf9xxGXbG/410402.avi
 #EXTINF:-1 group-title="SERIES" tvg-logo="https://image.tmdb.org/t/p/w1280/iwj6Gshc7f3l6e6gmc4sTi5l3Eg.jpg" ,31 Minutos S01E01 (S01E01) (S01E01)
 http://195.66.210.10:80/series/andres333/mUf9xxGXbG/410401.avi
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" ,AR | AMÉRICA TV HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/209741
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://cdn.mitvstatic.com/channels/ar_c5n_m.png" ,AR | C5N
-http://195.66.210.10:80/andres333/mUf9xxGXbG/242080
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://argentina.mom-gmr.org/uploads/_processed_/c/6/csm_16018-1639_import_f924de7718.png" ,AR | CANAL 26
-http://195.66.210.10:80/andres333/mUf9xxGXbG/54199
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2017/10/Canal-5-TV-Corrientes-en-vivo-Online.png" ,AR | CANAL 5 TV CORRIENTES
-http://195.66.210.10:80/andres333/mUf9xxGXbG/54215
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/52/3d3b0-canal9-2016.png/revision/latest/scale-to-width-down/250?cb" ,AR | CANAL 9 SALTA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/47017
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4DC0-vjxdknUnvyD_wtUZ3iAacVmZqmj7_O6aRYYGT30zyv7Up4KWSamHZ_eZ3H84uhvmrXs-XiVCG2KX_xVteVyguWXrPr1D_MNiBJT6ckBDA_-5Gx-FTnaXA0EXGl4o2i91qFqnI0Z5P9N45IKO5TX3bDdWMmqTXzua5KV5YRDJAJnkNPN0hx9h/s558/CRONICATV.png" ,AR | CRÓNICA TV
-http://195.66.210.10:80/andres333/mUf9xxGXbG/19708
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q" ,AR | DEPORTV HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/19709
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png" ,AR | EL NUEVE HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/46977
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/El13.ar.png" ,AR | EL TRECE
-http://195.66.210.10:80/andres333/mUf9xxGXbG/286050
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/El13.ar.png" ,AR | EL TRECE HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/46976
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d1/Large.logo_garageTV_HD.png.9288a09ab4d6cbef56c691cd4890aa24.png/revision/latest?cb" ,AR | GARAGE TV FHD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/209745
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2017/10/Litus-TV-en-vivo-Online.png" ,AR | LITUS TV SANTA FÉ
-http://195.66.210.10:80/andres333/mUf9xxGXbG/54231
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png" ,AR | NET TV
-http://195.66.210.10:80/andres333/mUf9xxGXbG/54165
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/PakaPaka.ar.png" ,AR | PAKA PAKA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/19555
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Telefe.png" ,AR | TELEFÉ HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/12933
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Telefe.png" ,AR | TELEFÉ INTERNACIONAL HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/259317
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://play-lh.googleusercontent.com/hM1uXjU4oXRKo1xfBhLLqFuTLNzvDhHw4XUvMOnv7eiR0Px8JFqzJjXQZdptxGcGsA" ,AR | TELEMAX
-http://195.66.210.10:80/andres333/mUf9xxGXbG/46973
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4d/Logo_TV_P%C3%BAblica_Digital.png" ,AR | TV PÚBLICA HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/46972
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/96/C13e0-volver.gif/revision/latest/scale-to-width-down/200?cb" ,AR | VOLVER
-http://195.66.210.10:80/andres333/mUf9xxGXbG/19983
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/A24_%282025%29.svg/800px-A24_%282025%29.svg.png" ,AR | A24
-http://195.66.210.10:80/andres333/mUf9xxGXbG/610876
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TN_todo_noticias_logo.svg/langes-1100px-TN_todo_noticias_logo.svg.png" ,AR | TN
-http://195.66.210.10:80/andres333/mUf9xxGXbG/613255
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://www.pikpng.com/pngl/b/339-3392974_chavo-del-8-png-chavo-del-8-meme.png" ,24/7 | EL CHAVO DEL 8  ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/216295
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | CINEMA HAPPY MADISON
-http://195.66.210.10:80/andres333/mUf9xxGXbG/177336
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | CINEMA DREAMWORKS
-http://195.66.210.10:80/andres333/mUf9xxGXbG/177326
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | CINEMA HORROR
-http://195.66.210.10:80/andres333/mUf9xxGXbG/177330
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | DISNEY LIVE ACTION
-http://195.66.210.10:80/andres333/mUf9xxGXbG/177324
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png" ,24/7 | LOS SIMPSON T1 ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/216822
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png" ,24/7 | LOS SIMPSON T2 ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/216938
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png" ,24/7 | LOS SIMPSON T3 ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/217023
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/929a9419701211.562ded5592985.jpg" ,24/7 | CANTINFLAS
-http://195.66.210.10:80/andres333/mUf9xxGXbG/107891
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://ahoramismo.com/wp-content/uploads/2020/11/Caso-cerrado.jpg?quality" ,24/7 | CASO CERRADO ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/107845
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a1/Zorro_1957_show_logo.jpg" ,24/7 | EL ZORRO 1957 ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/107878
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://dl.dropboxusercontent.com/s/h4xfofursz2py5j/futurama.png" ,24/7 | FUTURAMA ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/46284
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://e7.pngegg.com/pngimages/987/947/png-clipart-illustration-logo-graphic-design-brand-pink-panther-love-text.png" ,24/7 | LA PANTERA ROSA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/107989
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.pinimg.com/236x/a1/88/5b/a1885b75c13ac52ef1e5ba6d022d1ffb--charlie-chaplin.jpg" ,24/7 | LOS 3 CHIFLADOS
-http://195.66.210.10:80/andres333/mUf9xxGXbG/107893
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/dcheroesrpg/images/5/58/MacGyver1.jpg/revision/latest?cb" ,24/7 | MACGIVER ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/257380
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/AMC_logo_2016.png" ,CINE | AMC SUR
-http://195.66.210.10:80/andres333/mUf9xxGXbG/159149
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/640px-AXN_logo_%282015%29.svg.png" ,CINE | AXN HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/53047
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://iconape.com/wp-content/png_logo_vector/canal-dhe-logo.png" ,CINE | CANAL DHE FHD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/225716
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/Cinelatino_logo.png" ,CINE | CINE LATINO
-http://195.66.210.10:80/andres333/mUf9xxGXbG/55511
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://contarte.com.ar/wp-content/uploads/2018/09/cinecanal.jpg" ,CINE | CINECANAL HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/9494
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/640px-Cinemax_%28Yellow%29.svg.png" ,CINE | CINEMAX SUR
-http://195.66.210.10:80/andres333/mUf9xxGXbG/54167
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_m1il2uGPwFEmHlqAZTaPhpSY-oEuPgV-YR8FQqWNL7lv-Ev2CDFe_2zV9G4P5bpkNWUVj83zxKqUguDBYbgxC6gan0CBYgPoSX2NbgXI1BdFtWQdGIblZi4T0QGKC-f_UhK_qhMpYCE/s0/depelicula-2021.png" ,CINE | DE PELÍCULA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/53095
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/co/ClaroCinema.co.png" ,CINE | CLARO CINEMA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/276307
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/De-Pelicula-Plus-Logo.png" ,CINE | DE PELÍCULA PLUS
-http://195.66.210.10:80/andres333/mUf9xxGXbG/53091
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/30/De_Pel%C3%ADcula_Cl%C3%A1sico.png" ,CINE | DE PELÍCULA CLASSIC
-http://195.66.210.10:80/andres333/mUf9xxGXbG/53090
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://ewsat.com/img/EUROPA_EUROPA.png" ,CINE | EUROPA EUROPA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/473708
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://revistamomentos.co/wp-content/uploads/2017/06/Logo-Film-Arts.png" ,CINE | FILM & ARTS HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/19535
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://i.ibb.co/hX5Tjph/golden-edge.png" ,CINE | GOLDEN EDGE
-http://195.66.210.10:80/andres333/mUf9xxGXbG/9349
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/51/Golden_Plus_2020.png/revision/latest/scale-to-width-down/310?cb" ,CINE | GOLDEN PLUS
-http://195.66.210.10:80/andres333/mUf9xxGXbG/53089
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5b/Golden_premier.png/revision/latest?cb" ,CINE | GOLDEN PREMIER
-http://195.66.210.10:80/andres333/mUf9xxGXbG/67425
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://claroperupoc.vtexassets.com/arquivos/golden-premier-2hd-v2.png" ,CINE | GOLDEN PREMIER 2
-http://195.66.210.10:80/andres333/mUf9xxGXbG/453359
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://e1.pngegg.com/pngimages/397/604/png-clipart-tv-channel-icons-hbo-2-black-hbo-2-logo-thumbnail.png" ,CINE | HBO 2 SUR
-http://195.66.210.10:80/andres333/mUf9xxGXbG/286151
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/6132214100feb70004beb7ca.png" ,CINE | HBO HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/242029
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/HBO_Plus.png/640px-HBO_Plus.png" ,CINE | HBO PLUS ARG
-http://195.66.210.10:80/andres333/mUf9xxGXbG/159125
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/1280px-HBO_Pop.svg.png" ,CINE | HBO POP SD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/159124
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/1200px-HBO_Xtreme.svg.png" ,CINE | HBO XTREME SUR HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/54164
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/50/MC_logo_2022.png" ,CINE | MULTICINEMA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/453506
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.imgur.com/9jprbpv.png" ,CINE | MEGA CINE TV
-http://195.66.210.10:80/andres333/mUf9xxGXbG/558325
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3a/Multipremier_logo.svg.png/revision/latest?cb" ,CINE | MULTIPREMIER HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/453505
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://companieslogo.com/img/orig/PARA_BIG-d8040ab9.png?t" ,CINE | PARAMOUNT CHANNEL SUR
-http://195.66.210.10:80/andres333/mUf9xxGXbG/242033
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://sc.dish.com/shared/images/station-logos/SHO-E.PNG" ,CINE | SHOWTIME LATINO HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/159148
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/640px-SpaceLogo.svg.png" ,CINE | SPACE SUR
-http://195.66.210.10:80/andres333/mUf9xxGXbG/159153
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Sony_Cine_2021_Logo.png/revision/latest?cb" ,CINE | SONY
-http://195.66.210.10:80/andres333/mUf9xxGXbG/199523
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.pinimg.com/474x/bb/50/99/bb50999fb2860f8760ef4b22ef8bf09e.jpg" ,CINE | STAR CHANNEL SUR SD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/439809
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://1000marcas.net/wp-content/uploads/2021/11/Starz-logo-.png" ,CINE | STARZ LATINO HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/159130
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Logo_Studio_Universal.svg/2560px-Logo_Studio_Universal.svg.png" ,CINE | STUDIO UNIVERSAL HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/19572
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/1024px-TNT_Logo_2016.svg.png" ,CINE | TNT HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/439741
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" tvg-id="AMERICA TV.ar" ,AR | AMÉRICA TV HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/209741
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://cdn.mitvstatic.com/channels/ar_c5n_m.png" tvg-id="C5N.ar" ,AR | C5N
-http://195.66.210.10:80/andres333/mUf9xxGXbG/242080
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/2048px-Canal_26_logo_%282022%29.svg.png" tvg-id="Canal 26.ar" ,AR | CANAL 26
-http://195.66.210.10:80/andres333/mUf9xxGXbG/54199
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2017/10/Canal-5-TV-Corrientes-en-vivo-Online.png" tvg-id="I105.52762.schedulesdirect.org" ,AR | CANAL 5 TV CORRIENTES
-http://195.66.210.10:80/andres333/mUf9xxGXbG/54215
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/52/3d3b0-canal9-2016.png/revision/latest/scale-to-width-down/250?cb" ,AR | CANAL 9 SALTA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/47017
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4DC0-vjxdknUnvyD_wtUZ3iAacVmZqmj7_O6aRYYGT30zyv7Up4KWSamHZ_eZ3H84uhvmrXs-XiVCG2KX_xVteVyguWXrPr1D_MNiBJT6ckBDA_-5Gx-FTnaXA0EXGl4o2i91qFqnI0Z5P9N45IKO5TX3bDdWMmqTXzua5KV5YRDJAJnkNPN0hx9h/s558/CRONICATV.png" tvg-id="CRONICA TV.ar" ,AR | CRÓNICA TV
-http://195.66.210.10:80/andres333/mUf9xxGXbG/19708
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q" tvg-id="I631.112240.schedulesdirect.org" ,AR | DEPORTV HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/19709
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png" tvg-id="EL NUEVE.ar" ,AR | EL NUEVE HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/46977
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/El13.ar.png" tvg-id="EL TRECE.ar" ,AR | EL TRECE
-http://195.66.210.10:80/andres333/mUf9xxGXbG/286050
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/El13.ar.png" tvg-id="EL TRECE.ar" ,AR | EL TRECE HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/46976
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d1/Large.logo_garageTV_HD.png.9288a09ab4d6cbef56c691cd4890aa24.png/revision/latest?cb" tvg-id="EL GARAGE.ar" ,AR | GARAGE TV FHD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/209745
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2017/10/Litus-TV-en-vivo-Online.png" ,AR | LITUS TV SANTA FÉ
-http://195.66.210.10:80/andres333/mUf9xxGXbG/54231
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png" ,AR | NET TV
-http://195.66.210.10:80/andres333/mUf9xxGXbG/54165
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/ar/PakaPaka.ar.png" ,AR | PAKA PAKA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/19555
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Telefe.png" tvg-id="TELEFE.ar" ,AR | TELEFÉ HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/12933
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Telefe.png" tvg-id="TELEFE.ar" ,AR | TELEFÉ INTERNACIONAL HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/259317
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://play-lh.googleusercontent.com/hM1uXjU4oXRKo1xfBhLLqFuTLNzvDhHw4XUvMOnv7eiR0Px8JFqzJjXQZdptxGcGsA" ,AR | TELEMAX
-http://195.66.210.10:80/andres333/mUf9xxGXbG/46973
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4d/Logo_TV_P%C3%BAblica_Digital.png" tvg-id="TV PUBLICA.ar" ,AR | TV PÚBLICA HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/46972
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/96/C13e0-volver.gif/revision/latest/scale-to-width-down/200?cb" ,VOLVER
-http://195.66.210.10:80/andres333/mUf9xxGXbG/19983
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/A24_%282025%29.svg/800px-A24_%282025%29.svg.png" tvg-id="A24.ar" ,AR | A24
-http://195.66.210.10:80/andres333/mUf9xxGXbG/610876
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TN_todo_noticias_logo.svg/langes-1100px-TN_todo_noticias_logo.svg.png" ,AR | TN
-http://195.66.210.10:80/andres333/mUf9xxGXbG/613255
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://www.pikpng.com/pngl/b/339-3392974_chavo-del-8-png-chavo-del-8-meme.png" ,24/7 | EL CHAVO DEL 8  ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/216295
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | CINEMA HAPPY MADISON
-http://195.66.210.10:80/andres333/mUf9xxGXbG/177336
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | CINEMA DREAMWORKS
-http://195.66.210.10:80/andres333/mUf9xxGXbG/177326
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | CINEMA HORROR
-http://195.66.210.10:80/andres333/mUf9xxGXbG/177330
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/247tv_bolivia.png" ,24/7 | DISNEY LIVE ACTION
-http://195.66.210.10:80/andres333/mUf9xxGXbG/177324
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png" ,24/7 | LOS SIMPSON T1 ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/216822
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png" ,24/7 | LOS SIMPSON T2 ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/216938
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/5eb95b4d17f3c600044a2904.png" ,24/7 | LOS SIMPSON T3 ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/217023
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/929a9419701211.562ded5592985.jpg" ,24/7 | CANTINFLAS
-http://195.66.210.10:80/andres333/mUf9xxGXbG/107891
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://ahoramismo.com/wp-content/uploads/2020/11/Caso-cerrado.jpg?quality" ,24/7 | CASO CERRADO ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/107845
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a1/Zorro_1957_show_logo.jpg" ,24/7 | EL ZORRO 1957 ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/107878
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://dl.dropboxusercontent.com/s/h4xfofursz2py5j/futurama.png" ,24/7 | FUTURAMA ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/46284
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://e7.pngegg.com/pngimages/987/947/png-clipart-illustration-logo-graphic-design-brand-pink-panther-love-text.png" ,24/7 | LA PANTERA ROSA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/107989
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.pinimg.com/236x/a1/88/5b/a1885b75c13ac52ef1e5ba6d022d1ffb--charlie-chaplin.jpg" ,24/7 | LOS 3 CHIFLADOS
-http://195.66.210.10:80/andres333/mUf9xxGXbG/107893
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/dcheroesrpg/images/5/58/MacGyver1.jpg/revision/latest?cb" ,24/7 | MACGIVER ⭐️
-http://195.66.210.10:80/andres333/mUf9xxGXbG/257380
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/AMC_logo_2016.png" ,CINE | AMC SUR
-http://195.66.210.10:80/andres333/mUf9xxGXbG/159149
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/640px-AXN_logo_%282015%29.svg.png" tvg-id="I209.26083.schedulesdirect.org" ,CINE | AXN HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/53047
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://iconape.com/wp-content/png_logo_vector/canal-dhe-logo.png" ,CINE | CANAL DHE FHD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/225716
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f8/Cinelatino_logo.png" ,CINE | CINE LATINO
-http://195.66.210.10:80/andres333/mUf9xxGXbG/55511
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://contarte.com.ar/wp-content/uploads/2018/09/cinecanal.jpg" tvg-id="I93.67920.schedulesdirect.org" ,CINE | CINECANAL HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/9494
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cinemax_%28Yellow%29.svg/640px-Cinemax_%28Yellow%29.svg.png" tvg-id="CinemaxSouth.us" ,CINE | CINEMAX SUR
-http://195.66.210.10:80/andres333/mUf9xxGXbG/54167
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_m1il2uGPwFEmHlqAZTaPhpSY-oEuPgV-YR8FQqWNL7lv-Ev2CDFe_2zV9G4P5bpkNWUVj83zxKqUguDBYbgxC6gan0CBYgPoSX2NbgXI1BdFtWQdGIblZi4T0QGKC-f_UhK_qhMpYCE/s0/depelicula-2021.png" tvg-id="I489.16288.schedulesdirect.org" ,CINE | DE PELÍCULA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/53095
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.epg.best/co/ClaroCinema.co.png" ,CINE | CLARO CINEMA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/276307
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://1000logos.net/wp-content/uploads/2021/12/De-Pelicula-Plus-Logo.png" tvg-id="I489.16288.schedulesdirect.org" ,CINE | DE PELÍCULA PLUS
-http://195.66.210.10:80/andres333/mUf9xxGXbG/53091
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/30/De_Pel%C3%ADcula_Cl%C3%A1sico.png" tvg-id="I489.16288.schedulesdirect.org" ,CINE | DE PELÍCULA CLASSIC
-http://195.66.210.10:80/andres333/mUf9xxGXbG/53090
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://ewsat.com/img/EUROPA_EUROPA.png" tvg-id="I1515.99979.schedulesdirect.org" ,CINE | EUROPA EUROPA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/473708
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://revistamomentos.co/wp-content/uploads/2017/06/Logo-Film-Arts.png" ,CINE | FILM & ARTS HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/19535
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://i.ibb.co/hX5Tjph/golden-edge.png" ,CINE | GOLDEN EDGE
-http://195.66.210.10:80/andres333/mUf9xxGXbG/9349
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/51/Golden_Plus_2020.png/revision/latest/scale-to-width-down/310?cb" tvg-id="I592.68317.schedulesdirect.org" ,CINE | GOLDEN PLUS
-http://195.66.210.10:80/andres333/mUf9xxGXbG/53089
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5b/Golden_premier.png/revision/latest?cb" ,CINE | GOLDEN PREMIER
-http://195.66.210.10:80/andres333/mUf9xxGXbG/67425
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://claroperupoc.vtexassets.com/arquivos/golden-premier-2hd-v2.png" tvg-id="I436.68317.schedulesdirect.org" ,CINE | GOLDEN PREMIER 2
-http://195.66.210.10:80/andres333/mUf9xxGXbG/453359
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://e1.pngegg.com/pngimages/397/604/png-clipart-tv-channel-icons-hbo-2-black-hbo-2-logo-thumbnail.png" tvg-id="HBO 2.ar" ,CINE | HBO 2 SUR
-http://195.66.210.10:80/andres333/mUf9xxGXbG/286151
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://assets.stickpng.com/images/6132214100feb70004beb7ca.png" tvg-id="HBO.CL" ,CINE | HBO HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/242029
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/HBO_Plus.png/640px-HBO_Plus.png" tvg-id="HBO PLUS.ar" ,CINE | HBO PLUS ARG
-http://195.66.210.10:80/andres333/mUf9xxGXbG/159125
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/1280px-HBO_Pop.svg.png" tvg-id="HBO POP HD.ar" ,CINE | HBO POP SD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/159124
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/HBO_Xtreme.svg/1200px-HBO_Xtreme.svg.png" tvg-id="HBO XTREME.ar" ,CINE | HBO XTREME SUR HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/54164
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/50/MC_logo_2022.png" ,CINE | MULTICINEMA
-http://195.66.210.10:80/andres333/mUf9xxGXbG/453506
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.imgur.com/9jprbpv.png" ,CINE | MEGA CINE TV
-http://195.66.210.10:80/andres333/mUf9xxGXbG/558325
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3a/Multipremier_logo.svg.png/revision/latest?cb" ,CINE | MULTIPREMIER HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/453505
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://companieslogo.com/img/orig/PARA_BIG-d8040ab9.png?t" ,CINE | PARAMOUNT CHANNEL SUR
-http://195.66.210.10:80/andres333/mUf9xxGXbG/242033
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://sc.dish.com/shared/images/station-logos/SHO-E.PNG" ,CINE | SHOWTIME LATINO HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/159148
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/640px-SpaceLogo.svg.png" tvg-id="SPACE.ar" ,CINE | SPACE SUR
-http://195.66.210.10:80/andres333/mUf9xxGXbG/159153
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Sony_Cine_2021_Logo.png/revision/latest?cb" tvg-id="SonyChannelMexico.mx" ,CINE | SONY
-http://195.66.210.10:80/andres333/mUf9xxGXbG/199523
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.pinimg.com/474x/bb/50/99/bb50999fb2860f8760ef4b22ef8bf09e.jpg" tvg-id="STAR CHANNEL HD.ar" ,CINE | STAR CHANNEL SUR SD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/439809
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://1000marcas.net/wp-content/uploads/2021/11/Starz-logo-.png" ,CINE | STARZ LATINO HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/159130
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Logo_Studio_Universal.svg/2560px-Logo_Studio_Universal.svg.png" tvg-id="STUDIO UNIVERSAL HD.ar" ,CINE | STUDIO UNIVERSAL HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/19572
-#EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/1024px-TNT_Logo_2016.svg.png" tvg-id="TNT.ar" ,CINE | TNT HD
-http://195.66.210.10:80/andres333/mUf9xxGXbG/439741
+
