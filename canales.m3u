@@ -1,4 +1,64 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="ARG - TNT Sports (L)(720)" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" group-title="ARGENTINA",ARG - TNT Sports (L)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157585
+#EXTINF:-1 tvg-id="" tvg-name="ARG - TNT Sports (TV)(720)" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" group-title="ARGENTINA",ARG - TNT Sports (TV)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157584
+#EXTINF:-1 tvg-id="" tvg-name="ARG - DEPORTV (L)(720)" tvg-logo="https://i.postimg.cc/hv9dS3w0/Proyecto-X-Argentina-(11).png" group-title="ARGENTINA",ARG - DEPORTV (L)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157596
+#EXTINF:-1 tvg-id="" tvg-name="ARG - ESPN (M)(720)" tvg-logo="https://i.postimg.cc/T1rDRHFT/Proyecto-X-Argentina-(12).png" group-title="ARGENTINA",ARG - ESPN (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157558
+#EXTINF:-1 tvg-id="" tvg-name="ARG - ESPN 2 (M)(720)" tvg-logo="https://i.postimg.cc/59vvq60L/Proyecto-X-Argentina-(13).png" group-title="ARGENTINA",ARG - ESPN 2 (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157559
+#EXTINF:-1 tvg-id="" tvg-name="ARG - ESPN Premium (M)(720)" tvg-logo="" group-title="ARGENTINA",ARG - ESPN Premium (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157562
+#EXTINF:-1 tvg-id="" tvg-name="ARG - TV Publica (L)(720)" tvg-logo="https://i.postimg.cc/4NQ9qqpb/Proyecto-X-Argentina-(26).png" group-title="ARGENTINA",ARG - TV Publica (L)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157586
+#EXTINF:-1 tvg-id="" tvg-name="ARG - ESPN 4 (M)(720)" tvg-logo="https://i.postimg.cc/v899LcBL/Proyecto-X-Argentina-(15).png" group-title="ARGENTINA",ARG - ESPN 4 (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157561
+#EXTINF:-1 tvg-id="" tvg-name="ARG - TyC Sports (M)(720)" tvg-logo="https://i.postimg.cc/GpN0rbZz/Proyecto-X-Argentina-(28).png" group-title="ARGENTINA",ARG - TyC Sports (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157580
+#EXTINF:-1 tvg-id="" tvg-name="ARG - TyC Sports (L)(720)" tvg-logo="https://i.postimg.cc/GpN0rbZz/Proyecto-X-Argentina-(28).png" group-title="ARGENTINA",ARG - TyC Sports (L)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157583
+#EXTINF:-1 tvg-id="" tvg-name="ARG - C5N (i)(720)" tvg-logo="https://i.postimg.cc/nLzBv2jT/Proyecto-X-Argentina-(3).png" group-title="ARGENTINA",ARG - C5N (i)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157607
+#EXTINF:-1 tvg-id="" tvg-name="ARG - C5N (M)(720)" tvg-logo="https://i.postimg.cc/nLzBv2jT/Proyecto-X-Argentina-(3).png" group-title="ARGENTINA",ARG - C5N (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157566
+#EXTINF:-1 tvg-id="Canal.13.de.Argentina.(El.Trece).sv" tvg-name="ARG - Canal 13 (M)(720)" tvg-logo="https://i.postimg.cc/zBHhQfF4/Proyecto-X-Argentina-(4).png" group-title="ARGENTINA",ARG - Canal 13 (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157567
+#EXTINF:-1 tvg-id="" tvg-name="ARG - Cinear (Z)(720)" tvg-logo="https://i.postimg.cc/PJGDnk63/Proyecto-X-Argentina-(8).png" group-title="ARGENTINA",ARG - Cinear (Z)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157601
+#EXTINF:-1 tvg-id="" tvg-name="ARG - Ciudad Magazine (M)(720)" tvg-logo="https://i.postimg.cc/9039HjxS/Proyecto-X-Argentina-(9).png" group-title="ARGENTINA",ARG - Ciudad Magazine (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157565
+#EXTINF:-1 tvg-id="" tvg-name="ARG - El Nueve (Z)(720)" tvg-logo="https://i.postimg.cc/3R0GqwZT/Proyecto-X-Argentina-(6).png" group-title="ARGENTINA",ARG - El Nueve (Z)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157595
+#EXTINF:-1 tvg-id="" tvg-name="ARG - DeporTV (M)(720)" tvg-logo="https://i.postimg.cc/hv9dS3w0/Proyecto-X-Argentina-(11).png" group-title="ARGENTINA",ARG - DeporTV (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157573
+#EXTINF:-1 tvg-id="" tvg-name="ARG - Deportv (L)(720)" tvg-logo="https://i.postimg.cc/hv9dS3w0/Proyecto-X-Argentina-(11).png" group-title="ARGENTINA",ARG - Deportv (L)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157620
+#EXTINF:-1 tvg-id="" tvg-name="ARG - LN+ (L)(720)" tvg-logo="https://i.postimg.cc/Fs4SPNdC/Proyecto-X-Argentina-(17).png" group-title="ARGENTINA",ARG - LN+ (L)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157593
+#EXTINF:-1 tvg-id="" tvg-name="ARG - LN + (L)(720)" tvg-logo="https://i.postimg.cc/Fs4SPNdC/Proyecto-X-Argentina-(17).png" group-title="ARGENTINA",ARG - LN + (L)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157592
+#EXTINF:-1 tvg-id="" tvg-name="ARG - LN+ (M)(720)" tvg-logo="https://i.postimg.cc/Fs4SPNdC/Proyecto-X-Argentina-(17).png" group-title="ARGENTINA",ARG - LN+ (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157574
+#EXTINF:-1 tvg-id="" tvg-name="ARG - Metro (i)(720)" tvg-logo="https://i.postimg.cc/m2s9dB1f/Proyecto-X-Argentina-(18).png" group-title="ARGENTINA",ARG - Metro (i)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157606
+#EXTINF:-1 tvg-id="" tvg-name="ARG - Telefe (L)(720)" tvg-logo="https://i.postimg.cc/5NVzPbQ6/Proyecto-X-Argentina-(21).png" group-title="ARGENTINA",ARG - Telefe (L)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157589
+#EXTINF:-1 tvg-id="" tvg-name="ARG - Telefe (i)(720)" tvg-logo="https://i.postimg.cc/5NVzPbQ6/Proyecto-X-Argentina-(21).png" group-title="ARGENTINA",ARG - Telefe (i)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157590
+#EXTINF:-1 tvg-id="" tvg-name="ARG - Paka Paka (M)(720)" tvg-logo="https://i.postimg.cc/m2s9dB1R/Proyecto-X-Argentina-(20).png" group-title="ARGENTINA",ARG - Paka Paka (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157575
+#EXTINF:-1 tvg-id="" tvg-name="ARG - Multivision" tvg-logo="https://i.postimg.cc/T2mmqp1v/Proyecto-X-Argentina-(19).png" group-title="ARGENTINA",ARG - Multivision
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157618
+#EXTINF:-1 tvg-id="Canal.NTN24.(Nuestra.Tele.Noticias.24.Horas).ar" tvg-name="ARG - TN Noticias (i)(720)" tvg-logo="https://i.postimg.cc/xT3zhhLX/Proyecto-X-Argentina-(24).png" group-title="ARGENTINA",ARG - TN Noticias (i)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157610
+#EXTINF:-1 tvg-id="" tvg-name="ARG - TN (M)(720)" tvg-logo="https://i.postimg.cc/xT3zhhLX/Proyecto-X-Argentina-(24).png" group-title="ARGENTINA",ARG - TN (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157577
+#EXTINF:-1 tvg-id="" tvg-name="ARG - TV5 Monde (M)(720)" tvg-logo="https://i.postimg.cc/XYNCbLgQ/Proyecto-X-Argentina-(27).png" group-title="ARGENTINA",ARG - TV5 Monde (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157579
+#EXTINF:-1 tvg-id="" tvg-name="ARG - Volver (M)(720)" tvg-logo="https://i.postimg.cc/TPS8GTZc/Proyecto-X-Argentina-(29).png" group-title="ARGENTINA",ARG - Volver (M)(720)
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157581
 #EXTINF:-1 tvg-id="" tvg-name="24/7 Retro - La familia Ingalls (e)(SD)" tvg-logo="https://media.themoviedb.org/t/p/w500_and_h282_face/4ly1PKbNyvMMTPC0wWIeqffLkhE.jpg" group-title="24/7 RETRO",24/7 Retro - La familia Ingalls (e)(SD)
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/177121
 #EXTINF:-1 tvg-id="" tvg-name="24/7 Retro - El Auto Fantástico (e)(SD)" tvg-logo="https://media.themoviedb.org/t/p/w500_and_h282_face/3iV2v7mGBhqMZY20jUDgfXzycs4.jpg" group-title="24/7 RETRO",24/7 Retro - El Auto Fantástico (e)(SD)
@@ -207,6 +267,7 @@ http://streamprostk.com:2082/56976159933wspztv/04012024ztv/7094
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31708
 #EXTINF:-1 tvg-id="" tvg-name="Cinema Marvel 24/7" tvg-logo="https://i.ibb.co/8Xf1rWT/Icono-24-7-78486-19.jpg" group-title="CANALES 24/7",Cinema Marvel 24/7
 http://streamprostk.com:2082/56976159933wspztv/04012024ztv/31706
+
 
 
 
