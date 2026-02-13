@@ -516,8 +516,8 @@ http://xpaneltv.com:8080/movie/LarryPer/30100258/363626.mkv
 #EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eu7dxZWlufFOkDV99IzS7Xd7tp.jpg" ,Los siete magníficos (1960)
 http://xpaneltv.com:8080/movie/LarryPer/30100258/363627.mkv
 
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4aFR_g1dvmnBrW15DSjYfK7wOMTJC6VBS4A&s" ,RADIO OVACION
-http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/490474.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4aFR_g1dvmnBrW15DSjYfK7wOMTJC6VBS4A&s" ,RADIO CORAZON
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166702.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4aFR_g1dvmnBrW15DSjYfK7wOMTJC6VBS4A&s" ,RADIO H
 http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/490475.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4aFR_g1dvmnBrW15DSjYfK7wOMTJC6VBS4A&s" ,ROCK & POP
@@ -542,5 +542,6 @@ http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166776.m3u8
 http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166777.m3u8
 #EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4aFR_g1dvmnBrW15DSjYfK7wOMTJC6VBS4A&s" ,RADIO SOLO ROCK NACIONAL
 http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166779.m3u8
+
 
 
