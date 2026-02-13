@@ -1,9 +1,9 @@
 #EXTM3U
-#EXTINF:-1 group-title="TV EN VIVO" tvg-id="AMERICA TV.ar" tvg-logo="https://i.postimg.cc/d01r86km/Proyecto-X-Argentina-(1).png" ,America TV
+#EXTINF:-1 tvg-chno="120" group-title="TV EN VIVO" tvg-id="AMERICA TV.ar" tvg-logo="https://i.postimg.cc/d01r86km/Proyecto-X-Argentina-(1).png" ,America TV
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157612
-#EXTINF:-1 group-title="TV EN VIVO" tvg-id="TV PUBLICA.ar" tvg-logo="https://i.postimg.cc/4NQ9qqpb/Proyecto-X-Argentina-(26).png" ,TV Publica
+#EXTINF:-1 tvg-chno="121" group-title="TV EN VIVO" tvg-id="TV PUBLICA.ar" tvg-logo="https://i.postimg.cc/4NQ9qqpb/Proyecto-X-Argentina-(26).png" ,TV Publica
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157586
-#EXTINF:-1 group-title="TV EN VIVO" tvg-id="EL NUEVE.ar" tvg-logo="https://i.postimg.cc/3R0GqwZT/Proyecto-X-Argentina-(6).png" ,El Nueve
+#EXTINF:-1 tvg-chno="122" group-title="TV EN VIVO" tvg-id="EL NUEVE.ar" tvg-logo="https://i.postimg.cc/3R0GqwZT/Proyecto-X-Argentina-(6).png" ,El Nueve
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157621
 #EXTINF:-1 group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/5NVzPbQ6/Proyecto-X-Argentina-(21).png" ,Telefe
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157589
@@ -181,9 +181,9 @@ http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9601
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9602
 #EXTINF:-1 group-title="CANALES-DEPORTES" tvg-logo="https://1.bp.blogspot.com/-T4uG5FYIDek/XhA6fXlKRQI/AAAAAAAAA8U/xRyQIitNaVsNGYmrK2TVTPJKiCITuGGoACLcBGAsYHQ/s200/32.png" ,DEPORTES - UFC Fight PASS (i)(720)
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9611
-#EXTINF:-1 group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports opc 1
+#EXTINF:-1 tvg-chno="603" group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports opc 1
 http://xpaneltv.com:8080/LarryPer/30100258/154333
-#EXTINF:-1 group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports opc 2
+#EXTINF:-1 tvg-chno="604" group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports opc 2
 http://xpaneltv.com:8080/LarryPer/30100258/287874
 #EXTINF:-1 group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports opc 3
 http://xpaneltv.com:8080/LarryPer/30100258/287875
@@ -319,4 +319,5 @@ http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9732
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9735
 #EXTINF:-1 group-title="PELICULAS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ef/Turner_Classic_Movies_%28TCM%2C_Latin_America%29_-_2015_logo.png" ,CINE - TCM (Z)(1080)
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9741
+
 
