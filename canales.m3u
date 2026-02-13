@@ -516,5 +516,30 @@ http://xpaneltv.com:8080/movie/LarryPer/30100258/363626.mkv
 #EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eu7dxZWlufFOkDV99IzS7Xd7tp.jpg" ,Los siete magníficos (1960)
 http://xpaneltv.com:8080/movie/LarryPer/30100258/363627.mkv
 
-
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="https://i.ibb.co/VW8jzKd8/unnamed.png" ,RADIO OVACION
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/490474.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="http://redworld.pro:8880/images/462362df11ef2fb912742a6dcaacca24.jpeg" ,RADIO H
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/490475.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="http://goldfull.pro:8880/images/59c7026544beaaa79d5e6830708de73f.jpg" ,ROCK & POP
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166764.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="http://goldfull.pro:8880/images/3ab951a88d01be0a26cd3d8b711237bc.jpg" ,RADIO 40 PRINCIPALES
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166766.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="http://goldfull.pro:8880/images/50624d0c9350e4d1b67cee2bd333d9c3.png" ,RADIO PLANETA CUMBIA LATINA
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166767.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="http://goldfull.pro:8880/images/89b0ee9666099b40474757c4e036d161.jpeg" ,RADIO RINCON GAUCHO
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166769.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="http://goldfull.pro:8880/images/0163acdf5ecccf16bc1d2889bf0905cd.png" ,RADIO ROCA FM CLASICOS
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166770.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="http://goldfull.pro:8880/images/e93327fdd180cbe290639209cf175b40.jpeg" ,RADIO CVC LA VOZ
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166771.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="http://goldfull.pro:8880/images/51bcd6ca461ef7b8090bb47e57592517.png" ,RADIO BELGRANO AM650
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166773.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="http://goldfull.pro:8880/images/ae0b253081b5a04e8944f2bf25f4ebc4.jpg" ,RADIO SOLO VINILO
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166774.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="http://goldfull.pro:8880/images/ad46312d5c7b423065ceab15e1aba708.jpg" ,RADIO LIGHT FM 97.3
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166776.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="http://goldfull.pro:8880/images/9c9230d3a1e0fdbf9d04a58905378468.jpeg" ,RADIO LA POPULAR
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166777.m3u8
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="http://goldfull.pro:8880/images/290e2b878adc91436de88e71ac0fd2ec.jpg" ,RADIO SOLO ROCK NACIONAL
+http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166779.m3u8
 
