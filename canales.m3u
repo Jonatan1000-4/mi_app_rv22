@@ -181,8 +181,16 @@ http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9601
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9602
 #EXTINF:-1 group-title="CANALES-DEPORTES" tvg-logo="https://1.bp.blogspot.com/-T4uG5FYIDek/XhA6fXlKRQI/AAAAAAAAA8U/xRyQIitNaVsNGYmrK2TVTPJKiCITuGGoACLcBGAsYHQ/s200/32.png" ,DEPORTES - UFC Fight PASS (i)(720)
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9611
-#EXTINF:-1 group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports (TV)(720)
+#EXTINF:-1 group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports opc 1
+http://xpaneltv.com:8080/LarryPer/30100258/154333
+#EXTINF:-1 group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports opc 2
+http://xpaneltv.com:8080/LarryPer/30100258/287874
+#EXTINF:-1 group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports opc 3
+http://xpaneltv.com:8080/LarryPer/30100258/287875
+#EXTINF:-1 group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports opc 4
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157584
+#EXTINF:-1 group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports opc 5
+http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157585
 #EXTINF:-1 group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/hv9dS3w0/Proyecto-X-Argentina-(11).png" ,ARG - DEPORTV (L)(720)
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157596
 #EXTINF:-1 group-title="ARGENTINA" tvg-logo="https://i.postimg.cc/T1rDRHFT/Proyecto-X-Argentina-(12).png" ,ARG - ESPN (M)(720)
@@ -311,3 +319,4 @@ http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9732
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9735
 #EXTINF:-1 group-title="PELICULAS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ef/Turner_Classic_Movies_%28TCM%2C_Latin_America%29_-_2015_logo.png" ,CINE - TCM (Z)(1080)
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9741
+
