@@ -53,27 +53,25 @@ http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9870
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9876
 #EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/ccQST24D/51fbb65ecf87.webp" ,Nicktoons M720
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9882
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/6f4922f45568161a8cdf4ad2299f6d23.png" ,Bandamax MSD
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/6f4922f45568161a8cdf4ad2299f6d23.png" ,Bandamax
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/8307
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="" ,HTV M720
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="" ,HTV
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/8309
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/1679091c5a880faf6fb5e6087eb1b2dc.png" ,MTV Live MSD
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/8313
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/8f14e45fceea167a5a36dedd4bea2543.png" ,Telehit MSD
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/8f14e45fceea167a5a36dedd4bea2543.png" ,Telehit 
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/8316
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/c51ce410c124a10e0db5e4b97fc2af39.png" ,Telehit PlusM1080
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/c51ce410c124a10e0db5e4b97fc2af39.png" ,Telehit
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/8317
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/c4ca4238a0b923820dcc509a6f75849b.png" ,Teleritmo LSD
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/c4ca4238a0b923820dcc509a6f75849b.png" ,Teleritmo
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/8318
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/DP27PBFg/9aeb979f6840.webp" ,TNT Sports opc 5
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/DP27PBFg/9aeb979f6840.webp" ,TNT Sports 
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157585
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/21z313qg/984d4da7b107.webp" ,ESPN M720
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/21z313qg/984d4da7b107.webp" ,ESPN 
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157558
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/5h66mTYR/804892c05d3e.webp" ,ESPN 2 M720
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/5h66mTYR/804892c05d3e.webp" ,ESPN 2 
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157559
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/fVptxtJt/043e057af4a9.webp" ,ESPN 3 M720
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/fVptxtJt/043e057af4a9.webp" ,ESPN 3 
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157560
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/rfNn99q7/f341c43ca58f.webp" ,ESPN 4 M720
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/rfNn99q7/f341c43ca58f.webp" ,ESPN 4 
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157561
 #EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="" ,ESPN Premium M720
 http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157562
@@ -197,3 +195,4 @@ http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495082.mp4
 http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495083.mp4
 #EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4aFR_g1dvmnBrW15DSjYfK7wOMTJC6VBS4A&s" ,RADIO CORAZON
 http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166702.m3u8
+
