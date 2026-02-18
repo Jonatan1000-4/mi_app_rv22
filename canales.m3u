@@ -1,198 +1,113 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="AMERICA TV.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/qYF65FkV/475196ab3caf.webp" ,America TV
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157612
-#EXTINF:-1 tvg-id="TV PUBLICA.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/ZzGtPqvs/a35fa25ea201.webp" ,TV Publica
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157586
-#EXTINF:-1 tvg-id="EL NUEVE.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/M5Wc6rTZ/e7f64f204f07.webp" ,El Nueve
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157621
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/xKQ9PSRR/aac66fabc931.webp" ,Telefe
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157589
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/yc8QKM5J/90c357228195.webp" ,El trece
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157591
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/whpgKPS3/f9add572da0f.webp" ,Argentinisima
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157608
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/nSngKM6/cd9e51cef5c5.webp" ,Crnica TV
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157572
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/MwXBHCR/a3356c326159.webp" ,LN
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157593
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/mVtb8M2T/7aad4bb6a007.webp" ,Multivision
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157618
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/BH6XnGNP/ab2fef5279bf.webp" ,Univision  TeleNovelas
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/67012
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://1.bp.blogspot.com/-GuBKhe6BjNU/XaqbhYUEY9I/AAAAAAAAZU/GoNTclP8BQYz3LWW1FRbP0e_zV7-V_bNACLcBGAsYHQ/s200/28.png" ,TNT Novelas  M1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9747
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.epg.best/mx/Elgourmet.mx.png" ,Gourmet Z1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9795
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.epg.best/co/HolaTv.co.png" ,Hola TV Z720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9799
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.epg.best/mx/Lifetime.mx.png" ,Lifetime Z720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9800
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/7N0cT0Ls/ced2b79f5247.webp" ,NatGeo Wild  TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9849
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://tv.proyectox.vip:8080/images/9bf31c7ff062936a96d3c8bd1f8f2ff3.png" ,Investigation Discovery MSD
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9844
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/3yBkKC4S/ea5a5812c077.webp" ,History Channel TV1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9841
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/yBk4JjpH/64c1702ce523.webp" ,H2 TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9837
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/qLCjBZ8t/bdd4b3ebbc64.webp" ,Animal Planet TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9813
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/RTzy51dd/8f1779421cbc.webp" ,Discovery Channel Z720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9782
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/R4sHTPyr/99af3fa01db9.webp" ,Discovery Turbo Z720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9789
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://daleplay.club:8080/images/07d716b7a2daab061d6ea4121f11d31e.png" ,Baby TV Z1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9855
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/Jwm779bJ/855eaa14e317.webp" ,Cartoon Network MSD
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9859
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://tv.proyectox.vip:8080/images/e4da3b7fbbce2345d7772b0674a318d5.png" ,Discovery Kids MSD
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9863
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://daleplaypro.com:8080/images/627e7fa12773e20f3d430dd147f39c1d.png" ,Disney JR Z720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9870
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/ZRtLCTvV/cef8ba3c0e5c.webp" ,Nick Jr M720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9876
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/ccQST24D/51fbb65ecf87.webp" ,Nicktoons M720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9882
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/6f4922f45568161a8cdf4ad2299f6d23.png" ,Bandamax
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/8307
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="" ,HTV
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/8309
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/8f14e45fceea167a5a36dedd4bea2543.png" ,Telehit 
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/8316
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/c51ce410c124a10e0db5e4b97fc2af39.png" ,Telehit
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/8317
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://23.153.216.121:25461/images/c4ca4238a0b923820dcc509a6f75849b.png" ,Teleritmo
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/8318
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/DP27PBFg/9aeb979f6840.webp" ,TNT Sports 
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157585
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/21z313qg/984d4da7b107.webp" ,ESPN 
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157558
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/5h66mTYR/804892c05d3e.webp" ,ESPN 2 
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157559
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/fVptxtJt/043e057af4a9.webp" ,ESPN 3 
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157560
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/rfNn99q7/f341c43ca58f.webp" ,ESPN 4 
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157561
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="" ,ESPN Premium M720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157562
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/v6vsdvFp/cc7dc9277851.webp" ,ARG  TyC Sports TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/157614
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/cKb6805n/0e27fae6adcd.webp" ,Directv Sports 1 ARG TV1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9560
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/jZJhw6Y3/bad2da4080c3.webp" ,Directv Sports 2 ARG Z720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9567
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/TD72GXHP/ed667da2a828.webp" ,Directv Sports  TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9558
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/jvVf0GtW/27f86b8dc034.webp" ,Fox Deportes TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9571
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/DPzppLWK/4064c9f91972.webp" ,Fox Sports 1 ARG L720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9575
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/fcd1M8J/ebd803eee41b.webp" ,Fox Sports 2 ARG LSD
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9581
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/Vp9kG27C/7422cdc101de.webp" ,Fox Sports 3 ARG TV1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9589
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/QFzpZVtr/99884e5094b0.webp" ,TUDN  MEX M720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9603
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/QFzpZVtr/99884e5094b0.webp" ,TUDN  USA TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9605
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/r2tk07Tc/88f6d9682e0a.webp" ,TNT M720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9744
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/qYCLFNfT/de5af3158e1d.webp" ,CineCanal TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9630
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q" ,Cinemax Z1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9635
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/p7gV0Js/22682744a059.webp" ,AMC TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9620
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/DDPv3sgc/32e9d729fc98.webp" ,AE M1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9615
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/ksMkR8Lq/21e3f448c5bd.webp" ,AXN TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9624
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q" ,Paramount Z720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9705
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/Jw1Kzpbt/9e92e9bdb4b6.webp" ,Paramount Channel TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9708
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/8DQJXkdB/72366f5d9610.webp" ,TNT Series M1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9749
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/CpXTzvJy/6f696d2b3452.webp" ,Universal Channel L720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9753
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/F4fDPNTL/e275b53c8bb8.webp" ,Universal Cinema L720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9756
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/5WtLNC0S/090e5ff5fd03.webp" ,Warner Channel TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9776
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://tv.proyectox.vip:8080/images/f7177163c833dff4b38fc8d2872f1ec6.png" ,De Pelicula M1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9638
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/6JXvW78F/3aa1919ca7bd.webp" ,De Pelicula Plus M1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9639
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q" ,Golden Z1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9657
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/rK5H9fcG/dab4388272e6.webp" ,Golden Edge M720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9658
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/dwhGdqSs/36a7575286ba.webp" ,Sony Channel M1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9712
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/MxLNr9tc/e718fec83612.webp" ,Space TV1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9717
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/yFpn7M5p/16b523e81725.webp" ,Star Channel Sur Z720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9725
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/jZQPCKtw/8dc6d347189d.webp" ,Studio Universal M1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9732
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/LX2vBNgt/74061e7aec96.webp" ,TCM Z1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9741
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/v4wD8grn/2e0cf29a7ba3.webp" ,HBO TV1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9668
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/DPG0C0LB/92c184d5e741.webp" ,HBO 2 TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9674
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/Kpg8zJsS/c501c60ed2cc.webp" ,HBO Family TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9680
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/MDYhBgLd/6180b2a4bbe4.webp" ,HBO Mundi TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9683
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cineparallevar.mx/admin/wp-content/uploads/2017/10/copypasteimage-4.jpg" ,HBO Plus Z1080
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9688
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q" ,HBO POP Z720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9691
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/N2hZZgdh/ccb640380d72.webp" ,HBO Signature TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9693
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://multipress.com.mx/wp-content/uploads/2013/11/hbo-logo-01-g.jpg" ,HBO SUR Z
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9696
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/1GQCpqgW/5ca3bc487d2e.webp" ,HBO Xtream TV720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9697
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/RGys3Lx2/cd7a97a104f3.webp" ,HBO Xtreme Z720
-http://45.159.95.252:8080/juanvernazza/85GbSi1ewU/9701
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://xpaneltv.com:8080/images/34dab88da762c7d997326df320f43c5a.jpg" ,El lobo de Wall Street
-http://xpaneltv.com:8080/movie/LarryPer/30100258/182328.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://xpaneltv.com:8080/images/3c90c8f4042d723a29e79d7c49f59615.jpg" ,l padrino
-http://xpaneltv.com:8080/movie/LarryPer/30100258/184748.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://xpaneltv.com:8080/images/e472ed2527117d5b72d60a62df3f93bc.jpg" ,l padrino. Parte II
-http://xpaneltv.com:8080/movie/LarryPer/30100258/184749.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://xpaneltv.com:8080/images/f5e100d3d35fc661b6210dbf51576d74.jpg" ,l señor de los anillos: El retorno del rey
-http://xpaneltv.com:8080/movie/LarryPer/30100258/184762.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://xpaneltv.com:8080/images/2da532e2422f729d152419c6cf100e41.jpg" ,l señor de los anillos: La comunidad del anillo
-http://xpaneltv.com:8080/movie/LarryPer/30100258/184763.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://xpaneltv.com:8080/images/c57109f8fc7b69d980f622670dbfcba6.jpg" ,El señor de los anillos: Las dos torres
-http://xpaneltv.com:8080/movie/LarryPer/30100258/184764.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://redworld.pro:8880/images/f1d0725c1a405c3d76b81776998ea792.jpg" ,la serie S01 E01
-http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495072.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://redworld.pro:8880/images/f1d0725c1a405c3d76b81776998ea792.jpg" ,la serie S01 E02
-http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495073.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://redworld.pro:8880/images/f1d0725c1a405c3d76b81776998ea792.jpg" ,la serie S01 E03
-http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495074.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://redworld.pro:8880/images/f1d0725c1a405c3d76b81776998ea792.jpg" ,la serie S01 E04
-http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495075.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://redworld.pro:8880/images/f1d0725c1a405c3d76b81776998ea792.jpg" ,la serie S01 E05
-http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495076.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://redworld.pro:8880/images/f1d0725c1a405c3d76b81776998ea792.jpg" ,la serie S01 E06
-http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495077.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://redworld.pro:8880/images/f1d0725c1a405c3d76b81776998ea792.jpg" ,la serie S01 E07
-http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495078.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://redworld.pro:8880/images/f1d0725c1a405c3d76b81776998ea792.jpg" ,la serie S01 E08
-http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495079.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://redworld.pro:8880/images/f1d0725c1a405c3d76b81776998ea792.jpg" ,la serie S01 E09
-http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495080.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://redworld.pro:8880/images/f1d0725c1a405c3d76b81776998ea792.jpg" ,la serie S01 E10
-http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495081.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://redworld.pro:8880/images/f1d0725c1a405c3d76b81776998ea792.jpg" ,la serie S01 E11
-http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495082.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://redworld.pro:8880/images/f1d0725c1a405c3d76b81776998ea792.jpg" ,la serie S01 E12
-http://redworld.pro:8880/series/Tvs2/uwZEYrEuejWv/495083.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="RADIOS" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4aFR_g1dvmnBrW15DSjYfK7wOMTJC6VBS4A&s" ,RADIO CORAZON
-http://redworld.pro:8880/live/Tvs2/uwZEYrEuejWv/166702.m3u8
-
+#EXTINF:-1 xui-id="108604" tvg-id="" tvg-name="26 TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQTUd3xNnNIrmiBllfot4j96bozHWTz2IjuA&s" group-title="ARGENTINA",26 TV
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmiJLTIFSS7Zd-aNgSUCO0v0
+#EXTINF:-1 xui-id="108605" tvg-id="" tvg-name="A24" tvg-logo="https://play-lh.googleusercontent.com/TWQgJ9V0vOtKFxXvV0XElYV8WLher-1L0XnbHg0ZkDAJUt4Of63K7FLp5JE-rl1hOw" group-title="ARGENTINA",A24
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmjqTaGHs5uKq4MJW1OP0dBH
+#EXTINF:-1 xui-id="108606" tvg-id="CNNE" tvg-name="CNN en español ARG" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jWK83T7_CvcO5npC2ia2PHg5MPSJZAnf13m8vYFlmFJatyBUxetBV_gQ-l9OfEu6_g.png" group-title="ARGENTINA",CNN en español ARG
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmhS8Lx6ujTQhD7ydUcWJKuX
+#EXTINF:-1 xui-id="108615" tvg-id="CDLC" tvg-name="Canal de la ciudad" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga4Nk5n6ixZy9THD4ZXiMvUBgP2p_Xfr4ipxqWtEG0voVA.png" group-title="ARGENTINA",Canal de la ciudad
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmi4lBAjsGs3MmHmXnnPKjiZ
+#EXTINF:-1 xui-id="108795" tvg-id="TELEFA" tvg-name="TELEFE" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga5_v8BcRxFt2LzmT5Zf9ns_mlPm7MTflJk3go7JII3Bow.png" group-title="ARGENTINA",TELEFE
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunmiLKhR9JzCkMfmyiPzNLyqTb54VJQ8DafYaBQoGM72S
+#EXTINF:-1 xui-id="108799" tvg-id="TRESAT" tvg-name="el trece" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQcVV8EdnRR1zQ1Haf5L6AgdhNg1HmjdiPu8ODrtNMoQRg.png" group-title="ARGENTINA",el trece
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunmiLKhR9JzCkMfmyiPzNLyp2N7NsLhAZlBGtT8qK_Mz3
+#EXTINF:-1 xui-id="108800" tvg-id="TRECENG" tvg-name="el trece internacional" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jUnM19LIbFKZxwDbFVJtkw2ISRRPFGlTUJJ_gB6UK8arqkr7JqUriGiuYPx1KWvrLg.png" group-title="ARGENTINA",el trece internacional
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmKC7SAxJiWtFQHLLjtbYoNE
+#EXTINF:-1 xui-id="108820" tvg-id="CRONHA" tvg-name="Crónica" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLePGHrSUiH7OIsUHw-XNxKkOxLGMJVyq5CWeD_oQR3D-8zVUCESi_oTnr6QfdzeTOrg.png" group-title="ARGENTINA",Crónica
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmKpOTcmvtbL2swqxgQp1L9k
+#EXTINF:-1 xui-id="108821" tvg-id="ENCU" tvg-name="Ecuentro" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeHmiX8livGvmTcAeiKgpEZe2HtXDnMQ3IhBpyahqSfruyY4bgk3SxUSvnFCv1cedag.png" group-title="ARGENTINA",Ecuentro
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmIrLVAYWn9PJv_A6Pl7YcrR
+#EXTINF:-1 xui-id="108823" tvg-id="NACIONP" tvg-name="La Nacion TV" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga70brSxm3cNh4td6tE4IpjdlrfXVREqfVYiHsOWEm7pRg.png" group-title="ARGENTINA",La Nacion TV
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmJbZmC3V-FXyMd8K7NCustp
+#EXTINF:-1 xui-id="108824" tvg-id="PAKAM" tvg-name="Pakapaka" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeAF0SLaJ1BY1vf8dLiBnWSNf2UGhtYAbzruv-vctfJ7w.png" group-title="ARGENTINA",Pakapaka
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmICsin2NyY5zmKaPdT4LRXc
+#EXTINF:-1 xui-id="108825" tvg-id="RURALA" tvg-name="Rural" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeFIeMOyEwfqohbPLe2g8j8A0u2C54c3UAYv-9LJ6HWNO.png" group-title="ARGENTINA",Rural
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmJ58SUK66s4xB-rn_HyYldf
+#EXTINF:-1 xui-id="160129" tvg-id="METCAN" tvg-name="Metro" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jea53Z6U0mOCNIVUuzL9NVEpCI6ZuagX6aT4W0q59uJQGNhAXFiUu1DGO4KjqJgVFw.png" group-title="ARGENTINA",Metro
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunnrHcD4FmobkMMSu4kEkrwzFvEqHPlFkhw_FyEWkQmK2
+#EXTINF:-1 xui-id="160130" tvg-id="TNE" tvg-name="TN" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jQ_y8Ny2AddiQ7MaENJsRyfP8FiJg68zq-sRqDtVf4uNMDlful14MvJtFbIeqmU43Q.png" group-title="ARGENTINA",TN
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunnrHcD4FmobkMMSu4kEkrwz3kVJs9KPmv1NDptLsEZJR
+#EXTINF:-1 xui-id="160131" tvg-id="CANL9HD" tvg-name="El nueve" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQfQCLTGCrjSyCPzFqBVIyGXisBo8CW6EwCM1AX0K33QUg.png" group-title="ARGENTINA",El nueve
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunnrHcD4FmobkMMSu4kEkrwyi6cxfA9XHJ7Ev89PMib7U
+#EXTINF:-1 xui-id="160146" tvg-id="TVPUAM" tvg-name="TV PUBLICA" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQcsHoOqPmTxLvNjybv3wUx9nIvSJ3-AnGfsQumPhKwjmQ.png" group-title="ARGENTINA",TV PUBLICA
+http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunnrHcD4FmobkMMSu4kEkrwy4cR8uUL3aorF1RrPUGRJM
+#EXTINF:-1 xui-id="194365" tvg-name="Tom Horn (1980)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ifOSNe5WC03CrbqgX2yhja7OYGx2Cjs2N-G8ED7sXcsw.jpg" group-title="WESTERN",Tom Horn (1980)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7PriSRZOJb1XzBuqfGhxO0#.mp4
+#EXTINF:-1 xui-id="194366" tvg-name="Más Muerte en Tombstone (2017)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iS_Whq-CmFhkm9YmslCvJiHfDq8gAO9c89uolVN2V8qQ.jpg" group-title="WESTERN",Más Muerte en Tombstone (2017)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx64bBmKLvE5zkAonmc05TVV#.mp4
+#EXTINF:-1 xui-id="194367" tvg-name="El fuera de la ley (1976)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iITbD23CluIvh9uC8rTmWmlOnC6jLEXLW4OID6mC7PIw.jpg" group-title="WESTERN",El fuera de la ley (1976)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4HHAPRTGSWPQQmKdm7lO6e#.mp4
+#EXTINF:-1 xui-id="194368" tvg-name="Hell or High Water (2016)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i4pA4Mm7TaSiROKOsKrf6cQmoTCwKGV2Ba7aKfpXQlNw.jpg" group-title="WESTERN",Hell or High Water (2016)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx47iwzvyuQigSkuNSGFL1Qt#.mkv
+#EXTINF:-1 xui-id="194369" tvg-name="Océanos de fuego (Hidalgo) (2004)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8io7kc_-TJ1cYFJxEoY2wXSfouN2knhD5EDGsJEvWWbC4.jpg" group-title="WESTERN",Océanos de fuego (Hidalgo) (2004)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7By4dMhQ0Qs1SK8iBWkIOO#.mp4
+#EXTINF:-1 xui-id="194370" tvg-name="El regreso de los siete magníficos (1966)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iJNvuhN7UDT40UfANSduNhIO_stgwnRD44FzWJL97txw.jpg" group-title="WESTERN",El regreso de los siete magníficos (1966)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4uHYrtvc2ZMLb03EQfBk1m#.mp4
+#EXTINF:-1 xui-id="194371" tvg-name="Ned Kelly, comienza la leyenda (2003)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i11zO8tvdN3hbrEfxdsuCCsY2orG9s2yjNHsRIG2CG5g.jpg" group-title="WESTERN",Ned Kelly, comienza la leyenda (2003)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5e7Z3C-RulSdXxJeychgLT#.mp4
+#EXTINF:-1 xui-id="194372" tvg-name="Si te encuentras con Sartana ruega por tu muerte (1968)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ium92NdlBaSY9_L89rGPMKECIE8UZadQT8JsmID2YD-E.jpg" group-title="WESTERN",Si te encuentras con Sartana ruega por tu muerte (1968)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx59bn32PuBBZp9ffYV0yVzt#.mp4
+#EXTINF:-1 xui-id="194373" tvg-name="Wyatt Earp (1994)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iCZhjicueXUArj4LdA_Iuuit7S_r1PPRGLnsFHwG0C-k.jpg" group-title="WESTERN",Wyatt Earp (1994)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4n6bLZ5TGmGpQt-CoPkhBK#.mp4
+#EXTINF:-1 xui-id="194374" tvg-name="Llega un pistolero (1956)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8is2fDQ2JTqdAPhqmKAKx06up7hWgiV342Nq4HX4zoudo.jpg" group-title="WESTERN",Llega un pistolero (1956)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7hPznUjjOqAE1Bgiswb5XQ#.mp4
+#EXTINF:-1 xui-id="194375" tvg-name="Duelo en Silver Creek (1952)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iLZrg-ab4hJ5CjRuXOR_7fvieVtriLB6Y4r4cTlV9hhU.jpg" group-title="WESTERN",Duelo en Silver Creek (1952)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx57S9fn6nVd7jzKXqw2VIb6#.mp4
+#EXTINF:-1 xui-id="194376" tvg-name="Rápida y mortal (1995)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i5B6c_q2PUxzVyVTFS-E3yXTolCR2xA1rZpR566FGfGM.jpg" group-title="WESTERN",Rápida y mortal (1995)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx528nxVxALfLgKAne-SCaLR#.mp4
+#EXTINF:-1 xui-id="194377" tvg-name="Hombre (1967)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iwzyBwtiOaPxj6JEr4FxgOsB1SEfKYY07seQVjCjM-1o.jpg" group-title="WESTERN",Hombre (1967)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4LdzJ7E3_-lT2ocaU8YyC4#.mp4
+#EXTINF:-1 xui-id="194378" tvg-name="Barro en los ojos (1971)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iacolV1FQUGL3mArgTfka9o2lj_6EDpZivNFmdhdBut4.jpg" group-title="WESTERN",Barro en los ojos (1971)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx51ZMGtxMpQONZXK1-B7YJ3#.mp4
+#EXTINF:-1 xui-id="194379" tvg-name="Solo ante el peligro (1952)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ip6FWWaMy_lBSQns12D5hkJzd4jkDg27HBN88zmzFPgw.jpg" group-title="WESTERN",Solo ante el peligro (1952)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx781OFNBMZdIo6VEZt4Qo40#.mp4
+#EXTINF:-1 xui-id="194380" tvg-name="El hombre de las pistolas de oro (1959)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iT4sMj4rrfBSR5lr4LRD1C6RnFN13jEC0xcSmTcAmzpI.jpg" group-title="WESTERN",El hombre de las pistolas de oro (1959)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5t_yEkOSOhGSdKSiWwCVRc#.mp4
+#EXTINF:-1 xui-id="194381" tvg-name="Cabalgar en solitario (1959)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iza7ydIAYjRcKDdCufRurqnySaeMLE-ik2IWiXXpYOxk.jpg" group-title="WESTERN",Cabalgar en solitario (1959)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx43kzxrfusqVt4UtR-ds9e0#.mp4
+#EXTINF:-1 xui-id="194382" tvg-name="La furia de los siete magníficos (1969)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iXyMSYyEkUIs8b6pOy0147VsnbzH1ZQeUu7pjeUD2JhA.jpg" group-title="WESTERN",La furia de los siete magníficos (1969)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7Y1jkwZsh4rA0X31EBW4dO#.mp4
+#EXTINF:-1 xui-id="194383" tvg-name="Río Bravo (1959)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i0lFpyHANAc-a-smVJvBBXoeuljzyTqhRM9zI2zLR9cA.jpg" group-title="WESTERN",Río Bravo (1959)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4oDs-jw6iI-GLvF5p6jiDe#.mp4
+#EXTINF:-1 xui-id="194384" tvg-name="Camino al infierno (1999)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8isomJWO9XududWva63zC3YAcJprm5W2k5ZwUFFIh5NvE.jpg" group-title="WESTERN",Camino al infierno (1999)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7yKgCCdtfKQhEuEHpfYloZ#.mp4
+#EXTINF:-1 xui-id="194385" tvg-name="El valle de Gwangi (1969)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iy-1sHazT4LHv6X6uili3pZ_MtWZ7d9JFl1-X738hvtQ.jpg" group-title="WESTERN",El valle de Gwangi (1969)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx58qxSz59iii9XdxEp0SrBM#.mp4
+#EXTINF:-1 xui-id="194390" tvg-name="El desafío del búfalo blanco (1977)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ioZkZftTF5wT4GblMidLpO5WLdRJt6yF6GwFrv9pSp2Q.jpg" group-title="WESTERN",El desafío del búfalo blanco (1977)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6qPpBAd1-W4QQzqAaCcNRv#.mp4
+#EXTINF:-1 xui-id="194386" tvg-name="Noticias del gran mundo (2020)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iYctAqU0n5hu8RDGTBLv2vfsPXfQURZXF4GYXn37h8XM.jpg" group-title="WESTERN",Noticias del gran mundo (2020)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4wo4QClzz8SkA_S_UD38ev#.mp4
+#EXTINF:-1 xui-id="194388" tvg-name="Rescate suicida (2024)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iP0pV__zcZc4MrfB3OMoLe2OoS-PqMtj1rP4ue5kCF_I.jpg" group-title="WESTERN",Rescate suicida (2024)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4ThccZzLwYCmzBW5Tjchhp#.mkv
+#EXTINF:-1 xui-id="194387" tvg-name="Cometieron dos errores (1968)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ilrJ1fiOi0f0z1s5mZT93u2JnGcJlnMJVu2T4OisQNeA.jpg" group-title="WESTERN",Cometieron dos errores (1968)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx74ReG3dBKPI4l9s0krmoAn#.mp4
+#EXTINF:-1 xui-id="194389" tvg-name="Hasta que llegó su hora (1968)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iyGXszaCgQnNItji_mjsOB_HFjWQN7GhzECQGKkaecIo.jpg" group-title="WESTERN",Hasta que llegó su hora (1968)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5uc5o66VukEbmElZgNvK_y#.mp4
+#EXTINF:-1 xui-id="194391" tvg-name="El último tren de Gun Hill (1959)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ivSqR1308NTmIWKOFqCDIgNWm703cu_8Hr52Xm38Esiw.jpg" group-title="WESTERN",El último tren de Gun Hill (1959)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7gzJI-vZP5u9f7n96IQbxK#.mp4
+#EXTINF:-1 xui-id="194392" tvg-name="Jubal (1956)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iDdOPrY0mHa0CC2q1ykJh7NBJIMSfK5S0SBh5RBtlHnw.jpg" group-title="WESTERN",Jubal (1956)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7ZJhTTPxicUUpHgg6BLAp9#.mp4
+#EXTINF:-1 xui-id="194393" tvg-name="Fort Apache (1948)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iTPT9rKmSs7M9dG3awsKzD3M5UnZiMnGpDXLjyFuus48.jpg" group-title="WESTERN",Fort Apache (1948)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4391F_sRlWQ_SinoxCa-7R#.mp4
+#EXTINF:-1 xui-id="194394" tvg-name="El Oro De Mackenna (1969)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ixWCBdo68FoQyspIMDoRmMLUdmStlbTp7RdKrc5Ut8Pw.jpg" group-title="WESTERN",El Oro De Mackenna (1969)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4m6x08gIQSTmxCv4JY5Xwe#.mp4
+#EXTINF:-1 xui-id="194395" tvg-name="Showdown in Yesteryear (2022)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ilbFNzz4BGlECjtYZm_F_edFqrud5tmaE66gzUYffoBk.jpg" group-title="WESTERN",Showdown in Yesteryear (2022)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5-W_SAHIfF8fMkz87Na96I#.mkv
+#EXTINF:-1 xui-id="194396" tvg-name="Río sin retorno (1954)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ixL70-KlTKLvaYH-uHJzGxaKaBZD6S4UQBde990lbbqo.jpg" group-title="WESTERN",Río sin retorno (1954)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7l1VethjI8ytPtzprtVz-W#.mp4
+#EXTINF:-1 xui-id="194397" tvg-name="La Verdadera Historia De Jesse James (1957)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iZBL1eOb_01jrqCNaZlUZZLBpaC1oxCrkV36UUTeir1Q.jpg" group-title="WESTERN",La Verdadera Historia De Jesse James (1957)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6VC3vg-T7lWdI09LaxBxgf#.mp4
+#EXTINF:-1 xui-id="194398" tvg-name="Butch vs. Sundance (2023)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i8OdRjjEdF-LUb2zkfrj35X50XtY22-pWVC4jnDglkUM.jpg" group-title="WESTERN",Butch vs. Sundance (2023)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5FdtbGx7FROV52X-snwmEl#.mkv
+#EXTINF:-1 xui-id="194399" tvg-name="Misión de audaces (1959)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i7g5TgTtfYDRG-BJ1E46LxpgaXNoClK98MCCV0ktCXgs.jpg" group-title="WESTERN",Misión de audaces (1959)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx66HtoJwMT66lf6BVjKKE68#.mp4
+#EXTINF:-1 xui-id="194400" tvg-name="La leyenda del llanero solitario (1981)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iSNmX0OINy68g7urIfhrQcXAkjp8os3pcELY7QfF5bug.jpg" group-title="WESTERN",La leyenda del llanero solitario (1981)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6XLIkQXG-tXLIkYAsOWEx_#.mp4
+#EXTINF:-1 xui-id="194401" tvg-name="A mediodía (2000)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8imGERoZyRmNxGvU1-b97fXd_nQV7b7eDLwa8SLzZKGv8.jpg" group-title="WESTERN",A mediodía (2000)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4cnMiS5cesEpE9ULVBcCuC#.mp4
+#EXTINF:-1 xui-id="194402" tvg-name="Un vaquero sin rumbo (1990)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8icmOHk-TAE-utNo0UO1tOWFhU56LjqyMdw_o39OO7psc.jpg" group-title="WESTERN",Un vaquero sin rumbo (1990)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6cKOTUOucShyX7DUfZEZfp#.mp4
+#EXTINF:-1 xui-id="194403" tvg-name="En nombre de la ley (1971)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ixoU_SyM4y_qbuFJan7RFQH8zLyC3z8PdYxrH9ucQg0A.jpg" group-title="WESTERN",En nombre de la ley (1971)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4AENuE7xEJCt1tN6qC0XDT#.mp4
+#EXTINF:-1 xui-id="194404" tvg-name="Duelo al sol (1946)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i3WSzKcYv_PkGlxJHbUsX-3blXRO5a5HZsN818RlAINQ.jpg" group-title="WESTERN",Duelo al sol (1946)
+http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4bTdhYwuRLxUEOY06alC6n#.mp4
