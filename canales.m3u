@@ -1,583 +1,571 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQTUd3xNnNIrmiBllfot4j96bozHWTz2IjuA&s" ,26 TV
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmiJLTIFSS7Zd-aNgSUCO0v0
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://play-lh.googleusercontent.com/TWQgJ9V0vOtKFxXvV0XElYV8WLher-1L0XnbHg0ZkDAJUt4Of63K7FLp5JE-rl1hOw" ,A24
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmjqTaGHs5uKq4MJW1OP0dBH
-#EXTINF:-1 tvg-id="CNNE" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jWK83T7_CvcO5npC2ia2PHg5MPSJZAnf13m8vYFlmFJatyBUxetBV_gQ-l9OfEu6_g.png" ,CNN en español ARG
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmhS8Lx6ujTQhD7ydUcWJKuX
-#EXTINF:-1 tvg-id="CDLC" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga4Nk5n6ixZy9THD4ZXiMvUBgP2p_Xfr4ipxqWtEG0voVA.png" ,Canal de la ciudad
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmi4lBAjsGs3MmHmXnnPKjiZ
-#EXTINF:-1 tvg-id="TELEFA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga5_v8BcRxFt2LzmT5Zf9ns_mlPm7MTflJk3go7JII3Bow.png" ,TELEFE
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunmiLKhR9JzCkMfmyiPzNLyqTb54VJQ8DafYaBQoGM72S
-#EXTINF:-1 tvg-id="TRESAT" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQcVV8EdnRR1zQ1Haf5L6AgdhNg1HmjdiPu8ODrtNMoQRg.png" ,el trece
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunmiLKhR9JzCkMfmyiPzNLyp2N7NsLhAZlBGtT8qK_Mz3
-#EXTINF:-1 tvg-id="TRECENG" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jUnM19LIbFKZxwDbFVJtkw2ISRRPFGlTUJJ_gB6UK8arqkr7JqUriGiuYPx1KWvrLg.png" ,el trece internacional
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmKC7SAxJiWtFQHLLjtbYoNE
-#EXTINF:-1 tvg-id="CRONHA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLePGHrSUiH7OIsUHw-XNxKkOxLGMJVyq5CWeD_oQR3D-8zVUCESi_oTnr6QfdzeTOrg.png" ,Crónica
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmKpOTcmvtbL2swqxgQp1L9k
-#EXTINF:-1 tvg-id="ENCU" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeHmiX8livGvmTcAeiKgpEZe2HtXDnMQ3IhBpyahqSfruyY4bgk3SxUSvnFCv1cedag.png" ,Ecuentro
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmIrLVAYWn9PJv_A6Pl7YcrR
-#EXTINF:-1 tvg-id="NACIONP" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga70brSxm3cNh4td6tE4IpjdlrfXVREqfVYiHsOWEm7pRg.png" ,La Nacion TV
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmJbZmC3V-FXyMd8K7NCustp
-#EXTINF:-1 tvg-id="PAKAM" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeAF0SLaJ1BY1vf8dLiBnWSNf2UGhtYAbzruv-vctfJ7w.png" ,Pakapaka
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmICsin2NyY5zmKaPdT4LRXc
-#EXTINF:-1 tvg-id="RURALA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeFIeMOyEwfqohbPLe2g8j8A0u2C54c3UAYv-9LJ6HWNO.png" ,Rural
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmJ58SUK66s4xB-rn_HyYldf
-#EXTINF:-1 tvg-id="METCAN" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jea53Z6U0mOCNIVUuzL9NVEpCI6ZuagX6aT4W0q59uJQGNhAXFiUu1DGO4KjqJgVFw.png" ,Metro
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunnrHcD4FmobkMMSu4kEkrwzFvEqHPlFkhw_FyEWkQmK2
-#EXTINF:-1 tvg-id="TNE" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jQ_y8Ny2AddiQ7MaENJsRyfP8FiJg68zq-sRqDtVf4uNMDlful14MvJtFbIeqmU43Q.png" ,TN
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunnrHcD4FmobkMMSu4kEkrwz3kVJs9KPmv1NDptLsEZJR
-#EXTINF:-1 tvg-id="CANL9HD" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQfQCLTGCrjSyCPzFqBVIyGXisBo8CW6EwCM1AX0K33QUg.png" ,El nueve
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunnrHcD4FmobkMMSu4kEkrwyi6cxfA9XHJ7Ev89PMib7U
-#EXTINF:-1 tvg-id="TVPUAM" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQcsHoOqPmTxLvNjybv3wUx9nIvSJ3-AnGfsQumPhKwjmQ.png" ,TV PUBLICA
-http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunnrHcD4FmobkMMSu4kEkrwy4cR8uUL3aorF1RrPUGRJ
-#EXTINF:-1 tvg-id="ANIPAA2" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jea53Z6U0mOCNIVUuzL9NVEtu6ADADJc6lHQv3mDeIGvkCimDuFbxvPxFS1MC6XpiQ.png" ,Animal Planet HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Rk1tDGNd-5JMF_dFsWwWWg
-#EXTINF:-1 tvg-id="DHEAARE" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRWDuDhhvTMTs5EmlBdEfhe1DrSP3homNdGpb6UQZqcl7eiFyjIDezwNroVb7me5dA.png" ,Discovery H&H HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-cGKOJc28fWF6drDKheDPn4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAMW9u75tcOia_WC0R7-0S3wKB2c8tp6GALg&s" ,Discovery HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-cAP-Cz0syDD1sRbTuCXHcU
-#EXTINF:-1 tvg-id="DISCSCI" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jba13fRIOYBkXzHaKPXcqLWTYO2TCHXOD9Yes3xRkFYg.png" ,Discovery Science
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-YipSPLrFS8J4Q5JW5KV39I
-#EXTINF:-1 tvg-id="DTHLAHA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jZJ3adB39KQnPnFf-X4fyvffcQSJ-__UDpF6jo7wkJwqDzA1L7MMXtYnhX6JV33XRw.png" ,Discovery Theater HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-XlrfSj4t3UJJhMSYpnTKZ4
-#EXTINF:-1 tvg-id="DTRBLAH" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jQNQtJdbfKaMh1NhzrN8bxALRj7otXB39HNXJZT0Uq8TVlyzTZRNNuEPUjeathiudg.png" ,Discovery Turbo
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-aA1bbhOroKgc0K6PIG6RWs
-#EXTINF:-1 tvg-id="DWHDB" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jfBo7HXpAo_BoGZgA7lE8iIoi0mVHT4qwZ4zX6hTC6oYnNaGDrAiMPWwwCHsxygMYQ.png" ,Discovery World HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-T1DfWs-VmnUk8F74qWxVaA
-#EXTINF:-1 tvg-id="ID" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQfKl7_fHUZdVpEZ9Q11bX_H.png" ,ID
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-dxlhlfiXbWv5dlYGL5uEeU
-#EXTINF:-1 tvg-id="GOURMAM" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jQzPxyJwX4C_S6xDdYAIvEz8nowEACcR9ffBm7zLEr3SzdpBOAw3srQabrREYJ255A.png" ,El Gourmet
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-WDHlHVNVJB5Jd7V3gYtMw0
-#EXTINF:-1 tvg-id="TLC" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jQ_y8Ny2AddiQ7MaENJsRyeNPHgo7j9zBXUqa8e5BLI4Hw5e7kRJQ8RtDpZdeY2mrw.png" ,TLC
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-U4FYWqntaRqzSb9XWVKVsE
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGP1TR5ihZa2ii92_pveVVrMGEC3SnXWp8tw&s" ,Home Garden Latino
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-RYt-ZeH81p3Uf6psJrQtL4
-#EXTINF:-1 tvg-id="NAGEHDK" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga7V4Xo8khKJTSmGbUsMXfn1SVBzhwG2oORYHLgi7Tm9rA.png" ,Nat Geo HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-dXArYiWrz7Ov5QiPJUOTik
-#EXTINF:-1 tvg-id="SUNCHAA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jalwSNuSzwHdZZ0DWyNieH2XwZq2Eh0owme2k2_dkaYjsxYX2SMeo-D8ZoP8108UXA.png" ,Sun Channel HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Q0KXQN_v_HeuCQB2XaOUbc
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBteb5Ep3_wbetjSbrdNFF36I8XbaKUtn2AQ&s" ,History Channel HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Wl5W0wOqmtuXsHOunLvQPU
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwQ2otxTBO4yyr1bPin4yRzMoWJMgjRJT3DA&s" ,History 2
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-UU_r88wBX42XooNzxgt-JY
-#EXTINF:-1 tvg-id="DWLA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jUnM19LIbFKZxwDbFVJtkw3PENHCKIRyEyL-VxjoaHPvqBiPmssuDwsiREz8GpN5wA.png" ,DW EN ESPAÑOL
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-SZaJJ0dW1ErkZw5M5-i0W8
-#EXTINF:-1 tvg-id="HGTVLA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jQ_y8Ny2AddiQ7MaENJsRyeZn5g_-QTZGwY6VHOlT6QgHNkzcwZhNtwZ41TzK9xW7A.png" ,HGTV
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-aHej-Y7TTIOHD3kv0vc3vA
-#EXTINF:-1 tvg-id="TRAVXPH" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga49Ut9fznMCWR9ndYpuPgtdTbmqUB_TXeW5zUzaqkpoDw.png" ,Travelxp
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Sn9N3uEozzr-qt_M5Yc6C0
-#EXTINF:-1 tvg-id="MASCHIA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jX4S6rNSQCfigTn_e9CgAUC2q14rPX-JpuSlWS7PtPold0uKyYSA7heyMQqETzTohw.png" ,Mas Chic
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-aE9xsqxGRoVjT5TpF1BlmY
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/sv0psifJs-Kux1xSbj1cAnQiwWzXLR3XHN6JVt9lRPaftlXv2r2Dvxpomd3uG0cXjHHriRTaoh2JLhjrVoiYud4vL5ZV8Y3mGVkoYz6zLsA.png" ,LOVE NATURE
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-QJMax_INOL5qIbVVnwq9Zs
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/liga-mx/images/3/32/ClaroSportsLogo.png/revision/latest?cb=20151222200513&path-prefix=es" ,Claro sports 1
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-R3nhEivbyrxxmsINL62i7A
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/liga-mx/images/3/32/ClaroSportsLogo.png/revision/latest?cb=20151222200513&path-prefix=es" ,Claro Sports 2
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Ry7_6upcr3DMrDY5FZP7fk
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/15/DirecTVSports2018.png/revision/latest?cb=20180301233804" ,DSPORTS
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-fPhz0xde4C5gCmamQePKpk
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/qcSXhPthTapOWllvZLj0cist7aGnVQ26-ShA-8LvDWqAvJxVxArhC3wjE4TRVdS3f_e_bh9HSSf81Dg_E48FPqiOU8-Nv87DLn0qmM-kmY98EsETjKFfYeTiOca6rhFxQbt9dKN0rIoZA-iqSX3nI3AojoYOzVIZaVinYncIgzs.png" ,DSPORTS 2
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-XMQ3NgMzjwm4_tD4Erdlx0
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTM5X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1748761710537" ,DSPORTS +
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-ZQ1Sr6NP5IPXW7Yj6zCS_s
-#EXTINF:-1 tvg-id="DESPNCS" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jaGymw5wzZUpLrry3dteh78wzQ-aeVEuMfXnuZ3ScdzZRkun7281vOweLTe3QAkmKw.png" ,ESPN Norte
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-cKdtiqL0sQFyFAyOl1zUy0
-#EXTINF:-1 tvg-id="ESPNLH2" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jaGymw5wzZUpLrry3dteh78wzQ-aeVEuMfXnuZ3ScdzZRkun7281vOweLTe3QAkmKw.png" ,ESPN Sur HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-dZb_1mvSnQf3lMu4oZ7sps
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6b/ESPN_Premium_%28white_and_red%29_2022.png/revision/latest/scale-to-width-down/250?cb=20220501173308&path-prefix=es" ,ESPN Premium
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-TO-ISb1PbLAtq8Obau5eQ4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/espn/images/7/79/ESPN2-Logo-D795.png/revision/latest/scale-to-width-down/300?cb=20130819193813" ,ESPN 2 Norte
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-fpJ4yZsUsWFdw9HXYCJrWQ
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/espn/images/7/79/ESPN2-Logo-D795.png/revision/latest/scale-to-width-down/300?cb=20130819193813" ,ESPN 2 Sur
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Wc0JCo2KKMxhoHDdGYDkM8
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1e/ESPN_3.jpg/revision/latest?cb=20200211201137&path-prefix=es" ,ESPN 3 Norte
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-YRcwBC-OKJ56-C0r0sSWFM
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/192Wqe24RVT1FhAaS2TbOlreM4IRLrwdi0lbtakXUKdolk2PYFS4I0P8rbJQVibjy4joALo9cO_c130QBmOyQj08IJXqfj_J74X7dzUy3O7jKO-4c9Bzp-BPU_wXkHKog0ytzRHIIHRJzcRODVPwTA.png" ,ESPN 4 HD Sur
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-XX_0FjMGVXnYULuNt20lMo
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/192Wqe24RVT1FhAaS2TbOlreM4IRLrwdi0lbtakXUKdolk2PYFS4I0P8rbJQVibjy4joALo9cO_c130QBmOyQj08IJXqfj_J74X7dzUy3O7jKO-4c9Bzp-BPU_wXkHKog0ytzRHIIHRJzcRODVPwTA.png" ,ESPN 4 Norte
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-W470hF8Qm7ca3SyZlH4YFw
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/tvpediabrasil/images/b/bb/Espn5.jpg/revision/latest/scale-to-width-down/1200?cb=20240217221020&path-prefix=pt-br" ,ESPN 5 HD Norte
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-QVetQlvxKp--Le9J9iLHn0
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/tvpediabrasil/images/b/bb/Espn5.jpg/revision/latest/scale-to-width-down/1200?cb=20240217221020&path-prefix=pt-br" ,ESPN 5HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-XMDTet5VaeJl8hwrG768as
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYw-epO6cAAI00EhIH6hGnEXpXlVKiMs2yYA&s" ,ESPN 6 Norte
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-TquIf1DEFogGrz7Kl3pdOc
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuvduo1PS-tWvCtH4vLOXUW7Smj3A2PHneuA&s" ,ESPN 7 HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-SMWu-lGmFW-NhV441rrsbA
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://img.asmedia.epimg.net/resizer/v2/HDFAZLSP7FH7XJK2XFRO56O22U.jpeg?auth=5d7e53f23444b4e49deaaadc032a5470401ba4ca10214e4cac7006b8d1f5f9e1&width=1472&height=1104&smart=true" ,FOX PREMIUM
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Q_xLuAzPQPvc6QCFyX9kGQ
-#EXTINF:-1 tvg-id="GOLTVLE" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jQoHTD8l2TJXpDvIOJwZVTuwN9OppnEdGFHfoJ-_6I9g9qpJ2ppmcu_C67vuFisx1A.png" ,GolTV HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-YULlT2d81mqEP5csX0LwLo
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBpyFfS_isX5pLICeWcccj0M_qDBgPiEusvg&s" ,Latin America Sports
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-WgeFwm6-p7FIP6uo-zXdkI
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7izaBIkY4JXD_kwQuAKYJEEUJroSFzcDSbA&s" ,TD+
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-UHOFZNtmQh0UuRHAcX30FE
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyw4f2MBJoZby4zFhg6NpO2tvUpayiyRndhQ&s" ,TD+ 2
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-copmF8i-iEpADGHnylovf4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/tvcable/images/5/52/Logo_TNT_Sports_2021.png/revision/latest?cb=20210118175837&path-prefix=es" ,TNT SPORTS
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-TsxMdOBkbPRxklq7s4vY6g
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/WinSportsPlusPremium.png/revision/latest?cb=20200225220524&path-prefix=es" ,Win Sports+ HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-dHy8ozQ-BqmNSXo8Yg7gzE
-#EXTINF:-1 tvg-id="DTVGOLF" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRyJr43pPjjmGgdAkxe1s29PyXPC1BfWHTtz2AUnLEZjuZhf7qYJKHU3AfU7hCAG0w.png" ,GOLF CHANNEL
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-YZ_5nbCC1htZnywTdq4j3Q
-#EXTINF:-1 tvg-id="TYC" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQcWjAwaO0yQ7KNvBoekXqGSoFNEc0nUYrTRLC3xUBqJNA.png" ,TyC Sports
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-VLz66AiumfbPdUQ_Nxrn3g
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYcZpYoiEecPCpDU3NUfmGvxVJ2zJFiUQmyw&s" ,TNT Sports Premium
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-f6VMl4y8bxe3IXYoHRB6_c
-#EXTINF:-1 tvg-id="ESPNLH2" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jaGymw5wzZUpLrry3dteh78wzQ-aeVEuMfXnuZ3ScdzZRkun7281vOweLTe3QAkmKw.png" ,ESPN Arg
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-cpS-mJ2IUDxu7ntKCsWDxs
-#EXTINF:-1 tvg-id="FSALA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jX4S6rNSQCfigTn_e9CgAUAXPoRAKxNxBTBF9gdfLRMoigY7sReTt-CopQZIEa1VQA.png" ,Fox Sports Arg
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-bwZqCa3y4hME2hKSRlPcUA
-#EXTINF:-1 tvg-id="FSALSPH" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jdqaf35QZTNZ_kQrj3poercQD4_GWWnvOIj9rEnUcqAnY-3rotGrdq9O_wEQ4me_GQ.png" ,Fox Sports Arg HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-QL2d_asSTJRRMlZzX2Ng2Y
-#EXTINF:-1 tvg-id="FS2" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeI-1Kc2b4wufRl8doROjqfpYWWQFaJurU4YPJGhNizdr-TsPIRUvMY37MMPPbb1QQw.png" ,Fox Sports 2 Norte
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-VFIZdwUygnq458ThztkWgM
-#EXTINF:-1 tvg-id="FSPREMA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga5Ax0nOqnMAeBRgeqrOr7oxByNeL8duyN6yOiunrw_07g.png" ,Fox Sports Premium
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-X2nBRjbU9vM_ZWmuw7W-gQ
-#EXTINF:-1 tvg-id="FOXS3A5" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jVFE9OMHqgKHpM9MXyNRPtpE86vnxMLlBpCOe1qb8gHe.png" ,Fox Sports 3 Norte
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-RjX1fVUMCBT47lemWcGZ1c
-#EXTINF:-1 tvg-id="FS2AR" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeAamBIN0x8V0T3uTwckMIv75D7byb02V4-VZK7pDXA3JY8Z39vWJ7ivpZV_ogjsAUg.png" ,Fox Sports 2 ARG
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Z4anmEPSdkW-PqXafp88oA
-#EXTINF:-1 tvg-id="DFOXS2E" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeAamBIN0x8V0T3uTwckMIv75D7byb02V4-VZK7pDXA3JY8Z39vWJ7ivpZV_ogjsAUg.png" ,Fox Sports 2 HD ARG
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-ayOE5i96-klCrN_g5b6opI
-#EXTINF:-1 tvg-id="FOXS3A" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeDaLznIw4LOGjC6-_P4qlddsQ1bbjLe_hezBSPHRM6AEaE7sFnXGnixk3mewXua-CQ.png" ,Fox Sports 3 ARG
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-a67rK8VzO7lXFG18b9XI7A
-#EXTINF:-1 tvg-id="FOXS3A" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeDaLznIw4LOGjC6-_P4qlddsQ1bbjLe_hezBSPHRM6AEaE7sFnXGnixk3mewXua-CQ.png" ,Fox Sports 3 HD ARG
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-SEp9FoKakE5xan6N6CJcT8
-#EXTINF:-1 tvg-id="AMSP" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeFLI-Vf6WAZr_bayC2TTEtrE9xeLO0Eem1mugA3NIzFYR23Wj9lNK-qD_11Q4MeQbw.png" ,AM Sports
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-ftBrES8epoF6EVGB0YlGfY
-#EXTINF:-1 tvg-id="DEPORTV" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeAF0SLaJ1BY1vf8dLiBnWSPNOF5gX5gjeQlaElN-9667r17JDVwxz4XsA3b_GS4ClQ.png" ,DeporTV
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-SDn-6xwBq6SSJKJ_6NX1pg
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/liga-mx/images/2/2b/TVCDep16Logo.png/revision/latest?cb=20160715002021&path-prefix=es" ,TVC SPORTS
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-eDatv-HH4whWElJl4ZLCNM
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7b/TVC_Deportes_2_%282016-%29.png/revision/latest?cb=20160225011139" ,TVC DEPORTES 2
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-YEWpGiAnEpuoFAi4EwE5Yw
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsgJEEP_VopjfJSYeu1qMUwrRj_lFC3_evyg&s" ,ESPN 7
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-R0X31S5ONiYdtqySHIOg4c
-#EXTINF:-1 tvg-id="NBATVIS" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jVX8hZJQpSQbz7p0ON63gu5uen9yXwguaHXx3Nk3tyqUGyppNJ9224X6tZZwPq-mcw.png" ,NBA TV
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-d_bxD6rh15ixFauLa-zBcA
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://yt3.googleusercontent.com/60ZoTE4j9qCiQYnSYX0vmZPmMePmvbVc_4Iwfd_g5wJu6MwphEmOASABH4rrHXsVQ2jjEzVQvA=s900-c-k-c0x00ffffff-no-rj" ,BESIBOL LATINO
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-dcBG03hD80rRvEswedR0p0
-#EXTINF:-1 tvg-id="TYC" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQcWjAwaO0yQ7KNvBoekXqGSoFNEc0nUYrTRLC3xUBqJNA.png" ,TyC Argentina
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-ZxWfahejoU4Q8EaYGbGEEY
-#EXTINF:-1 tvg-id="EPN2HAA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jX4S6rNSQCfigTn_e9CgAUA7SBAKJSSbORKUmo8aK59TCY0ga2WiJnzCloQZW24uNw.png" ,ESPN 2 ARG
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-SSkhVJkiguRksuu6KtQSLs
-#EXTINF:-1 tvg-id="ESPN3D" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jenT97NTB7etohlelnfPd_IeY4UN2Fh9HUucvRBCBh1UMGrojkG5fSjPb8tWFLrm4Q.png" ,ESPN 3 ARG
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-fKz4eUMoLhk-fUDLUFcHe4
-#EXTINF:-1 tvg-id="ESPNLH2" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jaGymw5wzZUpLrry3dteh78wzQ-aeVEuMfXnuZ3ScdzZRkun7281vOweLTe3QAkmKw.png" ,ESPN 4 ARG
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-fJGpcV3JC8NW8LTTwG8Doc
-#EXTINF:-1 tvg-id="CXESPND" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jQzPxyJwX4C_S6xDdYAIvEz4w2o2VRNdsVNwHmh94fR4xPvT3sf1upLUNU6BL84E-g.png" ,ESPN PREMIUM ARG
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-eYXemfI_UpETzFJ1UmnHWw
-#EXTINF:-1 tvg-id="VIAX2" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://yt3.googleusercontent.com/j_KSqh2YkixpYYuIGN9DVkZ5e0yuZyA55dSF5faLCcXIP26HkUumENoNJfc8Bc0KIGOLcUY_=s900-c-k-c0x00ffffff-no-rj" ,VIA X ESPORTS
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-XzMcQp57WpoqBI3aK7hw38
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/vmA73zXf9KDX4sqQLMxYeweT-kR9bDuEL9mPWyOOw4GXQswJ51Ph1QOhWwVZlvZueMtsie2tY8MuKkzzjqNY4F9EhniFKE1Cy4VEEY_oFY4.jpg" ,ZAPPING SPORT
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-R-8JRO4_muJqrNW592rGYk
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://elcomercio.pe/resizer/GAGILVqrLyoRzVzAc97KaX_B-E8=/980x528/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/NAHGNGJ4RNHHTAFFQJX3NXGIPM.jpg" ,ECDF 1-TV
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-eL192f4hOKNF6_YzsIkTGM
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://yt3.googleusercontent.com/-QNwzzVbrScidgI5aexukZLDmkEIt_mTnfCBpILo-tbe380Mmquax_f1PbkmjYDIj31AgolXww=s900-c-k-c0x00ffffff-no-rj" ,ZAPPING SPORTS +
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-c04Qpqz4XOkyk9LD_XD2U4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://img2.rtve.es/n/15966755" ,TELEDEPORTE
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-cxdwVXn_SPzqfVdDnd3w3s
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/EbDaVYPoJTd1DFFXD4-lVpaEofnF7qFe6TVWhYlJ_5VGdGk-6nLbOIvv0IHw58dS715WWOOJ3EuW08MDLF6BdwRHazlcge_tDEqwHwEx1ps.jpg" ,ESPN 3HD COLOMBIA
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-UC5jmdJ512D9DTB_Lluf8Y
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/EbDaVYPoJTd1DFFXD4-lVpaEofnF7qFe6TVWhYlJ_5UanmAvgiu0XqZUEEaoQr3BgH11mHHeagwaAcAbXUU6iw.png" ,ESPN HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-bkVNTqVbtQ25eylI0RYOmY
-#EXTINF:-1 tvg-id="AEAHAM" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga51q_9Acd3EAauGSCa-qjtJmAF9iya_vvJ12DOLTf3zRg.png" ,A&E
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-YFW2t_nXKEOaFfNeZK6QGE
-#EXTINF:-1 tvg-id="AEAHAM" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga51q_9Acd3EAauGSCa-qjtJmAF9iya_vvJ12DOLTf3zRg.png" ,A&E HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-SYvvJhyKgKDK69WtiKo1Tk
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://play-lh.googleusercontent.com/g7K2KCxcNoOV4bgerqP5yDmRpBImqMGcV99Zvd9vYOQ-v6zDj9f_gyU0EaE5OM2yBrU" ,AMC HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-X94YyaAHZ67-LwXSQDd9Ps
-#EXTINF:-1 tvg-id="AXNAHA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jXBRJhBhzBTB9AV33jZP_PhqtZqVkMYpMpmlp4GHvZFrdXRzRkjDeBBgpe6t_dpZiQ.png" ,AXN HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-dOW2qe0wIDqyDxXM8vS9VI
-#EXTINF:-1 tvg-id="CINL" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jf3kc57fLZzAd01IEj4FId578RZqSTTBA2Wm2bDC56sKXRfr-vr7esndqXpKx8GZBg.png" ,Cine Latino
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Z3X8bDEEnLjf5-4M0cMl4U
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ZY2IW62veudwW8LydyZmMWbd8FGLMuP9Cw&s" ,Cinecanal HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-XliuLdVCE933zsCbpJVFP8
-#EXTINF:-1 tvg-id="CINECHL" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQfr3-MQjaUkFV1XK961L994.png" ,CineMax
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-TwhJ-lGsKtKGCWB8y6xWoE
-#EXTINF:-1 tvg-id="CNLDHEH" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jYgjgkjAL9zWawzuZyS0AwUbGcdJNH9UlFhb5jxm_qc7yw-3X3dvFh4TWXy1SyjWxw.png" ,DHE HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-aXO36f3AU_mPRNizTnw00k
-#EXTINF:-1 tvg-id="EUROPA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jbUORgst-XrbEUa8G6TzUPQ-JfB-R_-mdr0v7YtliKRenb8zGj4RClJ9LZbaeqWtfg.png" ,Europa Europa
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-TcGQyY4CAeqL5ynKpk7dEA
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logo-timeline/images/6/63/FILM%26ARTS.svg/revision/latest/scale-to-width-down/1200?cb=20231023134556" ,Film&Arts
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-dxG2VArYuAJ4JO0YgjwOu8
-#EXTINF:-1 tvg-id="FXBHD" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jbdoM9drrRc2p9HchendhwsVRazzDMP4JvXx23mTZXyJe4weusdfO_8kUdr3Iau_RA.png" ,FX HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-YEqVp9GcUxotqkzpeKh7YU
-#EXTINF:-1 tvg-id="HBO2PAN" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jenT97NTB7etohlelnfPd_IMh1tikM6f49xPZoxPn-KGKuYH2D_MStPk9z3ltxxI8A.png" ,HBO 2 HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-QgTdIhXj-eu62nSjo4r2q8
-#EXTINF:-1 tvg-id="HBOFPHD" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jUFTHV33_5SBzCjsLylDk6p-RbJGDNgaSwlKjF_1ZnTV.png" ,HBO Family HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-cc2Kd46XFzNSiXybbQYVVw
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/ultimatepopculture/images/7/79/HBO_logo.png/revision/latest?cb=20220831182029" ,HBO HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-b80w462h68X9IVtpWuwQ-w
-#EXTINF:-1 tvg-id="HBODA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jQCOikQ4yd31ifLu07U0Y7l-hESrc3FAvbhMmFjHNGDl8ggh1EG_rjz0JFUpQmrjnw.png" ,HBO Plus
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-WuqYhWKcvbXiT5snzrcRpg
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/rarter/images/1/1b/HBO_Pop.svg/revision/latest/scale-to-width-down/211?cb=20240101073917" ,HBO POP
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-WVM38KvgfVLVq1k0KN_ohU
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/rarter/images/1/1b/HBO_Pop.svg/revision/latest/scale-to-width-down/211?cb=20240101073917" ,HBO POP HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Uit9MLOW_GXLTVZQPoP2hM
-#EXTINF:-1 tvg-id="HBOSB" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jaGmslC3u_ocL07H8CZh4tmj7JVQZlNGtiW8WsWwzngvlcjAoYwU_yAl_4cGKZ3T7Q.png" ,HBO Signature
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-WAP2QVF1Gu70Yxvje1dMrc
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUGbj613doA_lyYhNByuF0DRhIk9yKSfzkLA&s" ,HBO XTREME HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-alMYsVajBEuEnHwXComgcM
-#EXTINF:-1 tvg-id="MCINL" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jea53Z6U0mOCNIVUuzL9NVGWNXhCjlnYD1hKyVaVml-w99NO25qwSjJzQBJMeoL6Gw.png" ,Multicinema
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-SBc7FGjMwDjTHhEfKqIzK8
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/tvcable/images/6/69/Multipremier_2020.png/revision/latest?cb=20220115005213&path-prefix=es" ,Multipremier
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Q8FqShmdALjm9sIWTP0X6A
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/tvcable/images/3/31/SonyChannel2023LA.png/revision/latest?cb=20231115232012&path-prefix=es" ,Sony HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-X0bFcbWSdinvzscoHpsgP8
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/032013/untitled-1_146.png?itok=NjYgUe-D" ,Space HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Zyd_WuN98oAfqNqS5XLOxc
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMcFCYsIIF0F6DmFDQKJE0C-mbM8wZj9_OAg&s" ,STAR CHANNEL
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-d5gfjoh9vnZG55hFF7_8Oo
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIc7BpoYZOZJ4VcSBTXbtq31ZaE_SVZIkxA&s" ,Studio Universal HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-fkNnZl3eBnlFjoW-7q0Ipo
-#EXTINF:-1 tvg-id="TCMARHD" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeDbFddPfCOJcniaQ8gY4__OUStoCZ19TfUqSqgXC8I1z1uYNdFpU9ILDWcr1EGuKVg.png" ,TCM
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-YlbSbNysbqC9TzUSeiDpEI
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/esstarwars/images/2/2c/Tnt_logo.png/revision/latest?cb=20091230061033" ,TNT
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-RYJDLqDy2JdbiXE3NISACM
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/telepedia-es/images/8/86/TNT_Series.png/revision/latest/thumbnail/width/360/height/360?cb=20210831201528&path-prefix=es" ,TNT Series
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-ZPoFVd7WAry6S2ePtVMPZY
-#EXTINF:-1 tvg-id="UNILAHD" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jfKrz2EhubTRy4twU0Rz1tZ636uUd3RMtQbbCjL_5aMn-AKvX4-HeBJ-YlP-zZ7xGw.png" ,Universal
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-ba9_fCiD5dstcXz9Ivcq5I
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_n6zSKXz-kwSRlpU3NQzgQR8pPrxOEr_imahLE6BJMVa6E=s900-c-k-c0x00ffffff-no-rj" ,UNIVERSAL CHANNEL HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-dFFsLYtMf5UJYrSchyg3sU
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/rarter/images/c/c6/Warner-azul-0.webp/revision/latest?cb=20240131024224" ,Warner Channel HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Z9_9gRTvZ3lmaCmu38pKyA
-#EXTINF:-1 tvg-id="GLDPRA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRCbIaJ_Ajc-Kov5n4x53vPNbdVITRu8spw9tOCBrKMkga0U6BkRpuEOfEVM3pon_A.png" ,GOLDEN PREMIER
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-WSGvQuiVK4U4lOIHJmkuWg
-#EXTINF:-1 tvg-id="GPRD2AM" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRCbIaJ_Ajc-Kov5n4x53vPNbdVITRu8spw9tOCBrKMkga0U6BkRpuEOfEVM3pon_A.png" ,GOLDEN PREMIER 2
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-cP3l_AIm3jwCEfSUw9hnQY
-#EXTINF:-1 tvg-id="5USA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jXXhNSpwmL606iqVA6m4XU_iL5JNTjaRRn6c0z-7Zj_Arp7_Nu1NnXwrgu0pmkvOPA.png" ,USA
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-QF8etZLOxKNQ0NS6ER8Ryw
-#EXTINF:-1 tvg-id="CINEAR" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQga_qcTr3vn4F86D03QHrSCRwrNH6GMm54uw&s" ,Cine.Ar
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-TIPZKN6xLGvce4lbwfN_VU
-#EXTINF:-1 tvg-id="HBOMSD" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga49kRRF49kOmmnx67We1V-ic7IxmcnvmNfWyDXCmWLFyw.png" ,HBO Mundi
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-d7xrpS3o5MQdIAouLwfxA0
-#EXTINF:-1 tvg-id="DPLUSSD" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQf3nM0qHkAZ11sUQwXzbTmv.png" ,De pelicula
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-SLNeZmKijhk5rP5ma7VRc8
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlgosxbnGB7-bVWBfvnczV931nQwMwg_hK2w&s" ,GOLDEN
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-asxucRuwj7GvJ-xADtjyJc
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i0.wp.com/www.vectorizando.com/wp-content/uploads/2021/04/golden-edgev-9ae69024.png?fit=500%2C500&ssl=1" ,GOLDEN EDGE
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-VXVOCRSPsv_MDfoKHUbDmY
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://img.utdstc.com/icon/44e/6b3/44e6b30fb3a18c464dde08b0d4b5d3ae4d05872435bcf5b6a5dcc76d428f3f01:200" ,STAR CHANEL +
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-UMZzxpVx6hk2RxEi6sNMaw
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB7ytZayTt-ZIkWcQyKGdu0rwUnoaYP3MzCQ&s" ,SONY MOVIES
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-YLKMx-umtHVxsJt0EtpaLU
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/FGRMVQ8wudfs3PgFZOrS_YRUrUxQ2HYWGWjRqeTqoDX4LT0QPgZpgKfDchStfaPIpkLSMp1AxjRIVy1YBm1BuXnG0qfcOBvYqCriFkNib9w.jpg" ,STUDIO UNIVERSAL HD
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-S3WqlpjTU_eBoi1qIwOKDs
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/qOb0LT2SSuxjdBqaGLLv4lpnm7Kwtd60MBp9NZvdDi0pUPWkm_O7fyOmX5r8O4ywUz9ZsrMGGocrKaq5lYXY4rQVP70zGZMq9MPdHM_dYxg.jpg" ,24/7 La Reina del Flow
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-didJHoTvMFdiJTwU0f217M
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://andro4all.com/hero/2025/03/la-patrulla-canina.1742218381.7365.jpg?width=1200" ,24/7 La Patrulla Canina
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-YydI9WXCFMJbifIgTckJvc
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://s.yimg.com/ny/api/res/1.2/22CcEkHkvaxYZBS7.WJ_og--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02Njk7Y2Y9d2VicA--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2019-08/9a986670-c83d-11e9-bfda-b57072efb051" ,24/7 La rosa de Guadalupe
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-UJWKx52fF_fFvdFmVphrmA
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/cYvBzU01thh8xi9SC-LJpw1oRhqBOhoOdnlZvTd-1KjFU_3aIRTjQBHwv3cJn6-D3xKVwuvykHhz0cBLzB5QC7FhaYnLYQQMR3oBRG0IeSkBp6GdIe-ZUFDwsGdYBW-gqMLPMQlCdvwwgePHa7u8DS9iwHbwzHzO_2uwDrYEUc8.jpg" ,24/7 The Walking Dead
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-UJS7Xv6XzTq8rfnrWjH9Us
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/g4s56xBFlFLNVKgmdZxhOg9gZAiCyoy3R897IsAi-cm5AdTIegMTNz1P4ee4gkDTFREEJ5FGB94J4uza9UaoojxD0-ZGqeAautO2JkUh5mc0lRU3rKa_576AnQW6AtD5dCA5FednZV2XWqicWlL9ow.jpg" ,24/7 The Office EEUU
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-XzOf5RRuJ9DvkK-59gV93o
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://album.mediaset.es/eimg/2025/05/06/suits-t1-1-cartel_3a42.jpg?w=1200" ,24/7 Suits: la clave del éxito
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-c5jETAm-EzgQ-bb4gK2bDk
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://f.radio-grpp.io/2024/09/12/443144_1640334.jpg?imgdimension=look" ,24/7 Cebollitas
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-cZ3_W1cCHQ13OQes6rCn0I
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/qOb0LT2SSuxjdBqaGLLv4gyeJqWv_mwDFBacdq7kcrtu9PcvwVPx8mz99vZI7-xkB9Y5-AKJEfNZKpCBdb4pQltXA_uujpFeRE6P-BUPS3I.jpg" ,24/7 Batman: La Serie Animada
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-RKdnqsY8QshM8qLEGm3j64
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/cYvBzU01thh8xi9SC-LJpw1oRhqBOhoOdnlZvTd-1KjFU_3aIRTjQBHwv3cJn6-DgBvl-ndFghccWNuAH5ZXdAkKxsRfmYUB4EzW_sne-rcV7IVvdhq7G5wBGMT9Jlc3tPXUKELEek6e072sH49_iorf2N6zfLqccy3BWK0iEaSnF_WlotPsr6WSnt_S_PG9.jpg" ,24/7 Ataque a los Titanes
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-UJ97jCnNwOLHn6UyM1NtYQ
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsVhhOcY2BDha3F6FiI9G58ZZ0gS0ptXfhTVqYCDfZd6J4MRV5OIIqJGor4iRxCTYsUI72QrBnAGGBKTqL3leBNc738kKHoSuOeZambOMac_tgnbkcJfT8x9PY_pZF6LbT3zVQY5LqOaWl/s1600/Mosaico.jpg" ,24/7 ACCION
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-UZD2NQTkA7KYgXzOn_GeFk
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/cYvBzU01thh8xi9SC-LJpw1oRhqBOhoOdnlZvTd-1KjFU_3aIRTjQBHwv3cJn6-DRy2eAX1XpsY0kAgQIO6LlquQWCazBfnYqYtwcKRxgsMeBF5dQcW0Hfxflw2epnydltJQI6yQhkEGvqIlsRiinigqbPWzMbNwcgCOaUgiEN61Mgaz_PgyFctkdpJUkVX1.jpg" ,24/7 Ley y orden: Unidad de Víctimas Especiales
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Rb_44SZ3aazd5auQVmB4ts
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://assets.mubicdn.net/images/film/238711/image-w1504_overlaid.jpg?1745496150" ,24/7 The Bugs Bunny Show
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-bC_VD99SaTXutUmMf7jneo
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/qOb0LT2SSuxjdBqaGLLv4uHfyzqhkc5OoCUjM9LDQoq_4erTxRxKN5yZADFqU6dlfZzp_03ELmNsB_JNh3oopQ.jpeg" ,24/7 Pokémon
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-YmgjclUpDehFfgwKSBmHk8
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/d4a42abe08fc1f78ee18880698a5d281a5d1cb3327cdf1f25597535c727d81cf._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/epix/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1562,885,279,117_kv1d6cb72c75e3dd64f1668c5f3af724f2_.jpg" ,24/7 Stargate SG-1
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-Sew4HKX425sxKSJlchuqY0
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/wJoLh-Km6ul-VOXehnCAvtM7wjw60hR7lFHSwVFJzmK-pu-FBRll8151W_9tCnrL1N9N_ZkanB5RQE2R135R7x5SVxmExMaJ81mVRGuE-oLxfq3oG9rh5_Hi4k3ACLZd-65jnZ_HS_M6_09-AlMmtA.jpeg" ,24/7 Power Rangers
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-RbK4Eb9F56A5WnJ-4G3Drc
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/g4s56xBFlFLNVKgmdZxhOg9gZAiCyoy3R897IsAi-cm5AdTIegMTNz1P4ee4gkDTjufpREIQYvnsvMrojQ5ZiufH_FBtVRwZxjBNZ04kLfqNZCGwRuNrpnUDNB3JoQr8.jpg" ,24/7 El auto fantástico
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-SHqbskq8_rrKa487kU8PM4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://images.pluto.tv/channels/63eb95baa99571000898a078/featuredImage.jpg?auto=&q=70&fit=fill&fill=blur&ixlib=react-9.1.5" ,24/7 MacGyver
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-ZmlqQuMwapRFuir7Be21Y0
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/OkCFfN_n5RB2_KK8Bnr8paNvxQCoXLGfYB6XEYLUoMV_M5_eYZDd4iRFL8ayAkMVY9z5y018DhhiGvDKx7kLi-eVHZCKzl7SyeH6rHIljLc.jpg" ,24/7 Galaxia Wander
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-bErYzF-pNv8cDv_PJc5bvg
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/cYvBzU01thh8xi9SC-LJpw1oRhqBOhoOdnlZvTd-1KjFU_3aIRTjQBHwv3cJn6-DKKikppt2qclcdc4041gevFMGWRgNTr2FSZDLALy9hkxHWGwxrp_9HgeMP0ieNfZ8p-I43I0i7j4lTXKjf5xX292OirHataqTjBF70nUb6nQ.jpg" ,24/7 Hércules: los viajes legendarios
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-b3EknvxCj1eJuI0NlCDDLQ
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/cYvBzU01thh8xi9SC-LJpw1oRhqBOhoOdnlZvTd-1KjcyOLKOgAT6llaZXe5VPa9C98r7kAJcnKe9i-GwTECwo1LkQgnSVDzIcBLVUggDpVMz243jXlBA8925LMuiMYEpCX3K5FGxJUkVPVYg-rosA.jpg" ,el patrón del mal
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-WZ4BZpOVoNm-F2kY0TCcvY
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://editorialtelevisa.brightspotcdn.com/dims4/default/e4ed73f/2147483647/strip/true/crop/1195x672+3+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk2-prod-editorial-televisa.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fdb%2F04%2F5d5d864a411db7861d2210bcbb18%2Fyo-soy-betty-la-fea.jpg" ,la fea
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-emxgn8jnCH1YP3tI0hBfAA
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/qOb0LT2SSuxjdBqaGLLv4qUKTAKpRk-6Vjrr-6Ozm5H2NN1xzXcTBrQTnUH47Ak5XLd-WsmWf-db18IDDAbT7Q.jpeg" ,24/7 Dragon Ball
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-V24NXLOmYl292B-9-Kzzh4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/h4_j7KI53VelD65kwX-HFAinF6tFLMjLCirFg0zsx4-uiLf_F782MajvlJPJdmD0hoY7z7IA69RssFEnRRa3zI_22BgRhUprwnOiwFsCeOIg42KGoqvnUWAyjvUSbqEp.jpg" ,24/7 Big Bang
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-a9g-oHNRKhYd6vH3OMLvUE
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/cYvBzU01thh8xi9SC-LJpw1oRhqBOhoOdnlZvTd-1KjFU_3aIRTjQBHwv3cJn6-DvRppv1uBsQbrBAiE2JtjkEHizIeJ9EFJfqc7iKyQShkXd40rzw00m8Av--6eaR8wo4yzGjFh1MOsY7BKLIz0wKKSTcLa_slFE8heh6_CrBY.jpg" ,24/7 Friends
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-QOwjdt-gEOG8cIXsW-n78o
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://snworksceo.imgix.net/cds/ccabbe7a-87a1-4807-b8cb-c108e8033ab2.sized-1000x1000.png?w=1000&dpr=2" ,24/7 Anatomía de Grey
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-ZRNwBh6b-5j_OUJ7EMtEpU
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://hips.hearstapps.com/hmg-prod/images/sobrenatural-temporada-14-1532605939.jpg?crop=1.00xw:0.738xh;0,0&resize=640:*" ,24/7 Sobrenatural
-http://cdn-abc.xyz:2086/play/dCMEMIDbpRV_NYGgdO2l-QWSeKSmVHYZ6nH9O60YMmo
-
-
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ifOSNe5WC03CrbqgX2yhja7OYGx2Cjs2N-G8ED7sXcsw.jpg" ,Tom Horn (1980)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7PriSRZOJb1XzBuqfGhxO0#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iS_Whq-CmFhkm9YmslCvJiHfDq8gAO9c89uolVN2V8qQ.jpg" ,Más Muerte en Tombstone (2017)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx64bBmKLvE5zkAonmc05TVV#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iITbD23CluIvh9uC8rTmWmlOnC6jLEXLW4OID6mC7PIw.jpg" ,El fuera de la ley (1976)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4HHAPRTGSWPQQmKdm7lO6e#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i4pA4Mm7TaSiROKOsKrf6cQmoTCwKGV2Ba7aKfpXQlNw.jpg" ,Hell or High Water (2016)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx47iwzvyuQigSkuNSGFL1Qt#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8io7kc_-TJ1cYFJxEoY2wXSfouN2knhD5EDGsJEvWWbC4.jpg" ,Océanos de fuego (Hidalgo) (2004)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7By4dMhQ0Qs1SK8iBWkIOO#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iJNvuhN7UDT40UfANSduNhIO_stgwnRD44FzWJL97txw.jpg" ,El regreso de los siete magníficos (1966)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4uHYrtvc2ZMLb03EQfBk1m#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i11zO8tvdN3hbrEfxdsuCCsY2orG9s2yjNHsRIG2CG5g.jpg" ,comienza la leyenda (2003)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5e7Z3C-RulSdXxJeychgLT#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ium92NdlBaSY9_L89rGPMKECIE8UZadQT8JsmID2YD-E.jpg" ,Si te encuentras con Sartana ruega por tu muerte (1968)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx59bn32PuBBZp9ffYV0yVzt#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iCZhjicueXUArj4LdA_Iuuit7S_r1PPRGLnsFHwG0C-k.jpg" ,Wyatt Earp (1994)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4n6bLZ5TGmGpQt-CoPkhBK#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8is2fDQ2JTqdAPhqmKAKx06up7hWgiV342Nq4HX4zoudo.jpg" ,Llega un pistolero (1956)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7hPznUjjOqAE1Bgiswb5XQ#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iLZrg-ab4hJ5CjRuXOR_7fvieVtriLB6Y4r4cTlV9hhU.jpg" ,Duelo en Silver Creek (1952)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx57S9fn6nVd7jzKXqw2VIb6#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i5B6c_q2PUxzVyVTFS-E3yXTolCR2xA1rZpR566FGfGM.jpg" ,Rápida y mortal (1995)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx528nxVxALfLgKAne-SCaLR#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iwzyBwtiOaPxj6JEr4FxgOsB1SEfKYY07seQVjCjM-1o.jpg" ,Hombre (1967)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4LdzJ7E3_-lT2ocaU8YyC4#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iacolV1FQUGL3mArgTfka9o2lj_6EDpZivNFmdhdBut4.jpg" ,Barro en los ojos (1971)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx51ZMGtxMpQONZXK1-B7YJ3#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ip6FWWaMy_lBSQns12D5hkJzd4jkDg27HBN88zmzFPgw.jpg" ,Solo ante el peligro (1952)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx781OFNBMZdIo6VEZt4Qo40#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iT4sMj4rrfBSR5lr4LRD1C6RnFN13jEC0xcSmTcAmzpI.jpg" ,El hombre de las pistolas de oro (1959)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5t_yEkOSOhGSdKSiWwCVRc#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iza7ydIAYjRcKDdCufRurqnySaeMLE-ik2IWiXXpYOxk.jpg" ,Cabalgar en solitario (1959)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx43kzxrfusqVt4UtR-ds9e0#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iXyMSYyEkUIs8b6pOy0147VsnbzH1ZQeUu7pjeUD2JhA.jpg" ,La furia de los siete magníficos (1969)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7Y1jkwZsh4rA0X31EBW4dO#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i0lFpyHANAc-a-smVJvBBXoeuljzyTqhRM9zI2zLR9cA.jpg" ,Río Bravo (1959)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4oDs-jw6iI-GLvF5p6jiDe#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8isomJWO9XududWva63zC3YAcJprm5W2k5ZwUFFIh5NvE.jpg" ,Camino al infierno (1999)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7yKgCCdtfKQhEuEHpfYloZ#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iy-1sHazT4LHv6X6uili3pZ_MtWZ7d9JFl1-X738hvtQ.jpg" ,El valle de Gwangi (1969)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx58qxSz59iii9XdxEp0SrBM#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ioZkZftTF5wT4GblMidLpO5WLdRJt6yF6GwFrv9pSp2Q.jpg" ,El desafío del búfalo blanco (1977)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6qPpBAd1-W4QQzqAaCcNRv#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iYctAqU0n5hu8RDGTBLv2vfsPXfQURZXF4GYXn37h8XM.jpg" ,Noticias del gran mundo (2020)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4wo4QClzz8SkA_S_UD38ev#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iP0pV__zcZc4MrfB3OMoLe2OoS-PqMtj1rP4ue5kCF_I.jpg" ,Rescate suicida (2024)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4ThccZzLwYCmzBW5Tjchhp#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ilrJ1fiOi0f0z1s5mZT93u2JnGcJlnMJVu2T4OisQNeA.jpg" ,Cometieron dos errores (1968)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx74ReG3dBKPI4l9s0krmoAn#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iyGXszaCgQnNItji_mjsOB_HFjWQN7GhzECQGKkaecIo.jpg" ,Hasta que llegó su hora (1968)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5uc5o66VukEbmElZgNvK_y#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ivSqR1308NTmIWKOFqCDIgNWm703cu_8Hr52Xm38Esiw.jpg" ,El último tren de Gun Hill (1959)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7gzJI-vZP5u9f7n96IQbxK#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iDdOPrY0mHa0CC2q1ykJh7NBJIMSfK5S0SBh5RBtlHnw.jpg" ,Jubal (1956)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7ZJhTTPxicUUpHgg6BLAp9#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iTPT9rKmSs7M9dG3awsKzD3M5UnZiMnGpDXLjyFuus48.jpg" ,Fort Apache (1948)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4391F_sRlWQ_SinoxCa-7R#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ixWCBdo68FoQyspIMDoRmMLUdmStlbTp7RdKrc5Ut8Pw.jpg" ,El Oro De Mackenna (1969)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4m6x08gIQSTmxCv4JY5Xwe#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ilbFNzz4BGlECjtYZm_F_edFqrud5tmaE66gzUYffoBk.jpg" ,Showdown in Yesteryear (2022)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5-W_SAHIfF8fMkz87Na96I#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ixL70-KlTKLvaYH-uHJzGxaKaBZD6S4UQBde990lbbqo.jpg" ,Río sin retorno (1954)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7l1VethjI8ytPtzprtVz-W#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iZBL1eOb_01jrqCNaZlUZZLBpaC1oxCrkV36UUTeir1Q.jpg" ,La Verdadera Historia De Jesse James (1957)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6VC3vg-T7lWdI09LaxBxgf#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i8OdRjjEdF-LUb2zkfrj35X50XtY22-pWVC4jnDglkUM.jpg" ,Butch vs. Sundance (2023)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5FdtbGx7FROV52X-snwmEl#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i7g5TgTtfYDRG-BJ1E46LxpgaXNoClK98MCCV0ktCXgs.jpg" ,Misión de audaces (1959)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx66HtoJwMT66lf6BVjKKE68#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iSNmX0OINy68g7urIfhrQcXAkjp8os3pcELY7QfF5bug.jpg" ,La leyenda del llanero solitario (1981)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6XLIkQXG-tXLIkYAsOWEx_#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8imGERoZyRmNxGvU1-b97fXd_nQV7b7eDLwa8SLzZKGv8.jpg" ,A mediodía (2000)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4cnMiS5cesEpE9ULVBcCuC#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8icmOHk-TAE-utNo0UO1tOWFhU56LjqyMdw_o39OO7psc.jpg" ,Un vaquero sin rumbo (1990)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6cKOTUOucShyX7DUfZEZfp#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ixoU_SyM4y_qbuFJan7RFQH8zLyC3z8PdYxrH9ucQg0A.jpg" ,En nombre de la ley (1971)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4AENuE7xEJCt1tN6qC0XDT#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i3WSzKcYv_PkGlxJHbUsX-3blXRO5a5HZsN818RlAINQ.jpg" ,Duelo al sol (1946)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4bTdhYwuRLxUEOY06alC6n#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i7g5TgTtfYDRG-BJ1E46LxpgaXNoClK98MCCV0ktCXgs.jpg" ,Misión de audaces (1959)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx72cmlCeLEqR3pAXyspRely#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i9S2rYs1MLDRQfE-HUuNHU0lqpTVzFJxbLisqP6vj0dI.jpg" ,La soga de la horca (1973)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6OhZZUUMAyPJs-7W05zK68#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iOzKT7oWOf-h1Fjlhv2uOCn1kb0U_ErVfgeQn_5mdXX8.jpg" ,Caravana de mujeres (1951)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6kVlV6Mziw9ou9OS_jD7Sm#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iZX5Eh15PqaG-JaNheUQP34PGHam4NBjpsm8_HRoUi48.jpg" ,Los comancheros (1961)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7P6fnLlAJx7epNfehL8ZQv#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ilGg1y4WVutf7WNtAYWPQp5-w-aV-llgD3QrC9vW8IIk.jpg" ,Forajidos (2001)
-http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6i57FROZ6xn0DfeaqT5-sn#.mp4
-
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i29gxKz29XyBWSREUSZO6sD8tP230GF4GVjBwfl2616c.jpg" ,Los Bridgerton S01E01
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4LmN_S3w2nAayTp-PhhcCvY#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iOE3z62wyGccn688PPouH8wsS8P1IgyV5ZM0xL40MQSM.jpg" ,Los Bridgerton S01E02
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4Izca-hM7Mf3xt18Y54_xGT#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iEfg_k1FhjrdohUrB2zxGVpndLXM_-jj996fjJF8tIng.jpg" ,Los Bridgerton S01E03
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4LwtiilFY29ZzMlXGVnMyTD#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ii1aif8hGLS4oudnr0PNt83VNJyu6SuaZQVRZjnODN6w.jpg" ,Los Bridgerton S01E04
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4J0J0slBgWrmvlqVbNkOFgz#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i3ug-yp6HJ-q2g9jnpUjFnV83V52HizzbWOJAcTBYxkY.jpg" ,Los Bridgerton S01E05
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4LY1VTvmyjqAWv40bK8_Uwx#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iyuS-wJINmhelcHVCd3YVfxtw8eGvOzJjFSmUPP2aRvg.jpg" ,Los Bridgerton S01E06
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4KQt_c5O__KBVK-evO3JMPO#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ic7ArQvMMbwD55uOCuvrGS7HbM_t-r1wcUF_dHcucuPE.jpg" ,Los Bridgerton S01E07
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4Lhal9aqQvwtysxuNMHOH7u#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ieHr0OWBJedNHa5YvuxJQd5RzuWHWcnbmoZgbIrwWSek.jpg" ,Los Bridgerton S01E08
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4I8ZudrqXH_smNWL2zGVE5u#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iDP0r48-U2p_YKnPf4W7oqQAeMrZnwonCLSrVPcF99do.jpg" ,Los Bridgerton S02E01
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4IYJpgRHGk0dXNw_FQnGnrB#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8im8WKSDetp0HlSdAhMS1DHJJuzagKcPT-ATrtOZnW7To.jpg" ,Los Bridgerton S02E02
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4LlPSt0FQlhXiJ5sb6htvOS#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iMyznspM2Lqnd2g47S_Il4PmpYzcKp4Czfnp6cjSwDIA.jpg" ,Los Bridgerton S02E03
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4K9gbrNVDk9peSzM1hqRB-3#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i0Eu3bV61f0DA8oy0VCNLK6TE2ljTA2L0FYYn6kivP1Q.jpg" ,Los Bridgerton S02E04
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4LIvy7zTnkUiyXJph-QyhUV#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8itjd-55y2AfOo0oGOrfQ0UE1t6HoZFvN3V1HnlUT6Ll0.jpg" ,Los Bridgerton S02E05
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4KeyvThR-W6YH-Ehf2KSzFU#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i4VkW7e4ohUxCsKWc5RhtpaSkpjBUc2Uv925A3_iSKbU.jpg" ,Los Bridgerton S02E06
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4J5PBDei7cbJZb50pERj5db#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iNrLiS0R9w_9VPhCrlxK7ORT-1fXu_HD4RRJ1dGKorHo.jpg" ,Los Bridgerton S02E07
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4JHnNJv7C_EQ-2AX0BM1mmU#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iHcHajOqZlNhLUVT1G3lVbI-cxm7StOMsYoHb9vBLVLE.jpg" ,Los Bridgerton S02E08
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4JF5VTls1Y-7px3ZYCRNYhb#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i1fOY-EKnoQBpJDWijctS64Vt47D4Lxe2C_w7SaUnHWA.jpg" ,Los Bridgerton S03E01
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4KV-pw_aQGxmkv-ERacTta-#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i2ZCAG9NgetDX6P4QNe6A1H4dF9H7owXbGhvxABe7jrk.jpg" ,Los Bridgerton S03E02
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4J3tcYcTp0dRyswbczJye1a#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iyXfXLT-pI5tEo5HgLNHat_Sxi3itGcinkcYNRNl-Ons.jpg" ,Los Bridgerton S03E03
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4Kjb0b0-SfRpWMwNiJ3OHAm#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iNS81oey6ulNh04wNwV0e7T1pOeKHFflLBoS_0YUg_eE.jpg" ,Los Bridgerton S03E04
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4JLDirKd1bzNfzCcAxPGwDY#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i29gxKz29XyBWSREUSZO6sD8tP230GF4GVjBwfl2616c.jpg" ,Los Bridgerton S01E01
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4LmN_S3w2nAayTp-PhhcCvY#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iOE3z62wyGccn688PPouH8wsS8P1IgyV5ZM0xL40MQSM.jpg" ,Los Bridgerton S01E02
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4Izca-hM7Mf3xt18Y54_xGT#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iEfg_k1FhjrdohUrB2zxGVpndLXM_-jj996fjJF8tIng.jpg" ,Los Bridgerton S01E03
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4LwtiilFY29ZzMlXGVnMyTD#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ii1aif8hGLS4oudnr0PNt83VNJyu6SuaZQVRZjnODN6w.jpg" ,Los Bridgerton S01E04
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4J0J0slBgWrmvlqVbNkOFgz#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i3ug-yp6HJ-q2g9jnpUjFnV83V52HizzbWOJAcTBYxkY.jpg" ,Los Bridgerton S01E05
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4LY1VTvmyjqAWv40bK8_Uwx#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iyuS-wJINmhelcHVCd3YVfxtw8eGvOzJjFSmUPP2aRvg.jpg" ,Los Bridgerton S01E06
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4KQt_c5O__KBVK-evO3JMPO#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ic7ArQvMMbwD55uOCuvrGS7HbM_t-r1wcUF_dHcucuPE.jpg" ,Los Bridgerton S01E07
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4Lhal9aqQvwtysxuNMHOH7u#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ieHr0OWBJedNHa5YvuxJQd5RzuWHWcnbmoZgbIrwWSek.jpg" ,Los Bridgerton S01E08
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4I8ZudrqXH_smNWL2zGVE5u#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iDP0r48-U2p_YKnPf4W7oqQAeMrZnwonCLSrVPcF99do.jpg" ,Los Bridgerton S02E01
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4IYJpgRHGk0dXNw_FQnGnrB#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8im8WKSDetp0HlSdAhMS1DHJJuzagKcPT-ATrtOZnW7To.jpg" ,Los Bridgerton S02E02
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4LlPSt0FQlhXiJ5sb6htvOS#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iMyznspM2Lqnd2g47S_Il4PmpYzcKp4Czfnp6cjSwDIA.jpg" ,Los Bridgerton S02E03
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4K9gbrNVDk9peSzM1hqRB-3#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i0Eu3bV61f0DA8oy0VCNLK6TE2ljTA2L0FYYn6kivP1Q.jpg" ,Los Bridgerton S02E04
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4LIvy7zTnkUiyXJph-QyhUV#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8itjd-55y2AfOo0oGOrfQ0UE1t6HoZFvN3V1HnlUT6Ll0.jpg" ,Los Bridgerton S02E05
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4KeyvThR-W6YH-Ehf2KSzFU#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i4VkW7e4ohUxCsKWc5RhtpaSkpjBUc2Uv925A3_iSKbU.jpg" ,Los Bridgerton S02E06
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4J5PBDei7cbJZb50pERj5db#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iNrLiS0R9w_9VPhCrlxK7ORT-1fXu_HD4RRJ1dGKorHo.jpg" ,Los Bridgerton S02E07
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4JHnNJv7C_EQ-2AX0BM1mmU#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iHcHajOqZlNhLUVT1G3lVbI-cxm7StOMsYoHb9vBLVLE.jpg" ,Los Bridgerton S02E08
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4JF5VTls1Y-7px3ZYCRNYhb#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i1fOY-EKnoQBpJDWijctS64Vt47D4Lxe2C_w7SaUnHWA.jpg" ,Los Bridgerton S03E01
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4KV-pw_aQGxmkv-ERacTta-#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i2ZCAG9NgetDX6P4QNe6A1H4dF9H7owXbGhvxABe7jrk.jpg" ,Los Bridgerton S03E02
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4J3tcYcTp0dRyswbczJye1a#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iyXfXLT-pI5tEo5HgLNHat_Sxi3itGcinkcYNRNl-Ons.jpg" ,Los Bridgerton S03E03
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4Kjb0b0-SfRpWMwNiJ3OHAm#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iNS81oey6ulNh04wNwV0e7T1pOeKHFflLBoS_0YUg_eE.jpg" ,Los Bridgerton S03E04
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVuDXLJdQFEHBE7cZu514v4JLDirKd1bzNfzCcAxPGwDY#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iUP9w6VXbFu4IFcWndaeQarpzopG0b4Psn3rRCUNY_kA.jpg" ,13 mandamientos S01E01
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi3X7eCt8ibit6vyi3E2FGf8#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ivhZo6IignrwXlqsXBrzoNeQ478MK3FXjvaT1LdRrlFE.jpg" ,13 mandamientos S01E02
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi3vexkdBWiZL-XIToa6y9zm#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iXvVqRJEfYQp8vqmaXw_LyO7kvS-tvZSILGOSXRJkztQ.jpg" ,13 mandamientos S01E03
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi3ND5y_EDp547IBJCYVitpm#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iN6ucOiIGVRRkkKg7VI-AZcBZ7bFKYxw1QxkDQO5G17U.jpg" ,13 mandamientos S01E04
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi29ZU3RAAHzQG1nHizmYJeV#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iVQkY1pIlulCPJ1d58XN5RYbh5GbeFpyvrBtU0VOagVY.jpg" ,13 mandamientos S01E05
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi2Yt5jc-jZwR_oqSG4RyQNK#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i53wSiEY-LNGmXfnb7gNykuFjvciBIX0D5le5ObqvFNg.jpg" ,13 mandamientos S01E06
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi11aUDvW2z--kczTF8S3tmb#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iGSCpWnqvtHh7ssuoUBPkopNnWUJxWTU6I4u4YqCAfqo.jpg" ,13 mandamientos S01E07
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi3YnLcU-30t3lgSjEq369ZD#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iGUhUNh0BQPT55ckakDuDzFBXJbdxRNaEle4jzGpKh0g.jpg" ,13 mandamientos S01E08
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi1Ch-7qYxE05y2B96ggxNJd#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iKgPJiFQiA4KUW6nSQH-kcthmCIf3VuEIAKeVktBWvCU.jpg" ,13 mandamientos S01E09
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi0X6Ck6s3j_3eWRY6apcvLc#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ifjoigSEE3reM-MHxmiYVXQseAiiB7pCemNu2ggyZYXw.jpg" ,13 mandamientos S01E10
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi2bjwXgRUq1IEWQZcWYqVdz#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i0wJS6e1iU1hl2www8kjmEyMziWkvne8yV7OeMG07pW4.jpg" ,13 mandamientos S01E11
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi1Q5_zUOcf37BseU_zUb9Lt#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ieMxHwGqf0K3lxK0upNEXnL_IbRvegkhtFi_12ovjnrw.jpg" ,13 mandamientos S01E12
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi1onkvBXA2raYS1R_MUV_ls#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iUASLYCVBQHHGyiPEX6qaVZ7ugj7cxmhq4wItJDkIFYA.jpg" ,13 mandamientos S01E13
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi3EaU9xHs1Nnw7PWyDiBc9w#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8izTGqhbSMk7ghZT6FjRMFCwjbEpDkFdHRrZRlTxld87w.jpg" ,Por trece razones S01E01
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi0AJzoxtKZDsBvFQdGboci6#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8izkuxz3cj0ZSgn9HafCOtwgXOjZVoac-1f_n3rrqafdc.jpg" ,Por trece razones S01E02
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi3M40m-RpQ6ZBSc9gck6rUS#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iMZoMBT7S3p9mekEtDwf9F0wDRbp2NVsgOUlwS-NCeHk.jpg" ,Por trece razones S01E03
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi3k0AnwdkmWN0Dxv_Vnl-aP#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i49oZTxXwpEmzHjdK_9shDTifx1E_m5My9hvHsBG8_1Q.jpg" ,Por trece razones S01E04
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi1BIUb_MwgxQUfoXfLfV7HW#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iLA5S5TaVHZ9auquTV9NIo3J16KrAoNzdWRmgY-WfWl0.jpg" ,Por trece razones S01E05
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi2nj-gr37vCLGl9leZ7kM89#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i63rnqxDQ7BBZ77JfedGu93YAr1-MVnDieAZ7WcOJ2DE.jpg" ,Por trece razones S01E06
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi3bjZCr4AHjZxgumCYdyPwq#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iBoyj3aH_x3hIb-0v4U_X06MW0MTJifqrfn2IIXdDRio.jpg" ,Por trece razones S01E07
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi0rTxbFn0wgLFdjvwuR0NmT#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iHr6rVoChuENc2HM9I8ouKto1tpCz2Lciyv0_GvEywHQ.jpg" ,Por trece razones S01E08
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi1LlXFC_VF6WsyoEZ80CA0w#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8isj42oVNSu9aBFkwhkR0Q5ZjBb8pJcb4VloHUSAfODys.jpg" ,Por trece razones S01E09
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi1NKIaWswepLNePekog62Wo#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ikhpY0aY9_eMpdaff0ne6eBDVZDuSYe45oe0GnMglMCE.jpg" ,Por trece razones S01E10
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi18DPho4JooPjUp1hDZzdFb#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i-tJ8D3leyNF80KUO01zJsBxOK3_Lf_sJbO-XvipW_Ck.jpg" ,Por trece razones S01E11
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi3BeMnjqUmFHZS5G-1HJcUF#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iMqOHLqwebqvZeKeOyw3aqobSBZttQjnelLBDVjGR4Js.jpg" ,Por trece razones S01E12
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi1-nG7cIMbwaTqO3MJZyTEH#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iXp7Un58HoveslDNETZrCghFlQpzF8qlwIdj6NboT2cI.jpg" ,Por trece razones S01E13
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi3J7ZUKJZmXrNxr95Xd0sBp#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ihoZ4c7a41H1qoVvrYMggcUMDxlYIwlQE7PtB9LVqWM0.jpg" ,Por trece razones S02E01
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi1dQAj9yiteMFNBAtvFwM-B#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8imRqnZUE1HkNSjYaLrCGsQRxnIaNz-zyXw3TqCtHRHpA.jpg" ,Por trece razones S02E02
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi3SCQRItCf1SCfjm8ClWmP1#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ipVZ_lSnRBq7YzYMlu1_n6YG_vRQtNt3btLyfj1vCQr0.jpg" ,Por trece razones S02E03
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi2rNXGBDSCsSfgxU5e4-Bx1#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iAlbl8bsPZUDw4KVMfaygbSj_1xf9_visJ5Ew8C-8qmY.jpg" ,Por trece razones S02E04
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi2iZ_6pPINv8_ZhuwBqYv0a#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8impzREV8EWmf5_qrDJ5jB8bfW8n2uA4S1SxzpqXnKnUE.jpg" ,Por trece razones S02E05
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi1uUjqj9SrbDMaJmago9aEZ#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iue8fRFkT93_OZXGa1Ecc4E1Yiydy8Q3WpYoL-6inpjc.jpg" ,Por trece razones S02E06
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi1QCeA0KOFe6ACquBsPSQcy#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iGpsxn-IcbiozpGgYYS86EOyajUbLaYibCzhWJSRJGK8.jpg" ,Por trece razones S02E07
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi2iOE8bZLMT3Nbcpgzo3u8d#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iToCdZ2Tb1P1dBsbSqHwIXsohRE7gjJseE0uj9sGNBpE.jpg" ,Por trece razones S02E08
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi0T2wyyNhWK5SGmEFd7ckZ6#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iiY2Y0b7IE_L6yqLdodeW9siKXKGx0nKaqlN1N5AFb44.jpg" ,Por trece razones S02E09
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi3euKXs7q9K00-p2PrXdx8m#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iD07GpLcJcBn7ZI9LBji7HSW7GOSib15oB6XRPLlSQfk.jpg" ,Por trece razones S02E10
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi08EFYq84PtLGKTz98V2tpU#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i7pKpsxzvfm7X1loAZE98V-JiqRpAXjWSq6zFLS8bAFc.jpg" ,Por trece razones S02E11
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi0bEdiGxN3rqLIoShkpKR5-#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8itdb2FhxWeqHSd6SgIJzSArX2a3y9wTAUrHVN7W7Sdso.jpg" ,Por trece razones S02E12
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi0pxUjRpwEUiKAT6Q3U8_Gf#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="SERIES" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iWPQ_wzlAQQmV1IA9Nz_AYzWv3-zraW4AxfYBqqgOZ28.jpg" ,Por trece razones S02E13
-http://cdn-abc.xyz:2086/play/VFqm-ZURExTWC7B28ivDVrLYtY7RD2i3yddEK1vTZi1_goiQ055l66UmxVd_XAMc#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/rwPVMBV/113075-Mix-24-7.png" ,CLASSIC + Peliculas 24/7
-http://tvpremiund.ddns.me:2082/56976896944/140220iptv/31698
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/8Xf1rWT/Icono-24-7-78486-19.jpg" ,Dreamworks 24/7
-http://tvpremiund.ddns.me:2082/56976896944/140220iptv/49653
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/rFSCG5w1/chavo.png" ,El Chavo del 8 24/7
-http://tvpremiund.ddns.me:2082/56976896944/140220iptv/14720
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.ibb.co/8Xf1rWT/Icono-24-7-78486-19.jpg" ,La Pantera Rosa 24/7
-http://tvpremiund.ddns.me:2082/56976896944/140220iptv/49645
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://img.huffingtonpost.com/asset/5df79f752500004071d3050f.jpeg" ,Los  Simpsons  24/7
-http://tvpremiund.ddns.me:2082/56976896944/140220iptv/31721
-
+#EXTINF:-1 tvg-id="discovery.mexico.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/59e2823940be4917d42435ea44bb695b.png" ,Discovery Channel
+http://xpaneltv.com:8080/LarryPer/30100258/49711
+#EXTINF:-1 tvg-id="discovery.civilization.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/5342678c1fa638de9bbfa78db0ddca42.png" ,Discovery Civilization
+http://xpaneltv.com:8080/LarryPer/30100258/49712
+#EXTINF:-1 tvg-id="discovery.home.health.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/5365356a42d407362dc077d92602620e.png" ,Discovery H&H
+http://xpaneltv.com:8080/LarryPer/30100258/49713
+#EXTINF:-1 tvg-id="investigation.discovery.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/386db1cd32bc4ddb7d9b3d4ed9b148ef.png" ,Discovery Investigation
+http://xpaneltv.com:8080/LarryPer/30100258/49714
+#EXTINF:-1 tvg-id="discovery.science.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/6094e5dcec760f3a59a3bc981da2e55d.png" ,Discovery Science
+http://xpaneltv.com:8080/LarryPer/30100258/49716
+#EXTINF:-1 tvg-id="discovery.theater.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/c364c5e9e865fc85228190c118cc6a18.png" ,DIscovery Theater
+http://xpaneltv.com:8080/LarryPer/30100258/49717
+#EXTINF:-1 tvg-id="discovery.turbo.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/9ddbef6c32d9fa8ffcb07a961f943c36.png" ,Discovery Turbo
+http://xpaneltv.com:8080/LarryPer/30100258/49718
+#EXTINF:-1 tvg-id="discovery.world.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/6fba8be0cbd6af7e9f6e11ee4dde06d6.png" ,Discovery World
+http://xpaneltv.com:8080/LarryPer/30100258/49719
+#EXTINF:-1 tvg-id="animal.planet.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/8f9198002ca58c50a232ff957600e618.png" ,Animal Planet
+http://xpaneltv.com:8080/LarryPer/30100258/49720
+#EXTINF:-1 tvg-id="national.geographic.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/f91c676cbee8fc9aa708334fcf26d981.png" ,Natgeo
+http://xpaneltv.com:8080/LarryPer/30100258/49721
+#EXTINF:-1 tvg-id="national.geographic.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/c401da2201a01b4f8a5c7a943c479363.png" ,Nat Geo Wild
+http://xpaneltv.com:8080/LarryPer/30100258/49722
+#EXTINF:-1 tvg-id="discovery.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/86ff788bc19c406227bb2165f8f08f02.png" ,Discovery Channel Latino SD
+http://xpaneltv.com:8080/LarryPer/30100258/178297
+#EXTINF:-1 tvg-id="hbo.latino.pacific.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b2/HBO_Latino_2014_%28Stacked%29.svg/revision/latest/scale-to-width-down/250?cb=20210113014015" ,HBO LATINO
+http://xpaneltv.com:8080/LarryPer/30100258/50484
+#EXTINF:-1 tvg-id="hbo.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7bcf7e18814582f2b1e3cf3ccbe78d94.png" ,HBO West HD
+http://xpaneltv.com:8080/LarryPer/30100258/50485
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/d074cb11d4af6f95176e4e253352290f.png" ,HBO SIGNATURE HD
+http://xpaneltv.com:8080/LarryPer/30100258/50486
+#EXTINF:-1 tvg-id="hbo.plus.mexico.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/93149737a27882c945c81dd96dcf2966.jpg" ,HBO Plus HD
+http://xpaneltv.com:8080/LarryPer/30100258/50487
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/900dd963f8e44644f41124ad808e641a.png" ,HBO XTREME HD
+http://xpaneltv.com:8080/LarryPer/30100258/50488
+#EXTINF:-1 tvg-id="hbo.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7bcf7e18814582f2b1e3cf3ccbe78d94.png" ,HBO East HD
+http://xpaneltv.com:8080/LarryPer/30100258/50489
+#EXTINF:-1 tvg-id="cinemax.east.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/ddade952bd71167f1b55b86eb176d85f.png" ,Cinemax East HD
+http://xpaneltv.com:8080/LarryPer/30100258/50490
+#EXTINF:-1 tvg-id="cinemax.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/ddade952bd71167f1b55b86eb176d85f.png" ,Cinemax HD 1080i
+http://xpaneltv.com:8080/LarryPer/30100258/50491
+#EXTINF:-1 tvg-id="starz.pacific.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz West HD
+http://xpaneltv.com:8080/LarryPer/30100258/50493
+#EXTINF:-1 tvg-id="starz.kids.family.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz Kids & Family HD
+http://xpaneltv.com:8080/LarryPer/30100258/50494
+#EXTINF:-1 tvg-id="starz.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz ʜᴅ
+http://xpaneltv.com:8080/LarryPer/30100258/50495
+#EXTINF:-1 tvg-id="starz.encore.westerns.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz Encore Western HD
+http://xpaneltv.com:8080/LarryPer/30100258/50496
+#EXTINF:-1 tvg-id="starz.encore.suspense.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz Encore Suspense HD
+http://xpaneltv.com:8080/LarryPer/30100258/50497
+#EXTINF:-1 tvg-id="starz.encore.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz Encore ʜᴅ
+http://xpaneltv.com:8080/LarryPer/30100258/50498
+#EXTINF:-1 tvg-id="starz.encore.family.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz Family HD
+http://xpaneltv.com:8080/LarryPer/30100258/50500
+#EXTINF:-1 tvg-id="starz.encore.classic.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz Encore Classic HD
+http://xpaneltv.com:8080/LarryPer/30100258/50501
+#EXTINF:-1 tvg-id="starz.encore.action.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz Encore Action ꜰʜᴅ 1080P
+http://xpaneltv.com:8080/LarryPer/30100258/50503
+#EXTINF:-1 tvg-id="starz.edge.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz Edge HD
+http://xpaneltv.com:8080/LarryPer/30100258/50504
+#EXTINF:-1 tvg-id="starz.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz East ʜᴅ
+http://xpaneltv.com:8080/LarryPer/30100258/50505
+#EXTINF:-1 tvg-id="starz.comedy.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz Comedy HD
+http://xpaneltv.com:8080/LarryPer/30100258/50506
+#EXTINF:-1 tvg-id="starz.cinema.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0019/4748/brand.gif?itok=auLWjHZC" ,Starz Cinema ʜᴅ
+http://xpaneltv.com:8080/LarryPer/30100258/50508
+#EXTINF:-1 tvg-id="showtime.west.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://www.sho.com/assets/images/lib/showtime-logo-red_160x160.jpg" ,Showtime West HD
+http://xpaneltv.com:8080/LarryPer/30100258/50509
+#EXTINF:-1 tvg-id="showtime.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://www.sho.com/assets/images/lib/showtime-logo-red_160x160.jpg" ,Showtime HD
+http://xpaneltv.com:8080/LarryPer/30100258/50510
+#EXTINF:-1 tvg-id="showtime.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://www.sho.com/assets/images/lib/showtime-logo-red_160x160.jpg" ,Showtime East HD
+http://xpaneltv.com:8080/LarryPer/30100258/50511
+#EXTINF:-1 tvg-id="moviemax.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b5/MovieMax_2013.svg/revision/latest/scale-to-width-down/284?cb=20201110163858&path-prefix=es" ,MovieMax HD
+http://xpaneltv.com:8080/LarryPer/30100258/50515
+#EXTINF:-1 tvg-id="indieplex.eastern.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7eebb8128f78ac15d43a05c998aba44a.png" ,IndiePlex HD
+http://xpaneltv.com:8080/LarryPer/30100258/50517
+#EXTINF:-1 tvg-id="star.action.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/2e323e5a2a87f576010319e749ffe229.png" ,Star ACTION ʜᴅ
+http://xpaneltv.com:8080/LarryPer/30100258/88808
+#EXTINF:-1 tvg-id="wwe.network US" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/71b4a0fb20ee5de8c7b56f2201f0fb72.jpeg" ,WWE NETWORK HD
+http://xpaneltv.com:8080/LarryPer/30100258/88809
+#EXTINF:-1 tvg-id="nfl.network.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/1/14/NFL-Network.svg/revision/latest/scale-to-width-down/340?cb=20161211173927" ,NFL Network HD
+http://xpaneltv.com:8080/LarryPer/30100258/65769
+#EXTINF:-1 tvg-id="espn.2.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7a081b5e6217d335a87992a553d155e7.png" ,ESPN 2 HD (Jornada La Liga)
+http://xpaneltv.com:8080/LarryPer/30100258/90551
+#EXTINF:-1 tvg-id="laliga.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://d31u1w5651ly23.cloudfront.net/articulos/articulos-401980.jpg" ,LA LIGA TV BAR
+http://xpaneltv.com:8080/LarryPer/30100258/90554
+#EXTINF:-1 tvg-id="movistar.laliga.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/204ebecc7290f2020729a5a1919d6f92.jpg" ,MOVISTAR LA LIGA HD (Spain)
+http://xpaneltv.com:8080/LarryPer/30100258/90555
+#EXTINF:-1 tvg-id="laliga.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/204ebecc7290f2020729a5a1919d6f92.jpg" ,LALIGA HD
+http://xpaneltv.com:8080/LarryPer/30100258/90556
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/16823426da2a9ed30a1e9da512b04f49.png" ,SKY SPORTS La liga
+http://xpaneltv.com:8080/LarryPer/30100258/90561
+#EXTINF:-1 tvg-id="sky.sports.1.mexico.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/16823426da2a9ed30a1e9da512b04f49.png" ,Sky Sports Main Event HD
+http://xpaneltv.com:8080/LarryPer/30100258/90563
+#EXTINF:-1 tvg-id="espn.2.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7a081b5e6217d335a87992a553d155e7.png" ,ESPN 2 FHD (Latino)
+http://xpaneltv.com:8080/LarryPer/30100258/90570
+#EXTINF:-1 tvg-id="espn.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b539e2266b0268233647ddafd4ffc6e8.png" ,ESPN 1 FHD (Latino)
+http://xpaneltv.com:8080/LarryPer/30100258/90573
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4fdc819ddad328932b0cf92d4c602ad5.png" ,Claro Sports 1 HD
+http://xpaneltv.com:8080/LarryPer/30100258/135261
+#EXTINF:-1 tvg-id="dazn.1.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://us.123rf.com/450wm/get4net/get4net2112/get4net211227958/179639981-dazn-un-servicio-de-transmisi%C3%B3n-de-video-por-suscripci%C3%B3n-propiedad-de-perform-group.jpg" ,DAZN FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172129
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://us.123rf.com/450wm/get4net/get4net2112/get4net211227958/179639981-dazn-un-servicio-de-transmisi%C3%B3n-de-video-por-suscripci%C3%B3n-propiedad-de-perform-group.jpg" ,Dazn 1 Bar HD (DE) HD
+http://xpaneltv.com:8080/LarryPer/30100258/172133
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://us.123rf.com/450wm/get4net/get4net2112/get4net211227958/179639981-dazn-un-servicio-de-transmisi%C3%B3n-de-video-por-suscripci%C3%B3n-propiedad-de-perform-group.jpg" ,Dazn 2 Bar (DE) HD
+http://xpaneltv.com:8080/LarryPer/30100258/172134
+#EXTINF:-1 tvg-id="fox.sports.co" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/64d85e9adc2e4a68ec3b93358786cedd.png" ,Fox Sports 1 (COL) FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172137
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/64d85e9adc2e4a68ec3b93358786cedd.png" ,Fox Sports 1 Chile HD
+http://xpaneltv.com:8080/LarryPer/30100258/172139
+#EXTINF:-1 tvg-id="bein.sports.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/9d14775c64f235de7e4cea56049c3fdc.jpg" ,Bein Sports Ñ FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172140
+#EXTINF:-1 tvg-id="fox.deportes.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://play-lh.googleusercontent.com/uMDC_ZCZXk4i6YfmdiiPfWRBzYKwdpk9pP2gDmg6qkOWBqodlLBdIYPTJTbX8ZxyTA" ,Fox Deportes HD
+http://xpaneltv.com:8080/LarryPer/30100258/172142
+#EXTINF:-1 tvg-id="aym.sports.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://vignette.wikia.nocookie.net/liga-mx/images/6/6c/AYMSports17Logo.png/revision/latest?cb=20170917052727&path-prefix=es" ,AYM SPORTS FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172143
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/c9aae0d5d41514a68f81cc2550f091b4.jpg" ,DIRECTV SPORTS FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172144
+#EXTINF:-1 tvg-id="espn.deportes.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7d9652d1774596f808ac862e58737c17.png" ,ESPN DEPORTES FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172145
+#EXTINF:-1 tvg-id="espn.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b539e2266b0268233647ddafd4ffc6e8.png" ,ESPN 1 MEXICO FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172146
+#EXTINF:-1 tvg-id="espn.2.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7a081b5e6217d335a87992a553d155e7.png" ,ESPN 2 MEXICO FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172147
+#EXTINF:-1 tvg-id="espn.3.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4bc137655c98129c1896f469ad85a422.png" ,ESPN 3 MEXICO FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172148
+#EXTINF:-1 tvg-id="espn.u.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/ca8bfd16310fe21c538e828cf38bc013.png" ,ESPN U FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172149
+#EXTINF:-1 tvg-id="espn.2.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7a081b5e6217d335a87992a553d155e7.png" ,ESPN 2 FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172150
+#EXTINF:-1 tvg-id="espn.3.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4bc137655c98129c1896f469ad85a422.png" ,ESPN 3 FHD (latino)
+http://xpaneltv.com:8080/LarryPer/30100258/172151
+#EXTINF:-1 tvg-id="fox.deportes.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://play-lh.googleusercontent.com/uMDC_ZCZXk4i6YfmdiiPfWRBzYKwdpk9pP2gDmg6qkOWBqodlLBdIYPTJTbX8ZxyTA" ,FOX DEPORTES FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172152
+#EXTINF:-1 tvg-id="fox.sports.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/64d85e9adc2e4a68ec3b93358786cedd.png" ,FOX SPORTS 1 MEXICO FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172153
+#EXTINF:-1 tvg-id="fox.sports.2.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/90b333b35a6e65bde5362fde18d730b5.png" ,FOX SPORTS 2 MEXICO FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172154
+#EXTINF:-1 tvg-id="fox.sports.3.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/3c2b94ee372dad304ecf669f0406cec9.jpg" ,FOX SPORTS 3 MEXICO FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172155
+#EXTINF:-1 tvg-id="fox.sports.2.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/90b333b35a6e65bde5362fde18d730b5.png" ,FOX SPORTS 2 FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172156
+#EXTINF:-1 tvg-id="fox.sports.3.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/3c2b94ee372dad304ecf669f0406cec9.jpg" ,FOX SPORTS 3 FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172157
+#EXTINF:-1 tvg-id="golf.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/9f6300b215db8911a0c2f41c864804c2.png" ,GOLF CHANNEL LATINO HD
+http://xpaneltv.com:8080/LarryPer/30100258/172158
+#EXTINF:-1 tvg-id="real.madrid.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/cca2a0ff64d46dece1600483bcfaf47b.jpg" ,REAL MADRID TV
+http://xpaneltv.com:8080/LarryPer/30100258/172159
+#EXTINF:-1 tvg-id="tvc.deportes.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/6df789a6c7244b9d0b7134368b6295ea.jpg" ,TVC DEPORTES MEXICO FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172160
+#EXTINF:-1 tvg-id="gol.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/d21cf3f28df92aef3e6585042635d72b.jpg" ,GOL TV INTERNACIONAL HD
+http://xpaneltv.com:8080/LarryPer/30100258/172161
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/c9aae0d5d41514a68f81cc2550f091b4.jpg" ,DIRECTV SPORTS FIGHT FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172162
+#EXTINF:-1 tvg-id="m.plus.deportes.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b84b073f9176acabe1916616f687ed6b.png" ,MOVISTAR DEPORTES HD
+http://xpaneltv.com:8080/LarryPer/30100258/172163
+#EXTINF:-1 tvg-id="fox.sports.premium.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/1e7721d7b42e20a697250798b3b9feca.png" ,FOX SPORTS PREMIUM FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172164
+#EXTINF:-1 tvg-id="bein.sports.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/9d14775c64f235de7e4cea56049c3fdc.jpg" ,Bein Sports Ñ HD
+http://xpaneltv.com:8080/LarryPer/30100258/172165
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMgkF60d_1SmwuJOC_N2ECBq-L1wCd8xQpmoVjMmOXKY9dXaEy7h3GDasNn5T8c_UX6Lw&usqp=CAU" ,AFIZZIONADOS HD
+http://xpaneltv.com:8080/LarryPer/30100258/172167
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4fdc819ddad328932b0cf92d4c602ad5.png" ,CLARO SPORTS SUR HD
+http://xpaneltv.com:8080/LarryPer/30100258/172168
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4fdc819ddad328932b0cf92d4c602ad5.png" ,CLARO SPORTS MX HD
+http://xpaneltv.com:8080/LarryPer/30100258/172169
+#EXTINF:-1 tvg-id="tudn.mexico.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/996f778d08234b3fb00ad0f9fcf6115b.png" ,TUDN HD
+http://xpaneltv.com:8080/LarryPer/30100258/172170
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/16823426da2a9ed30a1e9da512b04f49.png" ,SKY SPORTS BUNDESLIGA
+http://xpaneltv.com:8080/LarryPer/30100258/172171
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/16823426da2a9ed30a1e9da512b04f49.png" ,SKY SPORTS Premier league HD UK
+http://xpaneltv.com:8080/LarryPer/30100258/172173
+#EXTINF:-1 tvg-id="sky.sports.1.mexico.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/48c874edd4b783ca8a2b4f9e77eb3097.jpg" ,SKY SPORTS Main Event
+http://xpaneltv.com:8080/LarryPer/30100258/172174
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/86a6f42eee71b117f568ab1ff06a56b0.png" ,RED BULL TV HD
+http://xpaneltv.com:8080/LarryPer/30100258/172175
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/cc691c1f06d485fb6db86816b9104e2c.png" ,UFC TV
+http://xpaneltv.com:8080/LarryPer/30100258/172176
+#EXTINF:-1 tvg-id="bein.sports.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/9d14775c64f235de7e4cea56049c3fdc.jpg" ,BEIN SPORTS (HD 720p)
+http://xpaneltv.com:8080/LarryPer/30100258/172177
+#EXTINF:-1 tvg-id="bein.sports.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/9d14775c64f235de7e4cea56049c3fdc.jpg" ,BEIN SPORTS FHD
+http://xpaneltv.com:8080/LarryPer/30100258/172178
+#EXTINF:-1 tvg-id="espn.plus.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/717290a2996200361b8f3dcd4152ef26.png" ,ESPN PLUS MEXICO HD
+http://xpaneltv.com:8080/LarryPer/30100258/172181
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b789f393053b6accac03ff450ec56dde.png" ,DIRECTV SPORTS 2 SUR
+http://xpaneltv.com:8080/LarryPer/30100258/172191
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/632535846846b4a833b92a8c7adcd5c0.jpeg" ,CDO PREMIUM
+http://xpaneltv.com:8080/LarryPer/30100258/172194
+#EXTINF:-1 tvg-id="dazn.1.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://us.123rf.com/450wm/get4net/get4net2112/get4net211227958/179639981-dazn-un-servicio-de-transmisi%C3%B3n-de-video-por-suscripci%C3%B3n-propiedad-de-perform-group.jpg" ,ES DAZN 1 FHD
+http://xpaneltv.com:8080/LarryPer/30100258/233179
+#EXTINF:-1 tvg-id="dazn.laliga.es" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/be49df079c37e5f630438fdac735c094.png" ,DAZN LALIGA 1 FHD
+http://xpaneltv.com:8080/LarryPer/30100258/233180
+#EXTINF:-1 tvg-id="fox.sports.premium.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/1e7721d7b42e20a697250798b3b9feca.png" ,Fox Sports 1 Premium HD
+http://xpaneltv.com:8080/LarryPer/30100258/234438
+#EXTINF:-1 tvg-id="espn.4.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/e95e7d3aa9983997849bacf2cf864782.jpg" ,ESPN 4 FHD
+http://xpaneltv.com:8080/LarryPer/30100258/234441
+#EXTINF:-1 tvg-id="fox.sports.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/64d85e9adc2e4a68ec3b93358786cedd.png" ,Fox Sports FHD
+http://xpaneltv.com:8080/LarryPer/30100258/234446
+#EXTINF:-1 tvg-id="golf.usa.us" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/9f6300b215db8911a0c2f41c864804c2.png" ,GOLF CHANNEL HD
+http://xpaneltv.com:8080/LarryPer/30100258/234447
+#EXTINF:-1 tvg-id="sky.sports.1.mexico.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/16823426da2a9ed30a1e9da512b04f49.png" ,Sky Sports Premier HD
+http://xpaneltv.com:8080/LarryPer/30100258/234448
+#EXTINF:-1 tvg-id="tyc.sports.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/057a6c9bbc85c08bd6202e830da44fcb.png" ,TYC SPORTS HD
+http://xpaneltv.com:8080/LarryPer/30100258/287873
+#EXTINF:-1 tvg-id="win.sports.co" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/a44bb3c59fdbb8339d95608fbfe6b498.png" ,WIN SPORTS + HD (Copa America/Eurocopa)
+http://xpaneltv.com:8080/LarryPer/30100258/288765
+#EXTINF:-1 tvg-id="espn.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b539e2266b0268233647ddafd4ffc6e8.png" ,ESPN SUR (Copa America/Eurocopa)
+http://xpaneltv.com:8080/LarryPer/30100258/288770
+#EXTINF:-1 tvg-id="espn.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b539e2266b0268233647ddafd4ffc6e8.png" ,ESPN ESP
+http://xpaneltv.com:8080/LarryPer/30100258/288771
+#EXTINF:-1 tvg-id="tudn.mexico.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/996f778d08234b3fb00ad0f9fcf6115b.png" ,TUDN
+http://xpaneltv.com:8080/LarryPer/30100258/288775
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/c9aae0d5d41514a68f81cc2550f091b4.jpg" ,DIRECTV SPORTS (Copa America/Eurocopa)
+http://xpaneltv.com:8080/LarryPer/30100258/288954
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b789f393053b6accac03ff450ec56dde.png" ,Directv Sports 2 (Copa America/Eurocopa)
+http://xpaneltv.com:8080/LarryPer/30100258/292108
+#EXTINF:-1 tvg-id="win.sports.co" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/a44bb3c59fdbb8339d95608fbfe6b498.png" ,WIN SPORTS + HD OPC 2 (Copa America/Eurocopa)
+http://xpaneltv.com:8080/LarryPer/30100258/292975
+#EXTINF:-1 tvg-id="espn.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b539e2266b0268233647ddafd4ffc6e8.png" ,ESPN SUR OPC 2 (Copa America/Eurocopa)
+http://xpaneltv.com:8080/LarryPer/30100258/292977
+#EXTINF:-1 tvg-id="espn.mx" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b539e2266b0268233647ddafd4ffc6e8.png" ,ESPN OPC 2 (Copa America/Eurocopa)
+http://xpaneltv.com:8080/LarryPer/30100258/292978
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b789f393053b6accac03ff450ec56dde.png" ,Directv Sports 2 OPC 2 (Copa America/Eurocopa)
+http://xpaneltv.com:8080/LarryPer/30100258/292983
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/204ebecc7290f2020729a5a1919d6f92.jpg" ,LaLigaTV HD
+http://xpaneltv.com:8080/LarryPer/30100258/304921
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/204ebecc7290f2020729a5a1919d6f92.jpg" ,Movistar LaligaTV
+http://xpaneltv.com:8080/LarryPer/30100258/304922
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/be49df079c37e5f630438fdac735c094.png" ,DAZN LALIGA HD
+http://xpaneltv.com:8080/LarryPer/30100258/304923
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/c9aae0d5d41514a68f81cc2550f091b4.jpg" ,DIRECTV SPORTS FHD
+http://xpaneltv.com:8080/LarryPer/30100258/304924
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/355bc9338ae236b50f0d69644bb63c01.jpg" ,M. Copa Del Rey HD
+http://xpaneltv.com:8080/LarryPer/30100258/305193
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/d3ffa31d6799620b326cd16930429f8f.png" ,MOVISTAR + HD 1080P
+http://xpaneltv.com:8080/LarryPer/30100258/305195
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/ea4ffd12ffe45afdfd51248b3b6ef8fe.png" ,MOVISTAR+ 2 HD 1080P
+http://xpaneltv.com:8080/LarryPer/30100258/305197
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4cea64786fa343a2e75229ad2a7e71ad.jpg" ,24/7 La hormiga atómica
+http://xpaneltv.com:8080/LarryPer/30100258/103217
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/04ac6a7e8e23b69eafe528e178978225.jpg" ,24/7 Los 4 Fantásticos
+http://xpaneltv.com:8080/LarryPer/30100258/103216
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b340850787ff300cd178075832e099d4.jpg" ,24/7 Spider-man y sus Amigos
+http://xpaneltv.com:8080/LarryPer/30100258/103697
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/f70277b42e41a21f087b780c5bb915ac.jpg" ,La Serie Animada
+http://xpaneltv.com:8080/LarryPer/30100258/104658
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/97de8f8e31e8fe0410c24a82897bfdc4.jpg" ,24/7 G.I. Joe
+http://xpaneltv.com:8080/LarryPer/30100258/104661
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/9d26e8d22b3a3c7c44c4a56f1c1f030e.jpg" ,24/7 El Espectacular Spider-Man
+http://xpaneltv.com:8080/LarryPer/30100258/106175
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7ea8e572778f25e8f8c6d878dc2f066f.jpg" ,24/7 El show de Charlie Brown y Snoopy
+http://xpaneltv.com:8080/LarryPer/30100258/106176
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/0d75dfb9f1492d80f6a8ea964faf5aaf.jpg" ,24/7 InuYasha
+http://xpaneltv.com:8080/LarryPer/30100258/106188
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/45a083817d5071800463a1abd53a610e.jpg" ,24/7 La leyenda de Korra
+http://xpaneltv.com:8080/LarryPer/30100258/106192
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/3adafd6d3e0b451ef59b703b8d6b369a.jpg" ,24/7 Los Vengadores: Los héroes más poderosos del planeta
+http://xpaneltv.com:8080/LarryPer/30100258/106193
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/d716be96f15dfd1f6bfb571bb658a716.jpg" ,24/7 X-Men: Evolución
+http://xpaneltv.com:8080/LarryPer/30100258/106195
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/6e0aebb1c2386efdee131dc6a9218874.jpg" ,24/7 Los Súper amigos
+http://xpaneltv.com:8080/LarryPer/30100258/106236
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/69338700fb860f32b03ef57c9e647f3c.jpg" ,24/7 Superman: La serie animada
+http://xpaneltv.com:8080/LarryPer/30100258/106237
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/a30585614e1ed43ff2bf4bf0733ee29d.jpg" ,24/7 The Batman
+http://xpaneltv.com:8080/LarryPer/30100258/106238
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/1d51e090348fc409c7e6ca5cf5ae7f59.jpg" ,24/7 Batman: La Serie Animada
+http://xpaneltv.com:8080/LarryPer/30100258/106239
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4758d6f5f4c5fcd65812ab1013aa4ea2.jpg" ,24/7 Spider-Man 1994
+http://xpaneltv.com:8080/LarryPer/30100258/106310
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/9d92089ebdc3e8fe965b4e264634cf90.jpg" ,24/7 Tiny Toons
+http://xpaneltv.com:8080/LarryPer/30100258/106311
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/a325930276bd96c00d4169aa7dcfa7cb.jpg" ,24/7 Batman del futuro
+http://xpaneltv.com:8080/LarryPer/30100258/106312
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/ce526c0df419aa1f1591ff7b59555e1c.jpg" ,24/7 El Zorro Animado
+http://xpaneltv.com:8080/LarryPer/30100258/106313
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/029fbfb142dc46fa3bd50cb6d52e3c44.jpg" ,24/7 Candy Candy
+http://xpaneltv.com:8080/LarryPer/30100258/107901
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/88b9bfb406e4fa4a46705383cb22ddc7.jpg" ,24/7 Capitan Futuro
+http://xpaneltv.com:8080/LarryPer/30100258/109635
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/0629a649929c6eee80d0121f82cad5d4.jpg" ,24/7 Capitan Centella
+http://xpaneltv.com:8080/LarryPer/30100258/109636
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/9c3ea00186190db94e89cfa0d4d99fc3.jpg" ,24/7 El Galáctico
+http://xpaneltv.com:8080/LarryPer/30100258/110731
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/91b49e9cf4544a0ed966655eb1df4bb4.jpg" ,24/7 The Inspector
+http://xpaneltv.com:8080/LarryPer/30100258/111012
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b7254aac5a5499febda451805f27015f.jpg" ,24/7 El inspector Ardilla
+http://xpaneltv.com:8080/LarryPer/30100258/111013
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/0a5b11c4152d3aacf048c555f7ea1999.jpg" ,24/7 La Bruja Tonta
+http://xpaneltv.com:8080/LarryPer/30100258/111257
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/60b054db0192db6e32fa30ec54113641.jpg" ,24/7 The Pink Panther Show
+http://xpaneltv.com:8080/LarryPer/30100258/111258
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/5b5d5f5422b40485db3464605a465025.jpg" ,24/7 El Gladiador
+http://xpaneltv.com:8080/LarryPer/30100258/111262
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7566e40d500ae2b61fe7b08d6b8897c0.jpg" ,24/7 Cool McCool
+http://xpaneltv.com:8080/LarryPer/30100258/111263
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/8035f52e60a6f1d6e220add903370cf5.jpg" ,24/7 El Mago de Oz
+http://xpaneltv.com:8080/LarryPer/30100258/111379
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/3c407390152e3dc5c342f9cd42763deb.jpg" ,24/7 Correcaminos
+http://xpaneltv.com:8080/LarryPer/30100258/111380
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/2ef0d3322398a4e2170423fd27de448b.jpg" ,24/7 El show de Dick Tracy
+http://xpaneltv.com:8080/LarryPer/30100258/111384
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/fcbf07fb8033047a9db40630b10f6318.jpg" ,24/7 Daniel el travieso
+http://xpaneltv.com:8080/LarryPer/30100258/111499
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/802f56af1ab121f9344cb963ef5a384b.jpg" ,24/7 Los Picapiedra
+http://xpaneltv.com:8080/LarryPer/30100258/112234
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/11ff6e41d72d1449dfa982a9760fd32b.jpg" ,24/7 Meteoro
+http://xpaneltv.com:8080/LarryPer/30100258/112700
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/33673241c6e39fa5d31ad7d3eee6b577.jpg" ,La Princesa del Poder
+http://xpaneltv.com:8080/LarryPer/30100258/112701
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b27025b162087d85f57b215c9cc2b923.jpg" ,24/7  Héroes en pijamas PJ Masks
+http://xpaneltv.com:8080/LarryPer/30100258/112702
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/2b6a98fea583b3ac23ba44bb531958cd.jpg" ,24/7 Pinky y Cerebro
+http://xpaneltv.com:8080/LarryPer/30100258/112737
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/ff973d5100c58d76ef94fcca78e3f38a.jpg" ,24/7 Las olimpiadas de la risa
+http://xpaneltv.com:8080/LarryPer/30100258/112738
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://pics.filmaffinity.com/little_lulu_to_chicchai_nakama_little_lulu_and_her_little_friends_tv_series_tv_series-772137157-large.jpg" ,24/7 La Pequeña Lulu
+http://xpaneltv.com:8080/LarryPer/30100258/112874
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b0b2d52f78f1e2b0677eda56199e5365.jpg" ,24/7 Robotech
+http://xpaneltv.com:8080/LarryPer/30100258/112950
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/5992151b0cd67a9fb2d2f4a0e899b0c0.jpg" ,24/7 Pepe Pótamo y So-So
+http://xpaneltv.com:8080/LarryPer/30100258/113406
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://pics.filmaffinity.com/the_pink_panther_and_friends_the_ant_and_the_aardvark_tv_series_tv_series-716641131-large.jpg" ,24/7 La hormiga y el oso hormiguero
+http://xpaneltv.com:8080/LarryPer/30100258/113407
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/e332b32929ab8f21d547e22eb647478f.jpg" ,24/7 Dino-Riders
+http://xpaneltv.com:8080/LarryPer/30100258/113409
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/47fbd537d26f56e1343ad9978849acc0.jpg" ,24/7 Los autos locos
+http://xpaneltv.com:8080/LarryPer/30100258/113476
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/be62b5e17eb834c07961b2e93e921611.jpg" ,24/7 Popeye 1
+http://xpaneltv.com:8080/LarryPer/30100258/113573
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/be62b5e17eb834c07961b2e93e921611.jpg" ,24/7 Popeye el Marino
+http://xpaneltv.com:8080/LarryPer/30100258/113574
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/0e6c69d821d6fc8bb804a8bc28db0635.jpg" ,24/7 Patoaventuras
+http://xpaneltv.com:8080/LarryPer/30100258/113575
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/1c9eeb159112f92395122e3868c2b3a4.jpg" ,24/7 Aquaman
+http://xpaneltv.com:8080/LarryPer/30100258/113577
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/6ce9ffdd40e3162ba463893cfcb6a247.jpg" ,24/7 El gato Félix
+http://xpaneltv.com:8080/LarryPer/30100258/113578
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/bc8cb9441c7efe18a28126f044f800d1.jpg" ,el león blanco
+http://xpaneltv.com:8080/LarryPer/30100258/113583
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/9ed0c04638f1074bc47935b8d8f75f28.jpg" ,24/7 Mazinger Z
+http://xpaneltv.com:8080/LarryPer/30100258/118410
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/e29afa648615950434c6944812d8f0fc.jpg" ,24/7 Don Gato y su pandilla
+http://xpaneltv.com:8080/LarryPer/30100258/118445
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4cc0f2a3d9d02c6402c9408de83695b8.jpg" ,24/7 ThunderCats
+http://xpaneltv.com:8080/LarryPer/30100258/121565
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/78d10c86d8e6c479766c0ee83e2d252d.jpg" ,El gran detective
+http://xpaneltv.com:8080/LarryPer/30100258/153081
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/2728a3af2be5a97a00c40128afa36972.jpg" ,24/7 Heidi
+http://xpaneltv.com:8080/LarryPer/30100258/299680
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/00f8d7fde4868a251313f5c7002b852b.jpg" ,la niña de las flores
+http://xpaneltv.com:8080/LarryPer/30100258/299825
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/5d68e97b78a81fbd2343b2b1a3045752.jpg" ,24/7 El Vengador
+http://xpaneltv.com:8080/LarryPer/30100258/299827
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/af5f52062b323e57f870028e8d27f64f.jpg" ,24/7 Los supersónicos
+http://xpaneltv.com:8080/LarryPer/30100258/299828
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/03d09b1c96e1123c89b39d77e6342df6.jpg" ,24/7 Lunáticos
+http://xpaneltv.com:8080/LarryPer/30100258/299829
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/59f597910f99cc927a355d8530dc7f21.jpg" ,24/7 El Demonio de Tazmania
+http://xpaneltv.com:8080/LarryPer/30100258/299831
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/8d7cd2919e263342a2242083dfc9fc3d.jpg" ,24/7 Fantasma del Espacio
+http://xpaneltv.com:8080/LarryPer/30100258/299832
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/03d09b1c96e1123c89b39d77e6342df6.jpg" ,24/7 Lunáticos
+http://xpaneltv.com:8080/LarryPer/30100258/300153
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/6850a3aa2a8067377a1302c029412895.jpg" ,24/7 El oso Yogui
+http://xpaneltv.com:8080/LarryPer/30100258/300154
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://pics.filmaffinity.com/squiddly_diddly-586019959-large.jpg" ,24/7 El Pulpo Manotas
+http://xpaneltv.com:8080/LarryPer/30100258/300270
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/fb75ddde432d0797f1dc1c91a2b6dad5.jpg" ,24/7 Shazzan
+http://xpaneltv.com:8080/LarryPer/30100258/300435
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/6deeeafa2f6557eee907f7fdf8bb9925.jpg" ,24/7 Candy Candy
+http://xpaneltv.com:8080/LarryPer/30100258/301941
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/a61fd758f2b4888e7af66e1c53d00d9a.jpg" ,24/7 Aquaman
+http://xpaneltv.com:8080/LarryPer/30100258/301942
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/940182cb680e4101ee8012ffd9aea6a1.jpg" ,24/7 Maguila el Gorila
+http://xpaneltv.com:8080/LarryPer/30100258/301944
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4cab4e06f3a1f7d00e512aeaf5463bdb.jpg" ,24/7 El laboratorio de Dexter
+http://xpaneltv.com:8080/LarryPer/30100258/301945
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/355ce2ca5632ba89dde8e5725b5a9d45.jpg" ,24/7 Centinelas del espacio
+http://xpaneltv.com:8080/LarryPer/30100258/301998
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/8d85a9e94dc40d548e57bab8c52068aa.jpg" ,24/7 La sirenita
+http://xpaneltv.com:8080/LarryPer/30100258/301999
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7321a9454c2b720d2b6754e53986af3c.jpg" ,24/7 El inspector Gadget
+http://xpaneltv.com:8080/LarryPer/30100258/302001
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/433d5f01832777b278431d76296a1b9a.jpg" ,24/7 Gasparin y sus amigos
+http://xpaneltv.com:8080/LarryPer/30100258/302060
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/2551865ac891c96839c2d70c05182d4f.jpg" ,24/7 Chip y Dale al rescate
+http://xpaneltv.com:8080/LarryPer/30100258/302166
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/2abb08a9b9819df40f5a3b119b1ea5ab.jpg" ,24/7 El Barón Rojo
+http://xpaneltv.com:8080/LarryPer/30100258/302181
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/2308af2a70bb947fb8582b2195956cb8.jpg" ,24/7 El Zorro
+http://xpaneltv.com:8080/LarryPer/30100258/106400
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/6e9478555bc375d7a3745e682db9ad8e.jpg" ,24/7 El Chavo del Ocho
+http://xpaneltv.com:8080/LarryPer/30100258/106602
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/1e9a7e97cca3235e1127135fefc82385.jpg" ,24/7 El avispón verde
+http://xpaneltv.com:8080/LarryPer/30100258/107538
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/c5d730b1a60e0651fb63cf870e7a77bd.jpg" ,24/7 La mujer maravilla
+http://xpaneltv.com:8080/LarryPer/30100258/107539
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/62fea79fac7dc9b23c370a0c5f17e249.jpg" ,24/7 CHiPs patrulla motorizada
+http://xpaneltv.com:8080/LarryPer/30100258/107540
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/3c67e8543f1f99bde92610e35c856464.jpg" ,24/7 La familia Monster
+http://xpaneltv.com:8080/LarryPer/30100258/107542
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/397ab9ec7d990adc4177af2e9a6d2ff6.jpg" ,24/7 Los Magnificos
+http://xpaneltv.com:8080/LarryPer/30100258/107543
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/94f89cf683bb149fb37be31b3dea88d3.jpg" ,24/7 MacGyver
+http://xpaneltv.com:8080/LarryPer/30100258/107900
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/6e6f98f64d1031bdafb67dc8284c509b.jpg" ,24/7 He-Man y los Masters del Universo
+http://xpaneltv.com:8080/LarryPer/30100258/107902
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/ed6c83305548ecb732b9577014f6ad38.jpg" ,24/7 ALF
+http://xpaneltv.com:8080/LarryPer/30100258/107903
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/8f725867d036f60ad84578e10ae7d8a3.jpg" ,24/7 La familia Addams
+http://xpaneltv.com:8080/LarryPer/30100258/107939
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/c64002cf67829569e0724e20f27a6d63.jpg" ,24/7 Miami Vice
+http://xpaneltv.com:8080/LarryPer/30100258/109637
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/23068f0853c7ce2e42224277d2eea7a6.jpg" ,24/7 La isla de la Fantasía
+http://xpaneltv.com:8080/LarryPer/30100258/111378
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/86c90219afa44b32031283a0a2382952.jpg" ,24/7 El Chapulín Colorado
+http://xpaneltv.com:8080/LarryPer/30100258/111381
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/d4ee6dd1ffb00668d11a812c6ceb47e1.jpg" ,24/7 El príncipe del Rap
+http://xpaneltv.com:8080/LarryPer/30100258/113342
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/f46129b4097d6895b1d455e655091a42.jpg" ,24/7 Perdidos en el espacio
+http://xpaneltv.com:8080/LarryPer/30100258/113401
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/f46129b4097d6895b1d455e655091a42.jpg" ,24/7 Perdidos en el espacio (2)
+http://xpaneltv.com:8080/LarryPer/30100258/113402
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/162bbefd1edde36c3abedd0512ca7e48.jpg" ,24/7 Flash Gordon
+http://xpaneltv.com:8080/LarryPer/30100258/117480
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/5b8e1ff75a8de3380f117847dd93ad95.jpg" ,24/7 Superman
+http://xpaneltv.com:8080/LarryPer/30100258/300358
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7b1141e311685a004faf1569d11f2832.jpg" ,24/7 Los tres chiflados
+http://xpaneltv.com:8080/LarryPer/30100258/300397
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/f02ce3dc0bd7b4583b3b3dea3cd10a26.jpg" ,24/7 Mr. Bean
+http://xpaneltv.com:8080/LarryPer/30100258/301943
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/c8968722a5d475af46f6bb3e94875202.jpg" ,24/7 Arnold el Travieso
+http://xpaneltv.com:8080/LarryPer/30100258/302182
+#EXTINF:-1 tvg-id="tnt.sports.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/d771cdacbc06c775a8dad7e984f9defb.png" ,TNT SPORTS HD
+http://xpaneltv.com:8080/LarryPer/30100258/154333
+#EXTINF:-1 tvg-id="deportv.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/0/0d/DEPORTV.png/revision/latest/scale-to-width-down/201?cb=20181231231353" ,DEPORTV HD
+http://xpaneltv.com:8080/LarryPer/30100258/154335
+#EXTINF:-1 tvg-id="quiero.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/a207df1c9c0900a3a8fe54163eee0851.png" ,QUIERO MUSICA
+http://xpaneltv.com:8080/LarryPer/30100258/154338
+#EXTINF:-1 tvg-id="metro.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/46babe93a1cc124029a80d6d53fad6e4.png" ,METRO
+http://xpaneltv.com:8080/LarryPer/30100258/154339
+#EXTINF:-1 tvg-id="ln.plus.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/ecf448b73cb9897334ce414284ec3745.png" ,LN+
+http://xpaneltv.com:8080/LarryPer/30100258/154340
+#EXTINF:-1 tvg-id="tv.publica.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/29938cae6727790a47491882e556fce7.jpg" ,Tv Publica HD
+http://xpaneltv.com:8080/LarryPer/30100258/154376
+#EXTINF:-1 tvg-id="tv.publica.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/29938cae6727790a47491882e556fce7.jpg" ,ARGENTINA | Tv Publica
+http://xpaneltv.com:8080/LarryPer/30100258/154377
+#EXTINF:-1 tvg-id="tyc.sports.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/44838dfdba57b7db08c4443b0cd79ed4.png" ,TYC SPORTS INTERNACIONAL
+http://xpaneltv.com:8080/LarryPer/30100258/154382
+#EXTINF:-1 tvg-id="telefe.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/11d58d555f0e83edfd7766eb8818ed71.png" ,TELEFE HD OPC 2
+http://xpaneltv.com:8080/LarryPer/30100258/154388
+#EXTINF:-1 tvg-id="tn.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://play-lh.googleusercontent.com/pL331qhVv3KATHzIaVnkrQhyNRrV6YWLIzf0SctwFR8sUMY8aCYobe70OTdbQPyVkuc" ,TN Noticias HD
+http://xpaneltv.com:8080/LarryPer/30100258/170861
+#EXTINF:-1 tvg-id="13.argentina.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/3859fd3a552627539bf57d288e612c5c.png" ,CANAL 13 OPC 2
+http://xpaneltv.com:8080/LarryPer/30100258/180353
+#EXTINF:-1 tvg-id="pakapaka.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/004997dca8830f658e58f6e777efc0cd.png" ,Paka Paka
+http://xpaneltv.com:8080/LarryPer/30100258/180354
+#EXTINF:-1 tvg-id="espn.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b539e2266b0268233647ddafd4ffc6e8.png" ,ESPN SUR FHD 1
+http://xpaneltv.com:8080/LarryPer/30100258/224010
+#EXTINF:-1 tvg-id="espn.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b539e2266b0268233647ddafd4ffc6e8.png" ,ESPN SUR HD 1
+http://xpaneltv.com:8080/LarryPer/30100258/224011
+#EXTINF:-1 tvg-id="c5n.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4320ed421c8efca775f6c6c0be21ad92.png" ,C5N
+http://xpaneltv.com:8080/LarryPer/30100258/277796
+#EXTINF:-1 tvg-id="tyc.sports.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/057a6c9bbc85c08bd6202e830da44fcb.png" ,TYC SPORTS HD ARG
+http://xpaneltv.com:8080/LarryPer/30100258/287833
+#EXTINF:-1 tvg-id="a24.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b9ebef771b9c403eef68b635f2a5fc28.png" ,ARGENTINA | A24 FHD
+http://xpaneltv.com:8080/LarryPer/30100258/287837
+#EXTINF:-1 tvg-id="quiero.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/a207df1c9c0900a3a8fe54163eee0851.png" ,ARGENTINA | QUIERO MUSICA
+http://xpaneltv.com:8080/LarryPer/30100258/287838
+#EXTINF:-1 tvg-id="metro.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/46babe93a1cc124029a80d6d53fad6e4.png" ,ARGENTINA | METRO
+http://xpaneltv.com:8080/LarryPer/30100258/287839
+#EXTINF:-1 tvg-id="deportv.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/0/0d/DEPORTV.png/revision/latest/scale-to-width-down/201?cb=20181231231353" ,ARGENTINA | DEPORTV
+http://xpaneltv.com:8080/LarryPer/30100258/287842
+#EXTINF:-1 tvg-id="canal.orbe.21.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/249de5710d35e1fd6edf9b6f24f721ba.png" ,ARGENTINA | ORBE 21
+http://xpaneltv.com:8080/LarryPer/30100258/287843
+#EXTINF:-1 tvg-id="argentinisima.satelital.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4d4787fe1ec39d877de2edc224c770e3.jpg" ,ARGENTINA  | ARGENTINISIMA
+http://xpaneltv.com:8080/LarryPer/30100258/287844
+#EXTINF:-1 tvg-id="america.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/fa3122133ff33b251bcf344617984f93.png" ,ARGENTINA | AMERICA HD
+http://xpaneltv.com:8080/LarryPer/30100258/287845
+#EXTINF:-1 tvg-id="telefe.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/11d58d555f0e83edfd7766eb8818ed71.png" ,ARGENTINA | TELEFE HD
+http://xpaneltv.com:8080/LarryPer/30100258/287846
+#EXTINF:-1 tvg-id="13.argentina.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/3859fd3a552627539bf57d288e612c5c.png" ,ARGENTINA | CANAL 13 OPC 2
+http://xpaneltv.com:8080/LarryPer/30100258/287847
+#EXTINF:-1 tvg-id="telemax.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/a3220b39279af1cdcb5e337365f423d6.png" ,ARGENTINA | 13 Max HD
+http://xpaneltv.com:8080/LarryPer/30100258/287848
+#EXTINF:-1 tvg-id="telefe.santa.fe.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/fa13bcb2ac7ef825242b3d89397f7b98.jpg" ,ARGENTINA 5RTV Santa Fe |  HD
+http://xpaneltv.com:8080/LarryPer/30100258/287849
+#EXTINF:-1 tvg-id="canal.9.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/93afff6e61610492622e115373367f15.webp" ,ARGENTINA | 9 MULTIVISION HD
+http://xpaneltv.com:8080/LarryPer/30100258/287850
+#EXTINF:-1 tvg-id="canal.26.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/209b2298bd5a7463b3a20d44a8f28a8b.png" ,ARGENTINA | Canal 26 HD
+http://xpaneltv.com:8080/LarryPer/30100258/287851
+#EXTINF:-1 tvg-id="el.garage.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/8748df95a38ba9f573a5b128dcf76c17.png" ,ARGENTINA | Garage TV
+http://xpaneltv.com:8080/LarryPer/30100258/287853
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/1d4021dd33834ef4f74ddd067cfae2e8.png" ,ARGENTINA | LA 90 FM
+http://xpaneltv.com:8080/LarryPer/30100258/287854
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/96d6f2e7e1f705ab5e59c84a6dc009b2.png" ,ARGENTINA | TeleNord Corrientes
+http://xpaneltv.com:8080/LarryPer/30100258/287856
+#EXTINF:-1 tvg-id="america.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/fa3122133ff33b251bcf344617984f93.png" ,ARGENTINA | AMERICA FHD
+http://xpaneltv.com:8080/LarryPer/30100258/287857
+#EXTINF:-1 tvg-id="tv.publica.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/29938cae6727790a47491882e556fce7.jpg" ,ARGENTINA | TV Publica HD
+http://xpaneltv.com:8080/LarryPer/30100258/287859
+#EXTINF:-1 tvg-id="tv.publica.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/29938cae6727790a47491882e556fce7.jpg" ,ARGENTINA | TV Publica
+http://xpaneltv.com:8080/LarryPer/30100258/287860
+#EXTINF:-1 tvg-id="tv.publica.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/29938cae6727790a47491882e556fce7.jpg" ,ARGENTINA | TV Publica
+http://xpaneltv.com:8080/LarryPer/30100258/287861
+#EXTINF:-1 tvg-id="cronica.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/69b4fb80cdd8e53d72324063df36a164.png" ,ARGENTINA | CRONICA
+http://xpaneltv.com:8080/LarryPer/30100258/287862
+#EXTINF:-1 tvg-id="volver.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/Logo-volver-2016.gif" ,ARGENTINA | VOLVER
+http://xpaneltv.com:8080/LarryPer/30100258/287863
+#EXTINF:-1 tvg-id="canal.9.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7fbf7d985a056d89b083a24e18e28b56.jpg" ,ARGENTINA | CANAL 9 HD
+http://xpaneltv.com:8080/LarryPer/30100258/287864
+#EXTINF:-1 tvg-id="ciudad.magazine.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7b80a0a097fe81828cc97738a798f61e.png" ,ARGENTINA | CIUDAD MAGAZINE HD
+http://xpaneltv.com:8080/LarryPer/30100258/287865
+#EXTINF:-1 tvg-id="espn.extra.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/08993333e3fdcbb80c6b5be6d8fcc716.png" ,ARGENTINA | ESPN PREMIUM
+http://xpaneltv.com:8080/LarryPer/30100258/287867
+#EXTINF:-1 tvg-id="espn.extra.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/08993333e3fdcbb80c6b5be6d8fcc716.png" ,ARGENTINA | ESPN PREMIUM HD
+http://xpaneltv.com:8080/LarryPer/30100258/287868
+#EXTINF:-1 tvg-id="13.argentina.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/3859fd3a552627539bf57d288e612c5c.png" ,ARGENTINA | CANAL 13
+http://xpaneltv.com:8080/LarryPer/30100258/287869
+#EXTINF:-1 tvg-id="telefe.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/11d58d555f0e83edfd7766eb8818ed71.png" ,ARGENTINA | TELEFE HD OPC 2
+http://xpaneltv.com:8080/LarryPer/30100258/287870
+#EXTINF:-1 tvg-id="tnt.sports.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/d771cdacbc06c775a8dad7e984f9defb.png" ,ARGENTINA | TNT SPORTS HD OPC 2
+http://xpaneltv.com:8080/LarryPer/30100258/287874
+#EXTINF:-1 tvg-id="tnt.sports.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/d771cdacbc06c775a8dad7e984f9defb.png" ,ARGENTINA | TNT SPORTS HD OPC 3
+http://xpaneltv.com:8080/LarryPer/30100258/287875
+#EXTINF:-1 tvg-id="a24.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b9ebef771b9c403eef68b635f2a5fc28.png" ,ARGENTINA | A24 HD
+http://xpaneltv.com:8080/LarryPer/30100258/287876
+#EXTINF:-1 tvg-id="canal.9.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7fbf7d985a056d89b083a24e18e28b56.jpg" ,ARGENTINA | Canal 9 HD - OPC 2
+http://xpaneltv.com:8080/LarryPer/30100258/287877
+#EXTINF:-1 tvg-id="canal.9.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/7fbf7d985a056d89b083a24e18e28b56.jpg" ,ARGENTINA | Canal 9 Multivision
+http://xpaneltv.com:8080/LarryPer/30100258/287878
+#EXTINF:-1 tvg-id="espn.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/b539e2266b0268233647ddafd4ffc6e8.png" ,DEPORTES HD | ESPN Argentina
+http://xpaneltv.com:8080/LarryPer/30100258/287880
+#EXTINF:-1 tvg-id="tyc.sports.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/057a6c9bbc85c08bd6202e830da44fcb.png" ,TYC SPORTS HD opc2
+http://xpaneltv.com:8080/LarryPer/30100258/287881
+#EXTINF:-1 tvg-id="espn.4.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/08993333e3fdcbb80c6b5be6d8fcc716.png" ,ARGENTINA - LS | ESPN PREMIUM HD
+http://xpaneltv.com:8080/LarryPer/30100258/287885
+#EXTINF:-1 tvg-id="espn.extra.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/08993333e3fdcbb80c6b5be6d8fcc716.png" ,ARGENTINA - LS | ESPN PREMIUM
+http://xpaneltv.com:8080/LarryPer/30100258/287886
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/ce1956614d52e1ce2955d5a74f82f9a3.jpg" ,ARGENTINA | RTN Neuquén
+http://xpaneltv.com:8080/LarryPer/30100258/287892
+#EXTINF:-1 tvg-id="canal.4.montecarlo.ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/e7b51df5d3def3c3444e4be1463fcefc.png" ,ARGENTINA | Canal 4 Jujuy
+http://xpaneltv.com:8080/LarryPer/30100258/287893
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4ff261560cb18f170b18681a554d4680.png" ,ALTERNATIVE
+http://xpaneltv.com:8080/LarryPer/30100258/291513
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4ff261560cb18f170b18681a554d4680.png" ,DANCE EDM
+http://xpaneltv.com:8080/LarryPer/30100258/291515
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4ff261560cb18f170b18681a554d4680.png" ,HIP HOP & R&B
+http://xpaneltv.com:8080/LarryPer/30100258/291516
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4ff261560cb18f170b18681a554d4680.png" ,HIT LIST
+http://xpaneltv.com:8080/LarryPer/30100258/291517
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4ff261560cb18f170b18681a554d4680.png" ,MEXICANA
+http://xpaneltv.com:8080/LarryPer/30100258/291519
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4ff261560cb18f170b18681a554d4680.png" ,POP HITS
+http://xpaneltv.com:8080/LarryPer/30100258/291522
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4ff261560cb18f170b18681a554d4680.png" ,POP LATINO
+http://xpaneltv.com:8080/LarryPer/30100258/291523
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4ff261560cb18f170b18681a554d4680.png" ,ROCK
+http://xpaneltv.com:8080/LarryPer/30100258/291525
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4ff261560cb18f170b18681a554d4680.png" ,TEEN BEATS
+http://xpaneltv.com:8080/LarryPer/30100258/291526
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4ff261560cb18f170b18681a554d4680.png" ,TODAYS COUNTRY
+http://xpaneltv.com:8080/LarryPer/30100258/291527
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4ff261560cb18f170b18681a554d4680.png" ,90S
+http://xpaneltv.com:8080/LarryPer/30100258/291529
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/4ff261560cb18f170b18681a554d4680.png" ,THROWBACK JAMS
+http://xpaneltv.com:8080/LarryPer/30100258/291530
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://xpaneltv.com:8080/images/37407635d617c00957d9dcf1db7ba217.png" ,MTV LIVE
+http://xpaneltv.com:8080/LarryPer/30100258/291533
