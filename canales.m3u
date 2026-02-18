@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 xui-id="108604" tvg-id="" tvg-name="26 TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQTUd3xNnNIrmiBllfot4j96bozHWTz2IjuA&s" group-title="ARGENTINA",26 TV
+#EXTINF:-1 xui-id="108604" tvg-id="" tvg-name="26 TV" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQTUd3xNnNIrmiBllfot4j96bozHWTz2IjuA&s" group-title="TV EN VIVO",26 TV
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmiJLTIFSS7Zd-aNgSUCO0v0
 #EXTINF:-1 xui-id="108605" tvg-id="" tvg-name="A24" tvg-logo="https://play-lh.googleusercontent.com/TWQgJ9V0vOtKFxXvV0XElYV8WLher-1L0XnbHg0ZkDAJUt4Of63K7FLp5JE-rl1hOw" group-title="ARGENTINA",A24
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmjqTaGHs5uKq4MJW1OP0dBH
@@ -161,3 +161,4 @@ http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5b1PbU7Qf
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7EzeL-zaujU8oGWnO9ZkXK#.mp4
 #EXTINF:-1 xui-id="194423" tvg-name="Mi nombre es Ninguno (1973)" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8isPX7OqHrOHI_q20eBT_sg1jDs6WvvIrFv-yBaGiYeSo.jpg" group-title="WESTERN",Mi nombre es Ninguno (1973)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5T74WIw5AGU3TeQ-QhfhJQ#.mp4
+
