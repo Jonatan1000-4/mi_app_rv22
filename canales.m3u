@@ -1,125 +1,124 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQTUd3xNnNIrmiBllfot4j96bozHWTz2IjuA&s" ,26 TV
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmiJLTIFSS7Zd-aNgSUCO0v0
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="ARGENTINA" tvg-logo="https://play-lh.googleusercontent.com/TWQgJ9V0vOtKFxXvV0XElYV8WLher-1L0XnbHg0ZkDAJUt4Of63K7FLp5JE-rl1hOw" ,A24
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://play-lh.googleusercontent.com/TWQgJ9V0vOtKFxXvV0XElYV8WLher-1L0XnbHg0ZkDAJUt4Of63K7FLp5JE-rl1hOw" ,A24
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmjqTaGHs5uKq4MJW1OP0dBH
-#EXTINF:-1 tvg-id="CNNE" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jWK83T7_CvcO5npC2ia2PHg5MPSJZAnf13m8vYFlmFJatyBUxetBV_gQ-l9OfEu6_g.png" ,CNN en español ARG
+#EXTINF:-1 tvg-id="CNNE" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jWK83T7_CvcO5npC2ia2PHg5MPSJZAnf13m8vYFlmFJatyBUxetBV_gQ-l9OfEu6_g.png" ,CNN en español ARG
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmhS8Lx6ujTQhD7ydUcWJKuX
-#EXTINF:-1 tvg-id="CDLC" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga4Nk5n6ixZy9THD4ZXiMvUBgP2p_Xfr4ipxqWtEG0voVA.png" ,Canal de la ciudad
+#EXTINF:-1 tvg-id="CDLC" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga4Nk5n6ixZy9THD4ZXiMvUBgP2p_Xfr4ipxqWtEG0voVA.png" ,Canal de la ciudad
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunlh4KC9YUgRIGm4i93WIwmi4lBAjsGs3MmHmXnnPKjiZ
-#EXTINF:-1 tvg-id="TELEFA" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga5_v8BcRxFt2LzmT5Zf9ns_mlPm7MTflJk3go7JII3Bow.png" ,TELEFE
+#EXTINF:-1 tvg-id="TELEFA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga5_v8BcRxFt2LzmT5Zf9ns_mlPm7MTflJk3go7JII3Bow.png" ,TELEFE
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunmiLKhR9JzCkMfmyiPzNLyqTb54VJQ8DafYaBQoGM72S
-#EXTINF:-1 tvg-id="TRESAT" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQcVV8EdnRR1zQ1Haf5L6AgdhNg1HmjdiPu8ODrtNMoQRg.png" ,el trece
+#EXTINF:-1 tvg-id="TRESAT" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQcVV8EdnRR1zQ1Haf5L6AgdhNg1HmjdiPu8ODrtNMoQRg.png" ,el trece
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunmiLKhR9JzCkMfmyiPzNLyp2N7NsLhAZlBGtT8qK_Mz3
-#EXTINF:-1 tvg-id="TRECENG" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jUnM19LIbFKZxwDbFVJtkw2ISRRPFGlTUJJ_gB6UK8arqkr7JqUriGiuYPx1KWvrLg.png" ,el trece internacional
+#EXTINF:-1 tvg-id="TRECENG" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jUnM19LIbFKZxwDbFVJtkw2ISRRPFGlTUJJ_gB6UK8arqkr7JqUriGiuYPx1KWvrLg.png" ,el trece internacional
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmKC7SAxJiWtFQHLLjtbYoNE
-#EXTINF:-1 tvg-id="CRONHA" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLePGHrSUiH7OIsUHw-XNxKkOxLGMJVyq5CWeD_oQR3D-8zVUCESi_oTnr6QfdzeTOrg.png" ,Crónica
+#EXTINF:-1 tvg-id="CRONHA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLePGHrSUiH7OIsUHw-XNxKkOxLGMJVyq5CWeD_oQR3D-8zVUCESi_oTnr6QfdzeTOrg.png" ,Crónica
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmKpOTcmvtbL2swqxgQp1L9k
-#EXTINF:-1 tvg-id="ENCU" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeHmiX8livGvmTcAeiKgpEZe2HtXDnMQ3IhBpyahqSfruyY4bgk3SxUSvnFCv1cedag.png" ,Ecuentro
+#EXTINF:-1 tvg-id="ENCU" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeHmiX8livGvmTcAeiKgpEZe2HtXDnMQ3IhBpyahqSfruyY4bgk3SxUSvnFCv1cedag.png" ,Ecuentro
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmIrLVAYWn9PJv_A6Pl7YcrR
-#EXTINF:-1 tvg-id="NACIONP" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga70brSxm3cNh4td6tE4IpjdlrfXVREqfVYiHsOWEm7pRg.png" ,La Nacion TV
+#EXTINF:-1 tvg-id="NACIONP" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRFsjcsxNs19CKigq5gvga70brSxm3cNh4td6tE4IpjdlrfXVREqfVYiHsOWEm7pRg.png" ,La Nacion TV
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmJbZmC3V-FXyMd8K7NCustp
-#EXTINF:-1 tvg-id="PAKAM" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeAF0SLaJ1BY1vf8dLiBnWSNf2UGhtYAbzruv-vctfJ7w.png" ,Pakapaka
+#EXTINF:-1 tvg-id="PAKAM" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeAF0SLaJ1BY1vf8dLiBnWSNf2UGhtYAbzruv-vctfJ7w.png" ,Pakapaka
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmICsin2NyY5zmKaPdT4LRXc
-#EXTINF:-1 tvg-id="RURALA" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeFIeMOyEwfqohbPLe2g8j8A0u2C54c3UAYv-9LJ6HWNO.png" ,Rural
+#EXTINF:-1 tvg-id="RURALA" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/ayfdHaSGfQQ7HLxmvsjLeFIeMOyEwfqohbPLe2g8j8A0u2C54c3UAYv-9LJ6HWNO.png" ,Rural
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunjDrtvWD3OG1TrPCOkTdCmJ58SUK66s4xB-rn_HyYldf
-#EXTINF:-1 tvg-id="METCAN" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jea53Z6U0mOCNIVUuzL9NVEpCI6ZuagX6aT4W0q59uJQGNhAXFiUu1DGO4KjqJgVFw.png" ,Metro
+#EXTINF:-1 tvg-id="METCAN" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jea53Z6U0mOCNIVUuzL9NVEpCI6ZuagX6aT4W0q59uJQGNhAXFiUu1DGO4KjqJgVFw.png" ,Metro
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunnrHcD4FmobkMMSu4kEkrwzFvEqHPlFkhw_FyEWkQmK2
-#EXTINF:-1 tvg-id="TNE" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jQ_y8Ny2AddiQ7MaENJsRyfP8FiJg68zq-sRqDtVf4uNMDlful14MvJtFbIeqmU43Q.png" ,TN
+#EXTINF:-1 tvg-id="TNE" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jQ_y8Ny2AddiQ7MaENJsRyfP8FiJg68zq-sRqDtVf4uNMDlful14MvJtFbIeqmU43Q.png" ,TN
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunnrHcD4FmobkMMSu4kEkrwz3kVJs9KPmv1NDptLsEZJR
-#EXTINF:-1 tvg-id="CANL9HD" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQfQCLTGCrjSyCPzFqBVIyGXisBo8CW6EwCM1AX0K33QUg.png" ,El nueve
+#EXTINF:-1 tvg-id="CANL9HD" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQfQCLTGCrjSyCPzFqBVIyGXisBo8CW6EwCM1AX0K33QUg.png" ,El nueve
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunnrHcD4FmobkMMSu4kEkrwyi6cxfA9XHJ7Ev89PMib7U
-#EXTINF:-1 tvg-id="TVPUAM" tvg-chno="" group-title="ARGENTINA" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQcsHoOqPmTxLvNjybv3wUx9nIvSJ3-AnGfsQumPhKwjmQ.png" ,TV PUBLICA
+#EXTINF:-1 tvg-id="TVPUAM" tvg-chno="" group-title="TV EN VIVO" tvg-logo="http://cdn-abc.xyz:2086/images/Y_STBOg-CWcvCT_ufdf2jRK8bAiZUt_hK6w4OQtteQcsHoOqPmTxLvNjybv3wUx9nIvSJ3-AnGfsQumPhKwjmQ.png" ,TV PUBLICA
 http://cdn-abc.xyz:2086/play/673j_Kz6RIuNaSvS4qKunnrHcD4FmobkMMSu4kEkrwy4cR8uUL3aorF1RrPUGRJM
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ifOSNe5WC03CrbqgX2yhja7OYGx2Cjs2N-G8ED7sXcsw.jpg" ,Tom Horn (1980)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ifOSNe5WC03CrbqgX2yhja7OYGx2Cjs2N-G8ED7sXcsw.jpg" ,Tom Horn (1980)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7PriSRZOJb1XzBuqfGhxO0#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iS_Whq-CmFhkm9YmslCvJiHfDq8gAO9c89uolVN2V8qQ.jpg" ,Más Muerte en Tombstone (2017)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iS_Whq-CmFhkm9YmslCvJiHfDq8gAO9c89uolVN2V8qQ.jpg" ,Más Muerte en Tombstone (2017)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx64bBmKLvE5zkAonmc05TVV#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iITbD23CluIvh9uC8rTmWmlOnC6jLEXLW4OID6mC7PIw.jpg" ,El fuera de la ley (1976)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iITbD23CluIvh9uC8rTmWmlOnC6jLEXLW4OID6mC7PIw.jpg" ,El fuera de la ley (1976)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4HHAPRTGSWPQQmKdm7lO6e#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i4pA4Mm7TaSiROKOsKrf6cQmoTCwKGV2Ba7aKfpXQlNw.jpg" ,Hell or High Water (2016)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i4pA4Mm7TaSiROKOsKrf6cQmoTCwKGV2Ba7aKfpXQlNw.jpg" ,Hell or High Water (2016)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx47iwzvyuQigSkuNSGFL1Qt#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8io7kc_-TJ1cYFJxEoY2wXSfouN2knhD5EDGsJEvWWbC4.jpg" ,Océanos de fuego (Hidalgo) (2004)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8io7kc_-TJ1cYFJxEoY2wXSfouN2knhD5EDGsJEvWWbC4.jpg" ,Océanos de fuego (Hidalgo) (2004)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7By4dMhQ0Qs1SK8iBWkIOO#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iJNvuhN7UDT40UfANSduNhIO_stgwnRD44FzWJL97txw.jpg" ,El regreso de los siete magníficos (1966)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iJNvuhN7UDT40UfANSduNhIO_stgwnRD44FzWJL97txw.jpg" ,El regreso de los siete magníficos (1966)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4uHYrtvc2ZMLb03EQfBk1m#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i11zO8tvdN3hbrEfxdsuCCsY2orG9s2yjNHsRIG2CG5g.jpg" ,comienza la leyenda (2003)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i11zO8tvdN3hbrEfxdsuCCsY2orG9s2yjNHsRIG2CG5g.jpg" ,comienza la leyenda (2003)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5e7Z3C-RulSdXxJeychgLT#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ium92NdlBaSY9_L89rGPMKECIE8UZadQT8JsmID2YD-E.jpg" ,Si te encuentras con Sartana ruega por tu muerte (1968)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ium92NdlBaSY9_L89rGPMKECIE8UZadQT8JsmID2YD-E.jpg" ,Si te encuentras con Sartana ruega por tu muerte (1968)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx59bn32PuBBZp9ffYV0yVzt#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iCZhjicueXUArj4LdA_Iuuit7S_r1PPRGLnsFHwG0C-k.jpg" ,Wyatt Earp (1994)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iCZhjicueXUArj4LdA_Iuuit7S_r1PPRGLnsFHwG0C-k.jpg" ,Wyatt Earp (1994)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4n6bLZ5TGmGpQt-CoPkhBK#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8is2fDQ2JTqdAPhqmKAKx06up7hWgiV342Nq4HX4zoudo.jpg" ,Llega un pistolero (1956)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8is2fDQ2JTqdAPhqmKAKx06up7hWgiV342Nq4HX4zoudo.jpg" ,Llega un pistolero (1956)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7hPznUjjOqAE1Bgiswb5XQ#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iLZrg-ab4hJ5CjRuXOR_7fvieVtriLB6Y4r4cTlV9hhU.jpg" ,Duelo en Silver Creek (1952)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iLZrg-ab4hJ5CjRuXOR_7fvieVtriLB6Y4r4cTlV9hhU.jpg" ,Duelo en Silver Creek (1952)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx57S9fn6nVd7jzKXqw2VIb6#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i5B6c_q2PUxzVyVTFS-E3yXTolCR2xA1rZpR566FGfGM.jpg" ,Rápida y mortal (1995)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i5B6c_q2PUxzVyVTFS-E3yXTolCR2xA1rZpR566FGfGM.jpg" ,Rápida y mortal (1995)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx528nxVxALfLgKAne-SCaLR#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iwzyBwtiOaPxj6JEr4FxgOsB1SEfKYY07seQVjCjM-1o.jpg" ,Hombre (1967)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iwzyBwtiOaPxj6JEr4FxgOsB1SEfKYY07seQVjCjM-1o.jpg" ,Hombre (1967)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4LdzJ7E3_-lT2ocaU8YyC4#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iacolV1FQUGL3mArgTfka9o2lj_6EDpZivNFmdhdBut4.jpg" ,Barro en los ojos (1971)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iacolV1FQUGL3mArgTfka9o2lj_6EDpZivNFmdhdBut4.jpg" ,Barro en los ojos (1971)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx51ZMGtxMpQONZXK1-B7YJ3#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ip6FWWaMy_lBSQns12D5hkJzd4jkDg27HBN88zmzFPgw.jpg" ,Solo ante el peligro (1952)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ip6FWWaMy_lBSQns12D5hkJzd4jkDg27HBN88zmzFPgw.jpg" ,Solo ante el peligro (1952)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx781OFNBMZdIo6VEZt4Qo40#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iT4sMj4rrfBSR5lr4LRD1C6RnFN13jEC0xcSmTcAmzpI.jpg" ,El hombre de las pistolas de oro (1959)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iT4sMj4rrfBSR5lr4LRD1C6RnFN13jEC0xcSmTcAmzpI.jpg" ,El hombre de las pistolas de oro (1959)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5t_yEkOSOhGSdKSiWwCVRc#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iza7ydIAYjRcKDdCufRurqnySaeMLE-ik2IWiXXpYOxk.jpg" ,Cabalgar en solitario (1959)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iza7ydIAYjRcKDdCufRurqnySaeMLE-ik2IWiXXpYOxk.jpg" ,Cabalgar en solitario (1959)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx43kzxrfusqVt4UtR-ds9e0#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iXyMSYyEkUIs8b6pOy0147VsnbzH1ZQeUu7pjeUD2JhA.jpg" ,La furia de los siete magníficos (1969)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iXyMSYyEkUIs8b6pOy0147VsnbzH1ZQeUu7pjeUD2JhA.jpg" ,La furia de los siete magníficos (1969)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7Y1jkwZsh4rA0X31EBW4dO#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i0lFpyHANAc-a-smVJvBBXoeuljzyTqhRM9zI2zLR9cA.jpg" ,Río Bravo (1959)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i0lFpyHANAc-a-smVJvBBXoeuljzyTqhRM9zI2zLR9cA.jpg" ,Río Bravo (1959)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4oDs-jw6iI-GLvF5p6jiDe#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8isomJWO9XududWva63zC3YAcJprm5W2k5ZwUFFIh5NvE.jpg" ,Camino al infierno (1999)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8isomJWO9XududWva63zC3YAcJprm5W2k5ZwUFFIh5NvE.jpg" ,Camino al infierno (1999)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7yKgCCdtfKQhEuEHpfYloZ#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iy-1sHazT4LHv6X6uili3pZ_MtWZ7d9JFl1-X738hvtQ.jpg" ,El valle de Gwangi (1969)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iy-1sHazT4LHv6X6uili3pZ_MtWZ7d9JFl1-X738hvtQ.jpg" ,El valle de Gwangi (1969)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx58qxSz59iii9XdxEp0SrBM#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ioZkZftTF5wT4GblMidLpO5WLdRJt6yF6GwFrv9pSp2Q.jpg" ,El desafío del búfalo blanco (1977)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ioZkZftTF5wT4GblMidLpO5WLdRJt6yF6GwFrv9pSp2Q.jpg" ,El desafío del búfalo blanco (1977)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6qPpBAd1-W4QQzqAaCcNRv#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iYctAqU0n5hu8RDGTBLv2vfsPXfQURZXF4GYXn37h8XM.jpg" ,Noticias del gran mundo (2020)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iYctAqU0n5hu8RDGTBLv2vfsPXfQURZXF4GYXn37h8XM.jpg" ,Noticias del gran mundo (2020)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4wo4QClzz8SkA_S_UD38ev#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iP0pV__zcZc4MrfB3OMoLe2OoS-PqMtj1rP4ue5kCF_I.jpg" ,Rescate suicida (2024)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iP0pV__zcZc4MrfB3OMoLe2OoS-PqMtj1rP4ue5kCF_I.jpg" ,Rescate suicida (2024)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4ThccZzLwYCmzBW5Tjchhp#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ilrJ1fiOi0f0z1s5mZT93u2JnGcJlnMJVu2T4OisQNeA.jpg" ,Cometieron dos errores (1968)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ilrJ1fiOi0f0z1s5mZT93u2JnGcJlnMJVu2T4OisQNeA.jpg" ,Cometieron dos errores (1968)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx74ReG3dBKPI4l9s0krmoAn#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iyGXszaCgQnNItji_mjsOB_HFjWQN7GhzECQGKkaecIo.jpg" ,Hasta que llegó su hora (1968)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iyGXszaCgQnNItji_mjsOB_HFjWQN7GhzECQGKkaecIo.jpg" ,Hasta que llegó su hora (1968)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5uc5o66VukEbmElZgNvK_y#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ivSqR1308NTmIWKOFqCDIgNWm703cu_8Hr52Xm38Esiw.jpg" ,El último tren de Gun Hill (1959)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ivSqR1308NTmIWKOFqCDIgNWm703cu_8Hr52Xm38Esiw.jpg" ,El último tren de Gun Hill (1959)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7gzJI-vZP5u9f7n96IQbxK#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iDdOPrY0mHa0CC2q1ykJh7NBJIMSfK5S0SBh5RBtlHnw.jpg" ,Jubal (1956)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iDdOPrY0mHa0CC2q1ykJh7NBJIMSfK5S0SBh5RBtlHnw.jpg" ,Jubal (1956)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7ZJhTTPxicUUpHgg6BLAp9#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iTPT9rKmSs7M9dG3awsKzD3M5UnZiMnGpDXLjyFuus48.jpg" ,Fort Apache (1948)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iTPT9rKmSs7M9dG3awsKzD3M5UnZiMnGpDXLjyFuus48.jpg" ,Fort Apache (1948)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4391F_sRlWQ_SinoxCa-7R#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ixWCBdo68FoQyspIMDoRmMLUdmStlbTp7RdKrc5Ut8Pw.jpg" ,El Oro De Mackenna (1969)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ixWCBdo68FoQyspIMDoRmMLUdmStlbTp7RdKrc5Ut8Pw.jpg" ,El Oro De Mackenna (1969)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4m6x08gIQSTmxCv4JY5Xwe#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ilbFNzz4BGlECjtYZm_F_edFqrud5tmaE66gzUYffoBk.jpg" ,Showdown in Yesteryear (2022)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ilbFNzz4BGlECjtYZm_F_edFqrud5tmaE66gzUYffoBk.jpg" ,Showdown in Yesteryear (2022)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5-W_SAHIfF8fMkz87Na96I#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ixL70-KlTKLvaYH-uHJzGxaKaBZD6S4UQBde990lbbqo.jpg" ,Río sin retorno (1954)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ixL70-KlTKLvaYH-uHJzGxaKaBZD6S4UQBde990lbbqo.jpg" ,Río sin retorno (1954)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7l1VethjI8ytPtzprtVz-W#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iZBL1eOb_01jrqCNaZlUZZLBpaC1oxCrkV36UUTeir1Q.jpg" ,La Verdadera Historia De Jesse James (1957)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iZBL1eOb_01jrqCNaZlUZZLBpaC1oxCrkV36UUTeir1Q.jpg" ,La Verdadera Historia De Jesse James (1957)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6VC3vg-T7lWdI09LaxBxgf#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i8OdRjjEdF-LUb2zkfrj35X50XtY22-pWVC4jnDglkUM.jpg" ,Butch vs. Sundance (2023)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i8OdRjjEdF-LUb2zkfrj35X50XtY22-pWVC4jnDglkUM.jpg" ,Butch vs. Sundance (2023)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx5FdtbGx7FROV52X-snwmEl#.mkv
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i7g5TgTtfYDRG-BJ1E46LxpgaXNoClK98MCCV0ktCXgs.jpg" ,Misión de audaces (1959)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i7g5TgTtfYDRG-BJ1E46LxpgaXNoClK98MCCV0ktCXgs.jpg" ,Misión de audaces (1959)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx66HtoJwMT66lf6BVjKKE68#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iSNmX0OINy68g7urIfhrQcXAkjp8os3pcELY7QfF5bug.jpg" ,La leyenda del llanero solitario (1981)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iSNmX0OINy68g7urIfhrQcXAkjp8os3pcELY7QfF5bug.jpg" ,La leyenda del llanero solitario (1981)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6XLIkQXG-tXLIkYAsOWEx_#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8imGERoZyRmNxGvU1-b97fXd_nQV7b7eDLwa8SLzZKGv8.jpg" ,A mediodía (2000)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8imGERoZyRmNxGvU1-b97fXd_nQV7b7eDLwa8SLzZKGv8.jpg" ,A mediodía (2000)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4cnMiS5cesEpE9ULVBcCuC#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8icmOHk-TAE-utNo0UO1tOWFhU56LjqyMdw_o39OO7psc.jpg" ,Un vaquero sin rumbo (1990)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8icmOHk-TAE-utNo0UO1tOWFhU56LjqyMdw_o39OO7psc.jpg" ,Un vaquero sin rumbo (1990)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6cKOTUOucShyX7DUfZEZfp#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ixoU_SyM4y_qbuFJan7RFQH8zLyC3z8PdYxrH9ucQg0A.jpg" ,En nombre de la ley (1971)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ixoU_SyM4y_qbuFJan7RFQH8zLyC3z8PdYxrH9ucQg0A.jpg" ,En nombre de la ley (1971)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4AENuE7xEJCt1tN6qC0XDT#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i3WSzKcYv_PkGlxJHbUsX-3blXRO5a5HZsN818RlAINQ.jpg" ,Duelo al sol (1946)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i3WSzKcYv_PkGlxJHbUsX-3blXRO5a5HZsN818RlAINQ.jpg" ,Duelo al sol (1946)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx4bTdhYwuRLxUEOY06alC6n#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i7g5TgTtfYDRG-BJ1E46LxpgaXNoClK98MCCV0ktCXgs.jpg" ,Misión de audaces (1959)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i7g5TgTtfYDRG-BJ1E46LxpgaXNoClK98MCCV0ktCXgs.jpg" ,Misión de audaces (1959)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx72cmlCeLEqR3pAXyspRely#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i9S2rYs1MLDRQfE-HUuNHU0lqpTVzFJxbLisqP6vj0dI.jpg" ,La soga de la horca (1973)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8i9S2rYs1MLDRQfE-HUuNHU0lqpTVzFJxbLisqP6vj0dI.jpg" ,La soga de la horca (1973)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6OhZZUUMAyPJs-7W05zK68#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iOzKT7oWOf-h1Fjlhv2uOCn1kb0U_ErVfgeQn_5mdXX8.jpg" ,Caravana de mujeres (1951)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iOzKT7oWOf-h1Fjlhv2uOCn1kb0U_ErVfgeQn_5mdXX8.jpg" ,Caravana de mujeres (1951)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6kVlV6Mziw9ou9OS_jD7Sm#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iZX5Eh15PqaG-JaNheUQP34PGHam4NBjpsm8_HRoUi48.jpg" ,Los comancheros (1961)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8iZX5Eh15PqaG-JaNheUQP34PGHam4NBjpsm8_HRoUi48.jpg" ,Los comancheros (1961)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx7P6fnLlAJx7epNfehL8ZQv#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ilGg1y4WVutf7WNtAYWPQp5-w-aV-llgD3QrC9vW8IIk.jpg" ,Forajidos (2001)
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="PELICULAS" tvg-logo="http://cdn-abc.xyz:2086/images/8v96B6Q_V9xYXe2wH3Uiu_cFTYDFHopghf4Q9uzb5hBHrKgHG_IGfuDYGAM80j8ilGg1y4WVutf7WNtAYWPQp5-w-aV-llgD3QrC9vW8IIk.jpg" ,Forajidos (2001)
 http://cdn-abc.xyz:2086/play/YBVrMq22MiUyckXQuOeqxJjTTSge2msUT6PhuvzsQx6i57FROZ6xn0DfeaqT5-sn#.mp4
-#EXTINF:-1 tvg-id="" tvg-chno="" group-title="WESTERN" tvg-logo="http://cdn-abc.xyz:2086/images/cYvBzU01thh8xi9SC-LJpw1oRhqBOhoOdnlZvTd-1
-
+#EXTINF:-1 tvg-id="" tvg-chno="
