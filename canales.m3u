@@ -1,13 +1,13 @@
 #EXTM3U
 #EXTINF:-1 tvg-chno="120" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png?20200602031934" group-title="TV EN VIVO",AMERICA TV
 http://cableiptv.xyz:8080/espanistv/GTvaWHVGydt5/74380
-#EXTINF:-1 tvg-chno="121" tvg-logo="https://i.postimg.cc/4NQ9qqpb/Proyecto-X-Argentina-(26).png" group-title="ARGENTINA",ARG - TV Pública (M)(720)
+#EXTINF:-1 tvg-chno="121" tvg-logo="https://i.postimg.cc/4NQ9qqpb/Proyecto-X-Argentina-(26).png" group-title="TV EN VIVO",ARG - TV Pública (M)(720)
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/157578
-#EXTINF:-1 tvg-chno="121" tvg-logo="https://i.postimg.cc/3R0GqwZT/Proyecto-X-Argentina-(6).png" group-title="ARGENTINA",El Nueve
+#EXTINF:-1 tvg-chno="121" tvg-logo="https://i.postimg.cc/3R0GqwZT/Proyecto-X-Argentina-(6).png" group-title="TV EN VIVO",El Nueve
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/157595
-#EXTINF:-1 tvg-chno="123" tvg-logo="https://i.postimg.cc/5NVzPbQ6/Proyecto-X-Argentina-(21).png" group-title="ARGENTINA",Telefe
+#EXTINF:-1 tvg-chno="123" tvg-logo="https://i.postimg.cc/5NVzPbQ6/Proyecto-X-Argentina-(21).png" group-title="TV EN VIVO",Telefe
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/157590
-#EXTINF:-1 tvg-chno="124" tvg-logo="https://i.postimg.cc/zBHhQfF4/Proyecto-X-Argentina-(4).png" group-title="ARGENTINA",El trece
+#EXTINF:-1 tvg-chno="124" tvg-logo="https://i.postimg.cc/zBHhQfF4/Proyecto-X-Argentina-(4).png" group-title="TV EN VIVO",El trece
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/157591
 #EXTINF:-1 tvg-chno="125" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png" group-title="TV EN VIVO",NET TV
 http://cableiptv.xyz:8080/espanistv/GTvaWHVGydt5/24055
@@ -51,27 +51,27 @@ http://cableiptv.xyz:8080/espanistv/GTvaWHVGydt5/440839
 http://cableiptv.xyz:8080/espanistv/GTvaWHVGydt5/278304
 #EXTINF:-1 tvg-chno="262" tvg-logo="https://www.tvoplus.com/logos/VClassicTV2_1756602439.webp" group-title="TV EN VIVO",V Classic TV
 http://cableiptv.xyz:8080/espanistv/GTvaWHVGydt5/290248
-#EXTINF:-1 tvg-chno="401" tvg-logo="https://media.themoviedb.org/t/p/w500_and_h282_face/b4MWFEp2lSBgIo6byrRvqRXXz8e.jpg" group-title="24/7 SERIES COMEDIAS",24/7  Casados con Hijos
+#EXTINF:-1 tvg-chno="401" tvg-logo="https://media.themoviedb.org/t/p/w500_and_h282_face/b4MWFEp2lSBgIo6byrRvqRXXz8e.jpg" group-title="TV EN VIVO",24/7  Casados con Hijos
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/165556
-#EXTINF:-1 tvg-chno="402" tvg-logo="https://media.themoviedb.org/t/p/w500_and_h282_face/dA9CLZltKTzxMNKR7PUlld8JgmY.jpg" group-title="24/7 SERIES COMEDIAS",24/7 - El Chavo del Ocho
+#EXTINF:-1 tvg-chno="402" tvg-logo="https://media.themoviedb.org/t/p/w500_and_h282_face/dA9CLZltKTzxMNKR7PUlld8JgmY.jpg" group-title="TV EN VIVO",24/7 - El Chavo del Ocho
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/166082
-#EXTINF:-1 tvg-chno="403" tvg-logo="https://image.tmdb.org/t/p/original/35AfqMTE4SfmwzsUe7yi5COtFPe.jpg" group-title="24/7 COMEDIA ANIMADA",24/7 Los Simpson Temp. 1 al 9
+#EXTINF:-1 tvg-chno="403" tvg-logo="https://image.tmdb.org/t/p/original/35AfqMTE4SfmwzsUe7yi5COtFPe.jpg" group-title="TV EN VIVO",24/7 Los Simpson Temp. 1 al 9
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/178834
-#EXTINF:-1 tvg-chno="404" tvg-logo="https://image.tmdb.org/t/p/original/wnRxhctl0aoomdDT882DljozGq6.jpg" group-title="24/7 COMEDIA ANIMADA",24/7 Los Simpson Temp. 10 al 19
+#EXTINF:-1 tvg-chno="404" tvg-logo="https://image.tmdb.org/t/p/original/wnRxhctl0aoomdDT882DljozGq6.jpg" group-title="TV EN VIVO",24/7 Los Simpson Temp. 10 al 19
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/178836
-#EXTINF:-1 tvg-chno="405" tvg-logo="https://image.tmdb.org/t/p/original/pbbMIbYgUD64t22xLLSyOfp0Rxt.jpg" group-title="24/7 COMEDIA ANIMADA",24/7 Los Simpson Temp. 20 al 29 
+#EXTINF:-1 tvg-chno="405" tvg-logo="https://image.tmdb.org/t/p/original/pbbMIbYgUD64t22xLLSyOfp0Rxt.jpg" group-title="TV EN VIVO",24/7 Los Simpson Temp. 20 al 29 
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/178839
-#EXTINF:-1 tvg-chno="406" tvg-logo="https://image.tmdb.org/t/p/original/soMLjF2VQRl3XkZIB5OoXdOqeLd.jpg" group-title="24/7 COMEDIA ANIMADA",24/7 Los Simpson Temp. 30 al 37 
+#EXTINF:-1 tvg-chno="406" tvg-logo="https://image.tmdb.org/t/p/original/soMLjF2VQRl3XkZIB5OoXdOqeLd.jpg" group-title="TV EN VIVO",24/7 Los Simpson Temp. 30 al 37 
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/178841
-#EXTINF:-1 tvg-chno="603" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" group-title="ARGENTINA",TNT Sports
+#EXTINF:-1 tvg-chno="603" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" group-title="TV EN VIVO",TNT Sports
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/157584
-#EXTINF:-1 tvg-chno="629" tvg-logo="https://i.postimg.cc/GpN0rbZz/Proyecto-X-Argentina-(28).png" group-title="ARGENTINA",TyC Sports 
+#EXTINF:-1 tvg-chno="629" tvg-logo="https://i.postimg.cc/GpN0rbZz/Proyecto-X-Argentina-(28).png" group-title="TV EN VIVO",TyC Sports 
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/157583
-#EXTINF:-1 tvg-chno="716" tvg-logo="https://i.postimg.cc/xT3zhhLX/Proyecto-X-Argentina-(24).png" group-title="ARGENTINA",ARG - TN (M)(720)
+#EXTINF:-1 tvg-chno="716" tvg-logo="https://i.postimg.cc/xT3zhhLX/Proyecto-X-Argentina-(24).png" group-title="TV EN VIVO",ARG - TN (M)(720)
 http://live.proyectoxpro.com:8080/rudytelles69/40d863178d5f/157577
-#EXTINF:-1 tvg-chno="" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AcmT3hnBggDgqSaAcK4ktcSfzAG.jpg" group-title="VOD-WESTERN CLASICO",100 rifles (1969)
+#EXTINF:-1 tvg-chno="" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AcmT3hnBggDgqSaAcK4ktcSfzAG.jpg" group-title="PELICULAS",100 rifles (1969)
 http://live.proyectoxpro.com:8080/movie/rudytelles69/40d863178d5f/177513.mkv
-#EXTINF:-1 tvg-chno="" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zFWnxi6rjEGRH2howc99JP7SzML.jpg" group-title="VOD-WESTERN CLASICO",Un uomo chiamato Apocalisse Joe (1970)
+#EXTINF:-1 tvg-chno="" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zFWnxi6rjEGRH2howc99JP7SzML.jpg" group-title="PELICULAS",Un uomo chiamato Apocalisse Joe (1970)
 http://live.proyectoxpro.com:8080/movie/rudytelles69/40d863178d5f/177514.mkv
 #EXTINF:-1 tvg-chno="" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rHBTFbr4udeWKuc0y5kIMJcYB8n.jpg" group-title="VOD-WESTERN CLASICO",Arizona Colt (1966)
 http://live.proyectoxpro.com:8080/movie/rudytelles69/40d863178d5f/177515.mkv
@@ -10151,3 +10151,4 @@ http://live.proyectoxpro.com:8080/series/rudytelles69/40d863178d5f/36010.mkv
 http://live.proyectoxpro.com:8080/series/rudytelles69/40d863178d5f/36011.mkv
 #EXTINF:-1 tvg-chno="" tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4PJmufCskafbuXKH3j5PwtqBuE2.jpg" group-title="SERIES-LATINAS",Alerta Aeropuerto S08 E08
 http://live.proyectoxpro.com:8080/series/rudytelles69/40d863178d5f/36012.mkv
+
