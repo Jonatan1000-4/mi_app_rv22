@@ -99,3 +99,109 @@ http://tv.diablotv.net:8080/Romi16200/87a30a33204f/9550
 http://tv.diablotv.net:8080/Romi16200/87a30a33204f/179511
 #EXTINF:-1 tvg-id="Canal.ESPN.Premium.(Chile).sv" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://lh3.googleusercontent.com/-jOfICTahjos/YoBRF4ftRiI/AAAAAAAADns/sO-bk2urxu0N3pCgD0ADRNC-D40slmGCgCNcBGAsYHQ/w200-h200/1652576530328166-0.png" ,DEPORTES - ESPN Premium CL (Z)(720)
 http://tv.diablotv.net:8080/Romi16200/87a30a33204f/115016
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157585
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/7Yn2ddSJ/Proyecto-X-Argentina-(25).png" ,ARG - TNT Sports (TV)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157584
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/hv9dS3w0/Proyecto-X-Argentina-(11).png" ,ARG - DEPORTV (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157596
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/T1rDRHFT/Proyecto-X-Argentina-(12).png" ,ARG - ESPN (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157558
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/59vvq60L/Proyecto-X-Argentina-(13).png" ,ARG - ESPN 2 (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157559
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/jqNNQL5z/Proyecto-X-Argentina-(14).png" ,ARG - ESPN 3 (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157560
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/v899LcBL/Proyecto-X-Argentina-(15).png" ,ARG - ESPN 4 (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157561
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="" ,ARG - ESPN Premium (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157562
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/4NQ9qqpb/Proyecto-X-Argentina-(26).png" ,ARG - TV Publica (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157586
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/4NQ9qqpb/Proyecto-X-Argentina-(26).png" ,ARG - TV Publica (Z)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157587
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/4NQ9qqpb/Proyecto-X-Argentina-(26).png" ,ARG - TV Pública (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157578
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/GpN0rbZz/Proyecto-X-Argentina-(28).png" ,ARG - TyC Sports (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157583
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/GpN0rbZz/Proyecto-X-Argentina-(28).png" ,ARG - TyC Sports (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157580
+#EXTINF:-1 tvg-id="Canal.TyC.Sports.sv" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/GpN0rbZz/Proyecto-X-Argentina-(28).png" ,ARG - TyC Sports (TV)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157614
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/9fMZGbRp/Proyecto-X-Argentina.png" ,ARG - A24 (i)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157616
+#EXTINF:-1 tvg-id="Canal.America.TV.(Argentina).sv" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/9fMZGbRp/Proyecto-X-Argentina.png" ,ARG - A24 (Z)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157613
+#EXTINF:-1 tvg-id="Canal.America.TV.(Argentina).sv" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/d01r86km/Proyecto-X-Argentina-(1).png" ,ARG - America TV (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157612
+#EXTINF:-1 tvg-id="Canal.America.TV.(Argentina).sv" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/d01r86km/Proyecto-X-Argentina-(1).png" ,ARG - America TV (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157624
+#EXTINF:-1 tvg-id="Canal.America.TV.(Argentina).sv" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/d01r86km/Proyecto-X-Argentina-(1).png" ,ARG - America TV (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157623
+#EXTINF:-1 tvg-id="Canal.America.TV.(Argentina).sv" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/d01r86km/Proyecto-X-Argentina-(1).png" ,ARG - America TV (TV)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157622
+#EXTINF:-1 tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/xdCMK5Js/Proyecto-X-Argentina-(2).png" ,ARG - Argentinisima (i)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157608
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/nLzBv2jT/Proyecto-X-Argentina-(3).png" ,ARG - C5N (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157607
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/nLzBv2jT/Proyecto-X-Argentina-(3).png" ,ARG - C5N (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157566
+#EXTINF:-1 tvg-id="Canal.13.de.Argentina.(El.Trece).sv" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/zBHhQfF4/Proyecto-X-Argentina-(4).png" ,ARG - Canal 13 (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157567
+#EXTINF:-1 tvg-id="Canal.1.(Colombia).ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/zfcWphT5/Proyecto-X-Argentina-(5).png" ,ARG - Canal 26 (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157594
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/zfcWphT5/Proyecto-X-Argentina-(5).png" ,ARG - Canal 26 (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157568
+#EXTINF:-1 tvg-id="Canal.1.(Colombia).ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/3R0GqwZT/Proyecto-X-Argentina-(6).png" ,ARG - Canal 9 (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157569
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/k5p8wSW-C/Proyecto-X-Argentina-(7).png" ,ARG - Canal de la Ciudad (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157570
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/PJGDnk63/Proyecto-X-Argentina-(8).png" ,ARG - Cinear (Z)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157601
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/9039HjxS/Proyecto-X-Argentina-(9).png" ,ARG - Ciudad Magazine (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157565
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/L5z1H07D/Proyecto-X-Argentina-(10).png" ,ARG - Cronica (i)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157598
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/L5z1H07D/Proyecto-X-Argentina-(10).png" ,ARG - Crónica TV (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157572
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/hv9dS3w0/Proyecto-X-Argentina-(11).png" ,ARG - Deportv (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157620
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/hv9dS3w0/Proyecto-X-Argentina-(11).png" ,ARG - DeporTV (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157573
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/3R0GqwZT/Proyecto-X-Argentina-(6).png" ,ARG - El Nueve (Z)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157595
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/3R0GqwZT/Proyecto-X-Argentina-(6).png" ,ARG - El Nueve (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157621
+#EXTINF:-1 tvg-id="Canal.13.de.Argentina.(El.Trece).sv" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/zBHhQfF4/Proyecto-X-Argentina-(4).png" ,ARG - El Trece (i)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157615
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/zBHhQfF4/Proyecto-X-Argentina-(4).png" ,ARG - El trece (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157591
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/Fs4SPNdC/Proyecto-X-Argentina-(17).png" ,ARG - LN + (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157592
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/Fs4SPNdC/Proyecto-X-Argentina-(17).png" ,ARG - LN+ (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157593
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/Fs4SPNdC/Proyecto-X-Argentina-(17).png" ,ARG - LN+ (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157574
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/m2s9dB1f/Proyecto-X-Argentina-(18).png" ,ARG - Metro (i)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157606
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/T2mmqp1v/Proyecto-X-Argentina-(19).png" ,ARG - Multivision
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157618
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/m2s9dB1R/Proyecto-X-Argentina-(20).png" ,ARG - Paka Paka (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157575
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/5NVzPbQ6/Proyecto-X-Argentina-(21).png" ,ARG - Telefe (TV)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157590
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/5NVzPbQ6/Proyecto-X-Argentina-(21).png" ,ARG - Telefe (L)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157589
+#EXTINF:-1 tvg-id="Canal.Telefé.(Argentina).sv" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/gkHZQQ30/Proyecto-X-Argentina-(22).png" ,ARG - Telefe Noticias (i)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157617
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/wTQmZZDy/Proyecto-X-Argentina-(23).png" ,ARG - Telesur (i)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157604
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/xT3zhhLX/Proyecto-X-Argentina-(24).png" ,ARG - TN (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157577
+#EXTINF:-1 tvg-id="Canal.NTN24.(Nuestra.Tele.Noticias.24.Horas).ar" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/xT3zhhLX/Proyecto-X-Argentina-(24).png" ,ARG - TN Noticias (i)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157610
+
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/XYNCbLgQ/Proyecto-X-Argentina-(27).png" ,ARG - TV5 Monde (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157579
+#EXTINF:-1 tvg-id="" tvg-chno="" group-title="TV EN VIVO" tvg-logo="https://i.postimg.cc/TPS8GTZc/Proyecto-X-Argentina-(29).png" ,ARG - Volver (M)(720)
+http://tv.diablotv.net:8080/Romi16200/87a30a33204f/157581
