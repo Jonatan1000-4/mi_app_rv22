@@ -6,7 +6,7 @@ http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/16160
 #EXTINF:-1 tvg-chno="122" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png" group-title="TV EN VIVO",El Nueve
 http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/15881
 #EXTINF:-1 tvg-chno="123" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png" group-title="TV EN VIVO",TELEFE
-http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/61544
+http://190.104.226.30/Live/870787012c00961adaf9b2304d704b57/telefe_720.m3u8
 #EXTINF:-1 tvg-chno="124" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ec/Logo_Canal_13_200_8.png" group-title="TV EN VIVO",El Trece
 http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/15905
 #EXTINF:-1 tvg-chno="128" tvg-logo="https://cdn.mitvstatic.com/channels/ar_argentinisima-satelital_m.png" group-title="TV EN VIVO",Argentinisima
@@ -170,7 +170,7 @@ http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/420
 #EXTINF:-1 tvg-chno="740" tvg-logo="https://i.postimg.cc/05wkp2tt/622f4615ae7f8f3715381b48.png" group-title="TV EN VIVO",TLC
 http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/447
 #EXTINF:-1 tvg-chno="742" tvg-logo="https://i.postimg.cc/wB83mRzQ/toppng-com-svg-history-channel-logo-835x768.png" group-title="TV EN VIVO",HISTORY CHANNEL
-http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/431
+https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
 #EXTINF:-1 tvg-chno="744" tvg-logo="https://i.postimg.cc/3RhyP4bx/pngwing-com.png" group-title="TV EN VIVO",HISTORY 2
 http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/429
 #EXTINF:-1 tvg-chno="750" tvg-logo="https://i.postimg.cc/52mXdNL4/20171215033423-2015-Discovery-theater-HD-logo.png" group-title="TV EN VIVO",DISCOVERY THEATER
