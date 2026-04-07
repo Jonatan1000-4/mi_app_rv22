@@ -6,7 +6,7 @@ http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/16160
 #EXTINF:-1 tvg-chno="122" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png" group-title="TV EN VIVO",El Nueve
 http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/15881
 #EXTINF:-1 tvg-chno="123" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png" group-title="TV EN VIVO",TELEFE
-http://190.104.226.30/Live/870787012c00961adaf9b2304d704b57/telefe_720.m3u8
+http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/61544
 #EXTINF:-1 tvg-chno="124" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ec/Logo_Canal_13_200_8.png" group-title="TV EN VIVO",El Trece
 http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/15905
 #EXTINF:-1 tvg-chno="128" tvg-logo="https://cdn.mitvstatic.com/channels/ar_argentinisima-satelital_m.png" group-title="TV EN VIVO",Argentinisima
@@ -170,7 +170,7 @@ http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/420
 #EXTINF:-1 tvg-chno="740" tvg-logo="https://i.postimg.cc/05wkp2tt/622f4615ae7f8f3715381b48.png" group-title="TV EN VIVO",TLC
 http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/447
 #EXTINF:-1 tvg-chno="742" tvg-logo="https://i.postimg.cc/wB83mRzQ/toppng-com-svg-history-channel-logo-835x768.png" group-title="TV EN VIVO",HISTORY CHANNEL
-https://d1k3vzh2ivy22k.cloudfront.net/Historia.m3u8
+http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/431
 #EXTINF:-1 tvg-chno="744" tvg-logo="https://i.postimg.cc/3RhyP4bx/pngwing-com.png" group-title="TV EN VIVO",HISTORY 2
 http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/429
 #EXTINF:-1 tvg-chno="750" tvg-logo="https://i.postimg.cc/52mXdNL4/20171215033423-2015-Discovery-theater-HD-logo.png" group-title="TV EN VIVO",DISCOVERY THEATER
@@ -197,10 +197,8 @@ http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/786
 http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/250478
 #EXTINF:-1 tvg-chno="808" tvg-logo="http://redworld.pro:8880/images/c9b91137d6f623e0a563e54216023383.jpg" group-title="TV EN VIVO",24/7 Pablo Escobar
 http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/250507
-#EXTINF:-1 tvg-chno="809" tvg-logo="http://redworld.pro:8880/images/818476414e6d47a629a2a804420815e6.png" group-title="TV EN VIVO",24/7 Los caballeros del zodiaco 
-http://live.iptv.wtf:80/live/wjmeqolv/UzlYg8007s/279.ts
-#EXTINF:-1 tvg-chno="810" tvg-logo="http://redworld.pro:8880/images/54f7d1e105d53ba5338ae59440059a44.jpg" group-title="TV EN VIVO",24/7 Los Simpsons 2
-http://live.iptv.wtf:80/live/wjmeqolv/UzlYg8007s/307.ts
+#EXTINF:-1 tvg-chno="810" tvg-logo="http://redworld.pro:8880/images/54f7d1e105d53ba5338ae59440059a44.jpg" group-title="TV EN VIVO",24/7 Los Simpsons
+http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/250509
 #EXTINF:-1 tvg-chno="811" tvg-logo="http://redworld.pro:8880/images/12debc98b16393bbaaa0b3cc14c916a0.jpg" group-title="TV EN VIVO",24/7 Peliculas John Wick
 http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/250518
 #EXTINF:-1 tvg-chno="812" tvg-logo="http://redworld.pro:8880/images/c0683a263eef63d68b85c51ac5ad8c6d.jpg" group-title="TV EN VIVO",24/7 Peliculas Marvel Cronologia
