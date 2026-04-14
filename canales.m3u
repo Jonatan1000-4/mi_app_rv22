@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-chno="101" tvg-logo="https://i.imgur.com/xIlpxNf.png" group-title="TV EN VIVO",CHAMPIONS
+http://galileatv.top:8080/playtvSDSD/gc6eLNK85e7DGSH23/1132430
 #EXTINF:-1 tvg-chno="120" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f6/Logotipo_de_America_TV.JPG" group-title="TV EN VIVO",America
 http://tvhomesmart.xyz:8080/avalosjo831237/831237avalosjo/15815
 #EXTINF:-1 tvg-chno="121" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Logo_Televisi%C3%B3n_P%C3%BAblica_Argentina.png" group-title="TV EN VIVO",TV Publica
