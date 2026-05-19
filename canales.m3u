@@ -1,17 +1,648 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/HD-TV_Logo.svg" group-title="TV EN VIVO - EVENTOS",ESPN
-https://pvtn5y.envivoslatam.org:443/hotflix/espn/index.m3u8?token=cb58bbf2a8a6ea4e9e0a115185ad39d34c890ca9-b8-1779258711-1779204711&ip=153.67.187.87
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/HD-TV_Logo.svg" group-title="TV EN VIVO - EVENTOS",DIRECTTV SPORTS
-https://tk0hz.envivoslatam.org:443/hotflix/dsports/index.m3u8?token=ebe89a1e91682763530878e32b12b37385cb2197-9b-1779258715-1779204715&ip=153.67.187.87
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/HD-TV_Logo.svg" group-title="TV EN VIVO - EVENTOS",TYC SPORTS
-https://mze7u.envivoslatam.org:443/hotflix/tycsports/index.m3u8?token=c81a97f858997f74a6f826efbbea679439914d64-e6-1779258721-1779204721&ip=153.67.187.87
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/HD-TV_Logo.svg" group-title="TV EN VIVO - EVENTOS",WIN SPORTS+
-https://xky9q.envivoslatam.org:443/hotflix/winplus/index.m3u8?token=a7386e92629507703b924f9a7fe7c3ee689a80cb-d8-1779258729-1779204729&ip=153.67.187.87
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/HD-TV_Logo.svg" group-title="TV EN VIVO - EVENTOS",TUDN
-https://lcrj3.envivoslatam.org:443/hotflix/tudn_usa/index.m3u8?token=d3d1f9a22b738cb619482f90a0bf54ed006c37b0-3a-1779258740-1779204740&ip=153.67.187.87
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/HD-TV_Logo.svg" group-title="TV EN VIVO - EVENTOS",FOX SPORTS
-https://vg7ie.envivoslatam.org:443/hotflix/foxsports/index.m3u8?token=a026e84d49e001a887b4dd271f13c7ec4eaf4e85-98-1779258748-1779204748&ip=153.67.187.87
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/HD-TV_Logo.svg" group-title="TV EN VIVO - EVENTOS",VER CANAL
-https://ng0pr.envivoslatam.org:443/hotflix/espnpremium/index.m3u8?token=1e56180103b4d05089e77194dc0b46383c4cf080-e3-1779258755-1779204755&ip=153.67.187.87
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/HD-TV_Logo.svg" group-title="TV EN VIVO - EVENTOS",VER CANAL
-https://qbk4f.envivoslatam.org:443/hotflix/tntsports/index.m3u8?token=cd5d89d19e74231cab1d7e712b03fff043634672-29-1779258765-1779204765&ip=153.67.187.87
+#EXTINF:-1 tvg-logo="//bestleague.world/img/telefe.png" group-title="CANALES EN VIVO",ARGENTINA
+      
+     
+     
+      
+     
+     
+      TELEFE
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=VGVsZWZlSEQ=
+#EXTINF:-1 tvg-logo="//bestleague.world/img/televida.webp" group-title="CANALES EN VIVO",ARGENTINA
+      
+     
+     
+      
+     
+     
+      TELEVIDA
+     
+     
+      
+       VER CANAL
+https://bestleague.world/canal/?id=TELEVIDAHLS
+#EXTINF:-1 tvg-logo="//bestleague.world/img/caracoltv.webp" group-title="CANALES EN VIVO",COLOMBIA
+      
+     
+     
+      
+     
+     
+      CARACOL TV
+     
+     
+      
+       VER CANAL
+https://chatytvgratishd.me/canal.php?id=caracol
+#EXTINF:-1 tvg-logo="//bestleague.world/img/canal5.webp" group-title="CANALES EN VIVO",MÉXICO
+      
+     
+     
+      
+     
+     
+      CANAL 5
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=canal5mx
+#EXTINF:-1 tvg-logo="//bestleague.world/img/dsports.webp" group-title="CANALES EN VIVO",DEPORTES
+      
+     
+     
+      
+     
+     
+      DSPORTS
+     
+     
+      
+       VER CANAL
+https://la14hd.com/vivo/canales.php?stream=dsports
+#EXTINF:-1 tvg-logo="//bestleague.world/img/dsports2.webp" group-title="CANALES EN VIVO",DEPORTES
+      
+     
+     
+      
+     
+     
+      DSPORTS 2
+     
+     
+      
+       VER CANAL
+https://la14hd.com/vivo/canales.php?stream=dsports2
+#EXTINF:-1 tvg-logo="//bestleague.world/img/dsportsplus.webp" group-title="CANALES EN VIVO",DEPORTES
+      
+     
+     
+      
+     
+     
+      DSPORTS PLUS
+     
+     
+      
+       VER CANAL
+https://canalesdeportivos.net/directvplushd.php
+#EXTINF:-1 tvg-logo="//bestleague.world/img/foxmx.png" group-title="CANALES EN VIVO",DEPORTES
+      
+      
+       MÉXICO
+      
+     
+     
+      
+     
+     
+      FOX SPORTS 1 MX
+     
+     
+      
+       VER CANAL
+https://bestleague.world/mpdk/?get=aHR0cHM6Ly9vdHRiLmxpdmUuY2Yud3cuYWl2LWNkbi5uZXQvaWFkLW5pdHJvL2xpdmUvY2xpZW50cy9kYXNoL2VuYy9vYm94ZTUzd3lvL291dC92MS9mNzg5MmE5ZDcwNmQ0MTlhODQ2ZDczOGZhMjJlYTMzZS9jZW5jLm1wZA&key=MmZiZGFhM2JlYTBkMDMyM2FlMDExYjMxOGQxZGI3MTY&key2=ODcyNmVmN2VhZjViOWRjZTE1ZmI2YWE5ZjgwYmQ1M2Y
+#EXTINF:-1 tvg-logo="//bestleague.world/img/fox2mx.png" group-title="CANALES EN VIVO",DEPORTES
+      
+      
+       MÉXICO
+      
+     
+     
+      
+     
+     
+      FOX SPORTS 2 MX
+     
+     
+      
+       VER CANAL
+https://bestleague.world/mpdk/?get=aHR0cHM6Ly9vdHRiLmxpdmUuY2Yud3cuYWl2LWNkbi5uZXQvaWFkLW5pdHJvL2xpdmUvY2xpZW50cy9kYXNoL2VuYy90ZXBqcWVqMXlzL291dC92MS9jOWM5MTU5YmFlZTc0OWExOTYxMmIxNTk4NDk1ODU5YS9jZW5jLm1wZA&key=ODgzNmZiMDRkNjJkYzY0YzlmOGEzOWVmODY0MGQ1ZWI&key2=ZDRmMDVjZTU2YzUyMzFiN2NkZjUzNDU1YmVhNTg2MjE
+#EXTINF:-1 tvg-logo="//bestleague.world/img/fox3mx.png" group-title="CANALES EN VIVO",DEPORTES
+      
+      
+       MÉXICO
+      
+     
+     
+      
+     
+     
+      FOX SPORTS 3 MX
+     
+     
+      
+       VER CANAL
+https://bestleague.world/mpdk/?get=aHR0cHM6Ly9vdHRiLmxpdmUuY2Yud3cuYWl2LWNkbi5uZXQvaWFkLW5pdHJvL2xpdmUvY2xpZW50cy9kYXNoL2VuYy93eWJnejBvcnI4L291dC92MS8yZjZkMTYxMmFiZDQ0ZjU4ODM5MTdmOGE1ODViOTU1Zi9jZW5jLm1wZA&key=MTFjOGMxYzJlZjAzODVjZjFlNjRkNDRiYjljM2EzOTU&key2=NTc2OTczMGZmYmRjNGIyZmQ4OTQ1OTI5ZDlhY2UwNjM
+#EXTINF:-1 tvg-logo="//bestleague.world/img/foxpr.png" group-title="CANALES EN VIVO",DEPORTES
+      
+      
+       MÉXICO
+      
+     
+     
+      
+     
+     
+      FOX SPORTS PREMIUM MX
+     
+     
+      
+       VER CANAL
+https://bestleague.world/mpdk/?get=aHR0cHM6Ly9vdHRiLmxpdmUuY2Yud3cuYWl2LWNkbi5uZXQvaWFkLW5pdHJvL2xpdmUvY2xpZW50cy9kYXNoL2VuYy9mZHg3NHpxemh1L291dC92MS83ZDdhOGM2OTgxYTg0MmI5OGE2ODNlOWZiZmU1MWQxNy9jZW5jLm1wZA==&key=OWYzMjdkMjRjNjZmYmQ4NGUxNWFiNWM5ZWFkN2M3YTQ=&key2=ODM4MzcxODU1MjljMGM0MDQ4ZjgxMzg2YzJkMzY0MjY=
+#EXTINF:-1 tvg-logo="//bestleague.world/img/espn.webp" group-title="CANALES EN VIVO",DEPORTES
+      
+      
+       MÉXICO
+      
+     
+     
+      
+     
+     
+      ESPN 1 MX
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=espnmx
+#EXTINF:-1 tvg-logo="//bestleague.world/img/espn2.webp" group-title="CANALES EN VIVO",DEPORTES
+      
+      
+       MÉXICO
+      
+     
+     
+      
+     
+     
+      ESPN 2 MX
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=espn2mx
+#EXTINF:-1 tvg-logo="//bestleague.world/img/espn3.webp" group-title="CANALES EN VIVO",DEPORTES
+      
+      
+       MÉXICO
+      
+     
+     
+      
+     
+     
+      ESPN 3 MX
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=espn3mx
+#EXTINF:-1 tvg-logo="//bestleague.world/img/espn4.webp" group-title="CANALES EN VIVO",DEPORTES
+      
+      
+       MÉXICO
+      
+     
+     
+      
+     
+     
+      ESPN 4 MX
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=espn4mx
+#EXTINF:-1 tvg-logo="//bestleague.world/img/tudn.png" group-title="CANALES EN VIVO",DEPORTES
+      
+     
+     
+      
+     
+     
+      TUDN
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=tudn_usa
+#EXTINF:-1 tvg-logo="//bestleague.world/img/espndep.png" group-title="CANALES EN VIVO",DEPORTES
+      
+     
+     
+      
+     
+     
+      ESPN DEPORTES
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=espndeportes
+#EXTINF:-1 tvg-logo="//bestleague.world/img/foxdep.png" group-title="CANALES EN VIVO",DEPORTES
+      
+     
+     
+      
+     
+     
+      FOX DEPORTES
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=fox_deportes_usa
+#EXTINF:-1 tvg-logo="//bestleague.world/img/vtvplus.webp" group-title="CANALES EN VIVO",DEPORTES
+      
+      
+       URUGUAY
+      
+     
+     
+      
+     
+     
+      VTV PLUS
+     
+     
+      
+       VER CANAL
+https://la14hd.com/vivo/canales.php?stream=vtvplus
+#EXTINF:-1 tvg-logo="//bestleague.world/img/win.png" group-title="CANALES EN VIVO",DEPORTES
+      
+      
+       COLOMBIA
+      
+     
+     
+      
+     
+     
+      WIN SPORTS
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=winsports
+#EXTINF:-1 tvg-logo="//bestleague.world/img/winsports.webp" group-title="CANALES EN VIVO",DEPORTES
+      
+      
+       COLOMBIA
+      
+     
+     
+      
+     
+     
+      WIN SPORTS +
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=winplus
+#EXTINF:-1 tvg-logo="//bestleague.world/img/liga1max.webp" group-title="CANALES EN VIVO",DEPORTES
+      
+      
+       PERÚ
+      
+     
+     
+      
+     
+     
+      LIGA1 MAX
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=liga1max
+#EXTINF:-1 tvg-logo="//bestleague.world/img/discovery.webp" group-title="CANALES EN VIVO",DOCUMENTALES
+      
+     
+     
+      
+     
+     
+      DISCOVERY CHANNEL
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=RGlzY292ZXJ5SEQ=
+#EXTINF:-1 tvg-logo="//bestleague.world/img/distheater.webp" group-title="CANALES EN VIVO",DOCUMENTALES
+      
+     
+     
+      
+     
+     
+      DISCOVERY THEATER
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=VGhlYXRlcl9IRA==
+#EXTINF:-1 tvg-logo="//bestleague.world/img/tlc.webp" group-title="CANALES EN VIVO",DOCUMENTALES
+      
+     
+     
+      
+     
+     
+      DISCOVERY TLC
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=VExD
+#EXTINF:-1 tvg-logo="//bestleague.world/img/lifetime.webp" group-title="CANALES EN VIVO",DOCUMENTALES
+      
+     
+     
+      
+     
+     
+      LIFETIME
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=TGlmZXRpbWU=
+#EXTINF:-1 tvg-logo="//bestleague.world/img/aplanet.webp" group-title="CANALES EN VIVO",DOCUMENTALES
+      
+     
+     
+      
+     
+     
+      ANIMAL PLANET
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=QW5pbWFsUGxhbmV0
+#EXTINF:-1 tvg-logo="//bestleague.world/img/lovenature.png" group-title="CANALES EN VIVO",DOCUMENTALES
+      
+     
+     
+      
+     
+     
+      LOVE NATURE
+     
+     
+      
+       VER CANAL
+https://bestleague.world/canal/?id=LOVENATURE
+#EXTINF:-1 tvg-logo="//bestleague.world/img/telemax.webp" group-title="CANALES EN VIVO",DOCUMENTALES
+      
+     
+     
+      
+     
+     
+      TELEMAX
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=VGVsZW1heA
+#EXTINF:-1 tvg-logo="//bestleague.world/img/film.png" group-title="CANALES EN VIVO",DOCUMENTALES
+      
+     
+     
+      
+     
+     
+      FILM & ARTS
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=RmlsbV9BcnRz
+#EXTINF:-1 tvg-logo="//bestleague.world/img/sun.png" group-title="CANALES EN VIVO",DOCUMENTALES
+      
+     
+     
+      
+     
+     
+      SUN CHANNEL
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=U3VuX0NoYW5uZWw=
+#EXTINF:-1 tvg-logo="//bestleague.world/img/food.webp" group-title="CANALES EN VIVO",GASTRONOMÍA
+      
+     
+     
+      
+     
+     
+      FOOD NETWORK
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=Rm9vZF9OZXR3b3Jr
+#EXTINF:-1 tvg-logo="//bestleague.world/img/Group.svg" group-title="CANALES EN VIVO",GASTRONOMÍA
+      
+     
+     
+      
+     
+     
+      GOURMET
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=R291cm1ldA==
+#EXTINF:-1 tvg-logo="//bestleague.world/img/comedy.webp" group-title="CANALES EN VIVO",ENTRETENIMIENTO
+      
+     
+     
+      
+     
+     
+      COMEDY CENTRAL
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=Q29tZWR5Q2VudHJhbA
+#EXTINF:-1 tvg-logo="//bestleague.world/img/amc.webp" group-title="CANALES EN VIVO",ENTRETENIMIENTO
+      
+     
+     
+      
+     
+     
+      AMC
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=QU1D
+#EXTINF:-1 tvg-logo="//bestleague.world/img/tcm.webp" group-title="CANALES EN VIVO",ENTRETENIMIENTO
+      
+     
+     
+      
+     
+     
+      TCM
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=VENN
+#EXTINF:-1 tvg-logo="//bestleague.world/img/e.webp" group-title="CANALES EN VIVO",ENTRETENIMIENTO
+      
+     
+     
+      
+     
+     
+      E! ENTERTAINMENT
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=RV9FbnRlcnRhaW5tZW50X1RlbGV2aXNpb24=
+#EXTINF:-1 tvg-logo="//bestleague.world/img/a3cine.png" group-title="CANALES EN VIVO",ENTRETENIMIENTO
+      
+     
+     
+      
+     
+     
+      A3CINE & A3SERIES
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=QTNfQ2luZQ==
+#EXTINF:-1 tvg-logo="//bestleague.world/img/cinear.png" group-title="CANALES EN VIVO",ENTRETENIMIENTO
+      
+     
+     
+      
+     
+     
+      CINE AR
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=SU5DQUFfVHY=
+#EXTINF:-1 tvg-logo="//bestleague.world/img/Logo_Golden_TV.svg" group-title="CANALES EN VIVO",ENTRETENIMIENTO
+      
+     
+     
+      
+     
+     
+      GOLDEN
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=R29sZGVu
+#EXTINF:-1 tvg-logo="//bestleague.world/img/estrellas.png" group-title="CANALES EN VIVO",ENTRETENIMIENTO
+      
+     
+     
+      
+     
+     
+      LAS ESTRELLAS
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=Q2FuYWxfZGVfbGFzX2VzdHJlbGxhcw==
+#EXTINF:-1 tvg-logo="//bestleague.world/img/antena3.webp" group-title="CANALES EN VIVO",ESPAÑA
+      
+     
+     
+      
+     
+     
+      ANTENA 3
+     
+     
+      
+       VER CANAL
+https://bestleague.world/clappr/?id=ANTENA3
+#EXTINF:-1 tvg-logo="//bestleague.world/img/universo.png" group-title="CANALES EN VIVO",ESTADOS UNIDOS
+      
+     
+     
+      
+     
+     
+      UNIVERSO
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=universo
+#EXTINF:-1 tvg-logo="//bestleague.world/img/univision.png" group-title="CANALES EN VIVO",ESTADOS UNIDOS
+      
+     
+     
+      
+     
+     
+      UNIVISÍON
+     
+     
+      
+       VER CANAL
+https://streamtp-abc.net/global1.php?stream=univision_usa
+#EXTINF:-1 tvg-logo="//bestleague.world/img/cart.webp" group-title="CANALES EN VIVO",INFANTILES
+      
+     
+     
+      
+     
+     
+      CARTOONITO
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=Qm9vbWVyYW5n
+#EXTINF:-1 tvg-logo="//bestleague.world/img/dream.png" group-title="CANALES EN VIVO",INFANTILES
+      
+     
+     
+      
+     
+     
+      DREAMWORKS
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=RHJlYW13b3Jrcw==
+#EXTINF:-1 tvg-logo="//bestleague.world/img/flowmusic.webp" group-title="CANALES EN VIVO",MÚSICA
+      
+     
+     
+      
+     
+     
+      FLOW MUSIC
+     
+     
+      
+       VER CANAL
+https://tvlibr3.com/html/fl/?get=Rmxvd19NdXNpY19YUA==
