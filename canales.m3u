@@ -2,5 +2,5 @@
 
 #EXTINF:-1 tvg-logo="https://beam-images.warnermediacdn.com/2025-07/tntsports_logo_rgb_stacked_tnt_white.png?host=wbd-dotcom-drupal-prd-us-east-1.s3.amazonaws.com" group-title="TV EN VIVO - EVENTOS",TNT SPORT
 https://ng0pr.envivoslatam.org:443/hotflix/max1/index.m3u8?token=3b08db112f4ff53cafdc26cd5091eec70868fffd-37-1779690646-1779636646&ip=148.222.130.162
-#EXTINF:-1 tvg-logo="https://beam-images.warnermediacdn.com/2025-07/tntsports_logo_rgb_stacked_tnt_white.png?host=wbd-dotcom-drupal-prd-us-east-1.s3.amazonaws.com" group-title="TV EN VIVO - EVENTOS",ESPN
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/telepedia-es/images/9/99/ESPN_logo.png/revision/latest/scale-to-width-down/1200?cb=20210826204726&path-prefix=es" group-title="TV EN VIVO - EVENTOS",ESPN
 https://iaw5b.envivoslatam.org:443/hotflix/disney19/index.m3u8?token=a86c284e2a9e8e163acfe088a04ef4de9b8bd93f-52-1779692907-1779638907&ip=148.222.130.162
