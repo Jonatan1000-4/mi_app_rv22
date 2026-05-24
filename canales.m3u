@@ -6,3 +6,5 @@ https://afy4c.envivoslatam.org:443/hotflix/tntsports/index.m3u8?token=757b6aeddb
 https://iaw5b.envivoslatam.org:443/hotflix/disney19/index.m3u8?token=a86c284e2a9e8e163acfe088a04ef4de9b8bd93f-52-1779692907-1779638907&ip=148.222.130.162
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a1/ESPN_Premium_logo.svg" group-title="TV EN VIVO - EVENTOS",ESPN PREMIUM
 https://tyg2mnl9.fubohd.com:443/espnpremium/mono.m3u8?token=3e0dc1bf68e6f10bc8aea0a728ba8441fb1dc559-f4-1779673803-1779655803
+#EXTINF:-1 tvg-logo="https://pelisjuanita.com/tv/logos/directv-sports.png" group-title="TV EN VIVO - EVENTOS",DSPORTS
+https://a2vlca.fubohd.com:443/dsports/mono.m3u8?token=9aec535191daeadb385862e79c079649e234df7e-f2-1779674277-1779656277
