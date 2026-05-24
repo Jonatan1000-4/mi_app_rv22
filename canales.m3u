@@ -8,3 +8,5 @@ https://iaw5b.envivoslatam.org:443/hotflix/disney19/index.m3u8?token=a86c284e2a9
 https://tyg2mnl9.fubohd.com:443/espnpremium/mono.m3u8?token=3e0dc1bf68e6f10bc8aea0a728ba8441fb1dc559-f4-1779673803-1779655803
 #EXTINF:-1 tvg-logo="https://pelisjuanita.com/tv/logos/directv-sports.png" group-title="TV EN VIVO - EVENTOS",DSPORTS
 https://a2vlca.fubohd.com:443/dsports/mono.m3u8?token=9aec535191daeadb385862e79c079649e234df7e-f2-1779674277-1779656277
+#EXTINF:-1 tvg-logo="https://pelisjuanita.com/tv/logos/directv-sports-2.png" group-title="TV EN VIVO - EVENTOS",DSPORTS 2
+https://qzv4jmsc.fubohd.com:443/dsports2/mono.m3u8?token=042a7fce91ec40019ca4299e85791e78930249dd-1-1779674426-1779656426
