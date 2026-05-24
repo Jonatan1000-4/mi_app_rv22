@@ -1,4 +1,4 @@
 #EXTINF
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ed/HD-TV_Logo.svg" group-title="TV EN VIVO - EVENTOS",AFA PLAY
+  #EXTINF:-1 tvg-logo="https://beam-images.warnermediacdn.com/2025-07/tntsports_logo_rgb_stacked_tnt_white.png?host=wbd-dotcom-drupal-prd-us-east-1.s3.amazonaws.com" group-title="TV EN VIVO - EVENTOS",TNT SPORT
 https://ng0pr.envivoslatam.org:443/hotflix/max1/index.m3u8?token=3b08db112f4ff53cafdc26cd5091eec70868fffd-37-1779690646-1779636646&ip=148.222.130.162
