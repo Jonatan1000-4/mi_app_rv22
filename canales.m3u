@@ -1,14 +1,113 @@
-#EXTINF
-
-#EXTINF:-1 tvg-logo="https://beam-images.warnermediacdn.com/2025-07/tntsports_logo_rgb_stacked_tnt_white.png?host=wbd-dotcom-drupal-prd-us-east-1.s3.amazonaws.com" group-title="TV EN VIVO - EVENTOS",TNT SPORT
-https://afy4c.envivoslatam.org:443/hotflix/tntsports/index.m3u8?token=757b6aeddb01aa097c96415079ad17d82bb4660d-c1-1779696619-1779642619&ip=148.222.130.162
-#EXTINF:-1 tvg-logo="https://1000marcas.net/wp-content/uploads/2020/02/logo-ESPN.png" group-title="TV EN VIVO - EVENTOS",ESPN
-https://iaw5b.envivoslatam.org:443/hotflix/disney19/index.m3u8?token=a86c284e2a9e8e163acfe088a04ef4de9b8bd93f-52-1779692907-1779638907&ip=148.222.130.162
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a1/ESPN_Premium_logo.svg" group-title="TV EN VIVO - EVENTOS",ESPN PREMIUM
-https://tyg2mnl9.fubohd.com:443/espnpremium/mono.m3u8?token=3e0dc1bf68e6f10bc8aea0a728ba8441fb1dc559-f4-1779673803-1779655803
-#EXTINF:-1 tvg-logo="https://pelisjuanita.com/tv/logos/directv-sports.png" group-title="TV EN VIVO - EVENTOS",DSPORTS
-https://a2vlca.fubohd.com:443/dsports/mono.m3u8?token=9aec535191daeadb385862e79c079649e234df7e-f2-1779674277-1779656277
-#EXTINF:-1 tvg-logo="https://pelisjuanita.com/tv/logos/directv-sports-2.png" group-title="TV EN VIVO - EVENTOS",DSPORTS 2
-https://qzv4jmsc.fubohd.com:443/dsports2/mono.m3u8?token=042a7fce91ec40019ca4299e85791e78930249dd-1-1779674426-1779656426
-#EXTINF:-1 tvg-logo="https://pelisjuanita.com/tv/logos/el-trece.png" group-title="TV EN VIVO - EVENTOS",EL TRECE
-https://regionales.saohgdasregions.fun:9092/MTQ4LjIyMi4xMzAuMTYy/4_.m3u8?token=AasyIGUPwrKf2KaMTHxFVw&expires=1779700630
+#EXTM3U
+#EXTINF:-1 tvg-chno="" tvg-logo="https://i.imgur.com/VuvGm3s.png" group-title="⚡️ARGENTINA⚡️",ARG: 13 MAX HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167906
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/d762a84017a1f4a320e419bdf77261ee.png" group-title="⚡️ARGENTINA⚡️",ARG: A24
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167909
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/fb51bcfe82b3adb272dd1a7d2b34ef18.png" group-title="⚡️ARGENTINA⚡️",ARG: A24 HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167910
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/ba317b1243d0a63d60661cbe6e4549a1.png" group-title="⚡️ARGENTINA⚡️",ARG: America TV HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167912
+#EXTINF:-1 tvg-chno="" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2019/11/Canal-13-Mexico-en-vivo-Online.png" group-title="⚡️ARGENTINA⚡️",ARG: Canal 13 ..
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167918
+#EXTINF:-1 tvg-chno="" tvg-logo="https://directostv.teleame.com/wp-content/uploads/2016/05/Canal-4-Jujuy-en-vivo-Online.png" group-title="⚡️ARGENTINA⚡️",ARG: Canal 4 Jujuy
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167922
+#EXTINF:-1 tvg-chno="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cine.Ar_logo.svg/1280px-Cine.Ar_logo.svg.png" group-title="⚡️ARGENTINA⚡️",ARG: CINE AR
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167928
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/9cc61507de91b7e195073da470eb6ec7.png" group-title="⚡️ARGENTINA⚡️",ARG: El Nueve FHD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167932
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/YyQdAYPeejf0q8rbS3LPxJeDj088fi8JMuKCu4GmZEpTtP4qPuY61jSgsQl-JYhE_GQP3n5jwWhAYT8kMh5UWA.png" group-title="⚡️ARGENTINA⚡️",ARG: El trece FHD (E)
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167934
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/YyQdAYPeejf0q8rbS3LPxAZ5K3AKILQnkP0-ass7yc-TKjaC7jOqjXtnW2QwNegFX-0lFeua94NQdj7GRQUIXQ.png" group-title="⚡️ARGENTINA⚡️",ARG: EL TRECE INTERNACIONAL (E)
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167936
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/d89497a234c05474d3643c7066c1fa85.png" group-title="⚡️ARGENTINA⚡️",ARG: ESPN 2 HD(E)
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167938
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/00f7a3fc3591fc6ffe3a4158f17a8e2b.png" group-title="⚡️ARGENTINA⚡️",ARG: ESPN 3 HD(E)
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167940
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/72a65ce068befa3d9edf31043302f2d0.png" group-title="⚡️ARGENTINA⚡️",ARG: FOX SPORTS 1 HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167942
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/ed0a369d2ef89c6f954408c2acab73e3.png" group-title="⚡️ARGENTINA⚡️",ARG: FOX SPORTS 3 HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167944
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/VfzTRWG57OhSwIK1XvZ2hyG7du2o7EvbLbDPMxdC-R7cIhnMSlIwWnZWZzNISVDqTJau4HlY5-LIEYQZJH0aIA.png" group-title="⚡️ARGENTINA⚡️",ARG: FOX SPORTS PREMIUM FHD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167945
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/YyQdAYPeejf0q8rbS3LPxJeDj088fi8JMuKCu4GmZEppWrONMCYl6jeKCgTjXoO2o1Xk7EVC-CVI97kM8JuUpA.png" group-title="⚡️ARGENTINA⚡️",ARG: TELEFE
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167954
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/YyQdAYPeejf0q8rbS3LPxJeDj088fi8JMuKCu4GmZEppWrONMCYl6jeKCgTjXoO2o1Xk7EVC-CVI97kM8JuUpA.png" group-title="⚡️ARGENTINA⚡️",ARG: TELEFE HD ..
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167955
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/YyQdAYPeejf0q8rbS3LPxJeDj088fi8JMuKCu4GmZEppWrONMCYl6jeKCgTjXoO2o1Xk7EVC-CVI97kM8JuUpA.png" group-title="⚡️ARGENTINA⚡️",ARG: Telefe Rosario
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167956
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/edfc4c15d81b0157912cdcb65580345c.png" group-title="⚡️ARGENTINA⚡️",ARG: TN NOTICIAS
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167961
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/a3c8e288f18b6cb0e60eb5c3b16e4ca4.png" group-title="⚡️ARGENTINA⚡️",ARG: TNT SPORTS FDH
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167962
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/9f27721c5adba678bb39a3f4e0f3821c.png" group-title="⚡️ARGENTINA⚡️",ARG: TNT SPORTS FHD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167963
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/a3c8e288f18b6cb0e60eb5c3b16e4ca4.png" group-title="⚡️ARGENTINA⚡️",ARG: TNT SPORTS SD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167965
+#EXTINF:-1 tvg-chno="" tvg-logo="http://sinlimitestv.com:8080/images/YyQdAYPeejf0q8rbS3LPxEv0e4WvNjcRdDTGLcoWkE-9Y5Y4M2E4QXWqJw_4KVWApof278HhG_UCTTwBh-eYtQ.png" group-title="⚡️ARGENTINA⚡️",ARG: TYC SPORTS LOCAL sd.
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167966
+#EXTINF:-1 tvg-chno="" tvg-logo="https://i.ibb.co/cgZ49Nj/Sin-t-tulo-1.png" group-title="⚡️ARGENTINA⚡️",ARGENTINA: CANAL 13  HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/167968
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fgLDmFN8t0LWvb7rkI6ZCCiRJWEQheswpg&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | AMERIC∆  ꜱᴅ
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546249
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fgLDmFN8t0LWvb7rkI6ZCCiRJWEQheswpg&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | AMERICA TV HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546250
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0fgLDmFN8t0LWvb7rkI6ZCCiRJWEQheswpg&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | AMERICA FHD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546251
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmX8tjoTHylcaDD3_48yzo6Nzx50MjRojLPA&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | EL NUEVE SD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546252
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmX8tjoTHylcaDD3_48yzo6Nzx50MjRojLPA&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | EL NUEVE HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546253
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmX8tjoTHylcaDD3_48yzo6Nzx50MjRojLPA&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | EL NUEVE FHD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546254
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlUMa6b30HJG6XO79tuoAQ959n0gEh6oSg-A&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | TELEFE HD ¹
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546255
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlUMa6b30HJG6XO79tuoAQ959n0gEh6oSg-A&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | *TELEFE HD ²
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546256
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlUMa6b30HJG6XO79tuoAQ959n0gEh6oSg-A&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | TELEFE FHD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546257
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSme3KO2n4jP4MV4eW2pFgxXKCr4wirNrpQg&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR-| ARGENTINISIMA HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546259
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSme3KO2n4jP4MV4eW2pFgxXKCr4wirNrpQg&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR-| ARGENTINISIMA SD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546260
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhvEHUTKugnqQz7G_9UHyVDuyf_wGYWdQblw&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | C5N FHD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546261
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpm9gebQm0ncjH8Oe9S3sX69ShIc7W4Ky7cA&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | Telemax sd
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546262
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRL_0iZ7hJH2d4qbdZ73r_qkKqe8ws4rNkLg&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR-| EL GARAGE TV HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546263
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkeFcQtno1fsHYYXHfJDWiBL1fOKmYBjMPVw&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | NOTICIAS TN SD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546264
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUxd6vjCPiTZWnhGdbdAMoqNTZGbzvCHO1A&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | C∆N∆L 13 HD ¹
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546265
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUxd6vjCPiTZWnhGdbdAMoqNTZGbzvCHO1A&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | CANAL 13 FHD*
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546266
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEUxd6vjCPiTZWnhGdbdAMoqNTZGbzvCHO1A&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | CANAL 13 HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546267
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6qM7GfDTvfBO-q63HLUW-QsbNWXiZEwqhkw&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | TV PUBLICA HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546268
+#EXTINF:-1 tvg-chno="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_ky2Var5cUn9XL8XMG36xGv7TgIlunPgl01BD66X7H--M8=s900-c-k-c0x00ffffff-no-rj" group-title="⚡️ARGENTINA⚡️",AR l VOLVER HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546269
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH8f5raMcEwss9lSlka2g6ppZPj2EnFlJwIw&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR-| LN+
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546271
+#EXTINF:-1 tvg-chno="" tvg-logo="https://i.ytimg.com/vi/_5lIJyObc0w/maxresdefault.jpg?" group-title="⚡️ARGENTINA⚡️",ARG: Canal lNFANTIL
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546272
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpm9gebQm0ncjH8Oe9S3sX69ShIc7W4Ky7cA&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | Telemax HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546273
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6qM7GfDTvfBO-q63HLUW-QsbNWXiZEwqhkw&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | TV PUBLICA FHD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546276
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_T246MMRs8f0eT4jtwWWOlXUOuUNIGPYT5AJEzprrvA&s=10" group-title="⚡️ARGENTINA⚡️",AR | A24  ꜱᴅ
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546277
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_T246MMRs8f0eT4jtwWWOlXUOuUNIGPYT5AJEzprrvA&s=10" group-title="⚡️ARGENTINA⚡️",AR | A24  ʜᴅ
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546278
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhvEHUTKugnqQz7G_9UHyVDuyf_wGYWdQblw&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | C5N HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546279
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPXa_7GTAh9OpM1yylM2IdMsQOh3jeJ8e0XA&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR-| CINE AR HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546281
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShxTPhW_bp7ia83Wwb8ZtN0sE-dqon-Uuj6w&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR-| CANAL 26 NOTICIAS SD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546282
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShxTPhW_bp7ia83Wwb8ZtN0sE-dqon-Uuj6w&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | CANAL 26 NOTICIAS HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546283
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0-o6s4OgcMxwPQtbZu9jpnF4uG99P11vehg&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | CIUDAD MAGAZINE HD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546284
+#EXTINF:-1 tvg-chno="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmX8tjoTHylcaDD3_48yzo6Nzx50MjRojLPA&usqp=CAU" group-title="⚡️ARGENTINA⚡️",AR | EL NUEVE SD
+http://iptvpremium.ink:55577/Chiclayotvhtv/XGAtWjw98WfX/546287
